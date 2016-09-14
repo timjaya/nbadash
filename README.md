@@ -46,7 +46,7 @@ professional software engineers and data scientists do:
 
 You will carry out this project in teams of two. If you can't find a team-mate, please follow these steps:
 
-* Post a message on Piazza asking for a team mate - the best way.
+* [Post on Piazza](https://piazza.com/class/irvic0xfdqk3p6?cid=5) asking for a team mate - the best way.
 * Send email to Qi right away (and definitely before Fri Sep 16th at 5 PM) asking her to pair you up with another student without a team-mate. This is not recommended because you will be randomly assigned a team mate.
 * You do not need to notify us of your team composition. 
   Instead, when you submit the first part of your project, please write the name and UNI of both members.
