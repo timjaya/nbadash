@@ -12,7 +12,7 @@ These directions are long, but please read them carefully before you start.
 
 * [FAQs](#frequently-asked-questions)
 * [Project overview: Read this carefully before starting](http://github.com/w4111/project1)
-* [IA Meeting Signup Link](https://calendar.google.com/calendar/selfsched?sstoken=UUk5TGJVNWlLbUZGfGRlZmF1bHR8ODVlZDM5MTAxMTA4M2FmMjZkNWIzMzZiYmNmMDUxNzc): Meet as a team to discuss the project with an IA. We want to make sure the scope is appropriate. Please make sure you have completed Step 1 below before your meeting. 
+* [IA Meeting Signup Link](https://calendar.google.com/calendar/selfsched?sstoken=UUk5TGJVNWlLbUZGfGRlZmF1bHR8ODVlZDM5MTAxMTA4M2FmMjZkNWIzMzZiYmNmMDUxNzc): Meet as a team to discuss the project with an IA in **CS TA room**. We want to make sure the scope is appropriate. Please make sure you have completed Step 1 below before your meeting. 
 * CVN students still need to meet us for project 1 part 1, the local teammate can represent both of you. For teams that both students are remote, we will use Skype to meet. If you have a large time difference (e.g., singapore) then arrange so that the staff member knows.
 
 
