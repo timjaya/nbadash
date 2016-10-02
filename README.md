@@ -4,7 +4,7 @@ In Project 1, you will build a substantial real-world database application of yo
 This project is split into three parts:
 
 * [Part 1](./part1.md): come up with a web application and design the database on paper using ER-modeling.
-* Part 2: implement your database by translating your model into a database schema and example data.
+* [Part 2](./part2.md): implement your database by translating your model into a database schema and example data.
 * Part 3: implement an application that accesses and modifies your database.
 
 Pick an application that you will enjoy working with, because you will be working on it for a substantial part of the semester! 
@@ -60,10 +60,11 @@ You will carry out this project in teams of two. If you can't find a team-mate, 
 * Please check the Collaboration Policy web page for important information of what kinds of collaboration are allowed for projects.
 
 
-# Programming Environment: Python
+# Programming Environment: Python on Google Cloud
 
-We ask you to use cloud-based technologies for the projects, we will give instructions on how to set up later, you don't need it for part 1. You can work on the project using your own machine, or some other environment. However, the course staff can only support the enviroment we are providing. 
+We ask you to use cloud-based technologies for the projects, and the instructions are written assuming their use. You can work on the project using your own machine, or some other environment. However, the course staff can only support the enviroment we are providing.
 
+The staff has worked to setup Google Cloud credits for you, so you get experience working with the same cloud infrastructure that real companies use. [Part 2](./part2.md#GCP) describes how to set this up. We will provide the credits after the proposals are submitted.
 
 ### GitHub
 
@@ -74,8 +75,9 @@ such as git on [GitHub](http://www.github.com), so your team can share code. Thi
 
 ### Flask Python Webserver (For part 3)
 
-We will use the [Flask Python webserver](http://flask.pocoo.org/) in this course.
-It is a lightweight webserver that requires a minimal amount of understanding of how the webserver framework is implemented.
+We will use the [Flask Python webserver](http://flask.pocoo.org/) in this course. It is a lightweight webserver that requires a minimal amount of understanding of how the webserver framework is implemented.
+
+To use it, follow the steps in [Python Flask Skeleton for Google App Engine](https://github.com/GoogleCloudPlatform/appengine-flask-skeleton) to create Python applications using the Flask framework on App Engine.
 
 We strongly recommend reading the following documentations:
 
