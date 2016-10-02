@@ -51,7 +51,7 @@ Preliminaries
 Make the database
 
 1. Connect to your database (only one team member needs to do this database part)
-  * `ssh` into your Google Cloud virtual machine from the console by clicking ssh under the connect column 
+  * `ssh` into your Google Cloud virtual machine from the console
   * connect using `psql`
 
           psql -U <your uni> postgres -h 104.196.175.120
