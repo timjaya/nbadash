@@ -52,8 +52,11 @@ Make the database
 
 1. Connect to your database (only one team member needs to do this database part)
   * `ssh` into your Google Cloud virtual machine from the console by clicking ssh under the connect column 
-  * connect using `psql`, we are working on setting up the databases, will update soon
-  * it will ask for your password.  Your password should have come back with your graded project 1 part 1.  If not, send us a private piazza message.
+  * connect using `psql`
+
+          psql -U <your uni> postgres -h 104.196.175.120
+
+  * it will ask for your password.  Your password should have come back with your graded project 1 part 1. If not, send us a private piazza message.
   * if the database cannot handle the number of connections, we may create a second database server (we will let you know!)
 
 1. Create the SQL tables based on your revised schema.
