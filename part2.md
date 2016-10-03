@@ -51,17 +51,17 @@ Preliminaries
 Make the database
 
 1. Connect to your database (only one team member needs to do this database part)
-  * `ssh` into your Google Cloud virtual machine from the console
-  * connect using `psql`
+  * Navigate to your instance in the Cloud Platform Console, click the ssh button that appears next to your instance, a command line window will pop up
+  * Connect to our postgres database using `psql`command
 
           psql -U <your uni> postgres -h 104.196.175.120
 
-  * it will ask for your password.  Your password should have come back with your graded project 1 part 1. If not, send us a private piazza message.
-  * if the database cannot handle the number of connections, we may create a second database server (we will let you know!)
+  * It will ask for your password, which will be emailed to you along with the coupon code. If not, send us a private piazza message. You may play with Postgres a little bit before the graded project 1 part 1 is returned to you.
+  * If the database cannot handle the number of connections, we may create a second database server (we will let you know!)
 
 1. Create the SQL tables based on your revised schema.
-  * include all key, type constraints
-  * the PostgreSQL documentation for [CREATE TABLE](http://www.postgresql.org/docs/9.3/static/sql-createtable.html)
+  * Include all key, type constraints
+  * The PostgreSQL documentation for [CREATE TABLE](http://www.postgresql.org/docs/9.3/static/sql-createtable.html)
     and [data types](http://www.postgresql.org/docs/9.3/static/datatype.html) may help
 
 1. Create the CHECK constraints that you need to express the rest of your real-world constraints.
