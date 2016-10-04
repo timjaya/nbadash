@@ -27,7 +27,7 @@ Project mentor
 Google Cloud Platform
 
 * Go to [https://www.cs.columbia.edu/auth/cloud](https://www.cs.columbia.edu/auth/cloud) and fill out your name to create a Google Cloud account. You will receive an invitation email from no-reply@cloud.cs.columbia.edu, go to [https://console.cloud.google.com](https://console.cloud.google.com) and log in with cloud.cs account and the temporary password. You will be prompted to change your password.
-* We will distribute the coupon codes for Google Cloud once proposals are submitted. Make sure you are logged in with your cloud.cs account, go to [https://console.cloud.google.com/education](https://console.cloud.google.com/education), enter your code in the “coupon code” box, then click accept and continue. 
+* We will distribute the coupon codes for Google Cloud once proposals are submitted. **Make sure you are logged in with your cloud.cs account**, sign out from other Google accounts if necessary, go to [https://console.cloud.google.com/education](https://console.cloud.google.com/education), enter your code in the “coupon code” box, then click accept and continue. 
 
 
 Computing and Databases
