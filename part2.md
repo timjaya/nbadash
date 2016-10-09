@@ -52,7 +52,12 @@ Make the database
 
 1. Connect to your database (only one team member needs to do this database part)
   * Navigate to your instance in the Cloud Platform Console, click the ssh button that appears next to your instance, a command line window will pop up
-  * Connect to our postgres database using `psql`command
+  * Install psql, two steps
+
+          sudo apt-get update
+          sudo apt-get -y install postgresql postgresql-client postgresql-contrib
+
+  * After the installation is completed, connect to our postgres database using `psql`command
 
           psql -U <your uni> postgres -h 104.196.175.120
 
