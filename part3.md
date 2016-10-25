@@ -42,8 +42,9 @@ please let the staff know so we can allocate resources appropriately.
 
 # Submission
 
-Please leave your virtual machine running so the IP address does not change, then fill out the [Google submission form](http://goo.gl/forms/SzTVqlCHy4)
+Please leave your virtual machine running so the IP address does not change, then fill out the [Google submission form](http://goo.gl/forms/SzTVqlCHy4)**Needs changes**
 
+***Needs changes****
 Students will present to their project mentor between `3/28` and `4/1`.
 The mentors will email you to schedule a 15 minute meeting by `11/21`.
 Contact your mentor immediately if you have not been contacted by the end of `3/21`.
@@ -185,7 +186,7 @@ Some notes
 
 Once you have made some changes to your web application, you will deploy it to your Google App Engine virtual machine.
 
-* One time setup: [The previous steps to setup server incorporated steps to opeen your application to outside networks](./Steps_to_setup_server.pdf).
+* One time setup: [Steps_to_server.pdf from Part 2 incorporated steps to open your application to outside networks](./Steps_to_setup_server.pdf).
 
 
 1. Write down the IP of your virtual machine.
