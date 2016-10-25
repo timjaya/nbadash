@@ -190,7 +190,7 @@ Once you have made some changes to your web application, you will deploy it to y
 
 
 1. Write down the IP of your virtual machine.
-2. Perform some default installations and scaffolding for the web-app [Steps for this and can be found here](./setup.md).
+2. Perform some default installations and scaffolding for the web-app. [Steps for this and can be found here](./setup.md).
 2. Copy your code to the Google App Engine virtual machine as per instructions above or on GitHub's help pages.
 3. Click on the SSH button on the Google App Engine dashboard to access your virtual machine and enter the "test" virtualenv
 4. Run the python server with the defaults, which will listen for requests on port 8111.  Run with `--help` if you need help
