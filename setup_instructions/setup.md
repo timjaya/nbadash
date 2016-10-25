@@ -50,13 +50,13 @@ To set up your environment:
 
 Now let's install a set of useful packages into your environment:
 
-Activate your environment, as you did above
+1. Activate your environment, as you did above
 
-Install the following packages using pip (see above)
+2. Install the following packages using pip (see above)
 
 * flask
 * psycopg2
 * sqlalchemy
 * click
 
-Deactivate (and we are done!)
+3. Deactivate (and we are done!)
