@@ -17,6 +17,7 @@ Python, which you will use for Part 3 of the project, uses its own package manag
 ``` python 
 pip install <packagename>
 ```
+
 Typically the package manager will require sudo and install the packages in a global folder that affects everyone using your machine. This is bad practice because different Python applications may use different versions of packages and it's easy to step on each other's toes.
 
 We will use virtualenv to create virtual environments that contain their own copies of python and packages. When we work in a virtual environment, pip will install packages local to the environment rather than globally. If you are interested, you can read a detailed tutorial. We already installed the virtualenv command with apt-get above.
@@ -25,27 +26,27 @@ To set up your environment:
 
 * Install some helper commands from the virtualenvwrapper package (this is the one time you should install globally):
 
-`sudo pip install virtualenvwrapper`
+	`sudo pip install virtualenvwrapper`
 
 * Load the wrapper commands in the current shell:
 
-`source /usr/local/bin/virtualenvwrapper.sh`
+	`source /usr/local/bin/virtualenvwrapper.sh`
 
 * To make sure this takes effect each time you log in, add that command to the end of your ~/.bashrc file, either using an editor (like nano ~/.bashrc) or running the following:
 
-`echo "source /usr/local/bin/virtualenvwrapper.sh" >> ~/.bashrc`
+	`echo "source /usr/local/bin/virtualenvwrapper.sh" >> ~/.bashrc`
 
 * Create a new environment (this will create a folder test/ in ~/.virtualenvs/):
 
-`mkvirtualenv test`
+	`mkvirtualenv test`
 
 * Switch (activate) an environment by using workon: 
 
-`workon test`
+	`workon test`
 
 * Switch out of an environment:
 
-`deactivate`
+	`deactivate`
 
 
 Now let's install a set of useful packages into your environment:
@@ -54,9 +55,9 @@ Now let's install a set of useful packages into your environment:
 
 2. Install the following packages using pip (see above)
 
-* flask
-* psycopg2
-* sqlalchemy
-* click
+	* flask
+	* psycopg2
+	* sqlalchemy
+	* click
 
 3. Deactivate (and we are done!)
