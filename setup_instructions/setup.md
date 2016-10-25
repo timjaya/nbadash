@@ -1,14 +1,15 @@
 Install some software packages that we will need, using the Ubuntu package management tool apt-get. To install a package, type:
 
 `sudo apt-get install <packagename1 packagename2 ...>`
+
 Use this command to install the following packages:
-``` shell
+
 * postgresql-9.3
 * postgresql-server-dev-9.3
 * python-virtualenv
 * python-dev
 * python-pip
-```
+
 # Set Up Python
 
 Python, which you will use for Part 3 of the project, uses its own package manager to install/update/remove packages. In general, the following installs python packages:
@@ -22,34 +23,41 @@ We will use virtualenv to create virtual environments that contain their own cop
 
 To set up your environment:
 
-Install some helper commands from the virtualenvwrapper package (this is the one time you should install globally):
+* Install some helper commands from the virtualenvwrapper package (this is the one time you should install globally):
 
 `sudo pip install virtualenvwrapper`
-Load the wrapper commands in the current shell:
+
+* Load the wrapper commands in the current shell:
 
 `source /usr/local/bin/virtualenvwrapper.sh`
-To make sure this takes effect each time you log in, add that command to the end of your ~/.bashrc file, either using an editor (like nano ~/.bashrc) or running the following:
+
+* To make sure this takes effect each time you log in, add that command to the end of your ~/.bashrc file, either using an editor (like nano ~/.bashrc) or running the following:
 
 `echo "source /usr/local/bin/virtualenvwrapper.sh" >> ~/.bashrc`
-Create a new environment (this will create a folder test/ in ~/.virtualenvs/):
+
+* Create a new environment (this will create a folder test/ in ~/.virtualenvs/):
 
 `mkvirtualenv test`
-Switch (activate) an environment by using workon: 
+
+* Switch (activate) an environment by using workon: 
 
 `workon test`
-Switch out of an environment:
+
+* Switch out of an environment:
 
 `deactivate`
 
 
 Now let's install a set of useful packages into your environment:
 
-Activate your environment, as you did above
-Install the following packages using pip (see above)
+* Activate your environment, as you did above
+
+* Install the following packages using pip (see above)
+
 * flask
 * psycopg2
 * sqlalchemy
 * click
 
 
-Deactivate (and we are done!)
+* Deactivate (and we are done!)
