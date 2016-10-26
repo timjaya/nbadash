@@ -10,6 +10,12 @@ Use this command to install the following packages:
 * python-dev
 * python-pip
 
+
+e.g.,
+
+
+`sudo apt-get install postgresql-9.3 postgresql-server-dev-9.3 python-virtulaenv python-dev python-pip`
+
 # Set Up Python
 
 Python, which you will use for Part 3 of the project, uses its own package manager to install/update/remove packages. In general, the following installs python packages:
@@ -59,5 +65,9 @@ Now let's install a set of useful packages into your environment:
 	* psycopg2
 	* sqlalchemy
 	* click
+
+  e.g.,
+
+  `pip install flask psycopg2 sqlalchemy click`
 
 3. Deactivate (and we are done!)
