@@ -46,7 +46,9 @@ Please leave your virtual machine running so the IP address does not change, the
 
 
 Students will present to their project mentor between `11/14` and `11/18`.
-The mentors will email you to schedule a 15 minute meeting by `11/11`.
+
+Similar to part 1, the mentors will email you to schedule a 15 minute meeting by `11/11`.
+
 Contact your mentor immediately if you have not been contacted by the end of `11/13`.
 
 You will show off your project using the mentor's web browser:
