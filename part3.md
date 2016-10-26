@@ -42,7 +42,7 @@ please let the staff know so we can allocate resources appropriately.
 
 # Submission
 
-Please leave your virtual machine running so the IP address does not change, then fill out the [Google submission form](http://goo.gl/forms/SzTVqlCHy4)
+Please leave your virtual machine running so the IP address does not change, then fill out the [Google submission form](https://goo.gl/forms/HiPzprF3mDN4d5Jm2)
 
 
 Students will present to their project mentor between `11/14` and `11/18`.
