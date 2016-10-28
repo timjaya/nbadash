@@ -5,7 +5,7 @@ This project is split into three parts:
 
 * [Part 1](./part1.md): come up with a web application and design the database on paper using ER-modeling.
 * [Part 2](./part2.md): implement your database by translating your model into a database schema and example data.
-* Part 3: implement an application that accesses and modifies your database.
+* [Part 3](./part3.md): implement an application that accesses and modifies your database.
 
 Pick an application that you will enjoy working with, because you will be working on it for a substantial part of the semester! 
 A suggestion is that you build a database about something that you are interested in
