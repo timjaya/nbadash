@@ -283,3 +283,9 @@ Note that these are all poor man's techniques.
 
   Tmux is quite powerful -- come ask me directly or post to piazza if you are curious about its other functionalities.  GNU Screen
   is an alternative to tmux.
+  
+  
+  
+### (optional) Copy Remote Database to Local
+
+[These](./Copy_db_to_local.md) are optional instructions on how to copy the remote database to local for testing.
