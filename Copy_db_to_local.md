@@ -3,7 +3,7 @@
 1. Dump remote database:
 
     ```bash
-    $ pg_dump -U db_uni postgres -h 104.196.175.120 db_uni > ~/Desktop/backup.sql
+    $ pg_dump -U uni -h 104.196.175.120 postgres -n uni > ~/Desktop/backup.sql
     ```
 
 2. Stop postgre
