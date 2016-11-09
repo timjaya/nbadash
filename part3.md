@@ -1,7 +1,7 @@
 # Project 1, Part 3
 
 * Assigned: 10/26
-* Due:  11/14 Midnight
+* Due:  11/14 11:59PM EST
 * (worth 50% of overall Project 1 grade)
 
 
