@@ -57,25 +57,24 @@ If you're having trouble thinking of an application, look for a real dataset to 
 ## Step 1: Prepare for meeting with course staff
 
 1. Find a team-mate and indicate them when submitting Part 1.
-1. Decide on an application for your project and write an informal one-paragraph description of the application (less than 20 lines). Highlight interesting and challenging parts. The more concrete your written description, the more efficient and useful the meeting with the class staff will be. This paragraph should include:
-    1. A high-level description of the general domain of the application. 
-    1. Examples of entities and relationship sets, attributes and real-world constraints you will have.
-    1. What data you will use to populate your database, you can use real data or make up your own.
-    1. Provide details about how users will interact with the site, please describe the general "entities" that are involved, and what types of operations users can perform. For example, if your website is based on the Internet Movie Database, the user might find actors of a moview, read review, add it to watchlist and find similar movies, etc.
+1. Write an informal one-paragraph description of the application (less than 20 lines). Highlight interesting and challenging parts. The more concrete your written description, the more efficient and useful the meeting with the class staff will be. This paragraph should include:
+    * A high-level description of the general domain of the application. 
+    * Examples of entities and relationship sets, attributes and real-world constraints you will have.
+    * What data you will use to populate your database, you can use real data or make up your own.
+    * Provide details about how users will interact with the site, please describe the general "entities" that are involved, and what types of operations users can perform. For example, if your website is based on the Internet Movie Database, the user might find actors of a moview, read review, add it to watchlist and find similar movies, etc.
 1. Write a short description of your contingency plan (see above).
-1. Construct the E/R diagram as designed for the database of your application. This does not need to be final, but will make your meeting with the staff substantially better and is strongly encouraged.
+1. Construct the E/R diagram for the application. You will go over it with the staff during the meeting.
  
  
 ## Step 2: Revise and complete Part 1
  
-1. Meet with a TA or the instructor during the week of September 21st-28th to discuss your design and make sure that it is appropriate (i.e., challenging enough, but not unrealistically so). 
+1. Meet with a TA or the instructor to ensure the design is appropriate and get feedback:
     * This 10-15 minute meeting is required.
     * We will have expanded office hours during that week.
-    * It is better if both team members can attend, but it is acceptable if only one can make it.
-    * Bring two copies of the written materials for yourself and the staff.
+    * At least one must attend.  It's much better if both attend.
+    * Bring **two copies** of the written materials for yourself and the staff.
     * **It is a good idea to come earlier in the week.**  If you choose to come later and it is too crowded, then you will be unhappy.
-1. After a TA or the instructor has approved your proposal:
-    * Modify the description and E/R diagram based on the feedback.
+1. After the meeting, modify the description and E/R diagram based on the feedback.
 1. Map your E/R diagram into a relational schema in SQL, preserving the constraints.
 1. Submit a hard copy of the following on the due date:
     1. Revised one-paragraph description of the application
