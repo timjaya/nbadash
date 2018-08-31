@@ -27,10 +27,10 @@ This assignment consists of multiple steps.  At a high level, you will
 
 If you're having trouble thinking of an application, look for a real dataset to design the application around.  Some possible suggestions could be local government datasets like [NYC Open Data](https://opendata.cityofnewyork.us/), [Political datasets](https://fivethirtyeight.com/features/why-were-sharing-3-million-russian-troll-tweets/), [Earthquake datasets](https://earthquake.usgs.gov/data/data.php), etc.  There are many small shops, galleries, communities, that could benefit from a web application too!
 
-You will ultimately submit the following online:
+
+### You Will Submit:
 
 1. **Required** Application Proposal
-
   * Describe the general "domain" of your application, construct an Entity-Relationship
   diagram, and map it to a relational schema using the mapping technique 
   that we will cover in class. 
@@ -43,11 +43,9 @@ You will ultimately submit the following online:
       participation constraints.
   * Include as many relevant constraints for your application from the 
     real world as possible in your E/R diagram.
-
 1. <a name="contingency"></a> **Optional but strongly recommended: Contingency plan for two-person teams**:
   Since students may drop classes, and to prevent last-minute surprises, we suggest that you 
   write a "contingency plan" in case a team-mate drops the class  later in the semester. 
-
   * The contingency plan should indicate how you will make the project simpler, so that it is appropriate for a single person to complete. 
   * As general guidelines, your ER design for a one-person project should have around 3-7 
     entity sets and 3-7 relationship sets.
