@@ -24,12 +24,13 @@ Note: you can only use late days for the project description submisson, not for 
 
 ### Teams
 
-You will carry out this project in teams of two. If you can't find a team-mate, please follow these steps:
+Teams of _exactly_ 2.
 
-* [Post on Piazza](https://piazza.com/class/irvic0xfdqk3p6?cid=5) asking for a team mate - the best way.
-* You do not need to notify us of your team composition. 
-  Instead, when you submit the first part of your project, please write the name and UNI of both members.
-* See Part 1 for a contingency plan to protect yourself in case your teammate drops the class.
+How to find teammates?
+
+* [Click here] if you want to be matched by the staff's "auto-matching" system.  You state your past experience level and the maximum difference you are  willing to be matched with, and it suggests a match.
+* Simply write the name and UNI of both members when submitting part 1.
+* [Write a contingency plan](./part1.md#contingency) in case your teammate drops the class.
 
 
 ### Important notes:
@@ -37,7 +38,6 @@ You will carry out this project in teams of two. If you can't find a team-mate, 
 * If you decide to drop the class, or are even remotely considering doing so, please be considerate and notify your team-mate immediately.
 * Do not wait until the day before the deadline to start working on the project, only to realize that your team-mate has dropped the class or moved to another planet. It is your responsibility to start working on the project and spot any problems early.
 * Please check the Collaboration Policy web page for important information of what kinds of collaboration are allowed for projects.
-
 
 
 ### Getting Help
