@@ -56,13 +56,13 @@ If you're having trouble thinking of an application, look for a real dataset to 
 
 ## Step 1: Prepare for meeting with course staff
 
-1. Find a team-mate. There's no need to notify us about your team. You will simply indicate who your team-mate is when you submit Part 1.
+1. Find a team-mate and indicate them when submitting Part 1.
 1. Decide on an application for your project and write an informal one-paragraph description of the application (less than 20 lines). Highlight interesting and challenging parts. The more concrete your written description, the more efficient and useful the meeting with the class staff will be. This paragraph should include:
     1. A high-level description of the general domain of the application. 
     1. Examples of entities and relationship sets, attributes and real-world constraints you will have.
     1. What data you will use to populate your database, you can use real data or make up your own.
     1. Provide details about how users will interact with the site, please describe the general "entities" that are involved, and what types of operations users can perform. For example, if your website is based on the Internet Movie Database, the user might find actors of a moview, read review, add it to watchlist and find similar movies, etc.
-    1. Write a short description of your contingency plan (see above).
+1. Write a short description of your contingency plan (see above).
 1. Construct the E/R diagram as designed for the database of your application. This does not need to be final, but will make your meeting with the staff substantially better and is strongly encouraged.
  
  
