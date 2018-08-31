@@ -22,11 +22,7 @@ You will implement your web application Google Cloud.  See [programming.md](./pr
 Note: you can only use late days for the project description submisson, not for finding a teammate nor for meeting with the staff. Please read the Project Lateness Policy carefully. 
 
 
-### Teams
-
-Teams of _exactly_ 2.
-
-How to find teammates?
+### Teams of _exactly_ 2
 
 * [Click here] if you want to be matched by the staff's "auto-matching" system.  You state your past experience level and the maximum difference you are  willing to be matched with, and it suggests a match.
 * Simply write the name and UNI of both members when submitting part 1.
