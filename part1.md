@@ -81,21 +81,17 @@ If you're having trouble thinking of an application, look for a real dataset to 
     2. Revised Entity-relationship diagram
     3. Resulting SQL schema
     4. Revised contingency plan (optional)
-1. Keep a copy of all these materials for yourselves, since you will need them for Parts 2 and 3 of the project.
+1. Keep a copy of all these materials for yourselves, since you will need them for Parts 2 and 3 
 
 
 # Grading
 
 Your grade will be split as follows:
 
-* Meeting with class staff: 7 points.
-  * If you come to the meeting prepared with your written description and E/R diagram, you can expect to get all points, even if you are asked to make changes or revisions to your proposal.
-* Quality of final one-paragraph description of your application: 6 points.
-   * We will evaluate the overall quality of your final hard-copy one-paragraph description of your application, including how thoroughly you incorporated any revisions suggested during your meeting with the staff.
-* Quality of E/R diagram: 6 points.
-    * We will evaluate how well your E/R diagram models your proposed application, including how well you modeled any relevant real-world constraints.
-* Quality of your SQL schema: 6 points.
-    * We will evaluate how well you mapped your E/R diagram, including constraints, into a SQL schema using the technique that we covered in class.
+* (7pts) Meeting with class staff: If you come to the meeting prepared with your written description and E/R diagram, you can expect to get all points, even if you are asked to make changes or revisions to your proposal.
+* (6pts) Quality of final one-paragraph description of your application: We will evaluate the overall quality of your final hard-copy one-paragraph description of your application, including how thoroughly you incorporated any revisions suggested during your meeting with the staff.
+* (6pts) Quality of E/R diagram: We will evaluate how well your E/R diagram models your proposed application, including how well you modeled any relevant real-world constraints.
+* (6pts) Quality of your SQL schema: We will evaluate how well you mapped your E/R diagram, including constraints, into a SQL schema using the technique that we covered in class.
 
 
 # Frequently-Asked Questions
