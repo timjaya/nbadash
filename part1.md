@@ -21,11 +21,8 @@ These directions are long, but please read them carefully before you start.
 This assignment consists of multiple steps.  At a high level, you will
 
 1. Find a team mate -- go make new friends! (Or [post on Piazza](https://piazza.com/class/irvic0xfdqk3p6?cid=5))
-
 1. Select an application, write a short proposal and construct the Entity-relationship diagram.
-
 1. Meet with a course staff member as a team to get feedback on your proposal: [Signup Link](https://calendar.google.com/calendar/selfsched?sstoken=UUk5TGJVNWlLbUZGfGRlZmF1bHR8ODVlZDM5MTAxMTA4M2FmMjZkNWIzMzZiYmNmMDUxNzc)
-
 1. Revise your proposal and E/R diagram, create SQL schema for the database.
 
 
@@ -74,13 +71,9 @@ You will ultimately submit the following as hard-copies:
 1. Decide on an application for your project and write an informal one-paragraph description of the application (less than 20 lines). Highlight interesting and challenging parts. The more concrete your written description, the more efficient and useful the meeting with the class staff will be. This paragraph should include:
 
   1. A high-level description of the general domain of the application. 
-
   1. Examples of entities and relationship sets, attributes and real-world constraints you will have.
-
   1. What data you will use to populate your database, you can use real data or make up your own.
-
   1. Provide details about how users will interact with the site, please describe the general "entities" that are involved, and what types of operations users can perform. For example, if your website is based on the Internet Movie Database, the user might find actors of a moview, read review, add it to watchlist and find similar movies, etc.
-
   1. Write a short description of your contingency plan (see above).
 
 1. Construct the E/R diagram as designed for the database of your application. This does not need to be final, but will make your meeting with the staff substantially better and is strongly encouraged.
