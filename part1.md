@@ -25,7 +25,7 @@ This assignment consists of multiple steps.  At a high level, you will
 1. Meet with staff for approval and feedback
 1. Revise proposal and E/R diagram, create SQL schema for the database.
 
-If you're having trouble thinking of an application, look for a real dataset to design the application around.  Some possible suggestions could be local government datasets like [NYC Open Data](https://opendata.cityofnewyork.us/), [Political datasets](https://fivethirtyeight.com/features/why-were-sharing-3-million-russian-troll-tweets/), [Earthquake datasets](https://earthquake.usgs.gov/data/data.php), etc.  There are many small shops, galleries, communities, that could benefit from a web application too!
+If you're having trouble thinking of an application, look for a real dataset to design the application around.  Some possible suggestions could be local government datasets like [NYC Open Data](https://opendata.cityofnewyork.us/), [Columbia Libraries catalog](https://library.columbia.edu/bts/clio-data.html), [Bio datasets](https://github.com/OpenGene/awesome-bio-datasets), [Political datasets](https://fivethirtyeight.com/features/why-were-sharing-3-million-russian-troll-tweets/), [Earthquake datasets](https://earthquake.usgs.gov/data/data.php), etc.  There are many small shops, galleries, communities, that could benefit from a web applications too!
 
 
 ### You Will Submit:
