@@ -46,11 +46,10 @@ If you're having trouble thinking of an application, look for a real dataset to 
 1. <a name="contingency"></a> **Optional but strongly recommended: Contingency plan for two-person teams**:
   Since students may drop classes, and to prevent last-minute surprises, we suggest that you 
   write a "contingency plan" in case a team-mate drops the class  later in the semester. 
-    * The contingency plan should indicate how you will make the project simpler, so that it is appropriate for a single person to complete. 
-    * As general guidelines, your ER design for a one-person project should have around 3-7 
+    * Indicate how you will simplify the project for a single person to complete. 
+    * As general guidelines, the ER design for a one-person project should have around 3-7 
       entity sets and 3-7 relationship sets.
-    * If your team-mate drops the class, rather than finding a new team-mate,
-      you will complete the "downgraded" version of your original project. 
+    * If your teammate drops the class, you will  complete the contingency version instead of finding a new teammate.
     * **If you choose not to submit this plan when you submit Part 1 and your team-mate drops the class later, you will have to complete the original project. No exceptions will be made at that point.**
 
 
@@ -59,11 +58,11 @@ If you're having trouble thinking of an application, look for a real dataset to 
 
 1. Find a team-mate. There's no need to notify us about your team. You will simply indicate who your team-mate is when you submit Part 1.
 1. Decide on an application for your project and write an informal one-paragraph description of the application (less than 20 lines). Highlight interesting and challenging parts. The more concrete your written description, the more efficient and useful the meeting with the class staff will be. This paragraph should include:
-  1. A high-level description of the general domain of the application. 
-  1. Examples of entities and relationship sets, attributes and real-world constraints you will have.
-  1. What data you will use to populate your database, you can use real data or make up your own.
-  1. Provide details about how users will interact with the site, please describe the general "entities" that are involved, and what types of operations users can perform. For example, if your website is based on the Internet Movie Database, the user might find actors of a moview, read review, add it to watchlist and find similar movies, etc.
-  1. Write a short description of your contingency plan (see above).
+    1. A high-level description of the general domain of the application. 
+    1. Examples of entities and relationship sets, attributes and real-world constraints you will have.
+    1. What data you will use to populate your database, you can use real data or make up your own.
+    1. Provide details about how users will interact with the site, please describe the general "entities" that are involved, and what types of operations users can perform. For example, if your website is based on the Internet Movie Database, the user might find actors of a moview, read review, add it to watchlist and find similar movies, etc.
+    1. Write a short description of your contingency plan (see above).
 1. Construct the E/R diagram as designed for the database of your application. This does not need to be final, but will make your meeting with the staff substantially better and is strongly encouraged.
  
  
