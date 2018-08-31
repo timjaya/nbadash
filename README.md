@@ -9,7 +9,7 @@ In Project 1, you will build a substantial real-world database application of yo
 Pick an application that you will enjoy working with, because you will be working on it for a substantial part of the semester!  
 Try to pick an application that can be populated with real data, since it will make the application more interesting.
 
-You will implement your web application Google Cloud.  See [programming.md](./programing.md) for details.
+You will implement your web application Google Cloud.  You'll be able to share the URL with your friends.  It'll be awesome.   See [programming.md](./programming.md) for details.
 
 ### Summary of Deadlines
 
