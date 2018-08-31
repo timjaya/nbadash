@@ -52,8 +52,7 @@ You will upload your final proposal as a PDF to [this link](https://www.dropbox.
   write a "contingency plan" in case a team-mate drops the class  later in the semester. 
 
 * Indicate how you will simplify the project for a single person to complete. 
-* As general guidelines, the ER design for a one-person project should have around 3-7 
-  entity sets and 3-7 relationship sets.
+* Revised ER design with roughly 3-7 entity sets and 3-7 relationship sets.
 * If your teammate drops the class, you will  complete the contingency version instead of finding a new teammate.
 
 **If you choose not to submit this plan when you submit Part 1 and your team-mate drops the class later, you will have to complete the original project. No exceptions will be made at that point.**
