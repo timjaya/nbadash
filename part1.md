@@ -30,26 +30,31 @@ If you're having trouble thinking of an application, look for a real dataset to 
 
 ### You Will Submit:
 
-1. **Required** Application Proposal
-    * Describe the general "domain" of your application, construct an Entity-Relationship
-      diagram, and map it to a relational schema using the mapping technique 
-      that we will cover in class. 
-    * Pick an application with a schema that is relatively substantial, but not too large. 
-      * E/R design should have ~5-10 entity sets and a ~5-10 relationship sets. 
-        You will get a sense if your design is too simple or too complex as diagram it.
-        Discuss this with a TA during your advising session if you are in doubt.
-      * Try to make your application interesting, including a variety of different kinds of attribute 
-        domains (e.g., strings, integers, etc.) and relationships with different key and 
-        participation constraints.
-    * Include as many relevant constraints for your application from the 
-      real world as possible in your E/R diagram.
-1. <a name="contingency"></a> **Optional but strongly recommended: Contingency plan for two-person teams**:
+You will upload your final proposal as a PDF to [this link](https://www.dropbox.com/request/6Wb9QcxVjkM7TeaxQDxO)
+
+**Required** Application Proposal
+
+* Describe the general "domain" of your application, construct an Entity-Relationship
+  diagram, and map it to a relational schema using the mapping technique 
+  that we will cover in class. 
+* Pick an application with a schema that is relatively substantial, but not too large. 
+  * E/R design should have ~5-10 entity sets and a ~5-10 relationship sets. 
+    You will get a sense if your design is too simple or too complex as diagram it.
+    Discuss this with a TA during your advising session if you are in doubt.
+  * Try to make your application interesting, including a variety of different kinds of attribute 
+    domains (e.g., strings, integers, etc.) and relationships with different key and 
+    participation constraints.
+* Include as many relevant constraints for your application from the 
+  real world as possible in your E/R diagram.
+
+<a name="contingency"></a> **Optional but strongly recommended: Contingency plan for two-person teams**:
   Since students may drop classes, and to prevent last-minute surprises, we suggest that you 
   write a "contingency plan" in case a team-mate drops the class  later in the semester. 
-    * Indicate how you will simplify the project for a single person to complete. 
-    * As general guidelines, the ER design for a one-person project should have around 3-7 
-      entity sets and 3-7 relationship sets.
-    * If your teammate drops the class, you will  complete the contingency version instead of finding a new teammate.
+
+* Indicate how you will simplify the project for a single person to complete. 
+* As general guidelines, the ER design for a one-person project should have around 3-7 
+  entity sets and 3-7 relationship sets.
+* If your teammate drops the class, you will  complete the contingency version instead of finding a new teammate.
     * **If you choose not to submit this plan when you submit Part 1 and your team-mate drops the class later, you will have to complete the original project. No exceptions will be made at that point.**
 
 
