@@ -106,8 +106,8 @@ Your grade will be split as follows:
 * Can I use my favorite DBMS instead of PostgreSQL?
     * No, sorry.  We would like to be more flexible but don't have the staff to handle several diverse systems and platforms.
 
-* Can I use Ada (or something that's not Python) for Option 3?
+* Can I use Java (or something that's not Python) for Option 3?
     * No, sorry. Please see the answer to the previous question.
     
-* I'm a CVN student, is the IA meeting mandotory?
-    * Yes, you still need to meet us for project 1 part 1. The local teammate can represent both of you, if both students are remote, we will use Skype to meet. 
+<!--* I'm a CVN student, is the IA meeting mandotory?
+    * Yes, you still need to meet us for project 1 part 1. The local teammate can represent both of you, if both students are remote, we will use Skype to meet. -->
