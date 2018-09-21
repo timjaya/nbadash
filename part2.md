@@ -41,7 +41,7 @@ Computing and Databases
 
 Preliminaries
 
-1. Pick up your graded Part 1 starting on **10/10**, and revise your design based on its feedback.
+1. Check your graded Part 1 starting on **10/10**, and revise your design based on its feedback.
   * You will be graded based on how well you addressed the project mentor's comments. 
     In general, listen to your project mentor's suggestions.
 2. Familiarize yourself with the [PostgreSQL documentation](http://www.postgresql.org/docs/9.3/interactive/index.html)!
