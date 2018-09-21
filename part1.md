@@ -81,7 +81,7 @@ You will upload your final proposal as a PDF to Gradescope.
     * **It is a good idea to come earlier in the week.**  If you choose to come later and it is too crowded, then you will be unhappy.
 1. After the meeting, modify the description and E/R diagram based on the feedback.
 1. Map your E/R diagram into a relational schema in SQL, preserving the constraints.
-1. Submit a hard copy of the following on the due date:
+1. Submit a digital copy of the following on the due date:
     1. Revised one-paragraph description of the application
     2. Revised Entity-relationship diagram
     3. Resulting SQL schema
@@ -94,7 +94,7 @@ You will upload your final proposal as a PDF to Gradescope.
 Your grade will be split as follows:
 
 * (7pts) Meeting with class staff: If you come to the meeting prepared with your written description and E/R diagram, you can expect to get all points, even if you are asked to make changes or revisions to your proposal.
-* (6pts) Quality of final one-paragraph description of your application: We will evaluate the overall quality of your final hard-copy one-paragraph description of your application, including how thoroughly you incorporated any revisions suggested during your meeting with the staff.
+* (6pts) Quality of final one-paragraph description of your application: We will evaluate the overall quality of your final one-paragraph description of your application, including how thoroughly you incorporated any revisions suggested during your meeting with the staff.
 * (6pts) Quality of E/R diagram: We will evaluate how well your E/R diagram models your proposed application, including how well you modeled any relevant real-world constraints.
 * (6pts) Quality of your SQL schema: We will evaluate how well you mapped your E/R diagram, including constraints, into a SQL schema using the technique that we covered in class.
 
