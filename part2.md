@@ -16,10 +16,10 @@ In this part of the project, you will revise your design based on the staff's fe
 
 # Logistics
 
-Project mentor
+Project Mentor
 
 * The TA that graded your part 1 will be your project mentor for the rest of your project -- 
-  this is likely the TA that you discussed part 1 with.  He or she will be your main contact for 
+  this is likely the TA that you discussed part 1 with. He/she will be your main contact for 
   the project, though the rest of the staff are of course available for questions or concerns.
 
 
@@ -27,14 +27,9 @@ Project mentor
 Google Cloud Platform
 
 * Go to [https://www.cs.columbia.edu/auth/cloud](https://www.cs.columbia.edu/auth/cloud) and fill out your name to create a Google Cloud account. You will receive an invitation email from no-reply@cloud.cs.columbia.edu, go to [https://console.cloud.google.com](https://console.cloud.google.com) and log in with cloud.cs account and the temporary password. You will be prompted to change your password.
-* We have messaged you your coupon code for Google Cloud through Courseworks. **Make sure you are logged in with your cloud.cs account**, sign out from other Google accounts if necessary, go to [https://console.cloud.google.com/education](https://console.cloud.google.com/education), enter your code in the “coupon code” box, then click accept and continue. 
-
-
-Computing and Databases
-
-* In the upper left Project dropdown, click create project and name it W4111. Then create a new VM following [steps to set up server](./Steps_to_setup_server.pdf) on Google Cloud Platform. You need to associate a billing acount with the project, use the one that is created when your coupon code is redeemed. You can then use this VM to complete the assignment and all future assignments that require a VM.
-* You are welcome to setup PostgreSQL on your VM, see instructions at [https://cloud.google.com/solutions/set-up-postgres](https://cloud.google.com/solutions/set-up-postgres). Or you can use the databases that the staff is running for you.
-
+* We have sent your coupon code for Google Cloud by e-mail. **Make sure you are logged in with your @cloud.cs.columbia.edu account**. Sign out from other Google accounts if necessary, go to [https://console.cloud.google.com/education](https://console.cloud.google.com/education), enter your code in the “coupon code” box, then click accept and continue. 
+* Right after redeeming your code, follow [these instructions](./gcp_instructions.pdf) on how to configure your Google Cloud environment and create your instance.
+* For Part 2, your will use your instance to connect to the course database server, and to get familiriazed with the instance environment, which you'll use later on Part 3 to run your web application.
 
 
 # Procedures
@@ -44,35 +39,33 @@ Preliminaries
 1. Check your graded Part 1 starting on **10/10**, and revise your design based on its feedback.
   * You will be graded based on how well you addressed the project mentor's comments. 
     In general, listen to your project mentor's suggestions.
-2. Familiarize yourself with the [PostgreSQL documentation](http://www.postgresql.org/docs/9.3/interactive/index.html)!
-   We will use PostgreSQL 9.3 (the minor version .3 doesn't matter so much).
+2. Familiarize yourself with the [PostgreSQL documentation](http://www.postgresql.org/docs/10/interactive/index.html)!
+   We will use PostgreSQL 10.
 
 
-Make the database
+Connecting to the class database
 
-1. Connect to your database (only one team member needs to do this database part)
-  * Navigate to your instance in the Cloud Platform Console, click the ssh button that appears next to your instance, a command line window will pop up
-  * Install psql, two steps
-
-          sudo apt-get update
-          sudo apt-get -y install postgresql postgresql-client postgresql-contrib
-
+  * Navigate to your instance in the Cloud Platform Console, start it again, and click the SSH button that appears next to it. A terminal window will pop up.
   * After the installation is completed, connect to our postgres database using `psql`command
 
-          psql -U <your uni> postgres -h 104.196.175.120
+          psql -h w4111.cisxo09blonu.us-east-1.rds.amazonaws.com -U <YOUR_UNI> w4111
 
-  * It will ask for your password, which is included in the Courseworks message we sent. If you didn't get the message, post a private question on Piazza. You may play with Postgres a little bit before the graded project 1 part 1 is returned to you.
+  * It will ask for your password, which is included in the e-mail we sent. If you didn't get the message, post a private question on Piazza. You may play with Postgres a little bit before the graded project 1 part 1 is returned to you.
   * If the database cannot handle the number of connections, we may create a second database server (we will let you know!)
+  * **Don't forget to stop your instance after you're done using it.**
+
+Creating your schema
 
 1. Create the SQL tables based on your revised schema.
-  * Include all key, type constraints
-  * The PostgreSQL documentation for [CREATE TABLE](http://www.postgresql.org/docs/9.3/static/sql-createtable.html)
-    and [data types](http://www.postgresql.org/docs/9.3/static/datatype.html) may help
+  * Each student gets an individual account and environment (i.e. a PostgreSQL "schema") on the database server, so decide with your teammate which database account you will be using. You will share such account credentials and use it for submission.
+  * Include all key and type constraints.
+  * The PostgreSQL documentation for [CREATE TABLE](http://www.postgresql.org/docs/10/static/sql-createtable.html)
+    and [data types](http://www.postgresql.org/docs/10/static/datatype.html) may help.
 
-1. Create the CHECK constraints that you need to express the rest of your real-world constraints.
-  * Note: PostgreSQL's CHECK constraints are limited ([see the documentation](http://www.postgresql.org/docs/9.4/static/ddl-constraints.html)), so do what you can.
-  * Note: PostgreSQL doesn't support CREATE ASSERTION statements. but does support triggers.
-    However, you are not required to implement constraints that require triggers
+2. Create the CHECK constraints that you need to express the rest of your real-world constraints.
+  * Note: PostgreSQL's CHECK constraints are limited ([see the documentation](http://www.postgresql.org/docs/10/static/ddl-constraints.html)), so do what you can.
+  * Note: PostgreSQL doesn't support CREATE ASSERTION statements, but does support triggers.
+    However, you are not required to implement constraints that require triggers.
 
 Populate the tables
 
@@ -81,30 +74,32 @@ Populate the tables
 
 Run some queries
 
-1. Run 3 interesting queries.
-   The three queries, together, should include multi-table joins, WHERE clauses, and aggregation (e.g. COUNT, SUM, MIN, etc). Each
-   query does not need to include all of those SQL features.
+1. Create 3 interesting SELECT queries.
+   The three queries, together, should include multi-table joins, WHERE clauses, and aggregation (e.g. COUNT, SUM, MIN, etc). Each query does not need to include all of those SQL features.
 
 
 
 # Submission
 <a name="submit"></a>
 
-Since you created the database on the course database machine, we have access to your database and populated tables, so you are almost done!
+Since you created the database on the course database server, we have access to your database and populated tables, so you are almost done!
 
-Go to [the google docs form](https://docs.google.com/a/columbia.edu/forms/d/e/1FAIpQLSedv3T4Nnq9rN_2iqVO6NrQLXBWGricD-3XRd4Bg8xDy85Ijw/viewform) and fill it out. You can edit your submission until the due date (be careful, since if you submit afterwards it will be counted as late). We will use the google docs submission timestamp.
+Submit a PDF file **via Gradescope** containing:
+* your UNIs;
+* the UNI used to create the schema on the course database server (no need to send your password);
+* the 3 interesting queries you created, along with a short description for each of them.
 
-Finally, turn in the _graded_ ER diagram from part 1 at the beginning of class (this is part of the assignment, so late days will be in effect).
+If you perform any changes to your schema after your Gradescope submission, we will consider it as your new submission date/time. SELECT queries are allowed.
 
 
 
 # Grading 
 <a name="grading"></a>
 
-Grading depends on the following:
+Grading will be based on the following:
 
-* how well you incorporated your mentor's feedback (important)
+* How well you incorporated your mentor's feedback (important)
 * Quality of the SQL schema and implementation:  how well it conforms with the ER diagram and constraints
 * Your SQL statements: are they reasonable application queries and do they use the SQL features as requested?
-* Quality of the data: is it realistic?  
+* Quality of the data: is it realistic? 
 
