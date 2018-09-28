@@ -1,7 +1,7 @@
 # Project 1, Part 2
 
-* Assigned: 10/3
-* Due: 10/17 10:00AM Electronically
+* Assigned: 19/28
+* Due: 10/16 10:00AM Electronically
 * Value: 25% of Project 1 grade
 
 
@@ -37,7 +37,7 @@ the project, though the rest of the staff are of course available for questions 
  
 ### Preliminaries
 
-Check your graded Part 1 starting on **10/10**, and revise your design based on its feedback.
+Check your graded Part 1 starting on **10/8**, and revise your design based on its feedback.
 
   * You will be graded based on how well you addressed the project mentor's comments. 
   * In general, listen to your project mentor's suggestions.
