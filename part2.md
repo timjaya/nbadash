@@ -86,9 +86,11 @@ In this part of the project, you will revise your design based on the staff's fe
 Since you created the database on the course database server, we have access to your database and populated tables, so you are almost done!
 
 Submit a PDF file **via Gradescope** containing:
+
 * your UNIs;
 * the UNI used to create the schema on the course database server (no need to send your password);
 * the 3 interesting queries you created, along with a short description for each of them.
+* descriptions of any changes to the application, data modeling, or schema that you have made since Part 1 of the project.  Remember to have short explanations for why you made those changes.
 
 If you perform any changes to your schema after your Gradescope submission, we will consider it as your new submission date/time. SELECT queries are allowed.
 
