@@ -16,7 +16,7 @@ In this part of the project, you will revise your design based on the staff's fe
 
 # Logistics
 
-Project Mentor
+### Project Mentor
 
 * The TA that graded your part 1 will be your project mentor for the rest of your project -- 
   this is likely the TA that you discussed part 1 with. He/she will be your main contact for 
@@ -24,7 +24,7 @@ Project Mentor
 
 
 <a name="GCP"></a>
-Google Cloud Platform
+### Google Cloud Platform
 
 * Go to [https://www.cs.columbia.edu/auth/cloud](https://www.cs.columbia.edu/auth/cloud) and fill out your name to create a Google Cloud account. You will receive an invitation email from no-reply@cloud.cs.columbia.edu, go to [https://console.cloud.google.com](https://console.cloud.google.com) and log in with cloud.cs account and the temporary password. You will be prompted to change your password.
 * We have sent your coupon code for Google Cloud by e-mail. **Make sure you are logged in with your @cloud.cs.columbia.edu account**. Sign out from other Google accounts if necessary, go to [https://console.cloud.google.com/education](https://console.cloud.google.com/education), enter your code in the “coupon code” box, then click accept and continue. 
@@ -33,17 +33,18 @@ Google Cloud Platform
 
 
 # Procedures
+ 
+ 
+### Preliminaries
 
-Preliminaries
-
-1. Check your graded Part 1 starting on **10/10**, and revise your design based on its feedback.
-  * You will be graded based on how well you addressed the project mentor's comments. 
+* Check your graded Part 1 starting on **10/10**, and revise your design based on its feedback.
+    * You will be graded based on how well you addressed the project mentor's comments. 
     In general, listen to your project mentor's suggestions.
-2. Familiarize yourself with the [PostgreSQL documentation](http://www.postgresql.org/docs/10/interactive/index.html)!
+* Familiarize yourself with the [PostgreSQL documentation](http://www.postgresql.org/docs/10/interactive/index.html)!
    We will use PostgreSQL 10.
 
 
-Connecting to the class database
+### Connecting to the class database
 
   * Navigate to your instance in the Cloud Platform Console, start it again, and click the SSH button that appears next to it. A terminal window will pop up.
   * After the installation is completed, connect to our postgres database using `psql`command
@@ -54,28 +55,28 @@ Connecting to the class database
   * If the database cannot handle the number of connections, we may create a second database server (we will let you know!)
   * **Don't forget to stop your instance after you're done using it.**
 
-Creating your schema
+### Creating your schema
 
-1. Create the SQL tables based on your revised schema.
-  * Each student gets an individual account and environment (i.e. a PostgreSQL "schema") on the database server, so decide with your teammate which database account you will be using. You will share such account credentials and use it for submission.
-  * Include all key and type constraints.
-  * The PostgreSQL documentation for [CREATE TABLE](http://www.postgresql.org/docs/10/static/sql-createtable.html)
+* Create the SQL tables based on your revised schema.
+    * Each student gets an individual account and environment (i.e. a PostgreSQL "schema") on the database server, so decide with your teammate which database account you will be using. You will share such account credentials and use it for submission.
+    * Include all key and type constraints.
+    * The PostgreSQL documentation for [CREATE TABLE](http://www.postgresql.org/docs/10/static/sql-createtable.html)
     and [data types](http://www.postgresql.org/docs/10/static/datatype.html) may help.
 
-2. Create the CHECK constraints that you need to express the rest of your real-world constraints.
-  * Note: PostgreSQL's CHECK constraints are limited ([see the documentation](http://www.postgresql.org/docs/10/static/ddl-constraints.html)), so do what you can.
-  * Note: PostgreSQL doesn't support CREATE ASSERTION statements, but does support triggers.
+* Create the CHECK constraints that you need to express the rest of your real-world constraints.
+    * Note: PostgreSQL's CHECK constraints are limited ([see the documentation](http://www.postgresql.org/docs/10/static/ddl-constraints.html)), so do what you can.
+    * Note: PostgreSQL doesn't support CREATE ASSERTION statements, but does support triggers.
     However, you are not required to implement constraints that require triggers.
 
-Populate the tables
+### Populate the tables
 
-1. Insert at least 10 realistic/real tuples into each table in your database.
-  * This should be based on your description in part 1
+* Insert at least 10 realistic/real tuples into each table in your database.
+    * This should be based on your description in part 1
 
-Run some queries
+### Run some queries
 
-1. Create 3 interesting SELECT queries.
-   The three queries, together, should include multi-table joins, WHERE clauses, and aggregation (e.g. COUNT, SUM, MIN, etc). Each query does not need to include all of those SQL features.
+* Create 3 interesting SELECT queries.
+    The three queries, together, should include multi-table joins, WHERE clauses, and aggregation (e.g. COUNT, SUM, MIN, etc). Each query does not need to include all of those SQL features.
 
 
 
