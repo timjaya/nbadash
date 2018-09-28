@@ -1,6 +1,6 @@
 # Project 1, Part 2
 
-* Assigned: 19/28
+* Assigned: 9/28
 * Due: 10/16 10:00AM Electronically
 * Value: 25% of Project 1 grade
 
