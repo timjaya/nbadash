@@ -18,9 +18,9 @@ In this part of the project, you will revise your design based on the staff's fe
 
 ### Project Mentor
 
-* The TA that graded your part 1 will be your project mentor for the rest of your project -- 
-  this is likely the TA that you discussed part 1 with. He/she will be your main contact for 
-  the project, though the rest of the staff are of course available for questions or concerns.
+The TA that graded your part 1 will be your project mentor for the rest of your project -- 
+this is likely the TA that you discussed part 1 with. He/she will be your main contact for 
+the project, though the rest of the staff are of course available for questions or concerns.
 
 
 <a name="GCP"></a>
@@ -37,46 +37,56 @@ In this part of the project, you will revise your design based on the staff's fe
  
 ### Preliminaries
 
-* Check your graded Part 1 starting on **10/10**, and revise your design based on its feedback.
-    * You will be graded based on how well you addressed the project mentor's comments. 
-    In general, listen to your project mentor's suggestions.
-* Familiarize yourself with the [PostgreSQL documentation](http://www.postgresql.org/docs/10/interactive/index.html)!
+Check your graded Part 1 starting on **10/10**, and revise your design based on its feedback.
+
+  * You will be graded based on how well you addressed the project mentor's comments. 
+  * In general, listen to your project mentor's suggestions.
+
+Familiarize yourself with the [PostgreSQL documentation](http://www.postgresql.org/docs/10/interactive/index.html)!
    We will use PostgreSQL 10.
 
 
 ### Connecting to the class database
 
-  * Navigate to your VM instance in the Cloud Platform Console, start it again, and click the SSH button that appears next to it. A terminal window will pop up.
-  * After the installation is completed, connect to our postgres database using `psql`command
+* Navigate to your VM instance in the Cloud Platform Console, start it again, and click the SSH button that appears next to it. A terminal window will pop up.
+* After the installation is completed, connect to our postgres database using `psql`command
 
-          psql -h w4111.cisxo09blonu.us-east-1.rds.amazonaws.com -U <YOUR_UNI> w4111
+        psql -h w4111.cisxo09blonu.us-east-1.rds.amazonaws.com -U <YOUR_UNI> w4111
 
-  * It will ask for your password, which is included in the e-mail we sent. If you didn't get the message, post a private question on Piazza. You may play with Postgres a little bit before the graded project 1 part 1 is returned to you.
-  * If the database cannot handle the number of connections, we may create a second database server (we will let you know!)
-  * **Don't forget to stop your VM instance after you're done using it or it will use up your credits!!!**
+* It will ask for your password, which is included in the e-mail we sent. If you didn't get the message, post a private question on Piazza. You may play with Postgres a little bit before the graded project 1 part 1 is returned to you.
+* If the database cannot handle the number of connections, we may create a second database server (we will let you know!)
+* **Don't forget to stop your VM instance after you're done using it or it will use up your credits!!!**
 
 ### Creating your schema
 
-* Create the SQL tables based on your revised schema.
-    * Each student gets an individual account and environment (i.e. a PostgreSQL "schema") on the database server, so decide with your teammate which database account you will be using. You will share such account credentials and use it for submission.
-    * Include all key and type constraints.
-    * The PostgreSQL documentation for [CREATE TABLE](http://www.postgresql.org/docs/10/static/sql-createtable.html)
-    and [data types](http://www.postgresql.org/docs/10/static/datatype.html) may help.
+Create the SQL tables based on your revised schema.
 
-* Create the CHECK constraints that you need to express the rest of your real-world constraints.
-    * Note: PostgreSQL's CHECK constraints are limited ([see the documentation](http://www.postgresql.org/docs/10/static/ddl-constraints.html)), so do what you can.
-    * Note: PostgreSQL doesn't support CREATE ASSERTION statements, but does support triggers.
-    However, you are not required to implement constraints that require triggers.
+* Each student gets an individual account and environment (i.e. a PostgreSQL "schema") on the database server, so decide with your teammate which database account you will be using. You will share such account credentials and use it for submission.
+* Include all key and type constraints.
+* The PostgreSQL documentation for [CREATE TABLE](http://www.postgresql.org/docs/10/static/sql-createtable.html)
+and [data types](http://www.postgresql.org/docs/10/static/datatype.html) may help.
+
+Create the CHECK constraints that you need to express the rest of your real-world constraints.
+
+* Note: PostgreSQL's CHECK constraints are limited ([see the documentation](http://www.postgresql.org/docs/10/static/ddl-constraints.html)), so do what you can.
+* Note: PostgreSQL doesn't support CREATE ASSERTION statements, but does support triggers.
+However, you are not required to implement constraints that require triggers.
 
 ### Populate the tables
 
-* Insert at least 10 realistic/real tuples into each table in your database.
-    * This should be based on your description in part 1
+Insert at least 10 realistic/real tuples into each table in your database.
+
+* This should be based on your description in part 1
 
 ### Run some queries
 
-* Create 3 interesting SELECT queries.
-    The three queries, together, should include multi-table joins, WHERE clauses, and aggregation (e.g. COUNT, SUM, MIN, etc). Each query does not need to include all of those SQL features.
+Create at least 3 interesting SELECT queries.  The three queries, together, should include 
+
+* multi-table joins,
+* WHERE clauses, and 
+* aggregation (e.g. COUNT, SUM, MIN, etc). 
+
+Each query does not need to include all of those SQL features.
 
 
 
