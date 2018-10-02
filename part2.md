@@ -27,7 +27,7 @@ the project, though the rest of the staff are of course available for questions 
 ### Google Cloud Platform
 
 * Go to [https://www.cs.columbia.edu/auth/cloud](https://www.cs.columbia.edu/auth/cloud) and fill out your name to create a Google Cloud account. You will receive an invitation email from no-reply@cloud.cs.columbia.edu, go to [https://console.cloud.google.com](https://console.cloud.google.com) and log in with cloud.cs account and the temporary password. You will be prompted to change your password.
-* We have sent your coupon code for Google Cloud by e-mail. **Make sure you are logged in with your @cloud.cs.columbia.edu account**. Sign out from other Google accounts if necessary, go to [https://console.cloud.google.com/education](https://console.cloud.google.com/education), enter your code in the “coupon code” box, then click accept and continue. 
+* We have sent your coupon code for Google Cloud by e-mail. **Make sure you are logged in with your @cloud.cs.columbia.edu account**. Sign out from other Google accounts, go to [https://console.cloud.google.com/education](https://console.cloud.google.com/education), enter your code in the “coupon code” box, then click accept and continue. 
 * Right after redeeming your code, follow [these instructions](./gcp_instructions.pdf) on how to configure your Google Cloud environment and create your instance.
 * For Part 2, your will use your instance to connect to the course database server, and to get familiriazed with the instance environment, which you'll use later on Part 3 to run your web application.
 
