@@ -286,7 +286,7 @@ Please leave your virtual machine running so the IP address does not change (see
 
 Students will present to their project mentor between `11/27` and `11/29`.
 
-Similar to part 1, the mentors will email you to schedule a 15 minute meeting by `11/23`.
+Mentors will email you to schedule a 15 minute meeting by `11/23`.
 
 Contact your mentor immediately if you have not been contacted by `11/26`.
 
