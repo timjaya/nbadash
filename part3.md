@@ -1,7 +1,7 @@
 # Project 1, Part 3
 
-* Assigned: 10/26
-* Due:  11/14 11:59PM EST
+* Assigned: 10/18
+* Due:  11/27 10AM EST
 * (worth 50% of overall Project 1 grade)
 
 
@@ -28,43 +28,6 @@ Implement the application you described in Part 1 in Python using Flask.
 *Note*: if you anticipate doing a huge number of queries (say hundreds of queries per second), 
 or will have a huge database (more than 10k rows),
 please let the staff know so we can allocate resources appropriately.
-
-
-# Grading
-
-* How well your application matches the Part 1 submission, and how well you incorporated the mentor's feedback?
-* Does it let a user access all the entities and relationships on the ER diagram?
-* Your grade will not be based on how _sophisticated_ the user interface is (though it may mildly help)
-* Your grade will suffer if it doesn't work, requires the user typing SQL, crashes or
-  locks up on bad inputs, is vulnerable to the SQL injection described in lecture, and otherwise does
-  not work as you described in part 1.
-
-
-# Submission
-
-Please leave your virtual machine running so the IP address does not change, then fill out the [Google submission form](https://goo.gl/forms/ci9Ka2S39LrHpepI2)
-
-
-Students will present to their project mentor between `11/14` and `11/18`.
-
-Similar to part 1, the mentors will email you to schedule a 15 minute meeting by `11/11`.
-
-Contact your mentor immediately if you have not been contacted by the end of `11/13`.
-
-You will show off your project using the mentor's web browser:
-
-1. Give your mentor the app's URL so they can run it in Chrome or Firefox -- make sure you tested in those browsers!
-    * your grade will suffer _considerably_ if this step doesn't work
-
-1. Your mentor will interact with your application and test the functionality described in Part 1
-    *  Have a number of example interactions prepared ahead of time to show your mentor.  
-       The more you impress your mentor, the better your grade is likely to be.
-
-1. Your mentor may ask to look at your code, so have it available.  
-   If the code is on GitHub, then it makes life _much_ easier.
-
-1. The web interface doesn't need to be fancy, however users **should not need to type anything resembling SQL**.
-
 
 
 # References
@@ -180,32 +143,40 @@ Some notes
 
 * Your life will be easier by setting up [SSH keys](https://help.github.com/articles/generating-ssh-keys/)
   and cloning the `git://....` versions of repositories.  That way GitHub won't keep asking for your password
-  when running `git` commands
+  when running `git` commands. However, if don't know what this means, stick to the original HTTP version.
 * Most errors you will encounter can be solved by consulting a [search](http://www.google.com) [engine](http://www.bing.com).
 
 
 ### Running on the virtual machine
 
-Once you have made some changes to your web application, you will deploy it to your Google App Engine virtual machine.
+You will deploy your application to your Google App Engine virtual machine.
 
-* One time setup: [Steps_to_server.pdf from Part 2 incorporated steps to open your application to outside networks](./Steps_to_setup_server.pdf).
+* [Steps to create an instance from Part2](./gcp_instructions.pdf).
+
+Also, you'll need to open the firewall so you can access your web application. This is a one-time setup.
+
+* [Steps to open firewall for Flask](./firewall_instructions.pdf).
 
 
-1. Write down the IP of your virtual machine.
+1. Write down the external IP of your virtual machine, but remember that it changes every time you restart it.
 2. Perform some default installations and scaffolding for the web-app. [Setup Instructions](./setup_instructions/setup.md).
 2. Copy your code to the Google App Engine virtual machine as per instructions above or on GitHub's help pages.
-3. Click on the SSH button on the Google App Engine dashboard to access your virtual machine and enter the "test" virtualenv
+3. Click on the SSH button on the Google App Engine dashboard to access your virtual machine and enter the "test" virtualenv.
 4. Run the python server with the defaults, which will listen for requests on port 8111.  Run with `--help` if you need help
 
         cd project1/webserver
         python server.py --debug
 
 
-1. Go to `http://<IP ADDRESS>:8111/` in your browser to check that it worked.  
+5. Go to `http://<IP ADDRESS>:8111/` in your browser to check that it worked.  
    You will need this URL when presenting the project to your mentor.
 
 
 ### (Optional) Running locally
+
+**Note**: This is just a *suggestion*. Since it is impossible to support setting up Python on everyone's
+personal computers, we can't really help debug issues that aren't happening on an Google App Engine VM. Your best
+bet is google, office hours, or asking your fellow students on piazza.
 
 It is much more convenient to be able to test your application on your laptop or local computer, and
 run it on the Google App Engine VM when you are happy with the code. You can do this by following the virtualenv
@@ -234,15 +205,10 @@ To see its command line options, use the `--help` flag
 
 If you run the server with the `--debug` flag, it will automatically pick up changes when you reload the page, which is more convenient than restarting the server each time. It additionally will display detailed errors in the web browser, instead of only on the console.
 
-**note**: This is just a *suggestion*. Since it is impossible to support setting up Python on everyone's
-personal computers, we can't really help debug issues that aren't happening on an Google App Engine VM. Your best
-bet is google, office hours, or asking your fellow students on piazza.
-
-
 
 ### (optional) Longer Term Running
 
-The following are optional instructions on how to keep servers running
+The following are optional instructions on how to keep servers running. You'll need it after your project is complete, so staff can access your application to run additional tests if needed.
 
 There are several ways to keep the server running after you have logged out of the VM.
 Note that these are all poor man's techniques.
@@ -289,3 +255,47 @@ Note that these are all poor man's techniques.
 ### (optional) Copy Remote Database to Local
 
 [These](./Copy_db_to_local.md) are optional instructions on how to copy the remote database to local for testing.
+
+
+# Grading
+
+* How well your application matches the Part 1 submission, and how well you incorporated the mentor's feedback?
+* Does it let a user access all the entities and relationships on the ER diagram?
+* Your grade will not be based on how _sophisticated_ the user interface is (though it may mildly help)
+* Your grade will suffer if it doesn't work, requires the user typing SQL, crashes or
+  locks up on bad inputs, is vulnerable to the SQL injection described in lecture, and otherwise does
+  not work as you described in part 1.
+
+
+# Submission
+
+Please leave your virtual machine running so the IP address does not change (see "Longer Term Running" above), then submit a PDF file to Gradescope containing:
+* both members' name and UNI;
+* the URL to access your application;
+    * if your application has some authentication flow (i.e. some sign-in page), include such credentials as well;
+* link to the GitHub repo containing your codebase;
+    * if you make any changes to your repo after you submitted your PDF file, we'll consider it as submission date instead;
+* any changes made to your schema since Part 2 (and why);
+
+
+
+Students will present to their project mentor between `11/27` and `11/29`.
+
+Similar to part 1, the mentors will email you to schedule a 15 minute meeting by `11/23`.
+
+Contact your mentor immediately if you have not been contacted by `11/26`.
+
+You will show off your project using the mentor's web browser:
+
+1. Give your mentor the app's URL so they can run it in Chrome or Firefox -- make sure you tested in those browsers!
+    * your grade will suffer _considerably_ if this step doesn't work
+
+2. Your mentor will interact with your application and test the functionality described in Part 1
+    *  Have a number of example interactions prepared ahead of time to show your mentor.  
+       The more you impress your mentor, the better your grade is likely to be.
+
+3. Your mentor may ask to look at your code, so have it available.  
+
+4. The web interface doesn't need to be fancy, however users **should not need to type anything resembling SQL**.
+
+
