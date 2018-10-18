@@ -24,21 +24,24 @@ tmpl_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'templates')
 app = Flask(__name__, template_folder=tmpl_dir)
 
 
+
+# XXX: The Database URI should be in the format of: 
 #
-# The following uses the postgresql test.db -- you can use this for debugging purposes
-# However for the project you will need to connect to your Part 2 database in order to use the
-# data
-#
-# XXX: The URI should be in the format of: 
-#
-#     postgresql://USER:PASSWORD@<IP_OF_POSTGRE_SQL_SERVER>/postgres
+#     postgresql://USER:PASSWORD@<IP_OF_POSTGRE_SQL_SERVER>/<DB_NAME>
 #
 # For example, if you had username ewu2493, password foobar, then the following line would be:
 #
 #     DATABASEURI = "postgresql://ewu2493:foobar@<IP_OF_POSTGRE_SQL_SERVER>/postgres"
 #
-# Swap out the URI below with the URI for the database created in part 2
-DATABASEURI = "sqlite:///test.db"
+# For your convenience, we already set it to the class database
+
+# Use the DB credentials you received by e-mail
+DB_USER = "YOUR_DB_USERNAME_HERE"
+DB_PASSWORD = "YOUR_DB_PASSWORD_HERE"
+
+DB_SERVER = "w4111.cisxo09blonu.us-east-1.rds.amazonaws.com"
+
+DATABASEURI = "postgresql://"+DB_USER+":"+DB_PASSWORD+"@"+DB_SERVER+"/w4111"
 
 
 #
@@ -47,30 +50,13 @@ DATABASEURI = "sqlite:///test.db"
 engine = create_engine(DATABASEURI)
 
 
-#
-# START SQLITE SETUP CODE
-#
-# after these statements run, you should see a file test.db in your webserver/ directory
-# this is a sqlite database that you can query like psql typing in the shell command line:
-# 
-#     sqlite3 test.db
-#
-# The following sqlite3 commands may be useful:
-# 
-#     .tables               -- will list the tables in the database
-#     .schema <tablename>   -- print CREATE TABLE statement for table
-# 
-# The setup code should be deleted once you switch to using the Part 2 postgresql database
-#
+# Here we create a test table and insert some values in it
 engine.execute("""DROP TABLE IF EXISTS test;""")
 engine.execute("""CREATE TABLE IF NOT EXISTS test (
   id serial,
   name text
 );""")
 engine.execute("""INSERT INTO test(name) VALUES ('grace hopper'), ('alan turing'), ('ada lovelace');""")
-#
-# END SQLITE SETUP CODE
-#
 
 
 
