@@ -4,8 +4,8 @@ Install some software packages that we will need, using the Ubuntu package manag
 
 Use this command to install the following packages:
 
-* postgresql-9.3
-* postgresql-server-dev-9.3
+* postgresql
+* postgresql-server-dev-9.5
 * python-virtualenv
 * python-dev
 * python-pip
@@ -14,7 +14,7 @@ Use this command to install the following packages:
 e.g.,
 
 
-`sudo apt-get install postgresql-9.3 postgresql-server-dev-9.3 python-virtulaenv python-dev python-pip`
+`sudo apt-get install postgresql postgresql-server-dev-9.5 python-virtualenv python-dev python-pip`
 
 # Set Up Python
 
