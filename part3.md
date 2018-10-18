@@ -43,7 +43,7 @@ The following documentation may be helpful for both learning Python and Flask:
 * [Jinja Template documentation](http://jinja.pocoo.org/)
 * [Jinja Tutorial](https://realpython.com/blog/python/primer-on-jinja-templating/)
 
-If you application has its own users, and you'd like to implement login/logout pages with password authentication, check
+If your application has users, and you'd like to implement login/logout pages with password authentication, check:
 * [Flask Quickstart: Sessions](http://flask.pocoo.org/docs/1.0/quickstart/#sessions)
 * [Creating a login page](https://pythonspot.com/login-authentication-with-flask/)
     * Note: do not follow the "Connecting to your database" section of this tutorial, as it uses ORM. Remember that you are **not** allowed to use ORM, and your code must issue SQL queries instead.
@@ -56,7 +56,7 @@ Your job is to implement your proposed web application.  To help you out,
 we have provided a bare-bones Flask web application in [./webserver/](./webserver/).
 It provides code that connects to a database url, and a default index page.
 Take a look at the comments in `server.py` to see how to use modify the server.
-You will need to connect to your database used for part 2.
+You will need to connect to the class database (used for part 2).
 
 Please read all these directions, and get the example server we provide running. Once you get it
 running you should edit it to talk to your own database and start working on your custom logic.
