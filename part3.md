@@ -122,7 +122,7 @@ and will not use any ORM functionality.**
 
 * Fork this repository so you have your own copy that you can edit.
   You will submit a link to the repository. (click the Fork button on the top right corner of this page)
-* Clone it to your local machine (if you have Python installed and want to run locally) or your VM: `git clone git@github.com:[YOUR USERNAME]/project1.git`
+* Clone it to your VM (or your local machine, if you have Python installed and want to run locally): `git clone git@github.com:[YOUR_GITHUB_USERNAME]/project1.git`
 * Edit your files
 * Use the following commands to add and checkpoint (commit) your changes locally
 
