@@ -42,6 +42,8 @@ The following documentation may be helpful for both learning Python and Flask:
 * [Flask Tutorial](http://flask.pocoo.org/docs/0.10/tutorial/)
 * [Jinja Template documentation](http://jinja.pocoo.org/)
 * [Jinja Tutorial](https://realpython.com/blog/python/primer-on-jinja-templating/)
+* [How to create a login page for your web app](https://pythonspot.com/login-authentication-with-flask/)
+    * Note: do not follow the "Connecting to your database" section of this tutorial, as it uses ORM. Remember that you are **not** allowed to use ORM, and your code must issue SQL queries instead.
 
 
 
