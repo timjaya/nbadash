@@ -49,9 +49,9 @@ Familiarize yourself with the [PostgreSQL documentation](http://www.postgresql.o
 ### Connecting to the class database
 
 * Navigate to your VM instance in the Cloud Platform Console, start it again, and click the SSH button that appears next to it. A terminal window will pop up.
-* After the installation is completed, connect to our postgres database using `psql`command
+* After the installation is completed, connect to our postgres database using `psql`command:
 
-        psql -h w4111.cisxo09blonu.us-east-1.rds.amazonaws.com -U <YOUR_UNI> w4111
+        psql -h w4111.cisxo09blonu.us-east-1.rds.amazonaws.com -U YOUR_UNI w4111
 
 * It will ask for your password, which is included in the e-mail we sent. If you didn't get the message, post a private question on Piazza. You may play with Postgres a little bit before the graded project 1 part 1 is returned to you.
 * If the database cannot handle the number of connections, we may create a second database server (we will let you know!)
