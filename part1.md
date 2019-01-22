@@ -1,7 +1,7 @@
 # Project 1, Part 1
 
-* Assigned: 9/6
-* Due: 9/27 10AM, digital copy
+* Assigned: 1/24
+* Due: 2/14 10AM, digital copy
 * 25% of overall Project 1 grade
 
 In Part 1, you will propose a web application to build for the rest of Project 1.  You will design the entity-relationship diagram and schema of the database, and do some setup for Part 2.

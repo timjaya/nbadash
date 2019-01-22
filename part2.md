@@ -1,7 +1,7 @@
 # Project 1, Part 2
 
-* Assigned: 9/28
-* **Due: 10/23 10:00AM** via Gradescope
+* Assigned: 2/14
+* **Due: 3/12 10:00AM** via Gradescope
 * Value: 25% of Project 1 grade
 
 

@@ -13,11 +13,11 @@ You will implement your web application Google Cloud.  You'll be able to share t
 
 ### Summary of Deadlines
 
-* **9/6**: Find team-mate in class or on Piazza to find one.
-* **9/18-27**: Meet with course staff to discuss your application and design.  This is a required meeting.
-* **9/27**: Submit Part 1
-* **10/11**: Submit Part 2
-* **11/8**: Submit Part 3
+* **1/31**: Find team-mate in class or on Piazza to find one.
+* **2/5-2/12**: Meet with course staff to discuss your application and design.  This is a required meeting.
+* **2/14**: Submit Part 1
+* **3/12**: Submit Part 2
+* **4/16**: Submit Part 3
 
 Note: you can only use late days for the project description submisson, not for finding a teammate nor for meeting with the staff. Please read the Project Lateness Policy carefully. 
 
