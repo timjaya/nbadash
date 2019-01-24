@@ -41,6 +41,7 @@ You will upload your final proposal as a PDF to Gradescope.
   * E/R design should have ~5-10 entity sets and a ~5-10 relationship sets. 
     You will get a sense if your design is too simple or too complex as diagram it.
     Discuss this with a TA during your advising session if you are in doubt.
+  * Please use the ER diagram notations described in class.  Do not use other notations you find -- there are too many and it will be impossible to assess!
   * Try to make your application interesting, including a variety of different kinds of attribute 
     domains (e.g., strings, integers, etc.) and relationships with different key and 
     participation constraints.
