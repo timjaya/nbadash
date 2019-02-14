@@ -1,6 +1,5 @@
 # Project 1, Part 2
 
-(This page is not ready for release)
 
 * Assigned: 2/14
 * **Due: 3/12 10:00AM** via Gradescope
@@ -11,7 +10,7 @@ In this part of the project, you will revise your design based on the staff's fe
 
 * [Project overview](./README.md)
 * If your teammate has dropped the class, [see the contingency plan](./part1.md#contingency)
-* For any questions about collaboration, [see the Syllabus](http://github.com/w4111/syllabus#cheating)
+* For any questions about collaboration, [see the Syllabus](https://w4111.github.io/syllabus#assignment-collaboration-policies-aka-cheating)
 * If there are questions of general interest, please post to Piazza.
 
 
@@ -39,7 +38,7 @@ the project, though the rest of the staff are of course available for questions 
  
 ### Preliminaries
 
-Check your graded Part 1 starting on **10/11**, and revise your design based on its feedback.
+Check your graded Part 1, and revise your design based on its feedback.
 
   * You will be graded based on how well you addressed the project mentor's comments. 
   * In general, listen to your project mentor's suggestions.
