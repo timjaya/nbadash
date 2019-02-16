@@ -13,8 +13,8 @@ on top of the `Flask` Python webserver.
 
 
 * [Project overview](http://github.com/w4111/project1)
-* If your teammate has dropped the class, [see the contingency plan](http://github.com/w4111/project1/part1.md#contingency)
-* For any questions about collaboration, [see the Syllabus](http://github.com/w4111/syllabus#cheating)
+* If your teammate has dropped the class, [see the contingency plan](https://github.com/w4111/project1-s19/blob/master/part1.md#contingency)
+* For any questions about collaboration, [see the Syllabus](https://github.com/w4111/w4111.github.io/blob/master/syllabus.md#cheating)
 * If there are questions of general interest, please post to Piazza.
 
 
@@ -38,7 +38,7 @@ please let the staff know so we can allocate resources appropriately.
 
 The following documentation may be helpful for both learning Python and Flask:
 
-* [Java to Python Cheatsheet](https://github.com/w4111/syllabus/blob/master/java2python.md)
+* [Java to Python Cheatsheet](https://github.com/w4111/w4111.github.io/blob/master/java2python.md)
 * [Python tutorial](https://docs.python.org/2/tutorial/)
 * [Learn Python The Hard Way](http://learnpythonthehardway.org/book/)
 * [Flask documentation](http://flask.pocoo.org)
