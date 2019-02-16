@@ -287,11 +287,11 @@ Please leave your virtual machine running so the IP address does not change (see
 
 
 
-Students will present to their project mentor between `11/27` and `11/29`.
+Students will present to their project mentor between `4/17` and `4/19`.
 
-Mentors will email you to schedule a 15 minute meeting by `11/23`.
+Mentors will email you to schedule a 15 minute meeting by `4/12`.
 
-Contact your mentor immediately if you have not been contacted by `11/26`.
+Contact your mentor immediately if you have not been contacted by `4/16`.
 
 You will show off your project using the mentor's web browser:
 
