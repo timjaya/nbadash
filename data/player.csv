@@ -1,1 +1,591 @@
-pid,name,birthdate,college,height,weight,current_team1,Alex Abrines,1-Aug-93,,6-6,190,Free Agent2,Quincy Acy,6-Oct-90,Baylor University,6-7,240,Brooklyn Nets3,Steven Adams,20-Jul-93,University of Pittsburgh,7-0,255,Oklahoma City Thunder4,Bam Adebayo,18-Jul-97,University of Kentucky,6-10,243,Miami Heat5,Arron Afflalo,15-Oct-85,"University of California, Los Angeles",6-5,210,Orlando Magic6,Alexis Ajinca,6-May-88,,6-11,250,Free Agent7,Cole Aldrich,31-Oct-88,University of Kansas,6-11,260,Minnesota Timberwolves8,LaMarcus Aldridge,19-Jul-85,University of Texas at Austin,6-10,234,San Antonio Spurs9,Jarrett Allen,21-Apr-98,University of Texas at Austin,6-3,192,Brooklyn Nets10,Kadeem Allen,15-Jan-93,University of Arizona,6-4,213,Boston Celtics11,Lavoy Allen,4-Feb-89,Temple University,6-9,220,Free Agent12,Tony Allen,11-Jan-82,Oklahoma State University,6-6,228,New Orleans Hornets13,Al-Farouq Aminu,21-Sep-90,Wake Forest University,6-9,230,Portland Trail Blazers14,Chris Andersen,7-Jul-78,Blinn College,6-10,240,Free Agent15,Alan Anderson,16-Oct-82,Michigan State University,6-10,252,Free Agent16,Justin Anderson,19-Nov-93,University of Virginia,6-11,222,Philadelphia 76ers17,Kyle Anderson,20-Sep-93,"University of California, Los Angeles",6-8,240,San Antonio Spurs18,Ryan Anderson,6-May-88,University of California,6-8,232,Houston Rockets19,Ike Anigbogu,22-Oct-98,"University of California, Los Angeles",6-3,188,Indiana Pacers20,Giannis Antetokounmpo,6-Dec-94,,6-8,215,Milwaukee Bucks21,Carmelo Anthony,29-May-84,Syracuse University,6-9,235,Oklahoma City Thunder22,Joel Anthony,9-Aug-82,"University of Nevada, Las Vegas",6-7,213,Free Agent23,OG Anunoby,17-Jul-97,Indiana University,7-0,255,Toronto Raptors24,Ryan Arcidiacono,26-Mar-94,Villanova University,6-0,183,Chicago Bulls25,Trevor Ariza,30-Jun-85,"University of California, Los Angeles",6-9,225,Houston Rockets26,Darrell Arthur,25-Mar-88,University of Kansas,6-6,222,Denver Nuggets27,Jamel Artis,12-Jan-93,University of Pittsburgh,6-4,220,Orlando Magic28,Omer Asik,4-Jul-86,,6-6,190,Chicago Bulls29,D.J. Augustin,10-Nov-87,University of Texas at Austin,6-0,185,Orlando Magic30,Luke Babbitt,20-Jun-89,"University of Nevada, Reno",6-8,210,Miami Heat31,Dwayne Bacon,30-Aug-95,Florida State University,6-6,175,Charlotte Bobcats32,Ron Baker,30-Mar-93,Wichita State University,6-8,200,New York Knicks33,Wade Baldwin,29-Mar-96,Vanderbilt University,6-3,200,Portland Trail Blazers34,Lonzo Ball,27-Oct-97,"University of California, Los Angeles",6-10,260,Los Angeles Lakers35,Leandro Barbosa,28-Nov-82,,6-5,201,Free Agent36,J.J. Barea,26-Jun-84,Northeastern University,6-5,207,Free Agent37,Harrison Barnes,30-May-92,University of North Carolina,6-5,196,Dallas Mavericks38,Matt Barnes,9-Mar-80,"University of California, Los Angeles",6-9,235,Free Agent39,Will Barton,6-Jan-91,University of Memphis,6-5,210,Denver Nuggets40,Brandon Bass,30-Apr-85,Louisiana State University,6-9,224,Free Agent41,Nicolas Batum,14-Dec-88,,6-6,210,Charlotte Bobcats42,Jerryd Bayless,20-Aug-88,University of Arizona,7-1,225,Philadelphia 76ers43,Aron Baynes,9-Dec-86,Washington State University,6-10,210,Boston Celtics44,Kent Bazemore,1-Jul-89,Old Dominion University,6-1,185,Atlanta Hawks45,Bradley Beal,28-Jun-93,University of Florida,6-9,220,Free Agent46,Malik Beasley,26-Nov-96,Florida State University,6-6,197,Denver Nuggets47,Michael Beasley,9-Jan-89,Kansas State University,6-9,255,New York Knicks48,Marco Belinelli,25-Mar-86,,6-10,240,Philadelphia 76ers49,Jordan Bell,7-Jan-95,University of Oregon,6-9,250,Golden State Warriors50,DeAndre' Bembry,4-Jul-94,Saint Joseph's University,6-4,197,Free Agent51,Dragan Bender,17-Nov-97,,6-1,205,Phoenix Suns52,Anthony Bennett,14-Mar-93,"University of Nevada, Las Vegas",6-4,200,Free Agent53,Ben Bentil,29-Mar-95,Providence College,6-6,205,Free Agent54,Davis Bertans,12-Nov-92,,6-8,216,Free Agent55,Patrick Beverley,12-Jul-88,University of Arkansas,7-0,260,Los Angeles Clippers56,Khem Birch,28-Sep-92,"University of Nevada, Las Vegas",6-9,235,Orlando Magic57,Jabari Bird,3-Jul-94,University of California,6-6,206,Boston Celtics58,Bismack Biyombo,28-Aug-92,,6-8,228,Orlando Magic59,Nemanja Bjelica,9-May-88,,6-2,180,Minnesota Timberwolves60,Tarik Black,22-Nov-91,University of Kansas,6-11,240,Houston Rockets61,Antonio Blakeney,4-Oct-96,Louisiana State University,6-9,186,Chicago Bulls62,Eric Bledsoe,9-Dec-89,University of Kentucky,6-5,215,Milwaukee Bucks63,Vander Blue,17-Jul-92,Marquette University,6-0,161,Los Angeles Lakers64,Bogdan Bogdanovic,18-Aug-92,,6-6,220,Sacramento Kings65,Bojan Bogdanovic,18-Apr-89,,6-2,175,Free Agent66,Andrew Bogut,28-Nov-84,University of Utah,6-7,225,Los Angeles Lakers67,Joel Bolomboy,28-Jan-94,Weber State University,6-5,189,Milwaukee Bucks68,Devin Booker,30-Oct-96,University of Kentucky,6-5,225,Phoenix Suns69,Trevor Booker,25-Nov-87,Clemson University,6-7,195,Indiana Pacers70,Avery Bradley,26-Nov-90,University of Texas at Austin,6-10,248,Los Angeles Clippers71,Tony Bradley,8-Jan-98,University of North Carolina,6-7,205,Utah Jazz72,Corey Brewer,5-Mar-86,University of Florida,6-6,214,Oklahoma City Thunder73,Malcolm Brogdon,11-Dec-92,University of Virginia,6-8,236,Milwaukee Bucks74,Aaron Brooks,14-Jan-85,University of Oregon,6-9,218,Minnesota Timberwolves75,Dillon Brooks,22-Jan-96,University of Oregon,6-3,200,Memphis Grizzlies76,Anthony Brown,10-Oct-92,Stanford University,6-5,205,Minnesota Timberwolves77,Bobby Brown,24-Sep-84,"California State University, Fullerton",6-0,201,Houston Rockets78,Jaylen Brown,24-Oct-96,University of California,6-10,240,Boston Celtics79,Lorenzo Brown,26-Aug-90,North Carolina State University,6-8,215,Toronto Raptors80,Sterling Brown,10-Feb-95,Southern Methodist University,6-6,220,Milwaukee Bucks81,Nicolas Brussino,2-Mar-93,,6-6,190,Atlanta Hawks82,Thomas Bryant,31-Jul-97,Indiana University,6-5,186,Los Angeles Lakers83,Reggie Bullock,16-Mar-91,University of North Carolina,6-9,225,Detroit Pistons84,Trey Burke,12-Nov-92,University of Michigan,7-0,240,New York Knicks85,Alec Burks,20-Jul-91,University of Colorado,6-9,239,Utah Jazz86,Jimmy Butler,14-Sep-89,Marquette University,6-2,190,Minnesota Timberwolves87,Bruno Caboclo,21-Sep-95,,7-1,240,Sacramento Kings88,Jose Calderon,28-Sep-81,,6-8,225,Cleveland Cavaliers89,Kentavious Caldwell-Pope,18-Feb-93,University of Georgia,6-10,233,Los Angeles Lakers90,Isaiah Canaan,21-May-91,Murray State University,6-3,175,Phoenix Suns91,Clint Capela,18-May-94,,6-5,194,Houston Rockets92,DeMarre Carroll,27-Jul-86,University of Missouri,6-4,185,Brooklyn Nets93,Vince Carter,26-Jan-77,University of North Carolina,6-6,195,Sacramento Kings94,Michael Carter-Williams,10-Oct-91,Syracuse University,6-10,235,Charlotte Bobcats95,Alex Caruso,28-Feb-94,Texas A&M University,7-0,232,Los Angeles Lakers96,Omri Casspi,22-Jun-88,,6-6,210,Golden State Warriors97,Willie Cauley-Stein,18-Aug-93,University of Kentucky,6-0,175,Sacramento Kings98,Tyler Cavanaugh,9-Feb-94,George Washington University,6-10,255,Atlanta Hawks99,Mario Chalmers,19-May-86,University of Kansas,6-1,175,Memphis Grizzlies100,Tyson Chandler,2-Oct-82,,6-5,206,Phoenix Suns101,Wilson Chandler,10-May-87,DePaul University,6-2,184,Denver Nuggets102,Marquese Chriss,2-Jul-97,University of Washington,6-5,196,Phoenix Suns103,Rakeem Christmas,1-Dec-91,Syracuse University,6-9,260,Free Agent104,Semaj Christon,1-Nov-92,Xavier University,6-9,245,Free Agent105,Ian Clark,7-Mar-91,Belmont University,6-11,270,New Orleans Hornets106,Jordan Clarkson,7-Jun-92,University of Missouri,6-9,215,Cleveland Cavaliers107,Gian Clavell,26-Nov-93,Colorado State University,6-6,210,Dallas Mavericks108,Antonius Cleveland,2-Feb-94,Southeast Missouri State University,6-6,215,Atlanta Hawks109,Norris Cole,13-Oct-88,Cleveland State University,6-5,200,Free Agent110,John Collins,23-Sep-97,Wake Forest University,6-4,195,Atlanta Hawks111,Zach Collins,19-Nov-97,Gonzaga University,6-6,235,Portland Trail Blazers112,Kyle Collinsworth,3-Oct-91,Brigham Young University,6-8,230,Dallas Mavericks113,Darren Collison,23-Aug-87,"University of California, Los Angeles",6-3,190,Indiana Pacers114,Nick Collison,26-Oct-80,University of Kansas,6-4,205,Oklahoma City Thunder115,Mike Conley,11-Oct-87,Ohio State University,6-10,253,Memphis Grizzlies116,Pat Connaughton,6-Jan-93,University of Notre Dame,6-11,237,Portland Trail Blazers117,Quinn Cook,23-Mar-93,Duke University,6-10,240,Golden State Warriors118,Charles Cooke,1-Jul-94,University of Dayton,7-0,245,New Orleans Hornets119,Jack Cooley,4-Apr-91,University of Notre Dame,6-9,230,Sacramento Kings120,Matt Costello,5-Aug-93,Michigan State University,6-3,190,San Antonio Spurs121,DeMarcus Cousins,13-Aug-90,University of Kentucky,6-4,198,New Orleans Hornets122,Robert Covington,14-Dec-90,Tennessee State University,6-9,220,Philadelphia 76ers123,Allen Crabbe,9-Apr-92,University of California,6-7,221,Brooklyn Nets124,Torrey Craig,19-Dec-90,University of South Carolina Upstate,6-9,220,Denver Nuggets125,Jamal Crawford,20-Mar-80,University of Michigan,6-11,241,Minnesota Timberwolves126,Jordan Crawford,23-Oct-88,Xavier University,6-6,200,New Orleans Hornets127,Jae Crowder,6-Jul-90,Marquette University,6-5,183,Utah Jazz128,Dante Cunningham,22-Apr-87,Villanova University,6-6,205,Brooklyn Nets129,Seth Curry,23-Aug-90,Duke University,6-3,190,Free Agent130,Stephen Curry,14-Mar-88,Davidson College,6-11,279,Golden State Warriors131,Troy Daniels,15-Jul-91,Virginia Commonwealth University,6-7,225,Phoenix Suns132,Anthony Davis,11-Mar-93,University of Kentucky,6-4,210,New Orleans Hornets133,Deyonta Davis,2-Dec-96,Michigan State University,6-9,240,Memphis Grizzlies134,Ed Davis,5-Jun-89,University of North Carolina,6-11,245,Portland Trail Blazers135,Dewayne Dedmon,12-Aug-89,University of Southern California,6-4,200,Atlanta Hawks136,Sam Dekker,6-May-94,University of Wisconsin,7-0,250,Los Angeles Clippers137,Malcolm Delaney,11-Mar-89,Virginia Polytechnic Institute and State University,6-7,210,Atlanta Hawks138,Matthew Dellavedova,8-Sep-90,Saint Mary's College of California,6-3,194,Milwaukee Bucks139,Luol Deng,16-Apr-85,Duke University,6-0,185,Los Angeles Lakers140,DeMar DeRozan,7-Aug-89,University of Southern California,6-6,220,Toronto Raptors141,Cheick Diallo,13-Sep-96,University of Kansas,6-8,228,New Orleans Hornets142,Boris Diaw,16-Apr-82,,6-10,265,Free Agent143,Gorgui Dieng,18-Jan-90,University of Louisville,5-9,176,Minnesota Timberwolves144,Spencer Dinwiddie,6-Apr-93,University of Colorado,6-10,275,Brooklyn Nets145,Tyler Dorsey,14-Feb-96,University of Oregon,6-1,205,Atlanta Hawks146,Damyean Dotson,6-May-94,University of Houston,6-7,184,New York Knicks147,Toney Douglas,16-Mar-86,Florida State University,6-0,180,Free Agent148,Goran Dragic,6-May-86,,6-8,220,Free Agent149,Andre Drummond,10-Aug-93,University of Connecticut,6-3,190,Detroit Pistons150,Jared Dudley,10-Jul-85,Boston College,6-7,205,Phoenix Suns151,Mike Dunleavy,15-Sep-80,Duke University,6-3,170,Free Agent152,Kris Dunn,18-Mar-94,Providence College,6-1,170,Chicago Bulls153,Kevin Durant,29-Sep-88,University of Texas at Austin,6-11,255,Golden State Warriors154,Jarell Eddie,30-Oct-91,Virginia Polytechnic Institute and State University,6-4,195,Chicago Bulls155,Henry Ellenson,13-Jan-97,Marquette University,6-10,225,Detroit Pistons156,Wayne Ellington,29-Oct-87,University of North Carolina,6-2,200,Miami Heat157,Monta Ellis,26-Oct-85,,7-1,255,Free Agent158,Joel Embiid,16-Mar-94,University of Kansas,7-0,250,Philadelphia 76ers159,James Ennis,1-Jul-90,"California State University, Long Beach",6-8,230,Detroit Pistons160,Tyler Ennis,24-Aug-94,Syracuse University,6-9,220,Los Angeles Lakers161,Jawun Evans,26-Jul-96,Oklahoma State University,6-5,216,Los Angeles Clippers162,Tyreke Evans,19-Sep-89,University of Memphis,6-9,225,Memphis Grizzlies163,Dante Exum,13-Jul-95,,6-6,205,Utah Jazz164,Kenneth Faried,19-Nov-89,Morehead State University,7-1,245,Denver Nuggets165,Jordan Farmar,30-Nov-86,"University of California, Los Angeles",6-9,220,Free Agent166,Derrick Favors,15-Jul-91,Georgia Institute of Technology,6-4,215,Utah Jazz167,Kay Felder,29-Mar-95,Oakland University,6-11,240,Detroit Pistons168,Cristiano Felicio,7-Jul-92,,6-6,220,Free Agent169,Raymond Felton,26-Jun-84,University of North Carolina,6-8,210,Oklahoma City Thunder170,Terrance Ferguson,17-May-98,,6-4,195,Oklahoma City Thunder171,Yogi Ferrell,9-May-93,Indiana University,6-6,215,Dallas Mavericks172,Dorian Finney-Smith,4-May-93,University of Florida,6-7,230,Dallas Mavericks173,Bryn Forbes,23-Jul-93,Michigan State University,6-9,227,San Antonio Spurs174,Evan Fournier,29-Oct-92,,6-9,235,Orlando Magic175,De'Aaron Fox,20-Dec-97,University of Kentucky,6-10,251,Sacramento Kings176,Randy Foye,24-Sep-83,Villanova University,6-7,195,Free Agent177,Tim Frazier,1-Nov-90,Pennsylvania State University,6-6,205,Free Agent178,Channing Frye,17-May-83,University of Arizona,6-5,220,Los Angeles Lakers179,Markelle Fultz,29-May-98,University of Washington,6-9,215,Philadelphia 76ers180,Danilo Gallinari,8-Aug-88,,6-8,240,Los Angeles Clippers181,Langston Galloway,9-Dec-91,Saint Joseph's University,6-3,192,Detroit Pistons182,Patricio Garino,17-May-93,George Washington University,6-4,210,Free Agent183,Marc Gasol,29-Jan-85,,6-6,219,Memphis Grizzlies184,Pau Gasol,6-Jul-80,,6-9,235,San Antonio Spurs185,Rudy Gay,17-Aug-86,University of Connecticut,6-6,213,San Antonio Spurs186,Michael Gbinije,5-Jun-92,Syracuse University,6-5,209,Free Agent187,Alonzo Gee,29-May-87,University of Alabama,6-8,235,Free Agent188,Paul George,2-May-90,"California State University, Fresno",6-8,226,Oklahoma City Thunder189,Marcus Georges-Hunt,28-Mar-94,Georgia Institute of Technology,6-11,229,Minnesota Timberwolves190,Jonathan Gibson,8-Nov-87,New Mexico State University,6-9,230,Boston Celtics191,Taj Gibson,24-Jun-85,University of Southern California,6-11,240,Minnesota Timberwolves192,Manu Ginobili,28-Jul-77,,6-8,215,Free Agent193,Rudy Gobert,26-Jun-92,,6-4,214,Utah Jazz194,Archie Goodwin,17-Aug-94,University of Kentucky,6-11,250,Free Agent195,Aaron Gordon,16-Sep-95,University of Arizona,6-3,188,Orlando Magic196,Eric Gordon,25-Dec-88,Indiana University,6-6,205,Houston Rockets197,Marcin Gortat,17-Feb-84,,6-4,205,Free Agent198,Treveon Graham,29-Oct-93,Virginia Commonwealth University,6-6,185,Charlotte Bobcats199,Jerami Grant,12-Mar-94,Syracuse University,6-5,205,Oklahoma City Thunder200,Jerian Grant,9-Oct-92,University of Notre Dame,6-7,220,Chicago Bulls201,Danny Green,22-Jun-87,University of North Carolina,6-10,245,San Antonio Spurs202,Draymond Green,4-Mar-90,Michigan State University,6-8,206,Golden State Warriors203,Gerald Green,26-Jan-86,,6-10,245,Houston Rockets204,JaMychal Green,21-Jun-90,University of Alabama,6-7,207,Memphis Grizzlies205,Jeff Green,28-Aug-86,Georgetown University,6-11,265,Cleveland Cavaliers206,Blake Griffin,16-Mar-89,University of Oklahoma,6-7,230,Detroit Pistons207,Daniel Hamilton,8-Aug-95,University of Connecticut,6-8,208,Oklahoma City Thunder208,Justin Hamilton,1-Apr-90,Louisiana State University,6-10,235,Free Agent209,A.J. Hammons,27-Aug-92,Purdue University,6-6,215,Free Agent210,Tim Hardaway,16-Mar-92,University of Michigan,6-10,235,Free Agent211,James Harden,26-Aug-89,Arizona State University,6-8,226,Houston Rockets212,Maurice Harkless,11-May-93,St. John's University,6-9,190,Free Agent213,Justin Harper,30-Aug-89,University of Richmond,6-3,193,Free Agent214,Montrezl Harrell,26-Jan-94,University of Louisville,6-10,210,Los Angeles Clippers215,Devin Harris,27-Feb-83,University of Wisconsin,6-7,193,Denver Nuggets216,Gary Harris,14-Sep-94,Michigan State University,6-3,200,Denver Nuggets217,Joe Harris,6-Sep-91,University of Virginia,6-1,201,Brooklyn Nets218,Manny Harris,21-Sep-89,University of Michigan,6-8,207,Free Agent219,Tobias Harris,15-Jul-92,University of Tennessee,6-8,200,Los Angeles Clippers220,Aaron Harrison,28-Oct-94,University of Kentucky,6-3,208,Dallas Mavericks221,Andrew Harrison,28-Oct-94,University of Kentucky,6-8,250,Memphis Grizzlies222,Josh Hart,6-Mar-95,Villanova University,6-1,189,Los Angeles Lakers223,Udonis Haslem,9-Jun-80,University of Florida,6-10,289,Miami Heat224,Spencer Hawes,28-Apr-88,University of Washington,6-7,233,Free Agent225,Gordon Hayward,23-Mar-90,Butler University,6-10,231,Boston Celtics226,Gerald Henderson,9-Dec-87,Duke University,6-9,240,Free Agent227,John Henson,28-Dec-90,University of North Carolina,6-10,230,Milwaukee Bucks228,Juan Hernangomez,28-Sep-95,,7-0,255,Free Agent229,Willy Hernangomez,27-May-94,,6-9,250,Free Agent230,Mario Hezonja,25-Feb-95,,6-7,240,Orlando Magic231,Roy Hibbert,11-Dec-86,Georgetown University,6-7,245,Free Agent232,Buddy Hield,17-Dec-93,University of Oklahoma,6-4,186,Sacramento Kings233,Nene Hilario,13-Sep-82,,6-7,215,Free Agent234,George Hill,4-May-86,Indiana University-Purdue University Indianapolis,6-10,250,Cleveland Cavaliers235,Jordan Hill,27-Jul-87,University of Arizona,7-0,245,Free Agent236,Solomon Hill,18-Mar-91,University of Arizona,6-7,190,New Orleans Hornets237,Darrun Hilliard,13-Apr-93,Villanova University,6-7,223,San Antonio Spurs238,Jrue Holiday,12-Jun-90,"University of California, Los Angeles",6-2,195,New Orleans Hornets239,Justin Holiday,5-Apr-89,University of Washington,6-11,265,Chicago Bulls240,John Holland,6-Nov-88,Boston University,6-3,193,Cleveland Cavaliers241,Rondae Hollis-Jefferson,3-Jan-95,University of Arizona,7-0,242,Brooklyn Nets242,Richaun Holmes,15-Oct-93,Bowling Green State University,6-11,245,Philadelphia 76ers243,Rodney Hood,20-Oct-92,Duke University,6-6,206,Cleveland Cavaliers244,Al Horford,3-Jun-86,University of Florida,6-7,232,Boston Celtics245,Danuel House,7-Jun-93,Texas A&M University,6-4,210,Phoenix Suns246,Dwight Howard,8-Dec-85,,6-10,220,Charlotte Bobcats247,Marcelo Huertas,25-May-83,,6-7,185,Free Agent248,Josh Huestis,19-Dec-91,Stanford University,6-7,212,Oklahoma City Thunder249,Kris Humphries,6-Feb-85,University of Minnesota,7-0,265,Free Agent250,R.J. Hunter,24-Oct-93,Georgia State University,6-9,220,Houston Rockets251,Vince Hunter,5-Aug-94,University of Texas at El Paso,6-9,215,Memphis Grizzlies252,Serge Ibaka,18-Sep-89,,6-11,225,Toronto Raptors253,Andre Iguodala,28-Jan-84,University of Arizona,6-5,185,Golden State Warriors254,Ersan Ilyasova,15-May-87,,5-11,175,Philadelphia 76ers255,Joe Ingles,2-Oct-87,,6-11,220,Utah Jazz256,Brandon Ingram,2-Sep-97,Duke University,6-9,210,Los Angeles Lakers257,Kyrie Irving,23-Mar-92,Duke University,6-10,222,Boston Celtics258,Jonathan Isaac,3-Oct-97,Florida State University,6-5,200,Orlando Magic259,Wesley Iwundu,20-Dec-94,Kansas State University,7-1,260,Orlando Magic260,Jarrett Jack,28-Oct-83,Georgia Institute of Technology,6-7,230,New York Knicks261,Demetrius Jackson,7-Sep-94,University of Notre Dame,7-1,245,Philadelphia 76ers262,Josh Jackson,10-Feb-97,University of Kansas,6-10,228,Phoenix Suns263,Justin Jackson,28-Mar-95,University of North Carolina,6-7,203,Sacramento Kings264,Pierre Jackson,29-Aug-91,Baylor University,6-6,209,Free Agent265,Reggie Jackson,16-Apr-90,Boston College,6-3,195,Detroit Pistons266,LeBron James,30-Dec-84,,6-3,200,Cleveland Cavaliers267,Mike James,18-Aug-90,Lamar University,6-7,192,New Orleans Hornets268,Al Jefferson,4-Jan-85,,6-9,220,Indiana Pacers269,Richard Jefferson,21-Jun-80,University of Arizona,7-0,275,Denver Nuggets270,John Jenkins,6-Mar-91,Vanderbilt University,7-0,255,Free Agent271,Brandon Jennings,23-Sep-89,,6-10,251,Milwaukee Bucks272,Jonas Jerebko,2-Mar-87,,6-0,205,Utah Jazz273,Amir Johnson,1-May-87,,6-6,205,Philadelphia 76ers274,Brice Johnson,27-Jun-94,University of North Carolina,6-10,215,Memphis Grizzlies275,Dakari Johnson,22-Sep-95,University of Kentucky,6-10,234,Oklahoma City Thunder276,James Johnson,20-Feb-87,Wake Forest University,6-3,203,Miami Heat277,Joe Johnson,29-Jun-81,University of Arkansas,6-1,160,Houston Rockets278,Stanley Johnson,29-May-96,University of Arizona,6-11,250,Detroit Pistons279,Tyler Johnson,7-May-92,"California State University, Fresno",7-1,216,Miami Heat280,Wesley Johnson,11-Jul-87,Syracuse University,7-3,290,Free Agent281,Nikola Jokic,19-Feb-95,,7-0,230,Free Agent282,Dahntay Jones,27-Dec-80,Duke University,6-10,239,Free Agent283,Damian Jones,30-Jun-95,Vanderbilt University,6-0,189,Golden State Warriors284,Derrick Jones,15-Feb-97,"University of Nevada, Las Vegas",6-10,230,Miami Heat285,Jalen Jones,27-May-93,Texas A&M University,6-5,220,Dallas Mavericks286,James Jones,4-Oct-80,University of Miami,6-8,230,Free Agent287,Terrence Jones,9-Jan-92,University of Kentucky,6-9,230,Free Agent288,Tyus Jones,10-May-96,Duke University,6-7,185,Minnesota Timberwolves289,DeAndre Jordan,21-Jul-88,Texas A&M University,6-3,190,Los Angeles Clippers290,Cory Joseph,20-Aug-91,University of Texas at Austin,6-2,200,Indiana Pacers291,Frank Kaminsky,4-Apr-93,University of Wisconsin,6-11,200,Charlotte Bobcats292,Enes Kanter,20-May-92,,6-8,225,New York Knicks293,Ryan Kelly,9-Apr-91,Duke University,7-0,270,Free Agent294,Luke Kennard,24-Jun-96,Duke University,6-8,215,Detroit Pistons295,Michael Kidd-Gilchrist,26-Sep-93,University of Kentucky,6-5,195,Charlotte Bobcats296,Sean Kilpatrick,6-Jan-90,University of Cincinnati,6-4,210,Chicago Bulls297,Maxi Kleber,29-Jan-92,,7-1,245,Dallas Mavericks298,Brandon Knight,2-Dec-91,University of Kentucky,6-8,235,Free Agent299,Furkan Korkmaz,24-Jul-97,,6-8,234,Philadelphia 76ers300,Kyle Korver,17-Mar-81,Creighton University,6-6,225,Cleveland Cavaliers301,Kosta Koufos,24-Feb-89,Ohio State University,6-8,235,Sacramento Kings302,Kyle Kuzma,24-Jul-95,University of Utah,6-7,210,Los Angeles Lakers303,Mindaugas Kuzminskas,19-Oct-89,,6-0,185,New York Knicks304,Skal Labissiere,18-Mar-96,University of Kentucky,6-8,246,Free Agent305,Jeremy Lamb,30-May-92,University of Connecticut,6-10,220,Charlotte Bobcats306,Nicolas Laprovittola,31-Jan-90,,6-3,211,Free Agent307,Shane Larkin,2-Oct-92,University of Miami,6-3,200,Boston Celtics308,Joffrey Lauvergne,30-Sep-91,,6-11,265,San Antonio Spurs309,Zach LaVine,10-Mar-95,"University of California, Los Angeles",6-4,191,Chicago Bulls310,Ty Lawson,3-Nov-87,University of North Carolina,6-10,238,Free Agent311,Jake Layman,7-Mar-94,University of Maryland,6-9,235,Portland Trail Blazers312,T.J. Leaf,30-Apr-97,"University of California, Los Angeles",6-10,245,Indiana Pacers313,Courtney Lee,3-Oct-85,Western Kentucky University,6-3,175,New York Knicks314,David Lee,29-Apr-83,University of Florida,6-9,238,Free Agent315,Alex Len,16-Jun-93,University of Maryland,7-1,275,Phoenix Suns316,Kawhi Leonard,29-Jun-91,San Diego State University,6-5,200,San Antonio Spurs317,Meyers Leonard,27-Feb-92,University of Illinois at Urbana-Champaign,6-6,223,Portland Trail Blazers318,Jon Leuer,14-May-89,University of Wisconsin,6-5,170,Detroit Pistons319,Caris LeVert,25-Aug-94,University of Michigan,6-4,207,Brooklyn Nets320,DeAndre Liggins,31-Mar-88,University of Kentucky,6-11,240,New Orleans Hornets321,Damian Lillard,15-Jul-90,Weber State University,6-6,230,Portland Trail Blazers322,Jeremy Lin,23-Aug-88,Harvard University,6-9,230,Brooklyn Nets323,Shaun Livingston,11-Sep-85,,6-1,175,Golden State Warriors324,Shawn Long,29-Jan-93,University of Louisiana at Lafayette,6-0,190,Free Agent325,Kevon Looney,6-Feb-96,"University of California, Los Angeles",6-1,179,Golden State Warriors326,Brook Lopez,1-Apr-88,Stanford University,6-11,230,Los Angeles Lakers327,Robin Lopez,1-Apr-88,Stanford University,6-11,228,Chicago Bulls328,Kevin Love,7-Sep-88,"University of California, Los Angeles",7-0,241,Cleveland Cavaliers329,Kyle Lowry,25-Mar-86,Villanova University,7-0,245,Toronto Raptors330,John Lucas III,21-Nov-82,Oklahoma State University,6-5,190,Free Agent331,Timothe Luwawu-Cabarrot,9-May-95,,7-0,280,Free Agent332,Tyler Lydon,9-Apr-96,Syracuse University,6-4,209,Denver Nuggets333,Trey Lyles,5-Nov-95,University of Kentucky,6-9,257,Denver Nuggets334,Sheldon Mac,21-Dec-92,University of Miami,6-6,215,Free Agent335,Shelvin Mack,22-Apr-90,Butler University,6-10,250,Orlando Magic336,Josh Magette,28-Nov-89,Alabama - Huntsville,6-7,241,Atlanta Hawks337,Ian Mahinmi,5-Nov-86,,6-11,275,Free Agent338,Thon Maker,25-Feb-97,,6-4,210,Milwaukee Bucks339,Boban Marjanovic,15-Aug-88,,7-0,238,Free Agent340,Lauri Markkanen,22-May-97,University of Arizona,6-8,210,Chicago Bulls341,Jarell Martin,24-May-94,Louisiana State University,6-7,205,Memphis Grizzlies342,Frank Mason,3-Apr-94,University of Kansas,6-11,270,Sacramento Kings343,Mangok Mathiang,8-Oct-92,University of Louisville,6-1,175,Charlotte Bobcats344,Wesley Matthews,14-Oct-86,Marquette University,7-1,240,Dallas Mavericks345,Luc Mbah a Moute,9-Sep-86,"University of California, Los Angeles",6-2,185,Free Agent346,James Michael McAdoo,4-Jan-93,University of North Carolina,6-10,230,Philadelphia 76ers347,Patrick McCaw,25-Oct-95,"University of Nevada, Las Vegas",6-9,230,Golden State Warriors348,C.J. McCollum,19-Sep-91,Lehigh University,6-4,200,Portland Trail Blazers349,T.J. McConnell,25-Mar-92,University of Arizona,6-0,175,Philadelphia 76ers350,Chris McCullough,5-Feb-95,Syracuse University,6-10,237,Free Agent351,K.J. McDaniels,9-Feb-93,Clemson University,6-4,185,Free Agent352,Doug McDermott,3-Jan-92,Creighton University,6-3,190,Dallas Mavericks353,JaVale McGee,19-Jan-88,"University of Nevada, Reno",6-2,200,Golden State Warriors354,Rodney McGruder,29-Jul-91,Kansas State University,6-9,232,Miami Heat355,Alfonzo McKinnie,17-Sep-92,University of Wisconsin-Green Bay,6-11,245,Toronto Raptors356,Ben McLemore,11-Feb-93,University of Kansas,6-11,249,Memphis Grizzlies357,Jordan McRae,28-Mar-91,University of Tennessee,7-0,248,Free Agent358,Josh McRoberts,28-Feb-87,Duke University,6-7,220,Dallas Mavericks359,Jodie Meeks,21-Aug-87,University of Kentucky,6-8,198,Free Agent360,Salah Mejri,15-Jun-86,,6-11,230,Dallas Mavericks361,Jordan Mickey,9-Jul-94,Louisiana State University,7-3,240,Miami Heat362,Khris Middleton,12-Aug-91,Texas A&M University,6-11,240,Milwaukee Bucks363,C.J. Miles,18-Apr-87,,6-4,215,Toronto Raptors364,Darius Miller,21-Mar-90,University of Kentucky,6-7,238,New Orleans Hornets365,Malcolm Miller,6-Mar-93,College of the Holy Cross,6-1,200,Toronto Raptors366,Mike Miller,19-Feb-80,University of Florida,7-1,210,Free Agent367,Patty Mills,11-Aug-88,Saint Mary's College of California,6-10,220,Free Agent368,Elijah Millsap,12-Aug-87,University of Alabama at Birmingham,6-9,250,Free Agent369,Paul Millsap,10-Feb-85,Louisiana Tech University,6-9,260,Denver Nuggets370,Nikola Mirotic,11-Feb-91,,6-4,190,Free Agent371,Donovan Mitchell,7-Sep-96,University of Louisville,6-10,220,Utah Jazz372,Malik Monk,4-Feb-98,University of Kentucky,6-6,200,Charlotte Bobcats373,Greg Monroe,4-Jun-90,Georgetown University,6-6,205,Boston Celtics374,E'Twaun Moore,28-Feb-89,Purdue University,6-4,200,New Orleans Hornets375,Eric Moreland,24-Dec-91,Oregon State University,6-7,210,Detroit Pistons376,Marcus Morris,2-Sep-89,University of Kansas,6-1,186,Boston Celtics377,Markieff Morris,2-Sep-89,University of Kansas,6-3,190,Free Agent378,Monte Morris,27-Jun-95,Iowa State University,6-7,206,Denver Nuggets379,Anthony Morrow,27-Sep-85,Georgia Institute of Technology,6-2,190,Free Agent380,Donatas Motiejunas,20-Sep-90,,6-4,194,Free Agent381,Johnathan Motley,4-May-95,Baylor University,6-5,195,Dallas Mavericks382,Timofey Mozgov,16-Jul-86,,6-11,240,Brooklyn Nets383,Emmanuel Mudiay,5-Mar-96,,6-9,214,New York Knicks384,Shabazz Muhammad,13-Nov-92,"University of California, Los Angeles",6-10,223,Milwaukee Bucks385,Dejounte Murray,19-Sep-96,University of Washington,6-7,210,San Antonio Spurs386,Jamal Murray,23-Feb-97,University of Kentucky,6-1,172,Denver Nuggets387,Mike Muscala,1-Jul-91,Bucknell University,6-8,237,Atlanta Hawks388,Abdel Nader,25-Sep-93,Iowa State University,6-7,220,Boston Celtics389,Larry Nance,1-Jan-93,University of Wyoming,6-5,230,Free Agent390,Shabazz Napier,14-Jul-91,University of Connecticut,6-3,190,Portland Trail Blazers391,Maurice Ndour,18-Jun-92,Ohio University,6-5,220,Free Agent392,Gary Neal,3-Oct-84,Towson University,6-9,230,Free Agent393,Jameer Nelson,9-Feb-82,Saint Joseph's University,6-10,230,Detroit Pistons394,Raul Neto,19-May-92,,6-6,195,Free Agent395,Georges Niang,17-Jun-93,Iowa State University,6-5,166,Utah Jazz396,Andrew Nicholson,8-Dec-89,St. Bonaventure University,6-8,228,Free Agent397,Joakim Noah,25-Feb-85,University of Florida,6-4,220,New York Knicks398,Nerlens Noel,10-Apr-94,University of Kentucky,6-3,195,Dallas Mavericks399,Lucas Nogueira,26-Jul-92,,6-0,175,Toronto Raptors400,Steve Novak,13-Jun-83,Marquette University,6-6,225,Free Agent401,Dirk Nowitzki,19-Jun-78,,7-0,245,Dallas Mavericks402,Frank Ntilikina,28-Jul-98,,6-9,225,New York Knicks403,Jusuf Nurkic,23-Aug-94,,6-7,200,Portland Trail Blazers404,David Nwaba,14-Jan-93,"California Polytechnic State University, San Luis Obispo",6-10,255,Chicago Bulls405,Johnny O'Bryant,1-Jun-93,Louisiana State University,6-6,205,Charlotte Bobcats406,Royce O'Neale,5-Jun-93,Baylor University,6-5,230,Utah Jazz407,Kyle O'Quinn,26-Mar-90,Norfolk State University,6-6,200,New York Knicks408,Daniel Ochefu,15-Dec-93,Villanova University,6-8,250,Free Agent409,Semi Ojeleye,5-Dec-94,Southern Methodist University,6-8,205,Boston Celtics410,Jahlil Okafor,15-Dec-95,Duke University,6-3,170,Brooklyn Nets411,Victor Oladipo,4-May-92,Indiana University,6-2,186,Indiana Pacers412,Kelly Olynyk,19-Apr-91,Gonzaga University,6-9,242,Miami Heat413,Arinze Onuaku,13-Jul-87,Syracuse University,6-6,195,Free Agent414,Chinanu Onuaku,1-Nov-96,University of Louisville,6-5,196,Houston Rockets415,Cedi Osman,8-Apr-95,,6-2,185,Cleveland Cavaliers416,Kelly Oubre,9-Dec-95,University of Kansas,6-9,215,Free Agent417,Zaza Pachulia,10-Feb-84,,6-8,235,Golden State Warriors418,Marcus Paige,11-Sep-93,University of North Carolina,6-7,215,Charlotte Bobcats419,Georgios Papagiannis,3-Jul-97,,6-9,238,Portland Trail Blazers420,Jabari Parker,15-Mar-95,Duke University,6-5,212,Milwaukee Bucks421,Tony Parker,17-May-82,,6-8,240,San Antonio Spurs422,Chandler Parsons,25-Oct-88,University of Florida,7-0,244,Memphis Grizzlies423,Lamar Patterson,12-Aug-91,University of Pittsburgh,6-6,245,Free Agent424,Patrick Patterson,14-Mar-89,University of Kentucky,6-7,220,Oklahoma City Thunder425,Brandon Paul,30-Apr-91,University of Illinois at Urbana-Champaign,6-11,243,San Antonio Spurs426,Chris Paul,6-May-85,Wake Forest University,6-10,240,Houston Rockets427,Adreian Payne,19-Feb-91,Michigan State University,5-10,150,Orlando Magic428,Cameron Payne,8-Aug-94,Murray State University,7-0,265,Chicago Bulls429,Elfrid Payton,22-Feb-94,University of Louisiana at Lafayette,6-6,212,Phoenix Suns430,Gary Payton,1-Dec-92,Oregon State University,6-0,195,Free Agent431,London Perrantes,3-Oct-94,University of Virginia,6-6,202,Cleveland Cavaliers432,Alec Peters,13-Apr-95,Valparaiso University,6-10,240,Phoenix Suns433,Paul Pierce,13-Oct-77,University of Kansas,7-0,260,Free Agent434,Marshall Plumlee,14-Jul-92,Duke University,6-4,220,Milwaukee Bucks435,Mason Plumlee,5-Mar-90,Duke University,6-4,225,Denver Nuggets436,Miles Plumlee,1-Sep-88,Duke University,6-1,172,Atlanta Hawks437,Jakob Poeltl,15-Oct-95,University of Utah,6-4,195,Free Agent438,Quincy Pondexter,10-Mar-88,University of Washington,6-8,220,Chicago Bulls439,Otto Porter,3-Jun-93,Georgetown University,6-1,189,Free Agent440,Bobby Portis,10-Feb-95,University of Arkansas,6-8,230,Chicago Bulls441,Kristaps Porzingis,2-Aug-95,,6-2,165,Free Agent442,Dwight Powell,20-Jul-91,Stanford University,6-9,250,Dallas Mavericks443,Norman Powell,25-May-93,"University of California, Los Angeles",6-3,200,Toronto Raptors444,Alex Poythress,6-Sep-93,University of Kentucky,6-5,190,Indiana Pacers445,Ronnie Price,21-Jun-83,Utah Valley State College,6-8,204,Free Agent446,Jacob Pullen,10-Nov-89,Kansas State University,6-4,213,Philadelphia 76ers447,Zhou Qi,16-Jan-96,,7-0,265,Houston Rockets448,Tim Quarterman,27-Oct-94,Louisiana State University,6-8,199,Houston Rockets449,Ivan Rabb,4-Feb-97,University of California,6-7,215,Memphis Grizzlies450,Chasson Randle,5-Feb-93,Stanford University,6-6,225,Free Agent451,Julius Randle,29-Nov-94,University of Kentucky,6-5,225,Los Angeles Lakers452,Zach Randolph,16-Jul-81,Michigan State University,6-1,175,Sacramento Kings453,J.J. Redick,24-Jun-84,Duke University,6-9,237,Philadelphia 76ers454,Willie Reed,16-May-90,Saint Louis University,6-5,210,Detroit Pistons455,Josh Richardson,15-Sep-93,University of Tennessee,6-7,218,Miami Heat456,Malachi Richardson,5-Jan-96,Syracuse University,6-10,234,Toronto Raptors457,Austin Rivers,1-Aug-92,Duke University,6-7,230,Los Angeles Clippers458,Andre Roberson,4-Dec-91,University of Colorado,6-7,225,Free Agent459,Brian Roberts,3-Dec-85,University of Dayton,7-0,231,Free Agent460,Glenn Robinson,8-Jan-94,University of Michigan,6-4,190,Indiana Pacers461,Thomas Robinson,17-Mar-91,University of Kansas,6-10,210,Free Agent462,Sergio Rodriguez,12-Jun-86,,6-5,183,Free Agent463,Rajon Rondo,22-Feb-86,University of Kentucky,6-7,260,New Orleans Hornets464,Derrick Rose,4-Oct-88,University of Memphis,6-2,180,Minnesota Timberwolves465,Terrence Ross,5-Feb-91,University of Washington,6-7,210,Orlando Magic466,Terry Rozier,17-Mar-94,University of Louisville,6-8,221,Boston Celtics467,Ricky Rubio,21-Oct-90,,7-0,240,Utah Jazz468,Damjan Rudez,17-Jun-86,,7-0,253,Free Agent469,Brandon Rush,7-Jul-85,University of Kansas,6-8,215,Free Agent470,D'Angelo Russell,23-Feb-96,Ohio State University,6-11,250,Brooklyn Nets471,Domantas Sabonis,3-May-96,Gonzaga University,7-1,265,Indiana Pacers472,JaKarr Sampson,20-Mar-93,St. John's University,,,Sacramento Kings473,Larry Sanders,21-Nov-88,Virginia Commonwealth University,,,Free Agent474,Dario Saric,8-Apr-94,,,,Philadelphia 76ers475,Tomas Satoransky,30-Oct-91,,,,Free Agent476,Dennis Schroder,15-Sep-93,,,,Free Agent477,Luis Scola,30-Apr-80,,,,Free Agent478,Mike Scott,16-Jul-88,University of Virginia,,,Free Agent479,Thabo Sefolosha,2-May-84,,,,Utah Jazz480,Wayne Selden,30-Sep-94,University of Kansas,,,Memphis Grizzlies481,Kevin Seraphin,7-Dec-89,,,,Free Agent482,Ramon Sessions,11-Apr-86,"University of Nevada, Reno",,,Free Agent483,Iman Shumpert,26-Jun-90,Georgia Institute of Technology,,,Cleveland Cavaliers484,Pascal Siakam,4-Feb-94,New Mexico State University,,,Toronto Raptors485,Ben Simmons,20-Jul-96,Louisiana State University,,,Philadelphia 76ers486,Jonathon Simmons,14-Sep-89,University of Houston,,,Orlando Magic487,Kobi Simmons,4-Jul-97,University of Arizona,,,Memphis Grizzlies488,Kyle Singler,4-May-88,Duke University,,,Oklahoma City Thunder489,Marcus Smart,6-Mar-94,Oklahoma State University,,,Boston Celtics490,Dennis Smith,25-Nov-97,North Carolina State University,,,Dallas Mavericks491,Ish Smith,5-Jul-88,Wake Forest University,,,Free Agent492,J.R. Smith,9-Sep-85,,,,Cleveland Cavaliers493,Jason Smith,2-Mar-86,Colorado State University,,,Free Agent494,Josh Smith,5-Dec-85,,,,New Orleans Hornets495,Tony Snell,10-Nov-91,University of New Mexico,,,Milwaukee Bucks496,Marreese Speights,4-Aug-87,University of Florida,,,Orlando Magic497,Tiago Splitter,1-Jan-85,,,,Free Agent498,Nik Stauskas,7-Oct-93,University of Michigan,,,Brooklyn Nets499,Lance Stephenson,5-Sep-90,University of Cincinnati,,,Indiana Pacers500,Jarnell Stokes,7-Jan-94,University of Tennessee,,,Free Agent501,Diamond Stone,10-Feb-97,University of Maryland,,,Free Agent502,Julyan Stone,7-Dec-88,University of Texas at El Paso,,,Charlotte Bobcats503,Rodney Stuckey,21-Apr-86,Eastern Washington University,,,Free Agent504,Jared Sullinger,4-Mar-92,Ohio State University,,,Free Agent505,Caleb Swanigan,18-Apr-97,Purdue University,,,Portland Trail Blazers506,Jayson Tatum,3-Mar-98,Duke University,,,Boston Celtics507,Edy Tavares,22-Mar-92,,,,Free Agent508,Isaiah Taylor,11-Jul-94,University of Texas at Austin,,,Atlanta Hawks509,Jeff Teague,10-Jun-88,Wake Forest University,,,Minnesota Timberwolves510,Mirza Teletovic,18-Sep-85,,,,Free Agent511,Garrett Temple,8-May-86,Louisiana State University,,,Sacramento Kings512,Milos Teodosic,19-Mar-87,,,,Los Angeles Clippers513,Jason Terry,15-Sep-77,University of Arizona,,,Milwaukee Bucks514,Daniel Theis,4-Apr-92,,,,Boston Celtics515,Isaiah Thomas,7-Feb-89,University of Washington,,,Los Angeles Lakers516,Lance Thomas,24-Apr-88,Duke University,,,New York Knicks517,Hollis Thompson,3-Apr-91,Georgetown University,,,Free Agent518,Klay Thompson,8-Feb-90,Washington State University,,,Golden State Warriors519,Tristan Thompson,13-Mar-91,University of Texas at Austin,,,Cleveland Cavaliers520,Marcus Thornton,5-Jun-87,Louisiana State University,,,Free Agent521,Sindarius Thornwell,15-Nov-94,University of South Carolina,,,Los Angeles Clippers522,Mike Tobey,10-Oct-94,University of Virginia,,,Free Agent523,Anthony Tolliver,1-Jun-85,Creighton University,,,Detroit Pistons524,Axel Toupane,23-Jul-92,,,,Free Agent525,Karl-Anthony Towns,15-Nov-95,University of Kentucky,,,Minnesota Timberwolves526,P.J. Tucker,5-May-85,University of Texas at Austin,,,Houston Rockets527,Evan Turner,27-Oct-88,Ohio State University,,,Portland Trail Blazers528,Myles Turner,24-Mar-96,University of Texas at Austin,,,Indiana Pacers529,Ekpe Udoh,20-May-87,Baylor University,,,Utah Jazz530,Beno Udrih,5-Jul-82,,,,Free Agent531,Tyler Ulis,5-Jan-96,University of Kentucky,,,Phoenix Suns532,Jarrod Uthoff,19-May-93,University of Iowa,,,Free Agent533,Jonas Valanciunas,6-May-92,,,,Free Agent534,Denzel Valentine,16-Nov-93,Michigan State University,,,Chicago Bulls535,Fred VanVleet,25-Feb-94,Wichita State University,,,Toronto Raptors536,Anderson Varejao,28-Sep-82,,,,Free Agent537,Greivis Vasquez,16-Jan-87,University of Maryland,,,Free Agent538,Rashad Vaughn,16-Aug-96,"University of Nevada, Las Vegas",,,Orlando Magic539,Noah Vonleh,24-Aug-95,Indiana University,,,Chicago Bulls540,Nikola Vucevic,24-Oct-90,University of Southern California,,,Free Agent541,Sasha Vujacic,8-Mar-84,,,,Free Agent542,Dwyane Wade,17-Jan-82,Marquette University,,,Miami Heat543,Dion Waiters,10-Dec-91,Syracuse University,,,Miami Heat544,Kemba Walker,8-May-90,University of Connecticut,,,Charlotte Bobcats545,John Wall,6-Sep-90,University of Kentucky,,,Free Agent546,Taurean Waller-Prince,22-Mar-94,Baylor University,,,Free Agent547,Derrick Walton,3-Apr-95,University of Michigan,,,Miami Heat548,T.J. Warren,5-Sep-93,North Carolina State University,,,Phoenix Suns549,C.J. Watson,17-Apr-84,University of Tennessee,,,Free Agent550,Briante Weber,29-Dec-92,Virginia Commonwealth University,,,Memphis Grizzlies551,David West,29-Aug-80,Xavier University,,,Golden State Warriors552,Russell Westbrook,12-Nov-88,"University of California, Los Angeles",,,Oklahoma City Thunder553,Derrick White,2-Jul-94,University of Colorado,,,San Antonio Spurs554,Okaro White,13-Aug-92,Florida State University,,,Miami Heat555,Isaiah Whitehead,8-Mar-95,Seton Hall University,,,Brooklyn Nets556,Hassan Whiteside,13-Jun-89,Marshall University,,,Miami Heat557,Andrew Wiggins,23-Feb-95,University of Kansas,,,Minnesota Timberwolves558,C.J. Wilcox,30-Dec-90,University of Washington,,,Free Agent559,Jacob Wiley,4-Sep-94,Eastern Washington University,,,Brooklyn Nets560,Damien Wilkins,11-Jan-80,University of Georgia,,,Indiana Pacers561,Alan Williams,28-Jan-93,"University of California, Santa Barbara",,,Phoenix Suns562,C.J. Williams,6-Feb-90,North Carolina State University,,,Los Angeles Clippers563,Deron Williams,26-Jun-84,University of Illinois at Urbana-Champaign,,,Free Agent564,Derrick Williams,25-May-91,University of Arizona,,,Los Angeles Lakers565,Lou Williams,27-Oct-86,,,,Los Angeles Clippers566,Marvin Williams,19-Jun-86,University of North Carolina,,,Charlotte Bobcats567,Matt Williams,14-Oct-93,University of Central Florida,,,Miami Heat568,Reggie Williams,14-Sep-86,Virginia Military Institute,,,Free Agent569,Troy Williams,30-Dec-94,Indiana University,,,New York Knicks570,D.J. Wilson,19-Feb-96,University of Michigan,,,Milwaukee Bucks571,Jamil Wilson,21-Nov-90,Marquette University,,,Los Angeles Clippers572,Kyle Wiltjer,20-Oct-92,Gonzaga University,,,Free Agent573,Justise Winslow,26-Mar-96,Duke University,,,Miami Heat574,Jeff Withey,7-Mar-90,University of Kansas,,,Dallas Mavericks575,Nate Wolters,15-May-91,South Dakota State University,,,Utah Jazz576,Christian Wood,27-Sep-95,"University of Nevada, Las Vegas",,,Free Agent577,Metta World Peace,13-Nov-79,St. John's University,,,Free Agent578,Brandan Wright,5-Oct-87,University of North Carolina,,,Houston Rockets579,Delon Wright,26-Apr-92,University of Utah,,,Toronto Raptors580,Guerschon Yabusele,17-Dec-95,,,,Boston Celtics581,James Young,16-Aug-95,University of Kentucky,,,Philadelphia 76ers582,Joe Young,27-Jun-92,University of Oregon,,,Free Agent583,Nick Young,1-Jun-85,University of Southern California,,,Golden State Warriors584,Thaddeus Young,21-Jun-88,Georgia Institute of Technology,,,Indiana Pacers585,Cody Zeller,5-Oct-92,Indiana University,,,Charlotte Bobcats586,Tyler Zeller,17-Jan-90,University of North Carolina,,,Milwaukee Bucks587,Stephen Zimmerman,9-Sep-96,"University of Nevada, Las Vegas",,,Free Agent588,Paul Zipser,18-Feb-94,,,,Chicago Bulls589,Ante Zizic,4-Jan-97,,,,Free Agent590,Ivica Zubac,18-Mar-97,,,,Los Angeles Lakers
+pid,name,birthdate,college,height,weight,current_team
+1,Alex Abrines,1-Aug-93,,78,190,Free Agent
+2,Quincy Acy,6-Oct-90,Baylor University,79,240,Brooklyn Nets
+3,Steven Adams,20-Jul-93,University of Pittsburgh,84,255,Oklahoma City Thunder
+4,Bam Adebayo,18-Jul-97,University of Kentucky,82,243,Miami Heat
+5,Arron Afflalo,15-Oct-85,"University of California, Los Angeles",77,210,Orlando Magic
+6,Alexis Ajinca,6-May-88,,83,250,Free Agent
+7,Cole Aldrich,31-Oct-88,University of Kansas,83,260,Minnesota Timberwolves
+8,LaMarcus Aldridge,19-Jul-85,University of Texas at Austin,82,234,San Antonio Spurs
+9,Jarrett Allen,21-Apr-98,University of Texas at Austin,75,192,Brooklyn Nets
+10,Kadeem Allen,15-Jan-93,University of Arizona,76,213,Boston Celtics
+11,Lavoy Allen,4-Feb-89,Temple University,81,220,Free Agent
+12,Tony Allen,11-Jan-82,Oklahoma State University,78,228,New Orleans Hornets
+13,Al-Farouq Aminu,21-Sep-90,Wake Forest University,81,230,Portland Trail Blazers
+14,Chris Andersen,7-Jul-78,Blinn College,82,240,Free Agent
+15,Alan Anderson,16-Oct-82,Michigan State University,82,252,Free Agent
+16,Justin Anderson,19-Nov-93,University of Virginia,83,222,Philadelphia 76ers
+17,Kyle Anderson,20-Sep-93,"University of California, Los Angeles",80,240,San Antonio Spurs
+18,Ryan Anderson,6-May-88,University of California,80,232,Houston Rockets
+19,Ike Anigbogu,22-Oct-98,"University of California, Los Angeles",75,188,Indiana Pacers
+20,Giannis Antetokounmpo,6-Dec-94,,80,215,Milwaukee Bucks
+21,Carmelo Anthony,29-May-84,Syracuse University,81,235,Oklahoma City Thunder
+22,Joel Anthony,9-Aug-82,"University of Nevada, Las Vegas",79,213,Free Agent
+23,OG Anunoby,17-Jul-97,Indiana University,84,255,Toronto Raptors
+24,Ryan Arcidiacono,26-Mar-94,Villanova University,72,183,Chicago Bulls
+25,Trevor Ariza,30-Jun-85,"University of California, Los Angeles",81,225,Houston Rockets
+26,Darrell Arthur,25-Mar-88,University of Kansas,78,222,Denver Nuggets
+27,Jamel Artis,12-Jan-93,University of Pittsburgh,76,220,Orlando Magic
+28,Omer Asik,4-Jul-86,,78,190,Chicago Bulls
+29,D.J. Augustin,10-Nov-87,University of Texas at Austin,72,185,Orlando Magic
+30,Luke Babbitt,20-Jun-89,"University of Nevada, Reno",80,210,Miami Heat
+31,Dwayne Bacon,30-Aug-95,Florida State University,78,175,Charlotte Bobcats
+32,Ron Baker,30-Mar-93,Wichita State University,80,200,New York Knicks
+33,Wade Baldwin,29-Mar-96,Vanderbilt University,75,200,Portland Trail Blazers
+34,Lonzo Ball,27-Oct-97,"University of California, Los Angeles",82,260,Los Angeles Lakers
+35,Leandro Barbosa,28-Nov-82,,77,201,Free Agent
+36,J.J. Barea,26-Jun-84,Northeastern University,77,207,Free Agent
+37,Harrison Barnes,30-May-92,University of North Carolina,77,196,Dallas Mavericks
+38,Matt Barnes,9-Mar-80,"University of California, Los Angeles",81,235,Free Agent
+39,Will Barton,6-Jan-91,University of Memphis,77,210,Denver Nuggets
+40,Brandon Bass,30-Apr-85,Louisiana State University,81,224,Free Agent
+41,Nicolas Batum,14-Dec-88,,78,210,Charlotte Bobcats
+42,Jerryd Bayless,20-Aug-88,University of Arizona,85,225,Philadelphia 76ers
+43,Aron Baynes,9-Dec-86,Washington State University,82,210,Boston Celtics
+44,Kent Bazemore,1-Jul-89,Old Dominion University,73,185,Atlanta Hawks
+45,Bradley Beal,28-Jun-93,University of Florida,81,220,Free Agent
+46,Malik Beasley,26-Nov-96,Florida State University,78,197,Denver Nuggets
+47,Michael Beasley,9-Jan-89,Kansas State University,81,255,New York Knicks
+48,Marco Belinelli,25-Mar-86,,82,240,Philadelphia 76ers
+49,Jordan Bell,7-Jan-95,University of Oregon,81,250,Golden State Warriors
+50,DeAndre' Bembry,4-Jul-94,Saint Joseph's University,76,197,Free Agent
+51,Dragan Bender,17-Nov-97,,73,205,Phoenix Suns
+52,Anthony Bennett,14-Mar-93,"University of Nevada, Las Vegas",76,200,Free Agent
+53,Ben Bentil,29-Mar-95,Providence College,78,205,Free Agent
+54,Davis Bertans,12-Nov-92,,80,216,Free Agent
+55,Patrick Beverley,12-Jul-88,University of Arkansas,84,260,Los Angeles Clippers
+56,Khem Birch,28-Sep-92,"University of Nevada, Las Vegas",81,235,Orlando Magic
+57,Jabari Bird,3-Jul-94,University of California,78,206,Boston Celtics
+58,Bismack Biyombo,28-Aug-92,,80,228,Orlando Magic
+59,Nemanja Bjelica,9-May-88,,74,180,Minnesota Timberwolves
+60,Tarik Black,22-Nov-91,University of Kansas,83,240,Houston Rockets
+61,Antonio Blakeney,4-Oct-96,Louisiana State University,81,186,Chicago Bulls
+62,Eric Bledsoe,9-Dec-89,University of Kentucky,77,215,Milwaukee Bucks
+63,Vander Blue,17-Jul-92,Marquette University,72,161,Los Angeles Lakers
+64,Bogdan Bogdanovic,18-Aug-92,,78,220,Sacramento Kings
+65,Bojan Bogdanovic,18-Apr-89,,74,175,Free Agent
+66,Andrew Bogut,28-Nov-84,University of Utah,79,225,Los Angeles Lakers
+67,Joel Bolomboy,28-Jan-94,Weber State University,77,189,Milwaukee Bucks
+68,Devin Booker,30-Oct-96,University of Kentucky,77,225,Phoenix Suns
+69,Trevor Booker,25-Nov-87,Clemson University,79,195,Indiana Pacers
+70,Avery Bradley,26-Nov-90,University of Texas at Austin,82,248,Los Angeles Clippers
+71,Tony Bradley,8-Jan-98,University of North Carolina,79,205,Utah Jazz
+72,Corey Brewer,5-Mar-86,University of Florida,78,214,Oklahoma City Thunder
+73,Malcolm Brogdon,11-Dec-92,University of Virginia,80,236,Milwaukee Bucks
+74,Aaron Brooks,14-Jan-85,University of Oregon,81,218,Minnesota Timberwolves
+75,Dillon Brooks,22-Jan-96,University of Oregon,75,200,Memphis Grizzlies
+76,Anthony Brown,10-Oct-92,Stanford University,77,205,Minnesota Timberwolves
+77,Bobby Brown,24-Sep-84,"California State University, Fullerton",72,201,Houston Rockets
+78,Jaylen Brown,24-Oct-96,University of California,82,240,Boston Celtics
+79,Lorenzo Brown,26-Aug-90,North Carolina State University,80,215,Toronto Raptors
+80,Sterling Brown,10-Feb-95,Southern Methodist University,78,220,Milwaukee Bucks
+81,Nicolas Brussino,2-Mar-93,,78,190,Atlanta Hawks
+82,Thomas Bryant,31-Jul-97,Indiana University,77,186,Los Angeles Lakers
+83,Reggie Bullock,16-Mar-91,University of North Carolina,81,225,Detroit Pistons
+84,Trey Burke,12-Nov-92,University of Michigan,84,240,New York Knicks
+85,Alec Burks,20-Jul-91,University of Colorado,81,239,Utah Jazz
+86,Jimmy Butler,14-Sep-89,Marquette University,74,190,Minnesota Timberwolves
+87,Bruno Caboclo,21-Sep-95,,85,240,Sacramento Kings
+88,Jose Calderon,28-Sep-81,,80,225,Cleveland Cavaliers
+89,Kentavious Caldwell-Pope,18-Feb-93,University of Georgia,82,233,Los Angeles Lakers
+90,Isaiah Canaan,21-May-91,Murray State University,75,175,Phoenix Suns
+91,Clint Capela,18-May-94,,77,194,Houston Rockets
+92,DeMarre Carroll,27-Jul-86,University of Missouri,76,185,Brooklyn Nets
+93,Vince Carter,26-Jan-77,University of North Carolina,78,195,Sacramento Kings
+94,Michael Carter-Williams,10-Oct-91,Syracuse University,82,235,Charlotte Bobcats
+95,Alex Caruso,28-Feb-94,Texas A&M University,84,232,Los Angeles Lakers
+96,Omri Casspi,22-Jun-88,,78,210,Golden State Warriors
+97,Willie Cauley-Stein,18-Aug-93,University of Kentucky,72,175,Sacramento Kings
+98,Tyler Cavanaugh,9-Feb-94,George Washington University,82,255,Atlanta Hawks
+99,Mario Chalmers,19-May-86,University of Kansas,73,175,Memphis Grizzlies
+100,Tyson Chandler,2-Oct-82,,77,206,Phoenix Suns
+101,Wilson Chandler,10-May-87,DePaul University,74,184,Denver Nuggets
+102,Marquese Chriss,2-Jul-97,University of Washington,77,196,Phoenix Suns
+103,Rakeem Christmas,1-Dec-91,Syracuse University,81,260,Free Agent
+104,Semaj Christon,1-Nov-92,Xavier University,81,245,Free Agent
+105,Ian Clark,7-Mar-91,Belmont University,83,270,New Orleans Hornets
+106,Jordan Clarkson,7-Jun-92,University of Missouri,81,215,Cleveland Cavaliers
+107,Gian Clavell,26-Nov-93,Colorado State University,78,210,Dallas Mavericks
+108,Antonius Cleveland,2-Feb-94,Southeast Missouri State University,78,215,Atlanta Hawks
+109,Norris Cole,13-Oct-88,Cleveland State University,77,200,Free Agent
+110,John Collins,23-Sep-97,Wake Forest University,76,195,Atlanta Hawks
+111,Zach Collins,19-Nov-97,Gonzaga University,78,235,Portland Trail Blazers
+112,Kyle Collinsworth,3-Oct-91,Brigham Young University,80,230,Dallas Mavericks
+113,Darren Collison,23-Aug-87,"University of California, Los Angeles",75,190,Indiana Pacers
+114,Nick Collison,26-Oct-80,University of Kansas,76,205,Oklahoma City Thunder
+115,Mike Conley,11-Oct-87,Ohio State University,82,253,Memphis Grizzlies
+116,Pat Connaughton,6-Jan-93,University of Notre Dame,83,237,Portland Trail Blazers
+117,Quinn Cook,23-Mar-93,Duke University,82,240,Golden State Warriors
+118,Charles Cooke,1-Jul-94,University of Dayton,84,245,New Orleans Hornets
+119,Jack Cooley,4-Apr-91,University of Notre Dame,81,230,Sacramento Kings
+120,Matt Costello,5-Aug-93,Michigan State University,75,190,San Antonio Spurs
+121,DeMarcus Cousins,13-Aug-90,University of Kentucky,76,198,New Orleans Hornets
+122,Robert Covington,14-Dec-90,Tennessee State University,81,220,Philadelphia 76ers
+123,Allen Crabbe,9-Apr-92,University of California,79,221,Brooklyn Nets
+124,Torrey Craig,19-Dec-90,University of South Carolina Upstate,81,220,Denver Nuggets
+125,Jamal Crawford,20-Mar-80,University of Michigan,83,241,Minnesota Timberwolves
+126,Jordan Crawford,23-Oct-88,Xavier University,78,200,New Orleans Hornets
+127,Jae Crowder,6-Jul-90,Marquette University,77,183,Utah Jazz
+128,Dante Cunningham,22-Apr-87,Villanova University,78,205,Brooklyn Nets
+129,Seth Curry,23-Aug-90,Duke University,75,190,Free Agent
+130,Stephen Curry,14-Mar-88,Davidson College,83,279,Golden State Warriors
+131,Troy Daniels,15-Jul-91,Virginia Commonwealth University,79,225,Phoenix Suns
+132,Anthony Davis,11-Mar-93,University of Kentucky,76,210,New Orleans Hornets
+133,Deyonta Davis,2-Dec-96,Michigan State University,81,240,Memphis Grizzlies
+134,Ed Davis,5-Jun-89,University of North Carolina,83,245,Portland Trail Blazers
+135,Dewayne Dedmon,12-Aug-89,University of Southern California,76,200,Atlanta Hawks
+136,Sam Dekker,6-May-94,University of Wisconsin,84,250,Los Angeles Clippers
+137,Malcolm Delaney,11-Mar-89,Virginia Polytechnic Institute and State University,79,210,Atlanta Hawks
+138,Matthew Dellavedova,8-Sep-90,Saint Mary's College of California,75,194,Milwaukee Bucks
+139,Luol Deng,16-Apr-85,Duke University,72,185,Los Angeles Lakers
+140,DeMar DeRozan,7-Aug-89,University of Southern California,78,220,Toronto Raptors
+141,Cheick Diallo,13-Sep-96,University of Kansas,80,228,New Orleans Hornets
+142,Boris Diaw,16-Apr-82,,82,265,Free Agent
+143,Gorgui Dieng,18-Jan-90,University of Louisville,69,176,Minnesota Timberwolves
+144,Spencer Dinwiddie,6-Apr-93,University of Colorado,82,275,Brooklyn Nets
+145,Tyler Dorsey,14-Feb-96,University of Oregon,73,205,Atlanta Hawks
+146,Damyean Dotson,6-May-94,University of Houston,79,184,New York Knicks
+147,Toney Douglas,16-Mar-86,Florida State University,72,180,Free Agent
+148,Goran Dragic,6-May-86,,80,220,Free Agent
+149,Andre Drummond,10-Aug-93,University of Connecticut,75,190,Detroit Pistons
+150,Jared Dudley,10-Jul-85,Boston College,79,205,Phoenix Suns
+151,Mike Dunleavy,15-Sep-80,Duke University,75,170,Free Agent
+152,Kris Dunn,18-Mar-94,Providence College,73,170,Chicago Bulls
+153,Kevin Durant,29-Sep-88,University of Texas at Austin,83,255,Golden State Warriors
+154,Jarell Eddie,30-Oct-91,Virginia Polytechnic Institute and State University,76,195,Chicago Bulls
+155,Henry Ellenson,13-Jan-97,Marquette University,82,225,Detroit Pistons
+156,Wayne Ellington,29-Oct-87,University of North Carolina,74,200,Miami Heat
+157,Monta Ellis,26-Oct-85,,85,255,Free Agent
+158,Joel Embiid,16-Mar-94,University of Kansas,84,250,Philadelphia 76ers
+159,James Ennis,1-Jul-90,"California State University, Long Beach",80,230,Detroit Pistons
+160,Tyler Ennis,24-Aug-94,Syracuse University,81,220,Los Angeles Lakers
+161,Jawun Evans,26-Jul-96,Oklahoma State University,77,216,Los Angeles Clippers
+162,Tyreke Evans,19-Sep-89,University of Memphis,81,225,Memphis Grizzlies
+163,Dante Exum,13-Jul-95,,78,205,Utah Jazz
+164,Kenneth Faried,19-Nov-89,Morehead State University,85,245,Denver Nuggets
+165,Jordan Farmar,30-Nov-86,"University of California, Los Angeles",81,220,Free Agent
+166,Derrick Favors,15-Jul-91,Georgia Institute of Technology,76,215,Utah Jazz
+167,Kay Felder,29-Mar-95,Oakland University,83,240,Detroit Pistons
+168,Cristiano Felicio,7-Jul-92,,78,220,Free Agent
+169,Raymond Felton,26-Jun-84,University of North Carolina,80,210,Oklahoma City Thunder
+170,Terrance Ferguson,17-May-98,,76,195,Oklahoma City Thunder
+171,Yogi Ferrell,9-May-93,Indiana University,78,215,Dallas Mavericks
+172,Dorian Finney-Smith,4-May-93,University of Florida,79,230,Dallas Mavericks
+173,Bryn Forbes,23-Jul-93,Michigan State University,81,227,San Antonio Spurs
+174,Evan Fournier,29-Oct-92,,81,235,Orlando Magic
+175,De'Aaron Fox,20-Dec-97,University of Kentucky,82,251,Sacramento Kings
+176,Randy Foye,24-Sep-83,Villanova University,79,195,Free Agent
+177,Tim Frazier,1-Nov-90,Pennsylvania State University,78,205,Free Agent
+178,Channing Frye,17-May-83,University of Arizona,77,220,Los Angeles Lakers
+179,Markelle Fultz,29-May-98,University of Washington,81,215,Philadelphia 76ers
+180,Danilo Gallinari,8-Aug-88,,80,240,Los Angeles Clippers
+181,Langston Galloway,9-Dec-91,Saint Joseph's University,75,192,Detroit Pistons
+182,Patricio Garino,17-May-93,George Washington University,76,210,Free Agent
+183,Marc Gasol,29-Jan-85,,78,219,Memphis Grizzlies
+184,Pau Gasol,6-Jul-80,,81,235,San Antonio Spurs
+185,Rudy Gay,17-Aug-86,University of Connecticut,78,213,San Antonio Spurs
+186,Michael Gbinije,5-Jun-92,Syracuse University,77,209,Free Agent
+187,Alonzo Gee,29-May-87,University of Alabama,80,235,Free Agent
+188,Paul George,2-May-90,"California State University, Fresno",80,226,Oklahoma City Thunder
+189,Marcus Georges-Hunt,28-Mar-94,Georgia Institute of Technology,83,229,Minnesota Timberwolves
+190,Jonathan Gibson,8-Nov-87,New Mexico State University,81,230,Boston Celtics
+191,Taj Gibson,24-Jun-85,University of Southern California,83,240,Minnesota Timberwolves
+192,Manu Ginobili,28-Jul-77,,80,215,Free Agent
+193,Rudy Gobert,26-Jun-92,,76,214,Utah Jazz
+194,Archie Goodwin,17-Aug-94,University of Kentucky,83,250,Free Agent
+195,Aaron Gordon,16-Sep-95,University of Arizona,75,188,Orlando Magic
+196,Eric Gordon,25-Dec-88,Indiana University,78,205,Houston Rockets
+197,Marcin Gortat,17-Feb-84,,76,205,Free Agent
+198,Treveon Graham,29-Oct-93,Virginia Commonwealth University,78,185,Charlotte Bobcats
+199,Jerami Grant,12-Mar-94,Syracuse University,77,205,Oklahoma City Thunder
+200,Jerian Grant,9-Oct-92,University of Notre Dame,79,220,Chicago Bulls
+201,Danny Green,22-Jun-87,University of North Carolina,82,245,San Antonio Spurs
+202,Draymond Green,4-Mar-90,Michigan State University,80,206,Golden State Warriors
+203,Gerald Green,26-Jan-86,,82,245,Houston Rockets
+204,JaMychal Green,21-Jun-90,University of Alabama,79,207,Memphis Grizzlies
+205,Jeff Green,28-Aug-86,Georgetown University,83,265,Cleveland Cavaliers
+206,Blake Griffin,16-Mar-89,University of Oklahoma,79,230,Detroit Pistons
+207,Daniel Hamilton,8-Aug-95,University of Connecticut,80,208,Oklahoma City Thunder
+208,Justin Hamilton,1-Apr-90,Louisiana State University,82,235,Free Agent
+209,A.J. Hammons,27-Aug-92,Purdue University,78,215,Free Agent
+210,Tim Hardaway,16-Mar-92,University of Michigan,82,235,Free Agent
+211,James Harden,26-Aug-89,Arizona State University,80,226,Houston Rockets
+212,Maurice Harkless,11-May-93,St. John's University,81,190,Free Agent
+213,Justin Harper,30-Aug-89,University of Richmond,75,193,Free Agent
+214,Montrezl Harrell,26-Jan-94,University of Louisville,82,210,Los Angeles Clippers
+215,Devin Harris,27-Feb-83,University of Wisconsin,79,193,Denver Nuggets
+216,Gary Harris,14-Sep-94,Michigan State University,75,200,Denver Nuggets
+217,Joe Harris,6-Sep-91,University of Virginia,73,201,Brooklyn Nets
+218,Manny Harris,21-Sep-89,University of Michigan,80,207,Free Agent
+219,Tobias Harris,15-Jul-92,University of Tennessee,80,200,Los Angeles Clippers
+220,Aaron Harrison,28-Oct-94,University of Kentucky,75,208,Dallas Mavericks
+221,Andrew Harrison,28-Oct-94,University of Kentucky,80,250,Memphis Grizzlies
+222,Josh Hart,6-Mar-95,Villanova University,73,189,Los Angeles Lakers
+223,Udonis Haslem,9-Jun-80,University of Florida,82,289,Miami Heat
+224,Spencer Hawes,28-Apr-88,University of Washington,79,233,Free Agent
+225,Gordon Hayward,23-Mar-90,Butler University,82,231,Boston Celtics
+226,Gerald Henderson,9-Dec-87,Duke University,81,240,Free Agent
+227,John Henson,28-Dec-90,University of North Carolina,82,230,Milwaukee Bucks
+228,Juan Hernangomez,28-Sep-95,,84,255,Free Agent
+229,Willy Hernangomez,27-May-94,,81,250,Free Agent
+230,Mario Hezonja,25-Feb-95,,79,240,Orlando Magic
+231,Roy Hibbert,11-Dec-86,Georgetown University,79,245,Free Agent
+232,Buddy Hield,17-Dec-93,University of Oklahoma,76,186,Sacramento Kings
+233,Nene Hilario,13-Sep-82,,79,215,Free Agent
+234,George Hill,4-May-86,Indiana University-Purdue University Indianapolis,82,250,Cleveland Cavaliers
+235,Jordan Hill,27-Jul-87,University of Arizona,84,245,Free Agent
+236,Solomon Hill,18-Mar-91,University of Arizona,79,190,New Orleans Hornets
+237,Darrun Hilliard,13-Apr-93,Villanova University,79,223,San Antonio Spurs
+238,Jrue Holiday,12-Jun-90,"University of California, Los Angeles",74,195,New Orleans Hornets
+239,Justin Holiday,5-Apr-89,University of Washington,83,265,Chicago Bulls
+240,John Holland,6-Nov-88,Boston University,75,193,Cleveland Cavaliers
+241,Rondae Hollis-Jefferson,3-Jan-95,University of Arizona,84,242,Brooklyn Nets
+242,Richaun Holmes,15-Oct-93,Bowling Green State University,83,245,Philadelphia 76ers
+243,Rodney Hood,20-Oct-92,Duke University,78,206,Cleveland Cavaliers
+244,Al Horford,3-Jun-86,University of Florida,79,232,Boston Celtics
+245,Danuel House,7-Jun-93,Texas A&M University,76,210,Phoenix Suns
+246,Dwight Howard,8-Dec-85,,82,220,Charlotte Bobcats
+247,Marcelo Huertas,25-May-83,,79,185,Free Agent
+248,Josh Huestis,19-Dec-91,Stanford University,79,212,Oklahoma City Thunder
+249,Kris Humphries,6-Feb-85,University of Minnesota,84,265,Free Agent
+250,R.J. Hunter,24-Oct-93,Georgia State University,81,220,Houston Rockets
+251,Vince Hunter,5-Aug-94,University of Texas at El Paso,81,215,Memphis Grizzlies
+252,Serge Ibaka,18-Sep-89,,83,225,Toronto Raptors
+253,Andre Iguodala,28-Jan-84,University of Arizona,77,185,Golden State Warriors
+254,Ersan Ilyasova,15-May-87,,71,175,Philadelphia 76ers
+255,Joe Ingles,2-Oct-87,,83,220,Utah Jazz
+256,Brandon Ingram,2-Sep-97,Duke University,81,210,Los Angeles Lakers
+257,Kyrie Irving,23-Mar-92,Duke University,82,222,Boston Celtics
+258,Jonathan Isaac,3-Oct-97,Florida State University,77,200,Orlando Magic
+259,Wesley Iwundu,20-Dec-94,Kansas State University,85,260,Orlando Magic
+260,Jarrett Jack,28-Oct-83,Georgia Institute of Technology,79,230,New York Knicks
+261,Demetrius Jackson,7-Sep-94,University of Notre Dame,85,245,Philadelphia 76ers
+262,Josh Jackson,10-Feb-97,University of Kansas,82,228,Phoenix Suns
+263,Justin Jackson,28-Mar-95,University of North Carolina,79,203,Sacramento Kings
+264,Pierre Jackson,29-Aug-91,Baylor University,78,209,Free Agent
+265,Reggie Jackson,16-Apr-90,Boston College,75,195,Detroit Pistons
+266,LeBron James,30-Dec-84,,75,200,Cleveland Cavaliers
+267,Mike James,18-Aug-90,Lamar University,79,192,New Orleans Hornets
+268,Al Jefferson,4-Jan-85,,81,220,Indiana Pacers
+269,Richard Jefferson,21-Jun-80,University of Arizona,84,275,Denver Nuggets
+270,John Jenkins,6-Mar-91,Vanderbilt University,84,255,Free Agent
+271,Brandon Jennings,23-Sep-89,,82,251,Milwaukee Bucks
+272,Jonas Jerebko,2-Mar-87,,72,205,Utah Jazz
+273,Amir Johnson,1-May-87,,78,205,Philadelphia 76ers
+274,Brice Johnson,27-Jun-94,University of North Carolina,82,215,Memphis Grizzlies
+275,Dakari Johnson,22-Sep-95,University of Kentucky,82,234,Oklahoma City Thunder
+276,James Johnson,20-Feb-87,Wake Forest University,75,203,Miami Heat
+277,Joe Johnson,29-Jun-81,University of Arkansas,73,160,Houston Rockets
+278,Stanley Johnson,29-May-96,University of Arizona,83,250,Detroit Pistons
+279,Tyler Johnson,7-May-92,"California State University, Fresno",85,216,Miami Heat
+280,Wesley Johnson,11-Jul-87,Syracuse University,87,290,Free Agent
+281,Nikola Jokic,19-Feb-95,,84,230,Free Agent
+282,Dahntay Jones,27-Dec-80,Duke University,82,239,Free Agent
+283,Damian Jones,30-Jun-95,Vanderbilt University,72,189,Golden State Warriors
+284,Derrick Jones,15-Feb-97,"University of Nevada, Las Vegas",82,230,Miami Heat
+285,Jalen Jones,27-May-93,Texas A&M University,77,220,Dallas Mavericks
+286,James Jones,4-Oct-80,University of Miami,80,230,Free Agent
+287,Terrence Jones,9-Jan-92,University of Kentucky,81,230,Free Agent
+288,Tyus Jones,10-May-96,Duke University,79,185,Minnesota Timberwolves
+289,DeAndre Jordan,21-Jul-88,Texas A&M University,75,190,Los Angeles Clippers
+290,Cory Joseph,20-Aug-91,University of Texas at Austin,74,200,Indiana Pacers
+291,Frank Kaminsky,4-Apr-93,University of Wisconsin,83,200,Charlotte Bobcats
+292,Enes Kanter,20-May-92,,80,225,New York Knicks
+293,Ryan Kelly,9-Apr-91,Duke University,84,270,Free Agent
+294,Luke Kennard,24-Jun-96,Duke University,80,215,Detroit Pistons
+295,Michael Kidd-Gilchrist,26-Sep-93,University of Kentucky,77,195,Charlotte Bobcats
+296,Sean Kilpatrick,6-Jan-90,University of Cincinnati,76,210,Chicago Bulls
+297,Maxi Kleber,29-Jan-92,,85,245,Dallas Mavericks
+298,Brandon Knight,2-Dec-91,University of Kentucky,80,235,Free Agent
+299,Furkan Korkmaz,24-Jul-97,,80,234,Philadelphia 76ers
+300,Kyle Korver,17-Mar-81,Creighton University,78,225,Cleveland Cavaliers
+301,Kosta Koufos,24-Feb-89,Ohio State University,80,235,Sacramento Kings
+302,Kyle Kuzma,24-Jul-95,University of Utah,79,210,Los Angeles Lakers
+303,Mindaugas Kuzminskas,19-Oct-89,,72,185,New York Knicks
+304,Skal Labissiere,18-Mar-96,University of Kentucky,80,246,Free Agent
+305,Jeremy Lamb,30-May-92,University of Connecticut,82,220,Charlotte Bobcats
+306,Nicolas Laprovittola,31-Jan-90,,75,211,Free Agent
+307,Shane Larkin,2-Oct-92,University of Miami,75,200,Boston Celtics
+308,Joffrey Lauvergne,30-Sep-91,,83,265,San Antonio Spurs
+309,Zach LaVine,10-Mar-95,"University of California, Los Angeles",76,191,Chicago Bulls
+310,Ty Lawson,3-Nov-87,University of North Carolina,82,238,Free Agent
+311,Jake Layman,7-Mar-94,University of Maryland,81,235,Portland Trail Blazers
+312,T.J. Leaf,30-Apr-97,"University of California, Los Angeles",82,245,Indiana Pacers
+313,Courtney Lee,3-Oct-85,Western Kentucky University,75,175,New York Knicks
+314,David Lee,29-Apr-83,University of Florida,81,238,Free Agent
+315,Alex Len,16-Jun-93,University of Maryland,85,275,Phoenix Suns
+316,Kawhi Leonard,29-Jun-91,San Diego State University,77,200,San Antonio Spurs
+317,Meyers Leonard,27-Feb-92,University of Illinois at Urbana-Champaign,78,223,Portland Trail Blazers
+318,Jon Leuer,14-May-89,University of Wisconsin,77,170,Detroit Pistons
+319,Caris LeVert,25-Aug-94,University of Michigan,76,207,Brooklyn Nets
+320,DeAndre Liggins,31-Mar-88,University of Kentucky,83,240,New Orleans Hornets
+321,Damian Lillard,15-Jul-90,Weber State University,78,230,Portland Trail Blazers
+322,Jeremy Lin,23-Aug-88,Harvard University,81,230,Brooklyn Nets
+323,Shaun Livingston,11-Sep-85,,73,175,Golden State Warriors
+324,Shawn Long,29-Jan-93,University of Louisiana at Lafayette,72,190,Free Agent
+325,Kevon Looney,6-Feb-96,"University of California, Los Angeles",73,179,Golden State Warriors
+326,Brook Lopez,1-Apr-88,Stanford University,83,230,Los Angeles Lakers
+327,Robin Lopez,1-Apr-88,Stanford University,83,228,Chicago Bulls
+328,Kevin Love,7-Sep-88,"University of California, Los Angeles",84,241,Cleveland Cavaliers
+329,Kyle Lowry,25-Mar-86,Villanova University,84,245,Toronto Raptors
+330,John Lucas III,21-Nov-82,Oklahoma State University,77,190,Free Agent
+331,Timothe Luwawu-Cabarrot,9-May-95,,84,280,Free Agent
+332,Tyler Lydon,9-Apr-96,Syracuse University,76,209,Denver Nuggets
+333,Trey Lyles,5-Nov-95,University of Kentucky,81,257,Denver Nuggets
+334,Sheldon Mac,21-Dec-92,University of Miami,78,215,Free Agent
+335,Shelvin Mack,22-Apr-90,Butler University,82,250,Orlando Magic
+336,Josh Magette,28-Nov-89,Alabama - Huntsville,79,241,Atlanta Hawks
+337,Ian Mahinmi,5-Nov-86,,83,275,Free Agent
+338,Thon Maker,25-Feb-97,,76,210,Milwaukee Bucks
+339,Boban Marjanovic,15-Aug-88,,84,238,Free Agent
+340,Lauri Markkanen,22-May-97,University of Arizona,80,210,Chicago Bulls
+341,Jarell Martin,24-May-94,Louisiana State University,79,205,Memphis Grizzlies
+342,Frank Mason,3-Apr-94,University of Kansas,83,270,Sacramento Kings
+343,Mangok Mathiang,8-Oct-92,University of Louisville,73,175,Charlotte Bobcats
+344,Wesley Matthews,14-Oct-86,Marquette University,85,240,Dallas Mavericks
+345,Luc Mbah a Moute,9-Sep-86,"University of California, Los Angeles",74,185,Free Agent
+346,James Michael McAdoo,4-Jan-93,University of North Carolina,82,230,Philadelphia 76ers
+347,Patrick McCaw,25-Oct-95,"University of Nevada, Las Vegas",81,230,Golden State Warriors
+348,C.J. McCollum,19-Sep-91,Lehigh University,76,200,Portland Trail Blazers
+349,T.J. McConnell,25-Mar-92,University of Arizona,72,175,Philadelphia 76ers
+350,Chris McCullough,5-Feb-95,Syracuse University,82,237,Free Agent
+351,K.J. McDaniels,9-Feb-93,Clemson University,76,185,Free Agent
+352,Doug McDermott,3-Jan-92,Creighton University,75,190,Dallas Mavericks
+353,JaVale McGee,19-Jan-88,"University of Nevada, Reno",74,200,Golden State Warriors
+354,Rodney McGruder,29-Jul-91,Kansas State University,81,232,Miami Heat
+355,Alfonzo McKinnie,17-Sep-92,University of Wisconsin-Green Bay,83,245,Toronto Raptors
+356,Ben McLemore,11-Feb-93,University of Kansas,83,249,Memphis Grizzlies
+357,Jordan McRae,28-Mar-91,University of Tennessee,84,248,Free Agent
+358,Josh McRoberts,28-Feb-87,Duke University,79,220,Dallas Mavericks
+359,Jodie Meeks,21-Aug-87,University of Kentucky,80,198,Free Agent
+360,Salah Mejri,15-Jun-86,,83,230,Dallas Mavericks
+361,Jordan Mickey,9-Jul-94,Louisiana State University,87,240,Miami Heat
+362,Khris Middleton,12-Aug-91,Texas A&M University,83,240,Milwaukee Bucks
+363,C.J. Miles,18-Apr-87,,76,215,Toronto Raptors
+364,Darius Miller,21-Mar-90,University of Kentucky,79,238,New Orleans Hornets
+365,Malcolm Miller,6-Mar-93,College of the Holy Cross,73,200,Toronto Raptors
+366,Mike Miller,19-Feb-80,University of Florida,85,210,Free Agent
+367,Patty Mills,11-Aug-88,Saint Mary's College of California,82,220,Free Agent
+368,Elijah Millsap,12-Aug-87,University of Alabama at Birmingham,81,250,Free Agent
+369,Paul Millsap,10-Feb-85,Louisiana Tech University,81,260,Denver Nuggets
+370,Nikola Mirotic,11-Feb-91,,76,190,Free Agent
+371,Donovan Mitchell,7-Sep-96,University of Louisville,82,220,Utah Jazz
+372,Malik Monk,4-Feb-98,University of Kentucky,78,200,Charlotte Bobcats
+373,Greg Monroe,4-Jun-90,Georgetown University,78,205,Boston Celtics
+374,E'Twaun Moore,28-Feb-89,Purdue University,76,200,New Orleans Hornets
+375,Eric Moreland,24-Dec-91,Oregon State University,79,210,Detroit Pistons
+376,Marcus Morris,2-Sep-89,University of Kansas,73,186,Boston Celtics
+377,Markieff Morris,2-Sep-89,University of Kansas,75,190,Free Agent
+378,Monte Morris,27-Jun-95,Iowa State University,79,206,Denver Nuggets
+379,Anthony Morrow,27-Sep-85,Georgia Institute of Technology,74,190,Free Agent
+380,Donatas Motiejunas,20-Sep-90,,76,194,Free Agent
+381,Johnathan Motley,4-May-95,Baylor University,77,195,Dallas Mavericks
+382,Timofey Mozgov,16-Jul-86,,83,240,Brooklyn Nets
+383,Emmanuel Mudiay,5-Mar-96,,81,214,New York Knicks
+384,Shabazz Muhammad,13-Nov-92,"University of California, Los Angeles",82,223,Milwaukee Bucks
+385,Dejounte Murray,19-Sep-96,University of Washington,79,210,San Antonio Spurs
+386,Jamal Murray,23-Feb-97,University of Kentucky,73,172,Denver Nuggets
+387,Mike Muscala,1-Jul-91,Bucknell University,80,237,Atlanta Hawks
+388,Abdel Nader,25-Sep-93,Iowa State University,79,220,Boston Celtics
+389,Larry Nance,1-Jan-93,University of Wyoming,77,230,Free Agent
+390,Shabazz Napier,14-Jul-91,University of Connecticut,75,190,Portland Trail Blazers
+391,Maurice Ndour,18-Jun-92,Ohio University,77,220,Free Agent
+392,Gary Neal,3-Oct-84,Towson University,81,230,Free Agent
+393,Jameer Nelson,9-Feb-82,Saint Joseph's University,82,230,Detroit Pistons
+394,Raul Neto,19-May-92,,78,195,Free Agent
+395,Georges Niang,17-Jun-93,Iowa State University,77,166,Utah Jazz
+396,Andrew Nicholson,8-Dec-89,St. Bonaventure University,80,228,Free Agent
+397,Joakim Noah,25-Feb-85,University of Florida,76,220,New York Knicks
+398,Nerlens Noel,10-Apr-94,University of Kentucky,75,195,Dallas Mavericks
+399,Lucas Nogueira,26-Jul-92,,72,175,Toronto Raptors
+400,Steve Novak,13-Jun-83,Marquette University,78,225,Free Agent
+401,Dirk Nowitzki,19-Jun-78,,84,245,Dallas Mavericks
+402,Frank Ntilikina,28-Jul-98,,81,225,New York Knicks
+403,Jusuf Nurkic,23-Aug-94,,79,200,Portland Trail Blazers
+404,David Nwaba,14-Jan-93,"California Polytechnic State University, San Luis Obispo",82,255,Chicago Bulls
+405,Johnny O'Bryant,1-Jun-93,Louisiana State University,78,205,Charlotte Bobcats
+406,Royce O'Neale,5-Jun-93,Baylor University,77,230,Utah Jazz
+407,Kyle O'Quinn,26-Mar-90,Norfolk State University,78,200,New York Knicks
+408,Daniel Ochefu,15-Dec-93,Villanova University,80,250,Free Agent
+409,Semi Ojeleye,5-Dec-94,Southern Methodist University,80,205,Boston Celtics
+410,Jahlil Okafor,15-Dec-95,Duke University,75,170,Brooklyn Nets
+411,Victor Oladipo,4-May-92,Indiana University,74,186,Indiana Pacers
+412,Kelly Olynyk,19-Apr-91,Gonzaga University,81,242,Miami Heat
+413,Arinze Onuaku,13-Jul-87,Syracuse University,78,195,Free Agent
+414,Chinanu Onuaku,1-Nov-96,University of Louisville,77,196,Houston Rockets
+415,Cedi Osman,8-Apr-95,,74,185,Cleveland Cavaliers
+416,Kelly Oubre,9-Dec-95,University of Kansas,81,215,Free Agent
+417,Zaza Pachulia,10-Feb-84,,80,235,Golden State Warriors
+418,Marcus Paige,11-Sep-93,University of North Carolina,79,215,Charlotte Bobcats
+419,Georgios Papagiannis,3-Jul-97,,81,238,Portland Trail Blazers
+420,Jabari Parker,15-Mar-95,Duke University,77,212,Milwaukee Bucks
+421,Tony Parker,17-May-82,,80,240,San Antonio Spurs
+422,Chandler Parsons,25-Oct-88,University of Florida,84,244,Memphis Grizzlies
+423,Lamar Patterson,12-Aug-91,University of Pittsburgh,78,245,Free Agent
+424,Patrick Patterson,14-Mar-89,University of Kentucky,79,220,Oklahoma City Thunder
+425,Brandon Paul,30-Apr-91,University of Illinois at Urbana-Champaign,83,243,San Antonio Spurs
+426,Chris Paul,6-May-85,Wake Forest University,82,240,Houston Rockets
+427,Adreian Payne,19-Feb-91,Michigan State University,70,150,Orlando Magic
+428,Cameron Payne,8-Aug-94,Murray State University,84,265,Chicago Bulls
+429,Elfrid Payton,22-Feb-94,University of Louisiana at Lafayette,78,212,Phoenix Suns
+430,Gary Payton,1-Dec-92,Oregon State University,72,195,Free Agent
+431,London Perrantes,3-Oct-94,University of Virginia,78,202,Cleveland Cavaliers
+432,Alec Peters,13-Apr-95,Valparaiso University,82,240,Phoenix Suns
+433,Paul Pierce,13-Oct-77,University of Kansas,84,260,Free Agent
+434,Marshall Plumlee,14-Jul-92,Duke University,76,220,Milwaukee Bucks
+435,Mason Plumlee,5-Mar-90,Duke University,76,225,Denver Nuggets
+436,Miles Plumlee,1-Sep-88,Duke University,73,172,Atlanta Hawks
+437,Jakob Poeltl,15-Oct-95,University of Utah,76,195,Free Agent
+438,Quincy Pondexter,10-Mar-88,University of Washington,80,220,Chicago Bulls
+439,Otto Porter,3-Jun-93,Georgetown University,73,189,Free Agent
+440,Bobby Portis,10-Feb-95,University of Arkansas,80,230,Chicago Bulls
+441,Kristaps Porzingis,2-Aug-95,,74,165,Free Agent
+442,Dwight Powell,20-Jul-91,Stanford University,81,250,Dallas Mavericks
+443,Norman Powell,25-May-93,"University of California, Los Angeles",75,200,Toronto Raptors
+444,Alex Poythress,6-Sep-93,University of Kentucky,77,190,Indiana Pacers
+445,Ronnie Price,21-Jun-83,Utah Valley State College,80,204,Free Agent
+446,Jacob Pullen,10-Nov-89,Kansas State University,76,213,Philadelphia 76ers
+447,Zhou Qi,16-Jan-96,,84,265,Houston Rockets
+448,Tim Quarterman,27-Oct-94,Louisiana State University,80,199,Houston Rockets
+449,Ivan Rabb,4-Feb-97,University of California,79,215,Memphis Grizzlies
+450,Chasson Randle,5-Feb-93,Stanford University,78,225,Free Agent
+451,Julius Randle,29-Nov-94,University of Kentucky,77,225,Los Angeles Lakers
+452,Zach Randolph,16-Jul-81,Michigan State University,73,175,Sacramento Kings
+453,J.J. Redick,24-Jun-84,Duke University,81,237,Philadelphia 76ers
+454,Willie Reed,16-May-90,Saint Louis University,77,210,Detroit Pistons
+455,Josh Richardson,15-Sep-93,University of Tennessee,79,218,Miami Heat
+456,Malachi Richardson,5-Jan-96,Syracuse University,82,234,Toronto Raptors
+457,Austin Rivers,1-Aug-92,Duke University,79,230,Los Angeles Clippers
+458,Andre Roberson,4-Dec-91,University of Colorado,79,225,Free Agent
+459,Brian Roberts,3-Dec-85,University of Dayton,84,231,Free Agent
+460,Glenn Robinson,8-Jan-94,University of Michigan,76,190,Indiana Pacers
+461,Thomas Robinson,17-Mar-91,University of Kansas,82,210,Free Agent
+462,Sergio Rodriguez,12-Jun-86,,77,183,Free Agent
+463,Rajon Rondo,22-Feb-86,University of Kentucky,79,260,New Orleans Hornets
+464,Derrick Rose,4-Oct-88,University of Memphis,74,180,Minnesota Timberwolves
+465,Terrence Ross,5-Feb-91,University of Washington,79,210,Orlando Magic
+466,Terry Rozier,17-Mar-94,University of Louisville,80,221,Boston Celtics
+467,Ricky Rubio,21-Oct-90,,84,240,Utah Jazz
+468,Damjan Rudez,17-Jun-86,,84,253,Free Agent
+469,Brandon Rush,7-Jul-85,University of Kansas,80,215,Free Agent
+470,D'Angelo Russell,23-Feb-96,Ohio State University,83,250,Brooklyn Nets
+471,Domantas Sabonis,3-May-96,Gonzaga University,85,265,Indiana Pacers
+472,JaKarr Sampson,20-Mar-93,St. John's University,,,Sacramento Kings
+473,Larry Sanders,21-Nov-88,Virginia Commonwealth University,,,Free Agent
+474,Dario Saric,8-Apr-94,,,,Philadelphia 76ers
+475,Tomas Satoransky,30-Oct-91,,,,Free Agent
+476,Dennis Schroder,15-Sep-93,,,,Free Agent
+477,Luis Scola,30-Apr-80,,,,Free Agent
+478,Mike Scott,16-Jul-88,University of Virginia,,,Free Agent
+479,Thabo Sefolosha,2-May-84,,,,Utah Jazz
+480,Wayne Selden,30-Sep-94,University of Kansas,,,Memphis Grizzlies
+481,Kevin Seraphin,7-Dec-89,,,,Free Agent
+482,Ramon Sessions,11-Apr-86,"University of Nevada, Reno",,,Free Agent
+483,Iman Shumpert,26-Jun-90,Georgia Institute of Technology,,,Cleveland Cavaliers
+484,Pascal Siakam,4-Feb-94,New Mexico State University,,,Toronto Raptors
+485,Ben Simmons,20-Jul-96,Louisiana State University,,,Philadelphia 76ers
+486,Jonathon Simmons,14-Sep-89,University of Houston,,,Orlando Magic
+487,Kobi Simmons,4-Jul-97,University of Arizona,,,Memphis Grizzlies
+488,Kyle Singler,4-May-88,Duke University,,,Oklahoma City Thunder
+489,Marcus Smart,6-Mar-94,Oklahoma State University,,,Boston Celtics
+490,Dennis Smith,25-Nov-97,North Carolina State University,,,Dallas Mavericks
+491,Ish Smith,5-Jul-88,Wake Forest University,,,Free Agent
+492,J.R. Smith,9-Sep-85,,,,Cleveland Cavaliers
+493,Jason Smith,2-Mar-86,Colorado State University,,,Free Agent
+494,Josh Smith,5-Dec-85,,,,New Orleans Hornets
+495,Tony Snell,10-Nov-91,University of New Mexico,,,Milwaukee Bucks
+496,Marreese Speights,4-Aug-87,University of Florida,,,Orlando Magic
+497,Tiago Splitter,1-Jan-85,,,,Free Agent
+498,Nik Stauskas,7-Oct-93,University of Michigan,,,Brooklyn Nets
+499,Lance Stephenson,5-Sep-90,University of Cincinnati,,,Indiana Pacers
+500,Jarnell Stokes,7-Jan-94,University of Tennessee,,,Free Agent
+501,Diamond Stone,10-Feb-97,University of Maryland,,,Free Agent
+502,Julyan Stone,7-Dec-88,University of Texas at El Paso,,,Charlotte Bobcats
+503,Rodney Stuckey,21-Apr-86,Eastern Washington University,,,Free Agent
+504,Jared Sullinger,4-Mar-92,Ohio State University,,,Free Agent
+505,Caleb Swanigan,18-Apr-97,Purdue University,,,Portland Trail Blazers
+506,Jayson Tatum,3-Mar-98,Duke University,,,Boston Celtics
+507,Edy Tavares,22-Mar-92,,,,Free Agent
+508,Isaiah Taylor,11-Jul-94,University of Texas at Austin,,,Atlanta Hawks
+509,Jeff Teague,10-Jun-88,Wake Forest University,,,Minnesota Timberwolves
+510,Mirza Teletovic,18-Sep-85,,,,Free Agent
+511,Garrett Temple,8-May-86,Louisiana State University,,,Sacramento Kings
+512,Milos Teodosic,19-Mar-87,,,,Los Angeles Clippers
+513,Jason Terry,15-Sep-77,University of Arizona,,,Milwaukee Bucks
+514,Daniel Theis,4-Apr-92,,,,Boston Celtics
+515,Isaiah Thomas,7-Feb-89,University of Washington,,,Los Angeles Lakers
+516,Lance Thomas,24-Apr-88,Duke University,,,New York Knicks
+517,Hollis Thompson,3-Apr-91,Georgetown University,,,Free Agent
+518,Klay Thompson,8-Feb-90,Washington State University,,,Golden State Warriors
+519,Tristan Thompson,13-Mar-91,University of Texas at Austin,,,Cleveland Cavaliers
+520,Marcus Thornton,5-Jun-87,Louisiana State University,,,Free Agent
+521,Sindarius Thornwell,15-Nov-94,University of South Carolina,,,Los Angeles Clippers
+522,Mike Tobey,10-Oct-94,University of Virginia,,,Free Agent
+523,Anthony Tolliver,1-Jun-85,Creighton University,,,Detroit Pistons
+524,Axel Toupane,23-Jul-92,,,,Free Agent
+525,Karl-Anthony Towns,15-Nov-95,University of Kentucky,,,Minnesota Timberwolves
+526,P.J. Tucker,5-May-85,University of Texas at Austin,,,Houston Rockets
+527,Evan Turner,27-Oct-88,Ohio State University,,,Portland Trail Blazers
+528,Myles Turner,24-Mar-96,University of Texas at Austin,,,Indiana Pacers
+529,Ekpe Udoh,20-May-87,Baylor University,,,Utah Jazz
+530,Beno Udrih,5-Jul-82,,,,Free Agent
+531,Tyler Ulis,5-Jan-96,University of Kentucky,,,Phoenix Suns
+532,Jarrod Uthoff,19-May-93,University of Iowa,,,Free Agent
+533,Jonas Valanciunas,6-May-92,,,,Free Agent
+534,Denzel Valentine,16-Nov-93,Michigan State University,,,Chicago Bulls
+535,Fred VanVleet,25-Feb-94,Wichita State University,,,Toronto Raptors
+536,Anderson Varejao,28-Sep-82,,,,Free Agent
+537,Greivis Vasquez,16-Jan-87,University of Maryland,,,Free Agent
+538,Rashad Vaughn,16-Aug-96,"University of Nevada, Las Vegas",,,Orlando Magic
+539,Noah Vonleh,24-Aug-95,Indiana University,,,Chicago Bulls
+540,Nikola Vucevic,24-Oct-90,University of Southern California,,,Free Agent
+541,Sasha Vujacic,8-Mar-84,,,,Free Agent
+542,Dwyane Wade,17-Jan-82,Marquette University,,,Miami Heat
+543,Dion Waiters,10-Dec-91,Syracuse University,,,Miami Heat
+544,Kemba Walker,8-May-90,University of Connecticut,,,Charlotte Bobcats
+545,John Wall,6-Sep-90,University of Kentucky,,,Free Agent
+546,Taurean Waller-Prince,22-Mar-94,Baylor University,,,Free Agent
+547,Derrick Walton,3-Apr-95,University of Michigan,,,Miami Heat
+548,T.J. Warren,5-Sep-93,North Carolina State University,,,Phoenix Suns
+549,C.J. Watson,17-Apr-84,University of Tennessee,,,Free Agent
+550,Briante Weber,29-Dec-92,Virginia Commonwealth University,,,Memphis Grizzlies
+551,David West,29-Aug-80,Xavier University,,,Golden State Warriors
+552,Russell Westbrook,12-Nov-88,"University of California, Los Angeles",,,Oklahoma City Thunder
+553,Derrick White,2-Jul-94,University of Colorado,,,San Antonio Spurs
+554,Okaro White,13-Aug-92,Florida State University,,,Miami Heat
+555,Isaiah Whitehead,8-Mar-95,Seton Hall University,,,Brooklyn Nets
+556,Hassan Whiteside,13-Jun-89,Marshall University,,,Miami Heat
+557,Andrew Wiggins,23-Feb-95,University of Kansas,,,Minnesota Timberwolves
+558,C.J. Wilcox,30-Dec-90,University of Washington,,,Free Agent
+559,Jacob Wiley,4-Sep-94,Eastern Washington University,,,Brooklyn Nets
+560,Damien Wilkins,11-Jan-80,University of Georgia,,,Indiana Pacers
+561,Alan Williams,28-Jan-93,"University of California, Santa Barbara",,,Phoenix Suns
+562,C.J. Williams,6-Feb-90,North Carolina State University,,,Los Angeles Clippers
+563,Deron Williams,26-Jun-84,University of Illinois at Urbana-Champaign,,,Free Agent
+564,Derrick Williams,25-May-91,University of Arizona,,,Los Angeles Lakers
+565,Lou Williams,27-Oct-86,,,,Los Angeles Clippers
+566,Marvin Williams,19-Jun-86,University of North Carolina,,,Charlotte Bobcats
+567,Matt Williams,14-Oct-93,University of Central Florida,,,Miami Heat
+568,Reggie Williams,14-Sep-86,Virginia Military Institute,,,Free Agent
+569,Troy Williams,30-Dec-94,Indiana University,,,New York Knicks
+570,D.J. Wilson,19-Feb-96,University of Michigan,,,Milwaukee Bucks
+571,Jamil Wilson,21-Nov-90,Marquette University,,,Los Angeles Clippers
+572,Kyle Wiltjer,20-Oct-92,Gonzaga University,,,Free Agent
+573,Justise Winslow,26-Mar-96,Duke University,,,Miami Heat
+574,Jeff Withey,7-Mar-90,University of Kansas,,,Dallas Mavericks
+575,Nate Wolters,15-May-91,South Dakota State University,,,Utah Jazz
+576,Christian Wood,27-Sep-95,"University of Nevada, Las Vegas",,,Free Agent
+577,Metta World Peace,13-Nov-79,St. John's University,,,Free Agent
+578,Brandan Wright,5-Oct-87,University of North Carolina,,,Houston Rockets
+579,Delon Wright,26-Apr-92,University of Utah,,,Toronto Raptors
+580,Guerschon Yabusele,17-Dec-95,,,,Boston Celtics
+581,James Young,16-Aug-95,University of Kentucky,,,Philadelphia 76ers
+582,Joe Young,27-Jun-92,University of Oregon,,,Free Agent
+583,Nick Young,1-Jun-85,University of Southern California,,,Golden State Warriors
+584,Thaddeus Young,21-Jun-88,Georgia Institute of Technology,,,Indiana Pacers
+585,Cody Zeller,5-Oct-92,Indiana University,,,Charlotte Bobcats
+586,Tyler Zeller,17-Jan-90,University of North Carolina,,,Milwaukee Bucks
+587,Stephen Zimmerman,9-Sep-96,"University of Nevada, Las Vegas",,,Free Agent
+588,Paul Zipser,18-Feb-94,,,,Chicago Bulls
+589,Ante Zizic,4-Jan-97,,,,Free Agent
+590,Ivica Zubac,18-Mar-97,,,,Los Angeles Lakers
