@@ -1,8 +1,8 @@
 gid,date_time_start,stadium,is_playoff,home_team,away_team,home_points,away_points
 43025CLE,17/10/17 8:00,Quicken Loans Arena,FALSE,Cleveland Cavaliers,Boston Celtics,102,99
 43025GS,17/10/17 10:30,Oracle Arena,FALSE,Golden State Warriors,Houston Rockets,121,122
-43026DET,18/10/17 7:00,The Palace of Auburn Hills,FALSE,Detriot Pistons,Charlotte Hornets,102,90
-43026IND,18/10/17 7:00,Bankers Life Fieldhouse,FALSE,Indianapolis Pacers,Brooklyn Nets,140,131
+43026DET,18/10/17 7:00,The Palace of Auburn Hills,FALSE,Detroit Pistons,Charlotte Hornets,102,90
+43026IND,18/10/17 7:00,Bankers Life Fieldhouse,FALSE,Indiana Pacers,Brooklyn Nets,140,131
 43026ORL,18/10/17 7:00,Amway Center,FALSE,Orlando Magic,Miami Heat,116,109
 43026WAS,18/10/17 7:00,Verizon Center,FALSE,Washington Wizards,Philadelphia 76ers,120,115
 43026BOS,18/10/17 7:30,TD Garden,FALSE,Boston Celtics,Milwaukee Bucks,100,108
@@ -16,10 +16,10 @@ gid,date_time_start,stadium,is_playoff,home_team,away_team,home_points,away_poin
 43027OKC,19/10/17 8:00,Chesapeake Energy Arena,FALSE,Oklahoma City Thunder,New York Knicks,105,84
 43027LAL,19/10/17 10:30,Staples Center,FALSE,Los Angeles Lakers,Los Angeles Clippers,92,108
 43028CHA,20/10/17 7:00,Time Warner Cable Arena,FALSE,Charlotte Hornets,Atlanta Hawks,109,91
-43028IND,20/10/17 7:00,Bankers Life Fieldhouse,FALSE,Indianapolis Pacers,Portland Trail Blazers,96,114
+43028IND,20/10/17 7:00,Bankers Life Fieldhouse,FALSE,Indiana Pacers,Portland Trail Blazers,96,114
 43028MIL,20/10/17 7:00,Bradley Center,FALSE,Milwaukee Bucks,Cleveland Cavaliers,97,116
 43028PHI,20/10/17 7:00,Wells Fargo Center,FALSE,Philadelphia 76ers,Boston Celtics,92,102
-43028WAS,20/10/17 7:00,Verizon Center,FALSE,Washington Wizards,Detriot Pistons,115,111
+43028WAS,20/10/17 7:00,Verizon Center,FALSE,Washington Wizards,Detroit Pistons,115,111
 43028BKN,20/10/17 7:30,Barclays Center,FALSE,Brooklyn Nets,Orlando Magic,126,121
 43028MIN,20/10/17 8:00,Target Center,FALSE,Minnesota Timberwolves,Utah Jazz,100,97
 43028DAL,20/10/17 8:30,American Airlines Center,FALSE,Dallas Mavericks,Sacramento Kings,88,93
@@ -30,8 +30,8 @@ gid,date_time_start,stadium,is_playoff,home_team,away_team,home_points,away_poin
 43029CLE,21/10/17 8:00,Quicken Loans Arena,FALSE,Cleveland Cavaliers,Orlando Magic,93,114
 43029HOU,21/10/17 8:00,Toyota Center,FALSE,Houston Rockets,Dallas Mavericks,107,91
 43029MEM,21/10/17 8:00,FedExForum,FALSE,Memphis Grizzlies,Golden State Warriors,111,101
-43029MIA,21/10/17 8:00,AmericanAirlines Arena,FALSE,Miami Heat,Indianapolis Pacers,112,108
-43029NY,21/10/17 8:00,Madison Square Garden,FALSE,New York Knicks,Detriot Pistons,107,111
+43029MIA,21/10/17 8:00,AmericanAirlines Arena,FALSE,Miami Heat,Indiana Pacers,112,108
+43029NY,21/10/17 8:00,Madison Square Garden,FALSE,New York Knicks,Detroit Pistons,107,111
 43029MIL,21/10/17 8:30,Bradley Center,FALSE,Milwaukee Bucks,Portland Trail Blazers,113,110
 43029DEN,21/10/17 9:00,Pepsi Center,FALSE,Denver Nuggets,Sacramento Kings,96,79
 43029UTA,21/10/17 9:00,EnergySolutions Arena,FALSE,Utah Jazz,Oklahoma City Thunder,96,87
@@ -39,7 +39,7 @@ gid,date_time_start,stadium,is_playoff,home_team,away_team,home_points,away_poin
 43030BKN,22/10/17 3:30,Barclays Center,FALSE,Brooklyn Nets,Atlanta Hawks,116,104
 43030OKC,22/10/17 7:00,Chesapeake Energy Arena,FALSE,Oklahoma City Thunder,Minnesota Timberwolves,113,115
 43030LAL,22/10/17 9:30,Staples Center,FALSE,Los Angeles Lakers,New Orleans Pelicans,112,119
-43031DET,23/10/17 7:00,The Palace of Auburn Hills,FALSE,Detriot Pistons,Philadelphia 76ers,86,97
+43031DET,23/10/17 7:00,The Palace of Auburn Hills,FALSE,Detroit Pistons,Philadelphia 76ers,86,97
 43031MIA,23/10/17 7:30,AmericanAirlines Arena,FALSE,Miami Heat,Atlanta Hawks,104,93
 43031HOU,23/10/17 8:00,Toyota Center,FALSE,Houston Rockets,Memphis Grizzlies,90,98
 43031MIL,23/10/17 8:00,Bradley Center,FALSE,Milwaukee Bucks,Charlotte Hornets,103,94
@@ -50,15 +50,15 @@ gid,date_time_start,stadium,is_playoff,home_team,away_team,home_points,away_poin
 43032CLE,24/10/17 7:00,Quicken Loans Arena,FALSE,Cleveland Cavaliers,Chicago Bulls,119,112
 43032ORL,24/10/17 7:00,Amway Center,FALSE,Orlando Magic,Brooklyn Nets,125,121
 43032BOS,24/10/17 7:30,TD Garden,FALSE,Boston Celtics,New York Knicks,110,89
-43032MIN,24/10/17 8:00,Target Center,FALSE,Minnesota Timberwolves,Indianapolis Pacers,107,130
+43032MIN,24/10/17 8:00,Target Center,FALSE,Minnesota Timberwolves,Indiana Pacers,107,130
 43032POR,24/10/17 10:00,Rose Garden,FALSE,Portland Trail Blazers,New Orleans Pelicans,103,93
 43032LAC,24/10/17 10:30,Staples Center,FALSE,Los Angeles Clippers,Utah Jazz,102,84
 43033CHA,25/10/17 7:00,Time Warner Cable Arena,FALSE,Charlotte Hornets,Denver Nuggets,110,93
-43033DET,25/10/17 7:00,The Palace of Auburn Hills,FALSE,Detriot Pistons,Minnesota Timberwolves,122,101
+43033DET,25/10/17 7:00,The Palace of Auburn Hills,FALSE,Detroit Pistons,Minnesota Timberwolves,122,101
 43033PHI,25/10/17 7:00,Wells Fargo Center,FALSE,Philadelphia 76ers,Houston Rockets,104,105
 43033BKN,25/10/17 7:30,Barclays Center,FALSE,Brooklyn Nets,Cleveland Cavaliers,112,107
 43033MIA,25/10/17 8:00,AmericanAirlines Arena,FALSE,Miami Heat,San Antonio Spurs,100,117
-43033OKC,25/10/17 8:00,Chesapeake Energy Arena,FALSE,Oklahoma City Thunder,Indianapolis Pacers,114,96
+43033OKC,25/10/17 8:00,Chesapeake Energy Arena,FALSE,Oklahoma City Thunder,Indiana Pacers,114,96
 43033DAL,25/10/17 8:30,American Airlines Center,FALSE,Dallas Mavericks,Memphis Grizzlies,103,94
 43033PHO,25/10/17 10:00,US Airways Center,FALSE,Phoenix Suns,Utah Jazz,97,88
 43033GS,25/10/17 10:30,Oracle Arena,FALSE,Golden State Warriors,Toronto Raptors,117,112
@@ -82,14 +82,14 @@ gid,date_time_start,stadium,is_playoff,home_team,away_team,home_points,away_poin
 43036DAL,28/10/17 8:30,American Airlines Center,FALSE,Dallas Mavericks,Philadelphia 76ers,110,112
 43036UTA,28/10/17 9:00,EnergySolutions Arena,FALSE,Utah Jazz,Los Angeles Lakers,96,81
 43036POR,28/10/17 10:00,Rose Garden,FALSE,Portland Trail Blazers,Phoenix Suns,114,107
-43036LAC,28/10/17 10:30,Staples Center,FALSE,Los Angeles Clippers,Detriot Pistons,87,95
+43036LAC,28/10/17 10:30,Staples Center,FALSE,Los Angeles Clippers,Detroit Pistons,87,95
 43037ATL,29/10/17 3:30,Philips Arena,FALSE,Atlanta Hawks,Milwaukee Bucks,106,117
-43037IND,29/10/17 4:30,Bankers Life Fieldhouse,FALSE,Indianapolis Pacers,San Antonio Spurs,97,94
+43037IND,29/10/17 4:30,Bankers Life Fieldhouse,FALSE,Indiana Pacers,San Antonio Spurs,97,94
 43037BKN,29/10/17 6:00,Barclays Center,FALSE,Brooklyn Nets,Denver Nuggets,111,124
 43037CHA,29/10/17 6:00,Time Warner Cable Arena,FALSE,Charlotte Hornets,Orlando Magic,120,113
 43037SAC,29/10/17 6:00,Power Balance Pavilion,FALSE,Sacramento Kings,Washington Wizards,83,110
 43037CLE,29/10/17 7:00,Quicken Loans Arena,FALSE,Cleveland Cavaliers,New York Knicks,95,114
-43037GS,29/10/17 8:30,Oracle Arena,FALSE,Golden State Warriors,Detriot Pistons,107,115
+43037GS,29/10/17 8:30,Oracle Arena,FALSE,Golden State Warriors,Detroit Pistons,107,115
 43038BOS,30/10/17 7:30,TD Garden,FALSE,Boston Celtics,San Antonio Spurs,108,94
 43038MIA,30/10/17 7:30,AmericanAirlines Arena,FALSE,Miami Heat,Minnesota Timberwolves,122,125
 43038NY,30/10/17 7:30,Madison Square Garden,FALSE,New York Knicks,Denver Nuggets,116,110
@@ -99,12 +99,12 @@ gid,date_time_start,stadium,is_playoff,home_team,away_team,home_points,away_poin
 43038UTA,30/10/17 9:00,EnergySolutions Arena,FALSE,Utah Jazz,Dallas Mavericks,104,89
 43038POR,30/10/17 10:00,Rose Garden,FALSE,Portland Trail Blazers,Toronto Raptors,85,99
 43038LAC,30/10/17 10:30,Staples Center,FALSE,Los Angeles Clippers,Golden State Warriors,113,141
-43039IND,31/10/17 7:00,Bankers Life Fieldhouse,FALSE,Indianapolis Pacers,Sacramento Kings,101,83
+43039IND,31/10/17 7:00,Bankers Life Fieldhouse,FALSE,Indiana Pacers,Sacramento Kings,101,83
 43039BKN,31/10/17 7:30,Barclays Center,FALSE,Brooklyn Nets,Phoenix Suns,114,122
 43039MIL,31/10/17 8:00,Bradley Center,FALSE,Milwaukee Bucks,Oklahoma City Thunder,91,110
-43039LAL,31/10/17 10:30,Staples Center,FALSE,Los Angeles Lakers,Detriot Pistons,113,93
+43039LAL,31/10/17 10:30,Staples Center,FALSE,Los Angeles Lakers,Detroit Pistons,113,93
 43040CHA,1/11/17 7:00,Time Warner Cable Arena,FALSE,Charlotte Hornets,Milwaukee Bucks,126,121
-43040CLE,1/11/17 7:00,Quicken Loans Arena,FALSE,Cleveland Cavaliers,Indianapolis Pacers,107,124
+43040CLE,1/11/17 7:00,Quicken Loans Arena,FALSE,Cleveland Cavaliers,Indiana Pacers,107,124
 43040PHI,1/11/17 7:00,Wells Fargo Center,FALSE,Philadelphia 76ers,Atlanta Hawks,119,109
 43040WAS,1/11/17 7:00,Verizon Center,FALSE,Washington Wizards,Phoenix Suns,116,122
 43040BOS,1/11/17 7:30,TD Garden,FALSE,Boston Celtics,Sacramento Kings,113,86
@@ -117,9 +117,9 @@ gid,date_time_start,stadium,is_playoff,home_team,away_team,home_points,away_poin
 43040LAC,1/11/17 10:30,Staples Center,FALSE,Los Angeles Clippers,Dallas Mavericks,119,98
 43041SA,2/11/17 8:00,AT&T Center,FALSE,San Antonio Spurs,Golden State Warriors,92,112
 43041POR,2/11/17 10:30,Rose Garden,FALSE,Portland Trail Blazers,Los Angeles Lakers,113,110
-43042DET,3/11/17 7:00,The Palace of Auburn Hills,FALSE,Detriot Pistons,Milwaukee Bucks,105,96
+43042DET,3/11/17 7:00,The Palace of Auburn Hills,FALSE,Detroit Pistons,Milwaukee Bucks,105,96
 43042ORL,3/11/17 7:00,Amway Center,FALSE,Orlando Magic,Chicago Bulls,83,105
-43042PHI,3/11/17 7:00,Wells Fargo Center,FALSE,Philadelphia 76ers,Indianapolis Pacers,121,110
+43042PHI,3/11/17 7:00,Wells Fargo Center,FALSE,Philadelphia 76ers,Indiana Pacers,121,110
 43042WAS,3/11/17 7:00,Verizon Center,FALSE,Washington Wizards,Cleveland Cavaliers,122,130
 43042ATL,3/11/17 7:30,Philips Arena,FALSE,Atlanta Hawks,Houston Rockets,104,119
 43042NY,3/11/17 7:30,Madison Square Garden,FALSE,New York Knicks,Phoenix Suns,120,107
@@ -130,7 +130,7 @@ gid,date_time_start,stadium,is_playoff,home_team,away_team,home_points,away_poin
 43042OKC,3/11/17 9:30,Chesapeake Energy Arena,FALSE,Oklahoma City Thunder,Boston Celtics,94,101
 43042LAL,3/11/17 10:30,Staples Center,FALSE,Los Angeles Lakers,Brooklyn Nets,124,112
 43043LAC,4/11/17 3:30,Staples Center,FALSE,Los Angeles Clippers,Memphis Grizzlies,104,113
-43043DET,4/11/17 7:00,The Palace of Auburn Hills,FALSE,Detriot Pistons,Sacramento Kings,108,99
+43043DET,4/11/17 7:00,The Palace of Auburn Hills,FALSE,Detroit Pistons,Sacramento Kings,108,99
 43043CHI,4/11/17 8:00,United Center,FALSE,Chicago Bulls,New Orleans Pelicans,90,96
 43043MIN,4/11/17 8:00,Target Center,FALSE,Minnesota Timberwolves,Dallas Mavericks,112,99
 43043DEN,4/11/17 9:00,Pepsi Center,FALSE,Denver Nuggets,Golden State Warriors,108,127
@@ -140,7 +140,7 @@ gid,date_time_start,stadium,is_playoff,home_team,away_team,home_points,away_poin
 43044TOR,5/11/17 6:00,Air Canada Centre,FALSE,Toronto Raptors,Washington Wizards,96,107
 43044HOU,5/11/17 7:00,Toyota Center,FALSE,Houston Rockets,Utah Jazz,137,110
 43044SA,5/11/17 7:00,AT&T Center,FALSE,San Antonio Spurs,Phoenix Suns,112,95
-43044NY,5/11/17 7:30,Madison Square Garden,FALSE,New York Knicks,Indianapolis Pacers,108,101
+43044NY,5/11/17 7:30,Madison Square Garden,FALSE,New York Knicks,Indiana Pacers,108,101
 43044MIN,5/11/17 8:00,Target Center,FALSE,Minnesota Timberwolves,Charlotte Hornets,112,94
 43044POR,5/11/17 9:00,Rose Garden,FALSE,Portland Trail Blazers,Oklahoma City Thunder,103,99
 43044LAL,5/11/17 9:30,Staples Center,FALSE,Los Angeles Lakers,Memphis Grizzlies,107,102
@@ -148,7 +148,7 @@ gid,date_time_start,stadium,is_playoff,home_team,away_team,home_points,away_poin
 43045PHO,6/11/17 9:00,US Airways Center,FALSE,Phoenix Suns,Brooklyn Nets,92,98
 43045GS,6/11/17 10:30,Oracle Arena,FALSE,Golden State Warriors,Miami Heat,97,80
 43046CLE,7/11/17 7:00,Quicken Loans Arena,FALSE,Cleveland Cavaliers,Milwaukee Bucks,124,119
-43046IND,7/11/17 7:00,Bankers Life Fieldhouse,FALSE,Indianapolis Pacers,New Orleans Pelicans,112,117
+43046IND,7/11/17 7:00,Bankers Life Fieldhouse,FALSE,Indiana Pacers,New Orleans Pelicans,112,117
 43046WAS,7/11/17 7:00,Verizon Center,FALSE,Washington Wizards,Dallas Mavericks,99,113
 43046NY,7/11/17 7:30,Madison Square Garden,FALSE,New York Knicks,Charlotte Hornets,118,113
 43046TOR,7/11/17 7:30,Air Canada Centre,FALSE,Toronto Raptors,Chicago Bulls,119,114
@@ -157,7 +157,7 @@ gid,date_time_start,stadium,is_playoff,home_team,away_team,home_points,away_poin
 43046UTA,7/11/17 9:00,EnergySolutions Arena,FALSE,Utah Jazz,Philadelphia 76ers,97,104
 43046POR,7/11/17 10:00,Rose Garden,FALSE,Portland Trail Blazers,Memphis Grizzlies,97,98
 43046SAC,7/11/17 10:00,Power Balance Pavilion,FALSE,Sacramento Kings,Oklahoma City Thunder,94,86
-43047DET,8/11/17 7:00,The Palace of Auburn Hills,FALSE,Detriot Pistons,Indianapolis Pacers,114,97
+43047DET,8/11/17 7:00,The Palace of Auburn Hills,FALSE,Detroit Pistons,Indiana Pacers,114,97
 43047ORL,8/11/17 7:00,Amway Center,FALSE,Orlando Magic,New York Knicks,112,99
 43047BOS,8/11/17 8:00,TD Garden,FALSE,Boston Celtics,Los Angeles Lakers,107,96
 43047PHO,8/11/17 9:00,US Airways Center,FALSE,Phoenix Suns,Miami Heat,115,126
@@ -167,9 +167,9 @@ gid,date_time_start,stadium,is_playoff,home_team,away_team,home_points,away_poin
 43048HOU,9/11/17 8:00,Toyota Center,FALSE,Houston Rockets,Cleveland Cavaliers,117,113
 43048SAC,9/11/17 10:00,Power Balance Pavilion,FALSE,Sacramento Kings,Philadelphia 76ers,109,108
 43048DEN,9/11/17 10:30,Pepsi Center,FALSE,Denver Nuggets,Oklahoma City Thunder,102,94
-43049DET,10/11/17 7:00,The Palace of Auburn Hills,FALSE,Detriot Pistons,Atlanta Hawks,111,104
+43049DET,10/11/17 7:00,The Palace of Auburn Hills,FALSE,Detroit Pistons,Atlanta Hawks,111,104
 43049BOS,10/11/17 7:30,TD Garden,FALSE,Boston Celtics,Charlotte Hornets,90,87
-43049CHI,10/11/17 8:00,United Center,FALSE,Chicago Bulls,Indianapolis Pacers,87,105
+43049CHI,10/11/17 8:00,United Center,FALSE,Chicago Bulls,Indiana Pacers,87,105
 43049OKC,10/11/17 9:00,Chesapeake Energy Arena,FALSE,Oklahoma City Thunder,Los Angeles Clippers,120,111
 43049PHO,10/11/17 9:00,US Airways Center,FALSE,Phoenix Suns,Orlando Magic,112,128
 43049SA,10/11/17 9:00,AT&T Center,FALSE,San Antonio Spurs,Milwaukee Bucks,87,94
@@ -187,8 +187,8 @@ gid,date_time_start,stadium,is_playoff,home_team,away_team,home_points,away_poin
 43050PHO,11/11/17 9:00,US Airways Center,FALSE,Phoenix Suns,Minnesota Timberwolves,118,110
 43050UTA,11/11/17 9:00,EnergySolutions Arena,FALSE,Utah Jazz,Brooklyn Nets,114,106
 43051BOS,12/11/17 3:30,TD Garden,FALSE,Boston Celtics,Toronto Raptors,95,94
-43051DET,12/11/17 4:00,The Palace of Auburn Hills,FALSE,Detriot Pistons,Miami Heat,112,103
-43051IND,12/11/17 6:00,Bankers Life Fieldhouse,FALSE,Indianapolis Pacers,Houston Rockets,95,118
+43051DET,12/11/17 4:00,The Palace of Auburn Hills,FALSE,Detroit Pistons,Miami Heat,112,103
+43051IND,12/11/17 6:00,Bankers Life Fieldhouse,FALSE,Indiana Pacers,Houston Rockets,95,118
 43051OKC,12/11/17 7:00,Chesapeake Energy Arena,FALSE,Oklahoma City Thunder,Dallas Mavericks,112,99
 43052WAS,13/11/17 7:00,Verizon Center,FALSE,Washington Wizards,Sacramento Kings,110,92
 43052NY,13/11/17 7:30,Madison Square Garden,FALSE,New York Knicks,Cleveland Cavaliers,101,104
@@ -206,8 +206,8 @@ gid,date_time_start,stadium,is_playoff,home_team,away_team,home_points,away_poin
 43054MIA,15/11/17 7:30,AmericanAirlines Arena,FALSE,Miami Heat,Washington Wizards,93,102
 43054NY,15/11/17 7:30,Madison Square Garden,FALSE,New York Knicks,Utah Jazz,106,101
 43054CHA,15/11/17 8:00,Time Warner Cable Arena,FALSE,Charlotte Hornets,Cleveland Cavaliers,107,115
-43054MEM,15/11/17 8:00,FedExForum,FALSE,Memphis Grizzlies,Indianapolis Pacers,113,116
-43054MIL,15/11/17 8:00,Bradley Center,FALSE,Milwaukee Bucks,Detriot Pistons,99,95
+43054MEM,15/11/17 8:00,FedExForum,FALSE,Memphis Grizzlies,Indiana Pacers,113,116
+43054MIL,15/11/17 8:00,Bradley Center,FALSE,Milwaukee Bucks,Detroit Pistons,99,95
 43054MIN,15/11/17 8:00,Target Center,FALSE,Minnesota Timberwolves,San Antonio Spurs,98,86
 43054NO,15/11/17 8:00,New Orleans Arena,FALSE,New Orleans Pelicans,Toronto Raptors,116,125
 43054OKC,15/11/17 8:00,Chesapeake Energy Arena,FALSE,Oklahoma City Thunder,Chicago Bulls,92,79
@@ -215,7 +215,7 @@ gid,date_time_start,stadium,is_playoff,home_team,away_team,home_points,away_poin
 43054LAL,15/11/17 10:30,Staples Center,FALSE,Los Angeles Lakers,Philadelphia 76ers,109,115
 43055BOS,16/11/17 8:00,TD Garden,FALSE,Boston Celtics,Golden State Warriors,92,88
 43055PHO,16/11/17 10:30,US Airways Center,FALSE,Phoenix Suns,Houston Rockets,116,142
-43056IND,17/11/17 7:00,Bankers Life Fieldhouse,FALSE,Indianapolis Pacers,Detriot Pistons,107,100
+43056IND,17/11/17 7:00,Bankers Life Fieldhouse,FALSE,Indiana Pacers,Detroit Pistons,107,100
 43056WAS,17/11/17 7:00,Verizon Center,FALSE,Washington Wizards,Miami Heat,88,91
 43056BKN,17/11/17 7:30,Barclays Center,FALSE,Brooklyn Nets,Utah Jazz,118,107
 43056CLE,17/11/17 7:30,Quicken Loans Arena,FALSE,Cleveland Cavaliers,Los Angeles Clippers,118,113
@@ -233,15 +233,15 @@ gid,date_time_start,stadium,is_playoff,home_team,away_team,home_points,away_poin
 43057MEM,18/11/17 8:00,FedExForum,FALSE,Memphis Grizzlies,Houston Rockets,83,105
 43057DAL,18/11/17 9:00,American Airlines Center,FALSE,Dallas Mavericks,Milwaukee Bucks,111,79
 43057POR,18/11/17 10:00,Rose Garden,FALSE,Portland Trail Blazers,Sacramento Kings,102,90
-43058MIA,19/11/17 3:30,AmericanAirlines Arena,FALSE,Miami Heat,Indianapolis Pacers,95,120
+43058MIA,19/11/17 3:30,AmericanAirlines Arena,FALSE,Miami Heat,Indiana Pacers,95,120
 43058BKN,19/11/17 6:00,Barclays Center,FALSE,Brooklyn Nets,Golden State Warriors,111,118
 43058TOR,19/11/17 6:00,Air Canada Centre,FALSE,Toronto Raptors,Washington Wizards,100,91
-43058MIN,19/11/17 7:00,Target Center,FALSE,Minnesota Timberwolves,Detriot Pistons,97,100
+43058MIN,19/11/17 7:00,Target Center,FALSE,Minnesota Timberwolves,Detroit Pistons,97,100
 43058PHO,19/11/17 8:00,US Airways Center,FALSE,Phoenix Suns,Chicago Bulls,113,105
 43058LAL,19/11/17 9:30,Staples Center,FALSE,Los Angeles Lakers,Denver Nuggets,127,109
 43059CHA,20/11/17 7:00,Time Warner Cable Arena,FALSE,Charlotte Hornets,Minnesota Timberwolves,118,102
-43059DET,20/11/17 7:00,The Palace of Auburn Hills,FALSE,Detriot Pistons,Cleveland Cavaliers,88,116
-43059ORL,20/11/17 7:00,Amway Center,FALSE,Orlando Magic,Indianapolis Pacers,97,105
+43059DET,20/11/17 7:00,The Palace of Auburn Hills,FALSE,Detroit Pistons,Cleveland Cavaliers,88,116
+43059ORL,20/11/17 7:00,Amway Center,FALSE,Orlando Magic,Indiana Pacers,97,105
 43059PHI,20/11/17 7:00,Wells Fargo Center,FALSE,Philadelphia 76ers,Utah Jazz,107,86
 43059NY,20/11/17 7:30,Madison Square Garden,FALSE,New York Knicks,Los Angeles Clippers,107,85
 43059MEM,20/11/17 8:00,FedExForum,FALSE,Memphis Grizzlies,Portland Trail Blazers,92,100
@@ -268,9 +268,9 @@ gid,date_time_start,stadium,is_playoff,home_team,away_team,home_points,away_poin
 43063ATL,24/11/17 7:30,Philips Arena,FALSE,Atlanta Hawks,New York Knicks,116,104
 43063BOS,24/11/17 7:30,TD Garden,FALSE,Boston Celtics,Orlando Magic,118,103
 43063CLE,24/11/17 8:00,Quicken Loans Arena,FALSE,Cleveland Cavaliers,Charlotte Hornets,100,99
-43063IND,24/11/17 8:00,Bankers Life Fieldhouse,FALSE,Indianapolis Pacers,Toronto Raptors,107,102
+43063IND,24/11/17 8:00,Bankers Life Fieldhouse,FALSE,Indiana Pacers,Toronto Raptors,107,102
 43063MIN,24/11/17 8:00,Target Center,FALSE,Minnesota Timberwolves,Miami Heat,97,109
-43063OKC,24/11/17 8:00,Chesapeake Energy Arena,FALSE,Oklahoma City Thunder,Detriot Pistons,98,99
+43063OKC,24/11/17 8:00,Chesapeake Energy Arena,FALSE,Oklahoma City Thunder,Detroit Pistons,98,99
 43063DEN,24/11/17 9:00,Pepsi Center,FALSE,Denver Nuggets,Memphis Grizzlies,104,92
 43063PHO,24/11/17 9:00,US Airways Center,FALSE,Phoenix Suns,New Orleans Pelicans,91,115
 43063BKN,24/11/17 10:00,Barclays Center,FALSE,Brooklyn Nets,Portland Trail Blazers,125,127
@@ -280,7 +280,7 @@ gid,date_time_start,stadium,is_playoff,home_team,away_team,home_points,away_poin
 43064WAS,25/11/17 7:00,Verizon Center,FALSE,Washington Wizards,Portland Trail Blazers,105,108
 43064ATL,25/11/17 7:30,Philips Arena,FALSE,Atlanta Hawks,Toronto Raptors,78,112
 43064HOU,25/11/17 8:00,Toyota Center,FALSE,Houston Rockets,New York Knicks,117,102
-43064IND,25/11/17 8:00,Bankers Life Fieldhouse,FALSE,Indianapolis Pacers,Boston Celtics,98,108
+43064IND,25/11/17 8:00,Bankers Life Fieldhouse,FALSE,Indiana Pacers,Boston Celtics,98,108
 43064DAL,25/11/17 8:30,American Airlines Center,FALSE,Dallas Mavericks,Oklahoma City Thunder,97,81
 43064GS,25/11/17 8:30,Oracle Arena,FALSE,Golden State Warriors,New Orleans Pelicans,110,95
 43064UTA,25/11/17 9:00,EnergySolutions Arena,FALSE,Utah Jazz,Milwaukee Bucks,121,108
@@ -288,9 +288,9 @@ gid,date_time_start,stadium,is_playoff,home_team,away_team,home_points,away_poin
 43065CHI,26/11/17 3:30,United Center,FALSE,Chicago Bulls,Miami Heat,93,100
 43065MIN,26/11/17 3:30,Target Center,FALSE,Minnesota Timberwolves,Phoenix Suns,119,108
 43065MEM,26/11/17 6:00,FedExForum,FALSE,Memphis Grizzlies,Brooklyn Nets,88,98
-43066IND,27/11/17 7:00,Bankers Life Fieldhouse,FALSE,Indianapolis Pacers,Orlando Magic,121,109
+43066IND,27/11/17 7:00,Bankers Life Fieldhouse,FALSE,Indiana Pacers,Orlando Magic,121,109
 43066PHI,27/11/17 7:00,Wells Fargo Center,FALSE,Philadelphia 76ers,Cleveland Cavaliers,91,113
-43066BOS,27/11/17 7:30,TD Garden,FALSE,Boston Celtics,Detriot Pistons,108,118
+43066BOS,27/11/17 7:30,TD Garden,FALSE,Boston Celtics,Detroit Pistons,108,118
 43066NY,27/11/17 7:30,Madison Square Garden,FALSE,New York Knicks,Portland Trail Blazers,91,103
 43066HOU,27/11/17 8:00,Toyota Center,FALSE,Houston Rockets,Brooklyn Nets,117,103
 43066SA,27/11/17 8:30,AT&T Center,FALSE,San Antonio Spurs,Dallas Mavericks,115,108
@@ -301,12 +301,12 @@ gid,date_time_start,stadium,is_playoff,home_team,away_team,home_points,away_poin
 43067MIN,28/11/17 8:00,Target Center,FALSE,Minnesota Timberwolves,Washington Wizards,89,92
 43067SAC,28/11/17 10:00,Power Balance Pavilion,FALSE,Sacramento Kings,Milwaukee Bucks,87,112
 43067UTA,28/11/17 10:00,EnergySolutions Arena,FALSE,Utah Jazz,Denver Nuggets,106,77
-43068DET,29/11/17 7:00,The Palace of Auburn Hills,FALSE,Detriot Pistons,Phoenix Suns,131,107
+43068DET,29/11/17 7:00,The Palace of Auburn Hills,FALSE,Detroit Pistons,Phoenix Suns,131,107
 43068ORL,29/11/17 7:00,Amway Center,FALSE,Orlando Magic,Oklahoma City Thunder,121,108
 43068PHI,29/11/17 7:00,Wells Fargo Center,FALSE,Philadelphia 76ers,Washington Wizards,118,113
 43068NY,29/11/17 7:30,Madison Square Garden,FALSE,New York Knicks,Miami Heat,115,86
 43068TOR,29/11/17 7:30,Air Canada Centre,FALSE,Toronto Raptors,Charlotte Hornets,126,113
-43068HOU,29/11/17 8:00,Toyota Center,FALSE,Houston Rockets,Indianapolis Pacers,118,97
+43068HOU,29/11/17 8:00,Toyota Center,FALSE,Houston Rockets,Indiana Pacers,118,97
 43068NO,29/11/17 8:00,New Orleans Arena,FALSE,New Orleans Pelicans,Minnesota Timberwolves,102,120
 43068DAL,29/11/17 8:30,American Airlines Center,FALSE,Dallas Mavericks,Brooklyn Nets,104,109
 43068SA,29/11/17 8:30,AT&T Center,FALSE,San Antonio Spurs,Memphis Grizzlies,104,95
@@ -317,8 +317,8 @@ gid,date_time_start,stadium,is_playoff,home_team,away_team,home_points,away_poin
 43069POR,30/11/17 10:00,Rose Garden,FALSE,Portland Trail Blazers,Milwaukee Bucks,91,103
 43069LAC,30/11/17 10:30,Staples Center,FALSE,Los Angeles Clippers,Utah Jazz,107,126
 43070ORL,1/12/17 7:00,Amway Center,FALSE,Orlando Magic,Golden State Warriors,112,133
-43070WAS,1/12/17 7:00,Verizon Center,FALSE,Washington Wizards,Detriot Pistons,109,91
-43070TOR,1/12/17 7:30,Air Canada Centre,FALSE,Toronto Raptors,Indianapolis Pacers,120,115
+43070WAS,1/12/17 7:00,Verizon Center,FALSE,Washington Wizards,Detroit Pistons,109,91
+43070TOR,1/12/17 7:30,Air Canada Centre,FALSE,Toronto Raptors,Indiana Pacers,120,115
 43070CHI,1/12/17 8:00,United Center,FALSE,Chicago Bulls,Sacramento Kings,106,107
 43070MEM,1/12/17 8:00,FedExForum,FALSE,Memphis Grizzlies,San Antonio Spurs,79,95
 43070MIA,1/12/17 8:00,AmericanAirlines Arena,FALSE,Miami Heat,Charlotte Hornets,105,100
@@ -328,7 +328,7 @@ gid,date_time_start,stadium,is_playoff,home_team,away_team,home_points,away_poin
 43071DAL,2/12/17 2:00,American Airlines Center,FALSE,Dallas Mavericks,Los Angeles Clippers,108,82
 43071BKN,2/12/17 3:00,Barclays Center,FALSE,Brooklyn Nets,Atlanta Hawks,102,114
 43071CLE,2/12/17 7:30,Quicken Loans Arena,FALSE,Cleveland Cavaliers,Memphis Grizzlies,116,111
-43071PHI,2/12/17 7:30,Wells Fargo Center,FALSE,Philadelphia 76ers,Detriot Pistons,108,103
+43071PHI,2/12/17 7:30,Wells Fargo Center,FALSE,Philadelphia 76ers,Detroit Pistons,108,103
 43071MIL,2/12/17 8:30,Bradley Center,FALSE,Milwaukee Bucks,Sacramento Kings,109,104
 43071DEN,2/12/17 9:00,Pepsi Center,FALSE,Denver Nuggets,Los Angeles Lakers,115,100
 43071POR,2/12/17 10:00,Rose Garden,FALSE,Portland Trail Blazers,New Orleans Pelicans,116,123
@@ -338,7 +338,7 @@ gid,date_time_start,stadium,is_playoff,home_team,away_team,home_points,away_poin
 43072OKC,3/12/17 7:00,Chesapeake Energy Arena,FALSE,Oklahoma City Thunder,San Antonio Spurs,90,87
 43072LAL,3/12/17 9:30,Staples Center,FALSE,Los Angeles Lakers,Houston Rockets,95,118
 43073CHA,4/12/17 7:00,Time Warner Cable Arena,FALSE,Charlotte Hornets,Orlando Magic,104,94
-43073IND,4/12/17 7:00,Bankers Life Fieldhouse,FALSE,Indianapolis Pacers,New York Knicks,115,97
+43073IND,4/12/17 7:00,Bankers Life Fieldhouse,FALSE,Indiana Pacers,New York Knicks,115,97
 43073PHI,4/12/17 7:00,Wells Fargo Center,FALSE,Philadelphia 76ers,Phoenix Suns,101,115
 43073ATL,4/12/17 7:30,Philips Arena,FALSE,Atlanta Hawks,Brooklyn Nets,90,110
 43073BOS,4/12/17 7:30,TD Garden,FALSE,Boston Celtics,Milwaukee Bucks,111,100
@@ -346,18 +346,18 @@ gid,date_time_start,stadium,is_playoff,home_team,away_team,home_points,away_poin
 43073MEM,4/12/17 8:00,FedExForum,FALSE,Memphis Grizzlies,Minnesota Timberwolves,95,92
 43073NO,4/12/17 8:00,New Orleans Arena,FALSE,New Orleans Pelicans,Golden State Warriors,115,125
 43073DAL,4/12/17 8:30,American Airlines Center,FALSE,Dallas Mavericks,Denver Nuggets,122,105
-43073SA,4/12/17 8:30,AT&T Center,FALSE,San Antonio Spurs,Detriot Pistons,96,93
+43073SA,4/12/17 8:30,AT&T Center,FALSE,San Antonio Spurs,Detroit Pistons,96,93
 43073UTA,4/12/17 9:00,EnergySolutions Arena,FALSE,Utah Jazz,Washington Wizards,116,69
 43074TOR,5/12/17 7:30,Air Canada Centre,FALSE,Toronto Raptors,Phoenix Suns,126,113
 43074OKC,5/12/17 8:00,Chesapeake Energy Arena,FALSE,Oklahoma City Thunder,Utah Jazz,100,94
 43074POR,5/12/17 10:00,Rose Garden,FALSE,Portland Trail Blazers,Washington Wizards,92,106
 43075CLE,6/12/17 7:00,Quicken Loans Arena,FALSE,Cleveland Cavaliers,Sacramento Kings,101,95
-43075IND,6/12/17 7:00,Bankers Life Fieldhouse,FALSE,Indianapolis Pacers,Chicago Bulls,98,96
+43075IND,6/12/17 7:00,Bankers Life Fieldhouse,FALSE,Indiana Pacers,Chicago Bulls,98,96
 43075ORL,6/12/17 7:00,Amway Center,FALSE,Orlando Magic,Atlanta Hawks,110,106
 43075BOS,6/12/17 7:30,TD Garden,FALSE,Boston Celtics,Dallas Mavericks,97,90
 43075NY,6/12/17 7:30,Madison Square Garden,FALSE,New York Knicks,Memphis Grizzlies,99,88
 43075CHA,6/12/17 8:00,Time Warner Cable Arena,FALSE,Charlotte Hornets,Golden State Warriors,87,101
-43075MIL,6/12/17 8:00,Bradley Center,FALSE,Milwaukee Bucks,Detriot Pistons,104,100
+43075MIL,6/12/17 8:00,Bradley Center,FALSE,Milwaukee Bucks,Detroit Pistons,104,100
 43075NO,6/12/17 8:00,New Orleans Arena,FALSE,New Orleans Pelicans,Denver Nuggets,123,114
 43075SA,6/12/17 8:30,AT&T Center,FALSE,San Antonio Spurs,Miami Heat,117,105
 43075LAC,6/12/17 10:30,Staples Center,FALSE,Los Angeles Clippers,Minnesota Timberwolves,107,113
@@ -366,8 +366,8 @@ gid,date_time_start,stadium,is_playoff,home_team,away_team,home_points,away_poin
 43076BKN,7/12/17 10:00,Barclays Center,FALSE,Brooklyn Nets,Oklahoma City Thunder,100,95
 43076UTA,7/12/17 10:30,EnergySolutions Arena,FALSE,Utah Jazz,Houston Rockets,101,112
 43077CHA,8/12/17 7:00,Time Warner Cable Arena,FALSE,Charlotte Hornets,Chicago Bulls,111,119
-43077DET,8/12/17 7:00,The Palace of Auburn Hills,FALSE,Detriot Pistons,Golden State Warriors,98,102
-43077IND,8/12/17 7:00,Bankers Life Fieldhouse,FALSE,Indianapolis Pacers,Cleveland Cavaliers,106,102
+43077DET,8/12/17 7:00,The Palace of Auburn Hills,FALSE,Detroit Pistons,Golden State Warriors,98,102
+43077IND,8/12/17 7:00,Bankers Life Fieldhouse,FALSE,Indiana Pacers,Cleveland Cavaliers,106,102
 43077ORL,8/12/17 7:00,Amway Center,FALSE,Orlando Magic,Denver Nuggets,89,103
 43077MEM,8/12/17 8:00,FedExForum,FALSE,Memphis Grizzlies,Toronto Raptors,107,116
 43077MIL,8/12/17 8:00,Bradley Center,FALSE,Milwaukee Bucks,Dallas Mavericks,109,102
@@ -384,8 +384,8 @@ gid,date_time_start,stadium,is_playoff,home_team,away_team,home_points,away_poin
 43078PHO,9/12/17 9:00,US Airways Center,FALSE,Phoenix Suns,San Antonio Spurs,101,104
 43078POR,9/12/17 10:00,Rose Garden,FALSE,Portland Trail Blazers,Houston Rockets,117,124
 43079SAC,10/12/17 3:30,Power Balance Pavilion,FALSE,Sacramento Kings,Toronto Raptors,87,102
-43079DET,10/12/17 4:00,The Palace of Auburn Hills,FALSE,Detriot Pistons,Boston Celtics,81,91
-43079IND,10/12/17 5:00,Bankers Life Fieldhouse,FALSE,Indianapolis Pacers,Denver Nuggets,126,116
+43079DET,10/12/17 4:00,The Palace of Auburn Hills,FALSE,Detroit Pistons,Boston Celtics,81,91
+43079IND,10/12/17 5:00,Bankers Life Fieldhouse,FALSE,Indiana Pacers,Denver Nuggets,126,116
 43079MIN,10/12/17 7:00,Target Center,FALSE,Minnesota Timberwolves,Dallas Mavericks,97,92
 43079NO,10/12/17 7:00,New Orleans Arena,FALSE,New Orleans Pelicans,Philadelphia 76ers,131,124
 43079NY,10/12/17 7:30,Madison Square Garden,FALSE,New York Knicks,Atlanta Hawks,111,107
@@ -396,13 +396,13 @@ gid,date_time_start,stadium,is_playoff,home_team,away_team,home_points,away_poin
 43080GS,11/12/17 10:30,Oracle Arena,FALSE,Golden State Warriors,Portland Trail Blazers,111,104
 43080LAC,11/12/17 10:30,Staples Center,FALSE,Los Angeles Clippers,Toronto Raptors,96,91
 43081CLE,12/12/17 7:00,Quicken Loans Arena,FALSE,Cleveland Cavaliers,Atlanta Hawks,123,114
-43081DET,12/12/17 7:00,The Palace of Auburn Hills,FALSE,Detriot Pistons,Denver Nuggets,84,103
+43081DET,12/12/17 7:00,The Palace of Auburn Hills,FALSE,Detroit Pistons,Denver Nuggets,84,103
 43081NY,12/12/17 7:00,Madison Square Garden,FALSE,New York Knicks,Los Angeles Lakers,113,109
 43081BKN,12/12/17 7:30,Barclays Center,FALSE,Brooklyn Nets,Washington Wizards,103,98
 43081MIN,12/12/17 8:00,Target Center,FALSE,Minnesota Timberwolves,Philadelphia 76ers,112,118
 43081DAL,12/12/17 9:30,American Airlines Center,FALSE,Dallas Mavericks,San Antonio Spurs,95,89
 43081SAC,12/12/17 10:00,Power Balance Pavilion,FALSE,Sacramento Kings,Phoenix Suns,99,92
-43082IND,13/12/17 7:00,Bankers Life Fieldhouse,FALSE,Indianapolis Pacers,Oklahoma City Thunder,95,100
+43082IND,13/12/17 7:00,Bankers Life Fieldhouse,FALSE,Indiana Pacers,Oklahoma City Thunder,95,100
 43082ORL,13/12/17 7:00,Amway Center,FALSE,Orlando Magic,Los Angeles Clippers,95,106
 43082WAS,13/12/17 7:00,Verizon Center,FALSE,Washington Wizards,Memphis Grizzlies,93,87
 43082BOS,13/12/17 7:30,TD Garden,FALSE,Boston Celtics,Denver Nuggets,124,118
@@ -411,13 +411,13 @@ gid,date_time_start,stadium,is_playoff,home_team,away_team,home_points,away_poin
 43082NO,13/12/17 8:00,New Orleans Arena,FALSE,New Orleans Pelicans,Milwaukee Bucks,115,108
 43082PHO,13/12/17 9:00,US Airways Center,FALSE,Phoenix Suns,Toronto Raptors,109,115
 43082HOU,13/12/17 9:30,Toyota Center,FALSE,Houston Rockets,Charlotte Hornets,108,96
-43083ATL,14/12/17 7:30,Philips Arena,FALSE,Atlanta Hawks,Detriot Pistons,91,105
+43083ATL,14/12/17 7:30,Philips Arena,FALSE,Atlanta Hawks,Detroit Pistons,91,105
 43083BKN,14/12/17 7:30,Barclays Center,FALSE,Brooklyn Nets,New York Knicks,104,111
 43083CLE,14/12/17 8:00,Quicken Loans Arena,FALSE,Cleveland Cavaliers,Los Angeles Lakers,121,112
 43083MIN,14/12/17 8:00,Target Center,FALSE,Minnesota Timberwolves,Sacramento Kings,119,96
 43083GS,14/12/17 10:30,Oracle Arena,FALSE,Golden State Warriors,Dallas Mavericks,112,97
 43084CHA,15/12/17 7:00,Time Warner Cable Arena,FALSE,Charlotte Hornets,Miami Heat,98,104
-43084IND,15/12/17 7:00,Bankers Life Fieldhouse,FALSE,Indianapolis Pacers,Detriot Pistons,98,104
+43084IND,15/12/17 7:00,Bankers Life Fieldhouse,FALSE,Indiana Pacers,Detroit Pistons,98,104
 43084ORL,15/12/17 7:00,Amway Center,FALSE,Orlando Magic,Portland Trail Blazers,88,95
 43084PHI,15/12/17 7:00,Wells Fargo Center,FALSE,Philadelphia 76ers,Oklahoma City Thunder,117,119
 43084WAS,15/12/17 7:00,Verizon Center,FALSE,Washington Wizards,Los Angeles Clippers,100,91
@@ -436,11 +436,11 @@ gid,date_time_start,stadium,is_playoff,home_team,away_team,home_points,away_poin
 43085SA,16/12/17 8:30,AT&T Center,FALSE,San Antonio Spurs,Dallas Mavericks,98,96
 43085MEM,16/12/17 9:00,FedExForum,FALSE,Memphis Grizzlies,Boston Celtics,93,102
 43086TOR,17/12/17 3:30,Air Canada Centre,FALSE,Toronto Raptors,Sacramento Kings,108,93
-43086DET,17/12/17 4:00,The Palace of Auburn Hills,FALSE,Detriot Pistons,Orlando Magic,114,110
-43086BKN,17/12/17 6:00,Barclays Center,FALSE,Brooklyn Nets,Indianapolis Pacers,97,109
+43086DET,17/12/17 4:00,The Palace of Auburn Hills,FALSE,Detroit Pistons,Orlando Magic,114,110
+43086BKN,17/12/17 6:00,Barclays Center,FALSE,Brooklyn Nets,Indiana Pacers,97,109
 43086WAS,17/12/17 6:00,Verizon Center,FALSE,Washington Wizards,Cleveland Cavaliers,99,106
 43087CHA,18/12/17 7:00,Time Warner Cable Arena,FALSE,Charlotte Hornets,New York Knicks,109,91
-43087IND,18/12/17 7:00,Bankers Life Fieldhouse,FALSE,Indianapolis Pacers,Boston Celtics,111,112
+43087IND,18/12/17 7:00,Bankers Life Fieldhouse,FALSE,Indiana Pacers,Boston Celtics,111,112
 43087ATL,18/12/17 7:30,Philips Arena,FALSE,Atlanta Hawks,Miami Heat,110,104
 43087CHI,18/12/17 8:00,United Center,FALSE,Chicago Bulls,Philadelphia 76ers,117,115
 43087HOU,18/12/17 8:00,Toyota Center,FALSE,Houston Rockets,Utah Jazz,120,99
@@ -453,13 +453,13 @@ gid,date_time_start,stadium,is_playoff,home_team,away_team,home_points,away_poin
 43088WAS,19/12/17 7:00,Verizon Center,FALSE,Washington Wizards,New Orleans Pelicans,116,106
 43088MIL,19/12/17 8:00,Bradley Center,FALSE,Milwaukee Bucks,Cleveland Cavaliers,119,116
 43089CHA,20/12/17 7:00,Time Warner Cable Arena,FALSE,Charlotte Hornets,Toronto Raptors,111,129
-43089ATL,20/12/17 7:30,Philips Arena,FALSE,Atlanta Hawks,Indianapolis Pacers,95,105
+43089ATL,20/12/17 7:30,Philips Arena,FALSE,Atlanta Hawks,Indiana Pacers,95,105
 43089BOS,20/12/17 7:30,TD Garden,FALSE,Boston Celtics,Miami Heat,89,90
 43089BKN,20/12/17 7:30,Barclays Center,FALSE,Brooklyn Nets,Sacramento Kings,99,104
 43089CHI,20/12/17 8:00,United Center,FALSE,Chicago Bulls,Orlando Magic,112,94
 43089HOU,20/12/17 8:00,Toyota Center,FALSE,Houston Rockets,Los Angeles Lakers,116,122
 43089OKC,20/12/17 8:00,Chesapeake Energy Arena,FALSE,Oklahoma City Thunder,Utah Jazz,107,79
-43089DAL,20/12/17 8:30,American Airlines Center,FALSE,Dallas Mavericks,Detriot Pistons,110,93
+43089DAL,20/12/17 8:30,American Airlines Center,FALSE,Dallas Mavericks,Detroit Pistons,110,93
 43089DEN,20/12/17 9:00,Pepsi Center,FALSE,Denver Nuggets,Minnesota Timberwolves,104,112
 43089POR,20/12/17 10:00,Rose Garden,FALSE,Portland Trail Blazers,San Antonio Spurs,91,93
 43089GS,20/12/17 10:30,Oracle Arena,FALSE,Golden State Warriors,Memphis Grizzlies,97,84
@@ -469,7 +469,7 @@ gid,date_time_start,stadium,is_playoff,home_team,away_team,home_points,away_poin
 43090NY,21/12/17 8:00,Madison Square Garden,FALSE,New York Knicks,Boston Celtics,102,93
 43090PHO,21/12/17 9:00,US Airways Center,FALSE,Phoenix Suns,Memphis Grizzlies,97,95
 43090UTA,21/12/17 10:30,EnergySolutions Arena,FALSE,Utah Jazz,San Antonio Spurs,100,89
-43091DET,22/12/17 7:00,The Palace of Auburn Hills,FALSE,Detriot Pistons,New York Knicks,104,101
+43091DET,22/12/17 7:00,The Palace of Auburn Hills,FALSE,Detroit Pistons,New York Knicks,104,101
 43091ORL,22/12/17 7:00,Amway Center,FALSE,Orlando Magic,New Orleans Pelicans,97,111
 43091BKN,22/12/17 7:30,Barclays Center,FALSE,Brooklyn Nets,Washington Wizards,119,84
 43091HOU,22/12/17 8:00,Toyota Center,FALSE,Houston Rockets,Los Angeles Clippers,118,128
@@ -480,7 +480,7 @@ gid,date_time_start,stadium,is_playoff,home_team,away_team,home_points,away_poin
 43091GS,22/12/17 10:30,Oracle Arena,FALSE,Golden State Warriors,Los Angeles Lakers,113,106
 43092TOR,23/12/17 5:00,Air Canada Centre,FALSE,Toronto Raptors,Philadelphia 76ers,102,86
 43092CHA,23/12/17 7:00,Time Warner Cable Arena,FALSE,Charlotte Hornets,Milwaukee Bucks,111,106
-43092IND,23/12/17 7:00,Bankers Life Fieldhouse,FALSE,Indianapolis Pacers,Brooklyn Nets,123,119
+43092IND,23/12/17 7:00,Bankers Life Fieldhouse,FALSE,Indiana Pacers,Brooklyn Nets,123,119
 43092WAS,23/12/17 7:00,Verizon Center,FALSE,Washington Wizards,Orlando Magic,130,103
 43092ATL,23/12/17 7:30,Philips Arena,FALSE,Atlanta Hawks,Dallas Mavericks,112,107
 43092BOS,23/12/17 7:30,TD Garden,FALSE,Boston Celtics,Chicago Bulls,117,92
@@ -497,7 +497,7 @@ gid,date_time_start,stadium,is_playoff,home_team,away_team,home_points,away_poin
 43094NY,25/12/17 10:00,Madison Square Garden,FALSE,New York Knicks,Philadelphia 76ers,98,105
 43094LAL,25/12/17 10:30,Staples Center,FALSE,Los Angeles Lakers,Minnesota Timberwolves,104,121
 43095DAL,26/12/17 7:00,American Airlines Center,FALSE,Dallas Mavericks,Toronto Raptors,98,93
-43095DET,26/12/17 7:00,The Palace of Auburn Hills,FALSE,Detriot Pistons,Indianapolis Pacers,107,83
+43095DET,26/12/17 7:00,The Palace of Auburn Hills,FALSE,Detroit Pistons,Indiana Pacers,107,83
 43095MIA,26/12/17 7:30,AmericanAirlines Arena,FALSE,Miami Heat,Orlando Magic,107,89
 43095MIL,26/12/17 8:00,Bradley Center,FALSE,Milwaukee Bucks,Chicago Bulls,106,115
 43095SA,26/12/17 8:30,AT&T Center,FALSE,San Antonio Spurs,Brooklyn Nets,109,97
@@ -505,7 +505,7 @@ gid,date_time_start,stadium,is_playoff,home_team,away_team,home_points,away_poin
 43095PHO,26/12/17 9:00,US Airways Center,FALSE,Phoenix Suns,Memphis Grizzlies,99,97
 43095LAC,26/12/17 10:30,Staples Center,FALSE,Los Angeles Clippers,Sacramento Kings,122,95
 43096CHA,27/12/17 7:00,Time Warner Cable Arena,FALSE,Charlotte Hornets,Boston Celtics,91,102
-43096IND,27/12/17 7:00,Bankers Life Fieldhouse,FALSE,Indianapolis Pacers,Dallas Mavericks,94,98
+43096IND,27/12/17 7:00,Bankers Life Fieldhouse,FALSE,Indiana Pacers,Dallas Mavericks,94,98
 43096ATL,27/12/17 7:30,Philips Arena,FALSE,Atlanta Hawks,Washington Wizards,113,99
 43096CHI,27/12/17 8:00,United Center,FALSE,Chicago Bulls,New York Knicks,92,87
 43096MIN,27/12/17 8:00,Target Center,FALSE,Minnesota Timberwolves,Denver Nuggets,128,125
@@ -514,21 +514,21 @@ gid,date_time_start,stadium,is_playoff,home_team,away_team,home_points,away_poin
 43096SAC,27/12/17 10:00,Power Balance Pavilion,FALSE,Sacramento Kings,Cleveland Cavaliers,109,95
 43096GS,27/12/17 10:30,Oracle Arena,FALSE,Golden State Warriors,Utah Jazz,126,101
 43096LAL,27/12/17 10:30,Staples Center,FALSE,Los Angeles Lakers,Memphis Grizzlies,99,109
-43097ORL,28/12/17 7:00,Amway Center,FALSE,Orlando Magic,Detriot Pistons,102,89
+43097ORL,28/12/17 7:00,Amway Center,FALSE,Orlando Magic,Detroit Pistons,102,89
 43097BOS,28/12/17 8:00,TD Garden,FALSE,Boston Celtics,Houston Rockets,99,98
 43097MIL,28/12/17 8:00,Bradley Center,FALSE,Milwaukee Bucks,Minnesota Timberwolves,102,96
 43097SA,28/12/17 8:30,AT&T Center,FALSE,San Antonio Spurs,New York Knicks,119,107
 43097POR,28/12/17 10:30,Rose Garden,FALSE,Portland Trail Blazers,Philadelphia 76ers,114,110
 43098WAS,29/12/17 7:00,Verizon Center,FALSE,Washington Wizards,Houston Rockets,121,103
 43098TOR,29/12/17 7:30,Air Canada Centre,FALSE,Toronto Raptors,Atlanta Hawks,111,98
-43098CHI,29/12/17 8:00,United Center,FALSE,Chicago Bulls,Indianapolis Pacers,119,107
+43098CHI,29/12/17 8:00,United Center,FALSE,Chicago Bulls,Indiana Pacers,119,107
 43098MIA,29/12/17 8:00,AmericanAirlines Arena,FALSE,Miami Heat,Brooklyn Nets,87,111
 43098NO,29/12/17 8:00,New Orleans Arena,FALSE,New Orleans Pelicans,Dallas Mavericks,120,128
 43098OKC,29/12/17 8:00,Chesapeake Energy Arena,FALSE,Oklahoma City Thunder,Milwaukee Bucks,95,97
 43098SAC,29/12/17 10:00,Power Balance Pavilion,FALSE,Sacramento Kings,Phoenix Suns,101,111
 43098GS,29/12/17 10:30,Oracle Arena,FALSE,Golden State Warriors,Charlotte Hornets,100,111
 43098LAL,29/12/17 10:30,Staples Center,FALSE,Los Angeles Lakers,Los Angeles Clippers,106,121
-43099DET,30/12/17 7:00,The Palace of Auburn Hills,FALSE,Detriot Pistons,San Antonio Spurs,93,79
+43099DET,30/12/17 7:00,The Palace of Auburn Hills,FALSE,Detroit Pistons,San Antonio Spurs,93,79
 43099NO,30/12/17 7:00,New Orleans Arena,FALSE,New Orleans Pelicans,New York Knicks,103,105
 43099ORL,30/12/17 7:00,Amway Center,FALSE,Orlando Magic,Miami Heat,111,117
 43099ATL,30/12/17 7:30,Philips Arena,FALSE,Atlanta Hawks,Portland Trail Blazers,104,89
@@ -536,7 +536,7 @@ gid,date_time_start,stadium,is_playoff,home_team,away_team,home_points,away_poin
 43099GS,30/12/17 8:30,Oracle Arena,FALSE,Golden State Warriors,Memphis Grizzlies,141,128
 43099DEN,30/12/17 9:00,Pepsi Center,FALSE,Denver Nuggets,Philadelphia 76ers,102,107
 43100WAS,31/12/17 3:30,Verizon Center,FALSE,Washington Wizards,Chicago Bulls,114,110
-43100IND,31/12/17 5:00,Bankers Life Fieldhouse,FALSE,Indianapolis Pacers,Minnesota Timberwolves,90,107
+43100IND,31/12/17 5:00,Bankers Life Fieldhouse,FALSE,Indiana Pacers,Minnesota Timberwolves,90,107
 43100BOS,31/12/17 5:30,TD Garden,FALSE,Boston Celtics,Brooklyn Nets,108,105
 43100HOU,31/12/17 7:00,Toyota Center,FALSE,Houston Rockets,Los Angeles Lakers,148,142
 43100LAC,31/12/17 7:00,Staples Center,FALSE,Los Angeles Clippers,Charlotte Hornets,106,98
@@ -556,10 +556,10 @@ gid,date_time_start,stadium,is_playoff,home_team,away_team,home_points,away_poin
 43103PHI,3/1/18 7:00,Wells Fargo Center,FALSE,Philadelphia 76ers,San Antonio Spurs,112,106
 43103WAS,3/1/18 7:00,Verizon Center,FALSE,Washington Wizards,New York Knicks,121,103
 43103BKN,3/1/18 7:30,Barclays Center,FALSE,Brooklyn Nets,Minnesota Timberwolves,98,97
-43103MIA,3/1/18 7:30,AmericanAirlines Arena,FALSE,Miami Heat,Detriot Pistons,111,104
+43103MIA,3/1/18 7:30,AmericanAirlines Arena,FALSE,Miami Heat,Detroit Pistons,111,104
 43103BOS,3/1/18 8:00,TD Garden,FALSE,Boston Celtics,Cleveland Cavaliers,102,88
 43103CHI,3/1/18 8:00,United Center,FALSE,Chicago Bulls,Toronto Raptors,115,124
-43103MIL,3/1/18 8:00,Bradley Center,FALSE,Milwaukee Bucks,Indianapolis Pacers,122,101
+43103MIL,3/1/18 8:00,Bradley Center,FALSE,Milwaukee Bucks,Indiana Pacers,122,101
 43103DAL,3/1/18 8:30,American Airlines Center,FALSE,Dallas Mavericks,Golden State Warriors,122,125
 43103DEN,3/1/18 9:00,Pepsi Center,FALSE,Denver Nuggets,Phoenix Suns,134,111
 43103UTA,3/1/18 9:00,EnergySolutions Arena,FALSE,Utah Jazz,New Orleans Pelicans,98,108
@@ -567,7 +567,7 @@ gid,date_time_start,stadium,is_playoff,home_team,away_team,home_points,away_poin
 43104HOU,4/1/18 8:00,Toyota Center,FALSE,Houston Rockets,Golden State Warriors,114,124
 43104LAC,4/1/18 10:30,Staples Center,FALSE,Los Angeles Clippers,Oklahoma City Thunder,117,127
 43105MIA,5/1/18 7:00,AmericanAirlines Arena,FALSE,Miami Heat,New York Knicks,107,103
-43105PHI,5/1/18 7:00,Wells Fargo Center,FALSE,Philadelphia 76ers,Detriot Pistons,114,78
+43105PHI,5/1/18 7:00,Wells Fargo Center,FALSE,Philadelphia 76ers,Detroit Pistons,114,78
 43105BOS,5/1/18 7:30,TD Garden,FALSE,Boston Celtics,Minnesota Timberwolves,91,84
 43105MIL,5/1/18 8:00,Bradley Center,FALSE,Milwaukee Bucks,Toronto Raptors,110,129
 43105DAL,5/1/18 8:30,American Airlines Center,FALSE,Dallas Mavericks,Chicago Bulls,124,127
@@ -578,8 +578,8 @@ gid,date_time_start,stadium,is_playoff,home_team,away_team,home_points,away_poin
 43105LAL,5/1/18 10:30,Staples Center,FALSE,Los Angeles Lakers,Charlotte Hornets,94,108
 43106LAC,6/1/18 3:30,Staples Center,FALSE,Los Angeles Clippers,Golden State Warriors,105,121
 43106BKN,6/1/18 6:00,Barclays Center,FALSE,Brooklyn Nets,Boston Celtics,85,87
-43106DET,6/1/18 7:00,The Palace of Auburn Hills,FALSE,Detriot Pistons,Houston Rockets,108,101
-43106IND,6/1/18 7:00,Bankers Life Fieldhouse,FALSE,Indianapolis Pacers,Chicago Bulls,125,86
+43106DET,6/1/18 7:00,The Palace of Auburn Hills,FALSE,Detroit Pistons,Houston Rockets,108,101
+43106IND,6/1/18 7:00,Bankers Life Fieldhouse,FALSE,Indiana Pacers,Chicago Bulls,125,86
 43106ORL,6/1/18 7:00,Amway Center,FALSE,Orlando Magic,Cleveland Cavaliers,127,131
 43106WAS,6/1/18 8:00,Verizon Center,FALSE,Washington Wizards,Milwaukee Bucks,103,110
 43106MIN,6/1/18 9:00,Target Center,FALSE,Minnesota Timberwolves,New Orleans Pelicans,116,98
@@ -589,11 +589,11 @@ gid,date_time_start,stadium,is_playoff,home_team,away_team,home_points,away_poin
 43107PHO,7/1/18 8:00,US Airways Center,FALSE,Phoenix Suns,Oklahoma City Thunder,114,100
 43107POR,7/1/18 9:00,Rose Garden,FALSE,Portland Trail Blazers,San Antonio Spurs,111,110
 43107LAL,7/1/18 9:30,Staples Center,FALSE,Los Angeles Lakers,Atlanta Hawks,132,113
-43108IND,8/1/18 7:00,Bankers Life Fieldhouse,FALSE,Indianapolis Pacers,Milwaukee Bucks,109,96
+43108IND,8/1/18 7:00,Bankers Life Fieldhouse,FALSE,Indiana Pacers,Milwaukee Bucks,109,96
 43108BKN,8/1/18 7:30,Barclays Center,FALSE,Brooklyn Nets,Toronto Raptors,113,114
 43108CHI,8/1/18 8:00,United Center,FALSE,Chicago Bulls,Houston Rockets,107,116
 43108MIN,8/1/18 8:00,Target Center,FALSE,Minnesota Timberwolves,Cleveland Cavaliers,127,99
-43108NO,8/1/18 8:00,New Orleans Arena,FALSE,New Orleans Pelicans,Detriot Pistons,112,109
+43108NO,8/1/18 8:00,New Orleans Arena,FALSE,New Orleans Pelicans,Detroit Pistons,112,109
 43108SAC,8/1/18 10:00,Power Balance Pavilion,FALSE,Sacramento Kings,San Antonio Spurs,100,107
 43108GS,8/1/18 10:30,Oracle Arena,FALSE,Golden State Warriors,Denver Nuggets,124,114
 43108LAC,8/1/18 10:30,Staples Center,FALSE,Los Angeles Clippers,Atlanta Hawks,108,107
@@ -602,9 +602,9 @@ gid,date_time_start,stadium,is_playoff,home_team,away_team,home_points,away_poin
 43109DAL,9/1/18 8:30,American Airlines Center,FALSE,Dallas Mavericks,Orlando Magic,114,99
 43109LAL,9/1/18 10:30,Staples Center,FALSE,Los Angeles Lakers,Sacramento Kings,99,86
 43110CHA,10/1/18 7:00,Time Warner Cable Arena,FALSE,Charlotte Hornets,Dallas Mavericks,111,115
-43110IND,10/1/18 7:00,Bankers Life Fieldhouse,FALSE,Indianapolis Pacers,Miami Heat,106,114
+43110IND,10/1/18 7:00,Bankers Life Fieldhouse,FALSE,Indiana Pacers,Miami Heat,106,114
 43110WAS,10/1/18 7:00,Verizon Center,FALSE,Washington Wizards,Utah Jazz,104,107
-43110BKN,10/1/18 7:30,Barclays Center,FALSE,Brooklyn Nets,Detriot Pistons,80,114
+43110BKN,10/1/18 7:30,Barclays Center,FALSE,Brooklyn Nets,Detroit Pistons,80,114
 43110NY,10/1/18 7:30,Madison Square Garden,FALSE,New York Knicks,Chicago Bulls,119,122
 43110HOU,10/1/18 8:00,Toyota Center,FALSE,Houston Rockets,Portland Trail Blazers,121,112
 43110MEM,10/1/18 8:00,FedExForum,FALSE,Memphis Grizzlies,New Orleans Pelicans,105,102
@@ -617,7 +617,7 @@ gid,date_time_start,stadium,is_playoff,home_team,away_team,home_points,away_poin
 43111SAC,11/1/18 10:00,Power Balance Pavilion,FALSE,Sacramento Kings,Los Angeles Clippers,115,121
 43111LAL,11/1/18 10:30,Staples Center,FALSE,Los Angeles Lakers,San Antonio Spurs,93,81
 43112CHA,12/1/18 7:00,Time Warner Cable Arena,FALSE,Charlotte Hornets,Utah Jazz,99,88
-43112IND,12/1/18 7:00,Bankers Life Fieldhouse,FALSE,Indianapolis Pacers,Cleveland Cavaliers,97,95
+43112IND,12/1/18 7:00,Bankers Life Fieldhouse,FALSE,Indiana Pacers,Cleveland Cavaliers,97,95
 43112WAS,12/1/18 7:00,Verizon Center,FALSE,Washington Wizards,Orlando Magic,125,119
 43112ATL,12/1/18 7:30,Philips Arena,FALSE,Atlanta Hawks,Brooklyn Nets,105,110
 43112MIL,12/1/18 8:00,Bradley Center,FALSE,Milwaukee Bucks,Golden State Warriors,94,108
@@ -630,11 +630,11 @@ gid,date_time_start,stadium,is_playoff,home_team,away_team,home_points,away_poin
 43113CHA,13/01/18 5:00,Time Warner Cable Arena,FALSE,Charlotte Hornets,Oklahoma City Thunder,91,101
 43113WAS,13/01/18 7:00,Verizon Center,FALSE,Washington Wizards,Brooklyn Nets,119,113
 43113TOR,13/01/18 7:30,Air Canada Centre,FALSE,Toronto Raptors,Golden State Warriors,125,127
-43113CHI,13/01/18 8:00,United Center,FALSE,Chicago Bulls,Detriot Pistons,107,105
+43113CHI,13/01/18 8:00,United Center,FALSE,Chicago Bulls,Detroit Pistons,107,105
 43113SA,13/01/18 8:30,AT&T Center,FALSE,San Antonio Spurs,Denver Nuggets,112,80
 43114MIA,14/01/18 1:00,AmericanAirlines Arena,FALSE,Miami Heat,Milwaukee Bucks,97,79
 43114NY,14/01/18 3:30,Madison Square Garden,FALSE,New York Knicks,New Orleans Pelicans,118,123
-43114PHO,14/01/18 8:00,US Airways Center,FALSE,Phoenix Suns,Indianapolis Pacers,97,120
+43114PHO,14/01/18 8:00,US Airways Center,FALSE,Phoenix Suns,Indiana Pacers,97,120
 43114MIN,14/01/18 9:00,Target Center,FALSE,Minnesota Timberwolves,Portland Trail Blazers,120,103
 43115PHI,15/01/18 1:00,Wells Fargo Center,FALSE,Philadelphia 76ers,Toronto Raptors,117,111
 43115WAS,15/01/18 2:00,Verizon Center,FALSE,Washington Wizards,Milwaukee Bucks,95,104
@@ -644,9 +644,9 @@ gid,date_time_start,stadium,is_playoff,home_team,away_team,home_points,away_poin
 43115CHI,15/01/18 3:30,United Center,FALSE,Chicago Bulls,Miami Heat,119,111
 43115MEM,15/01/18 5:30,FedExForum,FALSE,Memphis Grizzlies,Los Angeles Lakers,123,114
 43115CLE,15/01/18 8:00,Quicken Loans Arena,FALSE,Cleveland Cavaliers,Golden State Warriors,108,118
-43115UTA,15/01/18 9:00,EnergySolutions Arena,FALSE,Utah Jazz,Indianapolis Pacers,94,109
+43115UTA,15/01/18 9:00,EnergySolutions Arena,FALSE,Utah Jazz,Indiana Pacers,94,109
 43115LAC,15/01/18 10:30,Staples Center,FALSE,Los Angeles Clippers,Houston Rockets,113,102
-43115DET,15/01/18 12:30,The Palace of Auburn Hills,FALSE,Detriot Pistons,Charlotte Hornets,107,118
+43115DET,15/01/18 12:30,The Palace of Auburn Hills,FALSE,Detroit Pistons,Charlotte Hornets,107,118
 43116ORL,16/01/18 7:00,Amway Center,FALSE,Orlando Magic,Minnesota Timberwolves,108,102
 43116BOS,16/01/18 7:30,TD Garden,FALSE,Boston Celtics,New Orleans Pelicans,113,116
 43116DEN,16/01/18 9:00,Pepsi Center,FALSE,Denver Nuggets,Dallas Mavericks,105,102
@@ -654,7 +654,7 @@ gid,date_time_start,stadium,is_playoff,home_team,away_team,home_points,away_poin
 43117CHA,17/01/18 7:00,Time Warner Cable Arena,FALSE,Charlotte Hornets,Washington Wizards,133,109
 43117ATL,17/01/18 7:30,Philips Arena,FALSE,Atlanta Hawks,New Orleans Pelicans,94,93
 43117BKN,17/01/18 7:30,Barclays Center,FALSE,Brooklyn Nets,San Antonio Spurs,95,100
-43117TOR,17/01/18 7:30,Air Canada Centre,FALSE,Toronto Raptors,Detriot Pistons,96,91
+43117TOR,17/01/18 7:30,Air Canada Centre,FALSE,Toronto Raptors,Detroit Pistons,96,91
 43117CHI,17/01/18 8:00,United Center,FALSE,Chicago Bulls,Golden State Warriors,112,119
 43117MEM,17/01/18 8:00,FedExForum,FALSE,Memphis Grizzlies,New York Knicks,105,99
 43117MIL,17/01/18 8:00,Bradley Center,FALSE,Milwaukee Bucks,Miami Heat,101,106
@@ -664,13 +664,13 @@ gid,date_time_start,stadium,is_playoff,home_team,away_team,home_points,away_poin
 43118BOS,18/01/18 7:00,TD Garden,FALSE,Boston Celtics,Philadelphia 76ers,80,89
 43118CLE,18/01/18 7:00,Quicken Loans Arena,FALSE,Cleveland Cavaliers,Orlando Magic,104,103
 43118HOU,18/01/18 9:30,Toyota Center,FALSE,Houston Rockets,Minnesota Timberwolves,116,98
-43118POR,18/01/18 10:00,Rose Garden,FALSE,Portland Trail Blazers,Indianapolis Pacers,100,86
+43118POR,18/01/18 10:00,Rose Garden,FALSE,Portland Trail Blazers,Indiana Pacers,100,86
 43119TOR,19/01/18 7:00,Air Canada Centre,FALSE,Toronto Raptors,San Antonio Spurs,86,83
 43119BKN,19/01/18 7:30,Barclays Center,FALSE,Brooklyn Nets,Miami Heat,101,95
-43119DET,19/01/18 8:00,The Palace of Auburn Hills,FALSE,Detriot Pistons,Washington Wizards,112,122
+43119DET,19/01/18 8:00,The Palace of Auburn Hills,FALSE,Detroit Pistons,Washington Wizards,112,122
 43119MEM,19/01/18 8:00,FedExForum,FALSE,Memphis Grizzlies,Sacramento Kings,106,88
 43119DEN,19/01/18 9:00,Pepsi Center,FALSE,Denver Nuggets,Phoenix Suns,100,108
-43119LAL,19/01/18 10:30,Staples Center,FALSE,Los Angeles Lakers,Indianapolis Pacers,99,86
+43119LAL,19/01/18 10:30,Staples Center,FALSE,Los Angeles Lakers,Indiana Pacers,99,86
 43119UTA,19/01/18 10:30,EnergySolutions Arena,FALSE,Utah Jazz,New York Knicks,115,117
 43120CLE,20/01/18 3:30,Quicken Loans Arena,FALSE,Cleveland Cavaliers,Oklahoma City Thunder,124,148
 43120ATL,20/01/18 5:00,Philips Arena,FALSE,Atlanta Hawks,Chicago Bulls,97,113
@@ -683,8 +683,8 @@ gid,date_time_start,stadium,is_playoff,home_team,away_team,home_points,away_poin
 43120POR,20/01/18 10:00,Rose Garden,FALSE,Portland Trail Blazers,Dallas Mavericks,117,108
 43121BOS,21/01/18 1:00,TD Garden,FALSE,Boston Celtics,Orlando Magic,95,103
 43121LAL,21/01/18 3:30,Staples Center,FALSE,Los Angeles Lakers,New York Knicks,127,107
-43121DET,21/01/18 4:00,The Palace of Auburn Hills,FALSE,Detriot Pistons,Brooklyn Nets,100,101
-43121SA,21/01/18 7:00,AT&T Center,FALSE,San Antonio Spurs,Indianapolis Pacers,86,94
+43121DET,21/01/18 4:00,The Palace of Auburn Hills,FALSE,Detroit Pistons,Brooklyn Nets,100,101
+43121SA,21/01/18 7:00,AT&T Center,FALSE,San Antonio Spurs,Indiana Pacers,86,94
 43122CHA,22/01/18 7:00,Time Warner Cable Arena,FALSE,Charlotte Hornets,Sacramento Kings,112,107
 43122ATL,22/01/18 7:30,Philips Arena,FALSE,Atlanta Hawks,Utah Jazz,104,90
 43122HOU,22/01/18 8:00,Toyota Center,FALSE,Houston Rockets,Miami Heat,99,90
@@ -700,8 +700,8 @@ gid,date_time_start,stadium,is_playoff,home_team,away_team,home_points,away_poin
 43123GS,23/01/18 10:30,Oracle Arena,FALSE,Golden State Warriors,New York Knicks,123,112
 43123LAL,23/01/18 10:30,Staples Center,FALSE,Los Angeles Lakers,Boston Celtics,108,107
 43124CHA,24/01/18 7:00,Time Warner Cable Arena,FALSE,Charlotte Hornets,New Orleans Pelicans,96,101
-43124DET,24/01/18 7:00,The Palace of Auburn Hills,FALSE,Detriot Pistons,Utah Jazz,95,98
-43124IND,24/01/18 7:00,Bankers Life Fieldhouse,FALSE,Indianapolis Pacers,Phoenix Suns,116,101
+43124DET,24/01/18 7:00,The Palace of Auburn Hills,FALSE,Detroit Pistons,Utah Jazz,95,98
+43124IND,24/01/18 7:00,Bankers Life Fieldhouse,FALSE,Indiana Pacers,Phoenix Suns,116,101
 43124PHI,24/01/18 7:00,Wells Fargo Center,FALSE,Philadelphia 76ers,Chicago Bulls,115,101
 43124ATL,24/01/18 7:30,Philips Arena,FALSE,Atlanta Hawks,Toronto Raptors,93,108
 43124DAL,24/01/18 8:00,American Airlines Center,FALSE,Dallas Mavericks,Houston Rockets,97,104
@@ -713,7 +713,7 @@ gid,date_time_start,stadium,is_playoff,home_team,away_team,home_points,away_poin
 43125DEN,25/01/18 9:00,Pepsi Center,FALSE,Denver Nuggets,New York Knicks,130,118
 43125GS,25/01/18 10:30,Oracle Arena,FALSE,Golden State Warriors,Minnesota Timberwolves,126,113
 43126CHA,26/01/18 7:00,Time Warner Cable Arena,FALSE,Charlotte Hornets,Atlanta Hawks,121,110
-43126CLE,26/01/18 7:30,Quicken Loans Arena,FALSE,Cleveland Cavaliers,Indianapolis Pacers,115,108
+43126CLE,26/01/18 7:30,Quicken Loans Arena,FALSE,Cleveland Cavaliers,Indiana Pacers,115,108
 43126TOR,26/01/18 7:30,Air Canada Centre,FALSE,Toronto Raptors,Utah Jazz,93,97
 43126CHI,26/01/18 8:00,United Center,FALSE,Chicago Bulls,Los Angeles Lakers,103,108
 43126MEM,26/01/18 8:00,FedExForum,FALSE,Memphis Grizzlies,Los Angeles Clippers,100,109
@@ -722,8 +722,8 @@ gid,date_time_start,stadium,is_playoff,home_team,away_team,home_points,away_poin
 43126DAL,26/01/18 8:30,American Airlines Center,FALSE,Dallas Mavericks,Portland Trail Blazers,93,107
 43126SA,26/01/18 8:30,AT&T Center,FALSE,San Antonio Spurs,Philadelphia 76ers,78,97
 43126PHO,26/01/18 9:00,US Airways Center,FALSE,Phoenix Suns,New York Knicks,85,107
-43127DET,27/01/18 7:00,The Palace of Auburn Hills,FALSE,Detriot Pistons,Oklahoma City Thunder,108,121
-43127IND,27/01/18 7:00,Bankers Life Fieldhouse,FALSE,Indianapolis Pacers,Orlando Magic,114,112
+43127DET,27/01/18 7:00,The Palace of Auburn Hills,FALSE,Detroit Pistons,Oklahoma City Thunder,108,121
+43127IND,27/01/18 7:00,Bankers Life Fieldhouse,FALSE,Indiana Pacers,Orlando Magic,114,112
 43127ATL,27/01/18 7:30,Philips Arena,FALSE,Atlanta Hawks,Washington Wizards,104,129
 43127MIA,27/01/18 7:30,AmericanAirlines Arena,FALSE,Miami Heat,Charlotte Hornets,95,91
 43127GS,27/01/18 8:30,Oracle Arena,FALSE,Golden State Warriors,Boston Celtics,109,105
@@ -732,11 +732,11 @@ gid,date_time_start,stadium,is_playoff,home_team,away_team,home_points,away_poin
 43128CHI,28/01/18 3:30,United Center,FALSE,Chicago Bulls,Milwaukee Bucks,96,110
 43128HOU,28/01/18 3:30,Toyota Center,FALSE,Houston Rockets,Phoenix Suns,113,102
 43128NO,28/01/18 4:00,New Orleans Arena,FALSE,New Orleans Pelicans,Los Angeles Clippers,103,112
-43128CLE,28/01/18 6:00,Quicken Loans Arena,FALSE,Cleveland Cavaliers,Detriot Pistons,121,104
+43128CLE,28/01/18 6:00,Quicken Loans Arena,FALSE,Cleveland Cavaliers,Detroit Pistons,121,104
 43128OKC,28/01/18 6:00,Chesapeake Energy Arena,FALSE,Oklahoma City Thunder,Philadelphia 76ers,122,112
 43128TOR,28/01/18 6:00,Air Canada Centre,FALSE,Toronto Raptors,Los Angeles Lakers,123,111
 43128SA,28/01/18 7:00,AT&T Center,FALSE,San Antonio Spurs,Sacramento Kings,113,98
-43129IND,29/01/18 7:00,Bankers Life Fieldhouse,FALSE,Indianapolis Pacers,Charlotte Hornets,105,96
+43129IND,29/01/18 7:00,Bankers Life Fieldhouse,FALSE,Indiana Pacers,Charlotte Hornets,105,96
 43129ATL,29/01/18 7:30,Philips Arena,FALSE,Atlanta Hawks,Minnesota Timberwolves,105,100
 43129MEM,29/01/18 8:00,FedExForum,FALSE,Memphis Grizzlies,Phoenix Suns,120,109
 43129MIL,29/01/18 8:00,Bradley Center,FALSE,Milwaukee Bucks,Philadelphia 76ers,107,95
@@ -745,13 +745,13 @@ gid,date_time_start,stadium,is_playoff,home_team,away_team,home_points,away_poin
 43130WAS,30/01/18 7:00,Verizon Center,FALSE,Washington Wizards,Oklahoma City Thunder,102,96
 43130NY,30/01/18 7:30,Madison Square Garden,FALSE,New York Knicks,Brooklyn Nets,111,95
 43130TOR,30/01/18 7:30,Air Canada Centre,FALSE,Toronto Raptors,Minnesota Timberwolves,109,104
-43130DET,30/01/18 8:00,The Palace of Auburn Hills,FALSE,Detriot Pistons,Cleveland Cavaliers,125,114
+43130DET,30/01/18 8:00,The Palace of Auburn Hills,FALSE,Detroit Pistons,Cleveland Cavaliers,125,114
 43130HOU,30/01/18 8:00,Toyota Center,FALSE,Houston Rockets,Orlando Magic,114,107
 43130NO,30/01/18 8:00,New Orleans Arena,FALSE,New Orleans Pelicans,Sacramento Kings,103,114
 43130SA,30/01/18 8:30,AT&T Center,FALSE,San Antonio Spurs,Denver Nuggets,106,104
 43130UTA,30/01/18 9:00,EnergySolutions Arena,FALSE,Utah Jazz,Golden State Warriors,129,99
 43130LAC,30/01/18 10:30,Staples Center,FALSE,Los Angeles Clippers,Portland Trail Blazers,96,104
-43131IND,31/01/18 7:00,Bankers Life Fieldhouse,FALSE,Indianapolis Pacers,Memphis Grizzlies,105,101
+43131IND,31/01/18 7:00,Bankers Life Fieldhouse,FALSE,Indiana Pacers,Memphis Grizzlies,105,101
 43131ORL,31/01/18 7:00,Amway Center,FALSE,Orlando Magic,Los Angeles Lakers,127,105
 43131ATL,31/01/18 7:30,Philips Arena,FALSE,Atlanta Hawks,Charlotte Hornets,110,123
 43131BKN,31/01/18 7:30,Barclays Center,FALSE,Brooklyn Nets,Philadelphia 76ers,116,108
@@ -759,12 +759,12 @@ gid,date_time_start,stadium,is_playoff,home_team,away_team,home_points,away_poin
 43131BOS,31/01/18 8:00,TD Garden,FALSE,Boston Celtics,New York Knicks,103,73
 43131POR,31/01/18 10:00,Rose Garden,FALSE,Portland Trail Blazers,Chicago Bulls,124,108
 43131PHO,31/01/18 10:30,US Airways Center,FALSE,Phoenix Suns,Dallas Mavericks,102,88
-43132DET,1/2/18 7:00,The Palace of Auburn Hills,FALSE,Detriot Pistons,Memphis Grizzlies,104,102
+43132DET,1/2/18 7:00,The Palace of Auburn Hills,FALSE,Detroit Pistons,Memphis Grizzlies,104,102
 43132WAS,1/2/18 7:00,Verizon Center,FALSE,Washington Wizards,Toronto Raptors,122,119
 43132MIN,1/2/18 8:00,Target Center,FALSE,Minnesota Timberwolves,Milwaukee Bucks,108,89
 43132SA,1/2/18 8:00,AT&T Center,FALSE,San Antonio Spurs,Houston Rockets,91,102
 43132DEN,1/2/18 10:30,Pepsi Center,FALSE,Denver Nuggets,Oklahoma City Thunder,127,124
-43133CHA,2/2/18 7:00,Time Warner Cable Arena,FALSE,Charlotte Hornets,Indianapolis Pacers,133,126
+43133CHA,2/2/18 7:00,Time Warner Cable Arena,FALSE,Charlotte Hornets,Indiana Pacers,133,126
 43133BOS,2/2/18 7:30,TD Garden,FALSE,Boston Celtics,Atlanta Hawks,119,110
 43133BKN,2/2/18 7:30,Barclays Center,FALSE,Brooklyn Nets,Los Angeles Lakers,99,102
 43133TOR,2/2/18 7:30,Air Canada Centre,FALSE,Toronto Raptors,Portland Trail Blazers,130,105
@@ -774,8 +774,8 @@ gid,date_time_start,stadium,is_playoff,home_team,away_team,home_points,away_poin
 43133PHO,2/2/18 9:00,US Airways Center,FALSE,Phoenix Suns,Utah Jazz,97,129
 43133SAC,2/2/18 10:30,Power Balance Pavilion,FALSE,Sacramento Kings,Golden State Warriors,104,119
 43134LAC,3/2/18 3:30,Staples Center,FALSE,Los Angeles Clippers,Chicago Bulls,113,103
-43134DET,3/2/18 7:00,The Palace of Auburn Hills,FALSE,Detriot Pistons,Miami Heat,111,107
-43134IND,3/2/18 7:00,Bankers Life Fieldhouse,FALSE,Indianapolis Pacers,Philadelphia 76ers,100,92
+43134DET,3/2/18 7:00,The Palace of Auburn Hills,FALSE,Detroit Pistons,Miami Heat,111,107
+43134IND,3/2/18 7:00,Bankers Life Fieldhouse,FALSE,Indiana Pacers,Philadelphia 76ers,100,92
 43134ORL,3/2/18 7:00,Amway Center,FALSE,Orlando Magic,Washington Wizards,98,115
 43134CLE,3/2/18 8:30,Quicken Loans Arena,FALSE,Cleveland Cavaliers,Houston Rockets,88,120
 43134DEN,3/2/18 9:00,Pepsi Center,FALSE,Denver Nuggets,Golden State Warriors,115,108
@@ -788,8 +788,8 @@ gid,date_time_start,stadium,is_playoff,home_team,away_team,home_points,away_poin
 43135BKN,4/2/18 10:00,Barclays Center,FALSE,Brooklyn Nets,Milwaukee Bucks,94,109
 43135NY,4/2/18 10:00,Madison Square Garden,FALSE,New York Knicks,Atlanta Hawks,96,99
 43135TOR,4/2/18 10:00,Air Canada Centre,FALSE,Toronto Raptors,Memphis Grizzlies,101,86
-43136DET,5/2/18 7:00,The Palace of Auburn Hills,FALSE,Detriot Pistons,Portland Trail Blazers,111,91
-43136IND,5/2/18 7:00,Bankers Life Fieldhouse,FALSE,Indianapolis Pacers,Washington Wizards,102,111
+43136DET,5/2/18 7:00,The Palace of Auburn Hills,FALSE,Detroit Pistons,Portland Trail Blazers,111,91
+43136IND,5/2/18 7:00,Bankers Life Fieldhouse,FALSE,Indiana Pacers,Washington Wizards,102,111
 43136MIA,5/2/18 7:30,AmericanAirlines Arena,FALSE,Miami Heat,Orlando Magic,109,111
 43136NO,5/2/18 8:00,New Orleans Arena,FALSE,New Orleans Pelicans,Utah Jazz,109,133
 43136DEN,5/2/18 9:00,Pepsi Center,FALSE,Denver Nuggets,Charlotte Hornets,121,104
@@ -803,7 +803,7 @@ gid,date_time_start,stadium,is_playoff,home_team,away_team,home_points,away_poin
 43137PHI,6/2/18 8:00,Wells Fargo Center,FALSE,Philadelphia 76ers,Washington Wizards,115,102
 43137GS,6/2/18 10:30,Oracle Arena,FALSE,Golden State Warriors,Oklahoma City Thunder,105,125
 43137LAL,6/2/18 10:30,Staples Center,FALSE,Los Angeles Lakers,Phoenix Suns,112,93
-43138DET,7/2/18 7:00,The Palace of Auburn Hills,FALSE,Detriot Pistons,Brooklyn Nets,115,106
+43138DET,7/2/18 7:00,The Palace of Auburn Hills,FALSE,Detroit Pistons,Brooklyn Nets,115,106
 43138MIA,7/2/18 7:30,AmericanAirlines Arena,FALSE,Miami Heat,Houston Rockets,101,109
 43138CLE,7/2/18 8:00,Quicken Loans Arena,FALSE,Cleveland Cavaliers,Minnesota Timberwolves,140,138
 43138MEM,7/2/18 8:00,FedExForum,FALSE,Memphis Grizzlies,Utah Jazz,88,92
@@ -814,10 +814,10 @@ gid,date_time_start,stadium,is_playoff,home_team,away_team,home_points,away_poin
 43139POR,8/2/18 10:00,Rose Garden,FALSE,Portland Trail Blazers,Charlotte Hornets,109,103
 43139GS,8/2/18 10:30,Oracle Arena,FALSE,Golden State Warriors,Dallas Mavericks,121,103
 43139LAL,8/2/18 10:30,Staples Center,FALSE,Los Angeles Lakers,Oklahoma City Thunder,106,81
-43140DET,9/2/18 7:00,The Palace of Auburn Hills,FALSE,Detriot Pistons,Los Angeles Clippers,95,108
+43140DET,9/2/18 7:00,The Palace of Auburn Hills,FALSE,Detroit Pistons,Los Angeles Clippers,95,108
 43140PHI,9/2/18 7:00,Wells Fargo Center,FALSE,Philadelphia 76ers,New Orleans Pelicans,100,82
 43140ATL,9/2/18 7:30,Philips Arena,FALSE,Atlanta Hawks,Cleveland Cavaliers,107,123
-43140BOS,9/2/18 7:30,TD Garden,FALSE,Boston Celtics,Indianapolis Pacers,91,97
+43140BOS,9/2/18 7:30,TD Garden,FALSE,Boston Celtics,Indiana Pacers,91,97
 43140CHI,9/2/18 8:00,United Center,FALSE,Chicago Bulls,Minnesota Timberwolves,114,113
 43140HOU,9/2/18 8:00,Toyota Center,FALSE,Houston Rockets,Denver Nuggets,130,104
 43140MIA,9/2/18 8:00,AmericanAirlines Arena,FALSE,Miami Heat,Milwaukee Bucks,91,85
@@ -831,14 +831,14 @@ gid,date_time_start,stadium,is_playoff,home_team,away_team,home_points,away_poin
 43141GS,10/2/18 8:30,Oracle Arena,FALSE,Golden State Warriors,San Antonio Spurs,122,105
 43141PHO,10/2/18 9:00,US Airways Center,FALSE,Phoenix Suns,Denver Nuggets,113,123
 43142CHA,11/2/18 1:00,Time Warner Cable Arena,FALSE,Charlotte Hornets,Toronto Raptors,103,123
-43142ATL,11/2/18 3:30,Philips Arena,FALSE,Atlanta Hawks,Detriot Pistons,118,115
+43142ATL,11/2/18 3:30,Philips Arena,FALSE,Atlanta Hawks,Detroit Pistons,118,115
 43142BOS,11/2/18 3:30,TD Garden,FALSE,Boston Celtics,Cleveland Cavaliers,99,121
-43142IND,11/2/18 5:00,Bankers Life Fieldhouse,FALSE,Indianapolis Pacers,New York Knicks,121,113
+43142IND,11/2/18 5:00,Bankers Life Fieldhouse,FALSE,Indiana Pacers,New York Knicks,121,113
 43142HOU,11/2/18 7:00,Toyota Center,FALSE,Houston Rockets,Dallas Mavericks,104,97
 43142MIN,11/2/18 7:00,Target Center,FALSE,Minnesota Timberwolves,Sacramento Kings,111,106
 43142OKC,11/2/18 7:00,Chesapeake Energy Arena,FALSE,Oklahoma City Thunder,Memphis Grizzlies,110,92
 43142POR,11/2/18 9:00,Rose Garden,FALSE,Portland Trail Blazers,Utah Jazz,96,115
-43143DET,12/2/18 7:00,The Palace of Auburn Hills,FALSE,Detriot Pistons,New Orleans Pelicans,103,118
+43143DET,12/2/18 7:00,The Palace of Auburn Hills,FALSE,Detroit Pistons,New Orleans Pelicans,103,118
 43143PHI,12/2/18 7:00,Wells Fargo Center,FALSE,Philadelphia 76ers,New York Knicks,108,92
 43143BKN,12/2/18 7:30,Barclays Center,FALSE,Brooklyn Nets,Los Angeles Clippers,101,114
 43143CHI,12/2/18 8:00,United Center,FALSE,Chicago Bulls,Orlando Magic,105,101
@@ -850,10 +850,10 @@ gid,date_time_start,stadium,is_playoff,home_team,away_team,home_points,away_poin
 43144OKC,13/02/18 8:00,Chesapeake Energy Arena,FALSE,Oklahoma City Thunder,Cleveland Cavaliers,112,120
 43144DAL,13/02/18 8:30,American Airlines Center,FALSE,Dallas Mavericks,Sacramento Kings,109,114
 43144DEN,13/02/18 10:30,Pepsi Center,FALSE,Denver Nuggets,San Antonio Spurs,117,109
-43145DET,14/02/18 7:00,The Palace of Auburn Hills,FALSE,Detriot Pistons,Atlanta Hawks,104,98
+43145DET,14/02/18 7:00,The Palace of Auburn Hills,FALSE,Detroit Pistons,Atlanta Hawks,104,98
 43145ORL,14/02/18 7:00,Amway Center,FALSE,Orlando Magic,Charlotte Hornets,102,104
 43145PHI,14/02/18 7:00,Wells Fargo Center,FALSE,Philadelphia 76ers,Miami Heat,104,102
-43145BKN,14/02/18 7:30,Barclays Center,FALSE,Brooklyn Nets,Indianapolis Pacers,103,108
+43145BKN,14/02/18 7:30,Barclays Center,FALSE,Brooklyn Nets,Indiana Pacers,103,108
 43145NY,14/02/18 7:30,Madison Square Garden,FALSE,New York Knicks,Washington Wizards,113,118
 43145BOS,14/02/18 8:00,TD Garden,FALSE,Boston Celtics,Los Angeles Clippers,119,129
 43145CHI,14/02/18 8:00,United Center,FALSE,Chicago Bulls,Toronto Raptors,98,122
@@ -870,8 +870,8 @@ gid,date_time_start,stadium,is_playoff,home_team,away_team,home_points,away_poin
 43153CLE,22/02/18 8:00,Quicken Loans Arena,FALSE,Cleveland Cavaliers,Washington Wizards,103,110
 43153SAC,22/02/18 10:00,Power Balance Pavilion,FALSE,Sacramento Kings,Oklahoma City Thunder,107,110
 43153GS,22/02/18 10:30,Oracle Arena,FALSE,Golden State Warriors,Los Angeles Clippers,134,127
-43154DET,23/02/18 7:00,The Palace of Auburn Hills,FALSE,Detriot Pistons,Boston Celtics,98,110
-43154IND,23/02/18 7:00,Bankers Life Fieldhouse,FALSE,Indianapolis Pacers,Atlanta Hawks,116,93
+43154DET,23/02/18 7:00,The Palace of Auburn Hills,FALSE,Detroit Pistons,Boston Celtics,98,110
+43154IND,23/02/18 7:00,Bankers Life Fieldhouse,FALSE,Indiana Pacers,Atlanta Hawks,116,93
 43154WAS,23/02/18 7:00,Verizon Center,FALSE,Washington Wizards,Charlotte Hornets,105,122
 43154TOR,23/02/18 7:30,Air Canada Centre,FALSE,Toronto Raptors,Milwaukee Bucks,119,122
 43154HOU,23/02/18 8:00,Toyota Center,FALSE,Houston Rockets,Minnesota Timberwolves,120,102
@@ -889,7 +889,7 @@ gid,date_time_start,stadium,is_playoff,home_team,away_team,home_points,away_poin
 43155PHO,24/02/18 9:00,US Airways Center,FALSE,Phoenix Suns,Portland Trail Blazers,104,106
 43155UTA,24/02/18 9:00,EnergySolutions Arena,FALSE,Utah Jazz,Dallas Mavericks,97,90
 43155SAC,24/02/18 10:00,Power Balance Pavilion,FALSE,Sacramento Kings,Los Angeles Lakers,108,113
-43156CHA,25/02/18 1:00,Time Warner Cable Arena,FALSE,Charlotte Hornets,Detriot Pistons,114,98
+43156CHA,25/02/18 1:00,Time Warner Cable Arena,FALSE,Charlotte Hornets,Detroit Pistons,114,98
 43156MIL,25/02/18 3:00,Bradley Center,FALSE,Milwaukee Bucks,New Orleans Pelicans,121,123
 43156CLE,25/02/18 3:30,Quicken Loans Arena,FALSE,Cleveland Cavaliers,San Antonio Spurs,94,110
 43156DEN,25/02/18 8:00,Pepsi Center,FALSE,Denver Nuggets,Houston Rockets,114,119
@@ -898,10 +898,10 @@ gid,date_time_start,stadium,is_playoff,home_team,away_team,home_points,away_poin
 43157BOS,26/02/18 7:30,TD Garden,FALSE,Boston Celtics,Memphis Grizzlies,109,98
 43157BKN,26/02/18 7:30,Barclays Center,FALSE,Brooklyn Nets,Chicago Bulls,104,87
 43157NY,26/02/18 7:30,Madison Square Garden,FALSE,New York Knicks,Golden State Warriors,111,125
-43157TOR,26/02/18 7:30,Air Canada Centre,FALSE,Toronto Raptors,Detriot Pistons,123,94
+43157TOR,26/02/18 7:30,Air Canada Centre,FALSE,Toronto Raptors,Detroit Pistons,123,94
 43157NO,26/02/18 8:00,New Orleans Arena,FALSE,New Orleans Pelicans,Phoenix Suns,125,116
 43157OKC,26/02/18 8:00,Chesapeake Energy Arena,FALSE,Oklahoma City Thunder,Orlando Magic,112,105
-43157DAL,26/02/18 8:30,American Airlines Center,FALSE,Dallas Mavericks,Indianapolis Pacers,109,103
+43157DAL,26/02/18 8:30,American Airlines Center,FALSE,Dallas Mavericks,Indiana Pacers,109,103
 43157UTA,26/02/18 9:00,EnergySolutions Arena,FALSE,Utah Jazz,Houston Rockets,85,96
 43157SAC,26/02/18 10:00,Power Balance Pavilion,FALSE,Sacramento Kings,Minnesota Timberwolves,100,118
 43158CHA,27/02/18 7:00,Time Warner Cable Arena,FALSE,Charlotte Hornets,Chicago Bulls,118,103
@@ -910,9 +910,9 @@ gid,date_time_start,stadium,is_playoff,home_team,away_team,home_points,away_poin
 43158MIL,27/02/18 8:00,Bradley Center,FALSE,Milwaukee Bucks,Washington Wizards,104,107
 43158POR,27/02/18 10:00,Rose Garden,FALSE,Portland Trail Blazers,Sacramento Kings,116,99
 43158DEN,27/02/18 10:30,Pepsi Center,FALSE,Denver Nuggets,Los Angeles Clippers,120,122
-43159DET,28/02/18 7:00,The Palace of Auburn Hills,FALSE,Detriot Pistons,Milwaukee Bucks,110,87
+43159DET,28/02/18 7:00,The Palace of Auburn Hills,FALSE,Detroit Pistons,Milwaukee Bucks,110,87
 43159ORL,28/02/18 7:00,Amway Center,FALSE,Orlando Magic,Toronto Raptors,104,117
-43159ATL,28/02/18 7:30,Philips Arena,FALSE,Atlanta Hawks,Indianapolis Pacers,107,102
+43159ATL,28/02/18 7:30,Philips Arena,FALSE,Atlanta Hawks,Indiana Pacers,107,102
 43159BOS,28/02/18 7:30,TD Garden,FALSE,Boston Celtics,Charlotte Hornets,134,106
 43159MEM,28/02/18 8:00,FedExForum,FALSE,Memphis Grizzlies,Phoenix Suns,102,110
 43159WAS,28/02/18 8:00,Verizon Center,FALSE,Washington Wizards,Golden State Warriors,101,109
@@ -923,32 +923,32 @@ gid,date_time_start,stadium,is_playoff,home_team,away_team,home_points,away_poin
 43160CLE,1/3/18 8:00,Quicken Loans Arena,FALSE,Cleveland Cavaliers,Philadelphia 76ers,97,108
 43160SAC,1/3/18 10:00,Power Balance Pavilion,FALSE,Sacramento Kings,Brooklyn Nets,116,111
 43160POR,1/3/18 10:30,Rose Garden,FALSE,Portland Trail Blazers,Minnesota Timberwolves,108,99
-43161ORL,2/3/18 7:00,Amway Center,FALSE,Orlando Magic,Detriot Pistons,115,106
+43161ORL,2/3/18 7:00,Amway Center,FALSE,Orlando Magic,Detroit Pistons,115,106
 43161PHI,2/3/18 7:00,Wells Fargo Center,FALSE,Philadelphia 76ers,Charlotte Hornets,110,99
 43161ATL,2/3/18 7:30,Philips Arena,FALSE,Atlanta Hawks,Golden State Warriors,109,114
 43161CHI,2/3/18 8:00,United Center,FALSE,Chicago Bulls,Dallas Mavericks,108,100
 43161MEM,2/3/18 8:00,FedExForum,FALSE,Memphis Grizzlies,Denver Nuggets,102,108
-43161MIL,2/3/18 8:00,Bradley Center,FALSE,Milwaukee Bucks,Indianapolis Pacers,96,103
+43161MIL,2/3/18 8:00,Bradley Center,FALSE,Milwaukee Bucks,Indiana Pacers,96,103
 43161WAS,2/3/18 8:00,Verizon Center,FALSE,Washington Wizards,Toronto Raptors,95,102
 43161PHO,2/3/18 9:00,US Airways Center,FALSE,Phoenix Suns,Oklahoma City Thunder,116,124
 43161LAC,2/3/18 10:30,Staples Center,FALSE,Los Angeles Clippers,New York Knicks,128,105
 43161UTA,2/3/18 10:30,EnergySolutions Arena,FALSE,Utah Jazz,Minnesota Timberwolves,116,108
 43162ORL,3/3/18 7:00,Amway Center,FALSE,Orlando Magic,Memphis Grizzlies,107,100
 43162CLE,3/3/18 7:30,Quicken Loans Arena,FALSE,Cleveland Cavaliers,Denver Nuggets,117,126
-43162MIA,3/3/18 7:30,AmericanAirlines Arena,FALSE,Miami Heat,Detriot Pistons,105,96
+43162MIA,3/3/18 7:30,AmericanAirlines Arena,FALSE,Miami Heat,Detroit Pistons,105,96
 43162HOU,3/3/18 8:30,Toyota Center,FALSE,Houston Rockets,Boston Celtics,123,120
 43162SA,3/3/18 9:00,AT&T Center,FALSE,San Antonio Spurs,Los Angeles Lakers,112,116
 43162POR,3/3/18 10:00,Rose Garden,FALSE,Portland Trail Blazers,Oklahoma City Thunder,108,100
 43162SAC,3/3/18 10:00,Power Balance Pavilion,FALSE,Sacramento Kings,Utah Jazz,91,98
 43163ATL,4/3/18 3:30,Philips Arena,FALSE,Atlanta Hawks,Phoenix Suns,113,112
 43163TOR,4/3/18 6:00,Air Canada Centre,FALSE,Toronto Raptors,Charlotte Hornets,103,98
-43163WAS,4/3/18 6:00,Verizon Center,FALSE,Washington Wizards,Indianapolis Pacers,95,98
+43163WAS,4/3/18 6:00,Verizon Center,FALSE,Washington Wizards,Indiana Pacers,95,98
 43163DAL,4/3/18 7:00,American Airlines Center,FALSE,Dallas Mavericks,New Orleans Pelicans,109,126
 43163MIL,4/3/18 8:00,Bradley Center,FALSE,Milwaukee Bucks,Philadelphia 76ers,118,110
 43163LAC,4/3/18 9:00,Staples Center,FALSE,Los Angeles Clippers,Brooklyn Nets,123,120
 43163SAC,4/3/18 9:00,Power Balance Pavilion,FALSE,Sacramento Kings,New York Knicks,102,99
-43164CLE,5/3/18 7:00,Quicken Loans Arena,FALSE,Cleveland Cavaliers,Detriot Pistons,112,90
-43164IND,5/3/18 7:00,Bankers Life Fieldhouse,FALSE,Indianapolis Pacers,Milwaukee Bucks,92,89
+43164CLE,5/3/18 7:00,Quicken Loans Arena,FALSE,Cleveland Cavaliers,Detroit Pistons,112,90
+43164IND,5/3/18 7:00,Bankers Life Fieldhouse,FALSE,Indiana Pacers,Milwaukee Bucks,92,89
 43164MIA,5/3/18 7:30,AmericanAirlines Arena,FALSE,Miami Heat,Phoenix Suns,125,103
 43164CHI,5/3/18 8:00,United Center,FALSE,Chicago Bulls,Boston Celtics,89,105
 43164SA,5/3/18 8:30,AT&T Center,FALSE,San Antonio Spurs,Memphis Grizzlies,100,98
@@ -962,9 +962,9 @@ gid,date_time_start,stadium,is_playoff,home_team,away_team,home_points,away_poin
 43165POR,6/3/18 10:00,Rose Garden,FALSE,Portland Trail Blazers,New York Knicks,111,87
 43165GS,6/3/18 10:30,Oracle Arena,FALSE,Golden State Warriors,Brooklyn Nets,114,101
 43165LAC,6/3/18 10:30,Staples Center,FALSE,Los Angeles Clippers,New Orleans Pelicans,116,121
-43166IND,7/3/18 7:00,Bankers Life Fieldhouse,FALSE,Indianapolis Pacers,Utah Jazz,84,104
+43166IND,7/3/18 7:00,Bankers Life Fieldhouse,FALSE,Indiana Pacers,Utah Jazz,84,104
 43166CHI,7/3/18 8:00,United Center,FALSE,Chicago Bulls,Memphis Grizzlies,119,110
-43166DET,7/3/18 8:00,The Palace of Auburn Hills,FALSE,Detriot Pistons,Toronto Raptors,119,121
+43166DET,7/3/18 8:00,The Palace of Auburn Hills,FALSE,Detroit Pistons,Toronto Raptors,119,121
 43166MIL,7/3/18 8:00,Bradley Center,FALSE,Milwaukee Bucks,Houston Rockets,99,110
 43166SAC,7/3/18 10:00,Power Balance Pavilion,FALSE,Sacramento Kings,New Orleans Pelicans,101,114
 43166DEN,7/3/18 10:30,Pepsi Center,FALSE,Denver Nuggets,Cleveland Cavaliers,108,113
@@ -974,8 +974,8 @@ gid,date_time_start,stadium,is_playoff,home_team,away_team,home_points,away_poin
 43167MIN,8/3/18 8:00,Target Center,FALSE,Minnesota Timberwolves,Boston Celtics,109,117
 43167OKC,8/3/18 8:00,Chesapeake Energy Arena,FALSE,Oklahoma City Thunder,Phoenix Suns,115,87
 43167GS,8/3/18 10:30,Oracle Arena,FALSE,Golden State Warriors,San Antonio Spurs,110,107
-43168DET,9/3/18 7:00,The Palace of Auburn Hills,FALSE,Detriot Pistons,Chicago Bulls,99,83
-43168IND,9/3/18 7:00,Bankers Life Fieldhouse,FALSE,Indianapolis Pacers,Atlanta Hawks,112,87
+43168DET,9/3/18 7:00,The Palace of Auburn Hills,FALSE,Detroit Pistons,Chicago Bulls,99,83
+43168IND,9/3/18 7:00,Bankers Life Fieldhouse,FALSE,Indiana Pacers,Atlanta Hawks,112,87
 43168TOR,9/3/18 7:30,Air Canada Centre,FALSE,Toronto Raptors,Houston Rockets,108,105
 43168MEM,9/3/18 8:00,FedExForum,FALSE,Memphis Grizzlies,Utah Jazz,78,95
 43168MIL,9/3/18 8:00,Bradley Center,FALSE,Milwaukee Bucks,New York Knicks,120,112
@@ -995,14 +995,14 @@ gid,date_time_start,stadium,is_playoff,home_team,away_team,home_points,away_poin
 43170NO,11/3/18 4:00,New Orleans Arena,FALSE,New Orleans Pelicans,Utah Jazz,99,116
 43170DEN,11/3/18 5:00,Pepsi Center,FALSE,Denver Nuggets,Sacramento Kings,130,104
 43170DAL,11/3/18 7:00,American Airlines Center,FALSE,Dallas Mavericks,Houston Rockets,82,105
-43170BOS,11/3/18 7:30,TD Garden,FALSE,Boston Celtics,Indianapolis Pacers,97,99
+43170BOS,11/3/18 7:30,TD Garden,FALSE,Boston Celtics,Indiana Pacers,97,99
 43170BKN,11/3/18 7:30,Barclays Center,FALSE,Brooklyn Nets,Philadelphia 76ers,97,120
 43170LAL,11/3/18 9:00,Staples Center,FALSE,Los Angeles Lakers,Cleveland Cavaliers,127,113
 43171HOU,12/3/18 8:00,Toyota Center,FALSE,Houston Rockets,San Antonio Spurs,109,93
 43171MEM,12/3/18 8:00,FedExForum,FALSE,Memphis Grizzlies,Milwaukee Bucks,103,121
 43171OKC,12/3/18 8:00,Chesapeake Energy Arena,FALSE,Oklahoma City Thunder,Sacramento Kings,106,101
 43171POR,12/3/18 10:30,Rose Garden,FALSE,Portland Trail Blazers,Miami Heat,115,99
-43172PHI,13/03/18 7:00,Wells Fargo Center,FALSE,Philadelphia 76ers,Indianapolis Pacers,98,101
+43172PHI,13/03/18 7:00,Wells Fargo Center,FALSE,Philadelphia 76ers,Indiana Pacers,98,101
 43172WAS,13/03/18 7:00,Verizon Center,FALSE,Washington Wizards,Minnesota Timberwolves,111,116
 43172ATL,13/03/18 7:30,Philips Arena,FALSE,Atlanta Hawks,Oklahoma City Thunder,107,119
 43172BKN,13/03/18 7:30,Barclays Center,FALSE,Brooklyn Nets,Toronto Raptors,102,116
@@ -1010,20 +1010,20 @@ gid,date_time_start,stadium,is_playoff,home_team,away_team,home_points,away_poin
 43172CHI,13/03/18 8:00,United Center,FALSE,Chicago Bulls,Los Angeles Clippers,106,112
 43172NO,13/03/18 8:00,New Orleans Arena,FALSE,New Orleans Pelicans,Charlotte Hornets,119,115
 43172SA,13/03/18 8:30,AT&T Center,FALSE,San Antonio Spurs,Orlando Magic,108,72
-43172UTA,13/03/18 9:00,EnergySolutions Arena,FALSE,Utah Jazz,Detriot Pistons,110,79
+43172UTA,13/03/18 9:00,EnergySolutions Arena,FALSE,Utah Jazz,Detroit Pistons,110,79
 43172PHO,13/03/18 10:00,US Airways Center,FALSE,Phoenix Suns,Cleveland Cavaliers,107,129
 43172LAL,13/03/18 10:30,Staples Center,FALSE,Los Angeles Lakers,Denver Nuggets,112,103
 43173ORL,14/03/18 7:00,Amway Center,FALSE,Orlando Magic,Milwaukee Bucks,126,117
 43173BOS,14/03/18 8:00,TD Garden,FALSE,Boston Celtics,Washington Wizards,124,125
 43173SAC,14/03/18 10:00,Power Balance Pavilion,FALSE,Sacramento Kings,Miami Heat,123,119
 43173GS,14/03/18 10:30,Oracle Arena,FALSE,Golden State Warriors,Los Angeles Lakers,117,106
-43174IND,15/03/18 7:00,Bankers Life Fieldhouse,FALSE,Indianapolis Pacers,Toronto Raptors,99,106
+43174IND,15/03/18 7:00,Bankers Life Fieldhouse,FALSE,Indiana Pacers,Toronto Raptors,99,106
 43174ATL,15/03/18 7:30,Philips Arena,FALSE,Atlanta Hawks,Charlotte Hornets,117,129
 43174NY,15/03/18 7:30,Madison Square Garden,FALSE,New York Knicks,Philadelphia 76ers,110,118
 43174HOU,15/03/18 8:00,Toyota Center,FALSE,Houston Rockets,Los Angeles Clippers,101,96
 43174MEM,15/03/18 8:00,FedExForum,FALSE,Memphis Grizzlies,Chicago Bulls,110,111
 43174SA,15/03/18 8:30,AT&T Center,FALSE,San Antonio Spurs,New Orleans Pelicans,98,93
-43174DEN,15/03/18 9:00,Pepsi Center,FALSE,Denver Nuggets,Detriot Pistons,120,113
+43174DEN,15/03/18 9:00,Pepsi Center,FALSE,Denver Nuggets,Detroit Pistons,120,113
 43174UTA,15/03/18 9:00,EnergySolutions Arena,FALSE,Utah Jazz,Phoenix Suns,116,88
 43174POR,15/03/18 10:00,Rose Garden,FALSE,Portland Trail Blazers,Cleveland Cavaliers,113,105
 43175ORL,16/03/18 7:00,Amway Center,FALSE,Orlando Magic,Boston Celtics,83,92
@@ -1033,7 +1033,7 @@ gid,date_time_start,stadium,is_playoff,home_team,away_team,home_points,away_poin
 43175GS,16/03/18 10:30,Oracle Arena,FALSE,Golden State Warriors,Sacramento Kings,93,98
 43175LAL,16/03/18 10:30,Staples Center,FALSE,Los Angeles Lakers,Miami Heat,91,92
 43176NO,17/03/18 7:00,New Orleans Arena,FALSE,New Orleans Pelicans,Houston Rockets,101,107
-43176WAS,17/03/18 7:00,Verizon Center,FALSE,Washington Wizards,Indianapolis Pacers,109,102
+43176WAS,17/03/18 7:00,Verizon Center,FALSE,Washington Wizards,Indiana Pacers,109,102
 43176BKN,17/03/18 7:30,Barclays Center,FALSE,Brooklyn Nets,Dallas Mavericks,114,106
 43176NY,17/03/18 7:30,Madison Square Garden,FALSE,New York Knicks,Charlotte Hornets,124,101
 43176CHI,17/03/18 8:00,United Center,FALSE,Chicago Bulls,Cleveland Cavaliers,109,114
@@ -1042,25 +1042,25 @@ gid,date_time_start,stadium,is_playoff,home_team,away_team,home_points,away_poin
 43176SA,17/03/18 8:30,AT&T Center,FALSE,San Antonio Spurs,Minnesota Timberwolves,117,101
 43176UTA,17/03/18 9:00,EnergySolutions Arena,FALSE,Utah Jazz,Sacramento Kings,103,97
 43176PHO,17/03/18 10:00,US Airways Center,FALSE,Phoenix Suns,Golden State Warriors,109,124
-43176POR,17/03/18 10:00,Rose Garden,FALSE,Portland Trail Blazers,Detriot Pistons,100,87
+43176POR,17/03/18 10:00,Rose Garden,FALSE,Portland Trail Blazers,Detroit Pistons,100,87
 43177TOR,18/03/18 1:00,Air Canada Centre,FALSE,Toronto Raptors,Oklahoma City Thunder,125,132
 43177NO,18/03/18 6:00,New Orleans Arena,FALSE,New Orleans Pelicans,Boston Celtics,108,89
 43177MIN,18/03/18 7:00,Target Center,FALSE,Minnesota Timberwolves,Houston Rockets,120,129
 43177LAC,18/03/18 10:30,Staples Center,FALSE,Los Angeles Clippers,Portland Trail Blazers,109,122
 43178CLE,19/03/18 7:00,Quicken Loans Arena,FALSE,Cleveland Cavaliers,Milwaukee Bucks,124,117
-43178IND,19/03/18 7:00,Bankers Life Fieldhouse,FALSE,Indianapolis Pacers,Los Angeles Lakers,110,100
+43178IND,19/03/18 7:00,Bankers Life Fieldhouse,FALSE,Indiana Pacers,Los Angeles Lakers,110,100
 43178PHI,19/03/18 7:00,Wells Fargo Center,FALSE,Philadelphia 76ers,Charlotte Hornets,108,94
 43178BKN,19/03/18 7:30,Barclays Center,FALSE,Brooklyn Nets,Memphis Grizzlies,118,115
 43178MIA,19/03/18 7:30,AmericanAirlines Arena,FALSE,Miami Heat,Denver Nuggets,149,141
 43178NY,19/03/18 7:30,Madison Square Garden,FALSE,New York Knicks,Chicago Bulls,110,92
 43178SA,19/03/18 9:30,AT&T Center,FALSE,San Antonio Spurs,Golden State Warriors,89,75
-43178SAC,19/03/18 10:00,Power Balance Pavilion,FALSE,Sacramento Kings,Detriot Pistons,90,106
+43178SAC,19/03/18 10:00,Power Balance Pavilion,FALSE,Sacramento Kings,Detroit Pistons,90,106
 43179ORL,20/03/18 7:00,Amway Center,FALSE,Orlando Magic,Toronto Raptors,86,93
 43179BOS,20/03/18 8:00,TD Garden,FALSE,Boston Celtics,Oklahoma City Thunder,100,99
 43179MIN,20/03/18 8:00,Target Center,FALSE,Minnesota Timberwolves,Los Angeles Clippers,123,109
 43179NO,20/03/18 8:00,New Orleans Arena,FALSE,New Orleans Pelicans,Dallas Mavericks,115,105
 43179UTA,20/03/18 9:00,EnergySolutions Arena,FALSE,Utah Jazz,Atlanta Hawks,94,99
-43179PHO,20/03/18 10:00,US Airways Center,FALSE,Phoenix Suns,Detriot Pistons,88,115
+43179PHO,20/03/18 10:00,US Airways Center,FALSE,Phoenix Suns,Detroit Pistons,88,115
 43179POR,20/03/18 10:30,Rose Garden,FALSE,Portland Trail Blazers,Houston Rockets,111,115
 43180CLE,21/03/18 7:00,Quicken Loans Arena,FALSE,Cleveland Cavaliers,Toronto Raptors,132,129
 43180PHI,21/03/18 7:00,Wells Fargo Center,FALSE,Philadelphia 76ers,Memphis Grizzlies,119,105
@@ -1069,14 +1069,14 @@ gid,date_time_start,stadium,is_playoff,home_team,away_team,home_points,away_poin
 43180CHI,21/03/18 8:00,United Center,FALSE,Chicago Bulls,Denver Nuggets,102,135
 43180MIL,21/03/18 8:00,Bradley Center,FALSE,Milwaukee Bucks,Los Angeles Clippers,120,127
 43180SA,21/03/18 9:30,AT&T Center,FALSE,San Antonio Spurs,Washington Wizards,98,90
-43180NO,21/03/18 19:00,New Orleans Arena,FALSE,New Orleans Pelicans,Indianapolis Pacers,96,92
+43180NO,21/03/18 19:00,New Orleans Arena,FALSE,New Orleans Pelicans,Indiana Pacers,96,92
 43181CHA,22/03/18 7:00,Time Warner Cable Arena,FALSE,Charlotte Hornets,Memphis Grizzlies,140,79
 43181ORL,22/03/18 7:00,Amway Center,FALSE,Orlando Magic,Philadelphia 76ers,98,118
-43181HOU,22/03/18 8:00,Toyota Center,FALSE,Houston Rockets,Detriot Pistons,100,96
+43181HOU,22/03/18 8:00,Toyota Center,FALSE,Houston Rockets,Detroit Pistons,100,96
 43181NO,22/03/18 8:00,New Orleans Arena,FALSE,New Orleans Pelicans,Los Angeles Lakers,128,125
 43181DAL,22/03/18 8:30,American Airlines Center,FALSE,Dallas Mavericks,Utah Jazz,112,119
 43181SAC,22/03/18 10:00,Power Balance Pavilion,FALSE,Sacramento Kings,Atlanta Hawks,105,90
-43182IND,23/03/18 7:00,Bankers Life Fieldhouse,FALSE,Indianapolis Pacers,Los Angeles Clippers,109,104
+43182IND,23/03/18 7:00,Bankers Life Fieldhouse,FALSE,Indiana Pacers,Los Angeles Clippers,109,104
 43182WAS,23/03/18 7:00,Verizon Center,FALSE,Washington Wizards,Denver Nuggets,100,108
 43182CLE,23/03/18 7:30,Quicken Loans Arena,FALSE,Cleveland Cavaliers,Phoenix Suns,120,95
 43182NY,23/03/18 7:30,Madison Square Garden,FALSE,New York Knicks,Minnesota Timberwolves,104,108
@@ -1087,14 +1087,14 @@ gid,date_time_start,stadium,is_playoff,home_team,away_team,home_points,away_poin
 43182POR,23/03/18 10:00,Rose Garden,FALSE,Portland Trail Blazers,Boston Celtics,100,105
 43182GS,23/03/18 10:30,Oracle Arena,FALSE,Golden State Warriors,Atlanta Hawks,106,94
 43183PHI,24/03/18 6:00,Wells Fargo Center,FALSE,Philadelphia 76ers,Minnesota Timberwolves,120,108
-43183DET,24/03/18 7:00,The Palace of Auburn Hills,FALSE,Detriot Pistons,Chicago Bulls,117,95
+43183DET,24/03/18 7:00,The Palace of Auburn Hills,FALSE,Detroit Pistons,Chicago Bulls,117,95
 43183ORL,24/03/18 7:00,Amway Center,FALSE,Orlando Magic,Phoenix Suns,105,99
 43183HOU,24/03/18 8:00,Toyota Center,FALSE,Houston Rockets,New Orleans Pelicans,114,91
 43183MEM,24/03/18 8:00,FedExForum,FALSE,Memphis Grizzlies,Los Angeles Lakers,93,100
 43183DAL,24/03/18 8:30,American Airlines Center,FALSE,Dallas Mavericks,Charlotte Hornets,98,102
 43184BKN,25/03/18 1:00,Barclays Center,FALSE,Brooklyn Nets,Cleveland Cavaliers,114,121
 43184MIL,25/03/18 3:30,Bradley Center,FALSE,Milwaukee Bucks,San Antonio Spurs,106,103
-43184IND,25/03/18 5:00,Bankers Life Fieldhouse,FALSE,Indianapolis Pacers,Miami Heat,113,107
+43184IND,25/03/18 5:00,Bankers Life Fieldhouse,FALSE,Indiana Pacers,Miami Heat,113,107
 43184SAC,25/03/18 6:00,Power Balance Pavilion,FALSE,Sacramento Kings,Boston Celtics,93,104
 43184TOR,25/03/18 6:00,Air Canada Centre,FALSE,Toronto Raptors,Los Angeles Clippers,106,117
 43184WAS,25/03/18 6:00,Verizon Center,FALSE,Washington Wizards,New York Knicks,97,101
@@ -1102,7 +1102,7 @@ gid,date_time_start,stadium,is_playoff,home_team,away_team,home_points,away_poin
 43184HOU,25/03/18 8:00,Toyota Center,FALSE,Houston Rockets,Atlanta Hawks,118,99
 43184GS,25/03/18 8:30,Oracle Arena,FALSE,Golden State Warriors,Utah Jazz,91,110
 43185CHA,26/03/18 7:00,Time Warner Cable Arena,FALSE,Charlotte Hornets,New York Knicks,137,128
-43185DET,26/03/18 7:00,The Palace of Auburn Hills,FALSE,Detriot Pistons,Los Angeles Lakers,112,106
+43185DET,26/03/18 7:00,The Palace of Auburn Hills,FALSE,Detroit Pistons,Los Angeles Lakers,112,106
 43185PHI,26/03/18 7:00,Wells Fargo Center,FALSE,Philadelphia 76ers,Denver Nuggets,123,104
 43185MIN,26/03/18 8:00,Target Center,FALSE,Minnesota Timberwolves,Memphis Grizzlies,93,101
 43185PHO,26/03/18 10:00,US Airways Center,FALSE,Phoenix Suns,Boston Celtics,94,102
@@ -1112,7 +1112,7 @@ gid,date_time_start,stadium,is_playoff,home_team,away_team,home_points,away_poin
 43186MIA,27/03/18 8:00,AmericanAirlines Arena,FALSE,Miami Heat,Cleveland Cavaliers,98,79
 43186NO,27/03/18 8:00,New Orleans Arena,FALSE,New Orleans Pelicans,Portland Trail Blazers,103,107
 43186SAC,27/03/18 10:00,Power Balance Pavilion,FALSE,Sacramento Kings,Dallas Mavericks,97,103
-43186GS,27/03/18 10:30,Oracle Arena,FALSE,Golden State Warriors,Indianapolis Pacers,81,92
+43186GS,27/03/18 10:30,Oracle Arena,FALSE,Golden State Warriors,Indiana Pacers,81,92
 43186LAC,27/03/18 10:30,Staples Center,FALSE,Los Angeles Clippers,Milwaukee Bucks,105,98
 43187CHA,28/03/18 7:00,Time Warner Cable Arena,FALSE,Charlotte Hornets,Cleveland Cavaliers,105,118
 43187ORL,28/03/18 7:00,Amway Center,FALSE,Orlando Magic,Brooklyn Nets,104,111
@@ -1122,10 +1122,10 @@ gid,date_time_start,stadium,is_playoff,home_team,away_team,home_points,away_poin
 43187UTA,28/03/18 9:30,EnergySolutions Arena,FALSE,Utah Jazz,Boston Celtics,94,97
 43187PHO,28/03/18 10:00,US Airways Center,FALSE,Phoenix Suns,Los Angeles Clippers,99,111
 43187LAL,28/03/18 10:30,Staples Center,FALSE,Los Angeles Lakers,Dallas Mavericks,103,93
-43188DET,29/03/18 7:00,The Palace of Auburn Hills,FALSE,Detriot Pistons,Washington Wizards,103,92
+43188DET,29/03/18 7:00,The Palace of Auburn Hills,FALSE,Detroit Pistons,Washington Wizards,103,92
 43188MIA,29/03/18 7:30,AmericanAirlines Arena,FALSE,Miami Heat,Chicago Bulls,103,92
 43188SA,29/03/18 8:00,AT&T Center,FALSE,San Antonio Spurs,Oklahoma City Thunder,103,99
-43188SAC,29/03/18 10:00,Power Balance Pavilion,FALSE,Sacramento Kings,Indianapolis Pacers,103,106
+43188SAC,29/03/18 10:00,Power Balance Pavilion,FALSE,Sacramento Kings,Indiana Pacers,103,106
 43188GS,29/03/18 10:30,Oracle Arena,FALSE,Golden State Warriors,Milwaukee Bucks,107,116
 43189ORL,30/03/18 7:00,Amway Center,FALSE,Orlando Magic,Chicago Bulls,82,90
 43189ATL,30/03/18 7:30,Philips Arena,FALSE,Atlanta Hawks,Philadelphia 76ers,91,101
@@ -1137,16 +1137,16 @@ gid,date_time_start,stadium,is_playoff,home_team,away_team,home_points,away_poin
 43189LAL,30/03/18 10:30,Staples Center,FALSE,Los Angeles Lakers,Milwaukee Bucks,122,124
 43189POR,30/03/18 10:30,Rose Garden,FALSE,Portland Trail Blazers,Los Angeles Clippers,105,96
 43190WAS,31/03/18 3:00,Verizon Center,FALSE,Washington Wizards,Charlotte Hornets,107,93
-43190NY,31/03/18 5:00,Madison Square Garden,FALSE,New York Knicks,Detriot Pistons,109,115
+43190NY,31/03/18 5:00,Madison Square Garden,FALSE,New York Knicks,Detroit Pistons,109,115
 43190BOS,31/03/18 7:30,TD Garden,FALSE,Boston Celtics,Toronto Raptors,110,99
 43190MIA,31/03/18 8:00,AmericanAirlines Arena,FALSE,Miami Heat,Brooklyn Nets,109,110
 43190SAC,31/03/18 10:00,Power Balance Pavilion,FALSE,Sacramento Kings,Golden State Warriors,96,112
 43191CHA,1/4/18 1:00,Time Warner Cable Arena,FALSE,Charlotte Hornets,Philadelphia 76ers,102,119
 43191CHI,1/4/18 3:30,United Center,FALSE,Chicago Bulls,Washington Wizards,113,94
-43191LAC,1/4/18 3:30,Staples Center,FALSE,Los Angeles Clippers,Indianapolis Pacers,104,111
+43191LAC,1/4/18 3:30,Staples Center,FALSE,Los Angeles Clippers,Indiana Pacers,104,111
 43191SA,1/4/18 3:30,AT&T Center,FALSE,San Antonio Spurs,Houston Rockets,100,83
 43191ATL,1/4/18 6:00,Philips Arena,FALSE,Atlanta Hawks,Orlando Magic,94,88
-43191BKN,1/4/18 6:00,Barclays Center,FALSE,Brooklyn Nets,Detriot Pistons,96,108
+43191BKN,1/4/18 6:00,Barclays Center,FALSE,Brooklyn Nets,Detroit Pistons,96,108
 43191CLE,1/4/18 6:00,Quicken Loans Arena,FALSE,Cleveland Cavaliers,Dallas Mavericks,98,87
 43191NO,1/4/18 6:00,New Orleans Arena,FALSE,New Orleans Pelicans,Oklahoma City Thunder,104,109
 43191MIN,1/4/18 7:00,Target Center,FALSE,Minnesota Timberwolves,Utah Jazz,97,121
@@ -1163,29 +1163,29 @@ gid,date_time_start,stadium,is_playoff,home_team,away_team,home_points,away_poin
 43193MIL,3/4/18 8:00,Bradley Center,FALSE,Milwaukee Bucks,Boston Celtics,106,102
 43193OKC,3/4/18 8:00,Chesapeake Energy Arena,FALSE,Oklahoma City Thunder,Golden State Warriors,107,111
 43193DAL,3/4/18 8:30,American Airlines Center,FALSE,Dallas Mavericks,Portland Trail Blazers,115,109
-43193DEN,3/4/18 9:00,Pepsi Center,FALSE,Denver Nuggets,Indianapolis Pacers,107,104
+43193DEN,3/4/18 9:00,Pepsi Center,FALSE,Denver Nuggets,Indiana Pacers,107,104
 43193UTA,3/4/18 9:00,EnergySolutions Arena,FALSE,Utah Jazz,Los Angeles Lakers,117,110
 43193PHO,3/4/18 10:00,US Airways Center,FALSE,Phoenix Suns,Sacramento Kings,97,94
 43193LAC,3/4/18 10:30,Staples Center,FALSE,Los Angeles Clippers,San Antonio Spurs,113,110
-43194DET,4/4/18 7:00,The Palace of Auburn Hills,FALSE,Detriot Pistons,Philadelphia 76ers,108,115
+43194DET,4/4/18 7:00,The Palace of Auburn Hills,FALSE,Detroit Pistons,Philadelphia 76ers,108,115
 43194ORL,4/4/18 7:00,Amway Center,FALSE,Orlando Magic,Dallas Mavericks,105,100
 43194TOR,4/4/18 7:00,Air Canada Centre,FALSE,Toronto Raptors,Boston Celtics,96,78
 43194ATL,4/4/18 7:30,Philips Arena,FALSE,Atlanta Hawks,Miami Heat,86,115
 43194NO,4/4/18 9:30,New Orleans Arena,FALSE,New Orleans Pelicans,Memphis Grizzlies,123,95
 43194LAL,4/4/18 10:30,Staples Center,FALSE,Los Angeles Lakers,San Antonio Spurs,122,112
-43195IND,5/4/18 7:00,Bankers Life Fieldhouse,FALSE,Indianapolis Pacers,Golden State Warriors,126,106
+43195IND,5/4/18 7:00,Bankers Life Fieldhouse,FALSE,Indiana Pacers,Golden State Warriors,126,106
 43195CLE,5/4/18 8:00,Quicken Loans Arena,FALSE,Cleveland Cavaliers,Washington Wizards,119,115
 43195HOU,5/4/18 8:00,Toyota Center,FALSE,Houston Rockets,Portland Trail Blazers,96,94
 43195MIL,5/4/18 8:00,Bradley Center,FALSE,Milwaukee Bucks,Brooklyn Nets,111,119
 43195UTA,5/4/18 9:00,EnergySolutions Arena,FALSE,Utah Jazz,Los Angeles Clippers,117,95
 43195DEN,5/4/18 10:30,Pepsi Center,FALSE,Denver Nuggets,Minnesota Timberwolves,100,96
-43196DET,6/4/18 7:00,The Palace of Auburn Hills,FALSE,Detriot Pistons,Dallas Mavericks,113,106
+43196DET,6/4/18 7:00,The Palace of Auburn Hills,FALSE,Detroit Pistons,Dallas Mavericks,113,106
 43196ORL,6/4/18 7:00,Amway Center,FALSE,Orlando Magic,Charlotte Hornets,100,137
 43196PHI,6/4/18 7:00,Wells Fargo Center,FALSE,Philadelphia 76ers,Cleveland Cavaliers,132,130
 43196WAS,6/4/18 7:00,Verizon Center,FALSE,Washington Wizards,Atlanta Hawks,97,103
 43196BOS,6/4/18 7:30,TD Garden,FALSE,Boston Celtics,Chicago Bulls,111,104
 43196NY,6/4/18 7:30,Madison Square Garden,FALSE,New York Knicks,Miami Heat,122,98
-43196TOR,6/4/18 7:30,Air Canada Centre,FALSE,Toronto Raptors,Indianapolis Pacers,92,73
+43196TOR,6/4/18 7:30,Air Canada Centre,FALSE,Toronto Raptors,Indiana Pacers,92,73
 43196MEM,6/4/18 8:00,FedExForum,FALSE,Memphis Grizzlies,Sacramento Kings,93,94
 43196PHO,6/4/18 10:00,US Airways Center,FALSE,Phoenix Suns,New Orleans Pelicans,103,122
 43196LAL,6/4/18 10:30,Staples Center,FALSE,Los Angeles Lakers,Minnesota Timberwolves,96,113
@@ -1195,14 +1195,14 @@ gid,date_time_start,stadium,is_playoff,home_team,away_team,home_points,away_poin
 43197GS,7/4/18 8:30,Oracle Arena,FALSE,Golden State Warriors,New Orleans Pelicans,120,126
 43197HOU,7/4/18 8:30,Toyota Center,FALSE,Houston Rockets,Oklahoma City Thunder,102,108
 43197SA,7/4/18 9:00,AT&T Center,FALSE,San Antonio Spurs,Portland Trail Blazers,116,105
-43198CHA,8/4/18 1:00,Time Warner Cable Arena,FALSE,Charlotte Hornets,Indianapolis Pacers,117,123
+43198CHA,8/4/18 1:00,Time Warner Cable Arena,FALSE,Charlotte Hornets,Indiana Pacers,117,123
 43198PHI,8/4/18 1:00,Wells Fargo Center,FALSE,Philadelphia 76ers,Dallas Mavericks,109,97
-43198MEM,8/4/18 3:30,FedExForum,FALSE,Memphis Grizzlies,Detriot Pistons,130,117
+43198MEM,8/4/18 3:30,FedExForum,FALSE,Memphis Grizzlies,Detroit Pistons,130,117
 43198LAL,8/4/18 6:00,Staples Center,FALSE,Los Angeles Lakers,Utah Jazz,97,112
 43198TOR,8/4/18 6:00,Air Canada Centre,FALSE,Toronto Raptors,Orlando Magic,112,101
 43198BOS,8/4/18 7:30,TD Garden,FALSE,Boston Celtics,Atlanta Hawks,106,112
 43198PHO,8/4/18 9:00,US Airways Center,FALSE,Phoenix Suns,Golden State Warriors,100,117
-43199DET,9/4/18 7:00,The Palace of Auburn Hills,FALSE,Detriot Pistons,Toronto Raptors,98,108
+43199DET,9/4/18 7:00,The Palace of Auburn Hills,FALSE,Detroit Pistons,Toronto Raptors,98,108
 43199BKN,9/4/18 7:30,Barclays Center,FALSE,Brooklyn Nets,Chicago Bulls,114,105
 43199MIA,9/4/18 7:30,AmericanAirlines Arena,FALSE,Miami Heat,Oklahoma City Thunder,93,115
 43199NY,9/4/18 7:30,Madison Square Garden,FALSE,New York Knicks,Cleveland Cavaliers,109,123
@@ -1211,14 +1211,14 @@ gid,date_time_start,stadium,is_playoff,home_team,away_team,home_points,away_poin
 43199SA,9/4/18 8:30,AT&T Center,FALSE,San Antonio Spurs,Sacramento Kings,98,85
 43199DEN,9/4/18 9:00,Pepsi Center,FALSE,Denver Nuggets,Portland Trail Blazers,88,82
 43199LAC,9/4/18 10:30,Staples Center,FALSE,Los Angeles Clippers,New Orleans Pelicans,100,113
-43200IND,10/4/18 7:00,Bankers Life Fieldhouse,FALSE,Indianapolis Pacers,Charlotte Hornets,93,119
+43200IND,10/4/18 7:00,Bankers Life Fieldhouse,FALSE,Indiana Pacers,Charlotte Hornets,93,119
 43200ATL,10/4/18 7:30,Philips Arena,FALSE,Atlanta Hawks,Philadelphia 76ers,113,121
 43200WAS,10/4/18 8:00,Verizon Center,FALSE,Washington Wizards,Boston Celtics,113,101
 43200DAL,10/4/18 8:30,American Airlines Center,FALSE,Dallas Mavericks,Phoenix Suns,97,124
 43200UTA,10/4/18 9:00,EnergySolutions Arena,FALSE,Utah Jazz,Golden State Warriors,119,79
 43200LAL,10/4/18 10:30,Staples Center,FALSE,Los Angeles Lakers,Houston Rockets,99,105
 43201BOS,11/4/18 8:00,TD Garden,FALSE,Boston Celtics,Brooklyn Nets,110,97
-43201CHI,11/4/18 8:00,United Center,FALSE,Chicago Bulls,Detriot Pistons,87,119
+43201CHI,11/4/18 8:00,United Center,FALSE,Chicago Bulls,Detroit Pistons,87,119
 43201CLE,11/4/18 8:00,Quicken Loans Arena,FALSE,Cleveland Cavaliers,New York Knicks,98,110
 43201MIA,11/4/18 8:00,AmericanAirlines Arena,FALSE,Miami Heat,Toronto Raptors,116,109
 43201MIN,11/4/18 8:00,Target Center,FALSE,Minnesota Timberwolves,Denver Nuggets,112,106
