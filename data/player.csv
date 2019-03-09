@@ -10,7 +10,7 @@ pid,name,birthdate,college,height,weight,current_team
 9,Jarrett Allen,21-Apr-98,University of Texas at Austin,75,192,Brooklyn Nets
 10,Kadeem Allen,15-Jan-93,University of Arizona,76,213,Boston Celtics
 11,Lavoy Allen,4-Feb-89,Temple University,81,220,Free Agent
-12,Tony Allen,11-Jan-82,Oklahoma State University,78,228,New Orleans Hornets
+12,Tony Allen,11-Jan-82,Oklahoma State University,78,228,New Orleans Pelicans
 13,Al-Farouq Aminu,21-Sep-90,Wake Forest University,81,230,Portland Trail Blazers
 14,Chris Andersen,7-Jul-78,Blinn College,82,240,Free Agent
 15,Alan Anderson,16-Oct-82,Michigan State University,82,252,Free Agent
@@ -29,7 +29,7 @@ pid,name,birthdate,college,height,weight,current_team
 28,Omer Asik,4-Jul-86,,78,190,Chicago Bulls
 29,D.J. Augustin,10-Nov-87,University of Texas at Austin,72,185,Orlando Magic
 30,Luke Babbitt,20-Jun-89,"University of Nevada, Reno",80,210,Miami Heat
-31,Dwayne Bacon,30-Aug-95,Florida State University,78,175,Charlotte Bobcats
+31,Dwayne Bacon,30-Aug-95,Florida State University,78,175,Charlotte Hornets
 32,Ron Baker,30-Mar-93,Wichita State University,80,200,New York Knicks
 33,Wade Baldwin,29-Mar-96,Vanderbilt University,75,200,Portland Trail Blazers
 34,Lonzo Ball,27-Oct-97,"University of California, Los Angeles",82,260,Los Angeles Lakers
@@ -39,7 +39,7 @@ pid,name,birthdate,college,height,weight,current_team
 38,Matt Barnes,9-Mar-80,"University of California, Los Angeles",81,235,Free Agent
 39,Will Barton,6-Jan-91,University of Memphis,77,210,Denver Nuggets
 40,Brandon Bass,30-Apr-85,Louisiana State University,81,224,Free Agent
-41,Nicolas Batum,14-Dec-88,,78,210,Charlotte Bobcats
+41,Nicolas Batum,14-Dec-88,,78,210,Charlotte Hornets
 42,Jerryd Bayless,20-Aug-88,University of Arizona,85,225,Philadelphia 76ers
 43,Aron Baynes,9-Dec-86,Washington State University,82,210,Boston Celtics
 44,Kent Bazemore,1-Jul-89,Old Dominion University,73,185,Atlanta Hawks
@@ -92,7 +92,7 @@ pid,name,birthdate,college,height,weight,current_team
 91,Clint Capela,18-May-94,,77,194,Houston Rockets
 92,DeMarre Carroll,27-Jul-86,University of Missouri,76,185,Brooklyn Nets
 93,Vince Carter,26-Jan-77,University of North Carolina,78,195,Sacramento Kings
-94,Michael Carter-Williams,10-Oct-91,Syracuse University,82,235,Charlotte Bobcats
+94,Michael Carter-Williams,10-Oct-91,Syracuse University,82,235,Charlotte Hornets
 95,Alex Caruso,28-Feb-94,Texas A&M University,84,232,Los Angeles Lakers
 96,Omri Casspi,22-Jun-88,,78,210,Golden State Warriors
 97,Willie Cauley-Stein,18-Aug-93,University of Kentucky,72,175,Sacramento Kings
@@ -103,7 +103,7 @@ pid,name,birthdate,college,height,weight,current_team
 102,Marquese Chriss,2-Jul-97,University of Washington,77,196,Phoenix Suns
 103,Rakeem Christmas,1-Dec-91,Syracuse University,81,260,Free Agent
 104,Semaj Christon,1-Nov-92,Xavier University,81,245,Free Agent
-105,Ian Clark,7-Mar-91,Belmont University,83,270,New Orleans Hornets
+105,Ian Clark,7-Mar-91,Belmont University,83,270,New Orleans Pelicans
 106,Jordan Clarkson,7-Jun-92,University of Missouri,81,215,Cleveland Cavaliers
 107,Gian Clavell,26-Nov-93,Colorado State University,78,210,Dallas Mavericks
 108,Antonius Cleveland,2-Feb-94,Southeast Missouri State University,78,215,Atlanta Hawks
@@ -116,21 +116,21 @@ pid,name,birthdate,college,height,weight,current_team
 115,Mike Conley,11-Oct-87,Ohio State University,82,253,Memphis Grizzlies
 116,Pat Connaughton,6-Jan-93,University of Notre Dame,83,237,Portland Trail Blazers
 117,Quinn Cook,23-Mar-93,Duke University,82,240,Golden State Warriors
-118,Charles Cooke,1-Jul-94,University of Dayton,84,245,New Orleans Hornets
+118,Charles Cooke,1-Jul-94,University of Dayton,84,245,New Orleans Pelicans
 119,Jack Cooley,4-Apr-91,University of Notre Dame,81,230,Sacramento Kings
 120,Matt Costello,5-Aug-93,Michigan State University,75,190,San Antonio Spurs
-121,DeMarcus Cousins,13-Aug-90,University of Kentucky,76,198,New Orleans Hornets
+121,DeMarcus Cousins,13-Aug-90,University of Kentucky,76,198,New Orleans Pelicans
 122,Robert Covington,14-Dec-90,Tennessee State University,81,220,Philadelphia 76ers
 123,Allen Crabbe,9-Apr-92,University of California,79,221,Brooklyn Nets
 124,Torrey Craig,19-Dec-90,University of South Carolina Upstate,81,220,Denver Nuggets
 125,Jamal Crawford,20-Mar-80,University of Michigan,83,241,Minnesota Timberwolves
-126,Jordan Crawford,23-Oct-88,Xavier University,78,200,New Orleans Hornets
+126,Jordan Crawford,23-Oct-88,Xavier University,78,200,New Orleans Pelicans
 127,Jae Crowder,6-Jul-90,Marquette University,77,183,Utah Jazz
 128,Dante Cunningham,22-Apr-87,Villanova University,78,205,Brooklyn Nets
 129,Seth Curry,23-Aug-90,Duke University,75,190,Free Agent
 130,Stephen Curry,14-Mar-88,Davidson College,83,279,Golden State Warriors
 131,Troy Daniels,15-Jul-91,Virginia Commonwealth University,79,225,Phoenix Suns
-132,Anthony Davis,11-Mar-93,University of Kentucky,76,210,New Orleans Hornets
+132,Anthony Davis,11-Mar-93,University of Kentucky,76,210,New Orleans Pelicans
 133,Deyonta Davis,2-Dec-96,Michigan State University,81,240,Memphis Grizzlies
 134,Ed Davis,5-Jun-89,University of North Carolina,83,245,Portland Trail Blazers
 135,Dewayne Dedmon,12-Aug-89,University of Southern California,76,200,Atlanta Hawks
@@ -139,7 +139,7 @@ pid,name,birthdate,college,height,weight,current_team
 138,Matthew Dellavedova,8-Sep-90,Saint Mary's College of California,75,194,Milwaukee Bucks
 139,Luol Deng,16-Apr-85,Duke University,72,185,Los Angeles Lakers
 140,DeMar DeRozan,7-Aug-89,University of Southern California,78,220,Toronto Raptors
-141,Cheick Diallo,13-Sep-96,University of Kansas,80,228,New Orleans Hornets
+141,Cheick Diallo,13-Sep-96,University of Kansas,80,228,New Orleans Pelicans
 142,Boris Diaw,16-Apr-82,,82,265,Free Agent
 143,Gorgui Dieng,18-Jan-90,University of Louisville,69,176,Minnesota Timberwolves
 144,Spencer Dinwiddie,6-Apr-93,University of Colorado,82,275,Brooklyn Nets
@@ -196,7 +196,7 @@ pid,name,birthdate,college,height,weight,current_team
 195,Aaron Gordon,16-Sep-95,University of Arizona,75,188,Orlando Magic
 196,Eric Gordon,25-Dec-88,Indiana University,78,205,Houston Rockets
 197,Marcin Gortat,17-Feb-84,,76,205,Free Agent
-198,Treveon Graham,29-Oct-93,Virginia Commonwealth University,78,185,Charlotte Bobcats
+198,Treveon Graham,29-Oct-93,Virginia Commonwealth University,78,185,Charlotte Hornets
 199,Jerami Grant,12-Mar-94,Syracuse University,77,205,Oklahoma City Thunder
 200,Jerian Grant,9-Oct-92,University of Notre Dame,79,220,Chicago Bulls
 201,Danny Green,22-Jun-87,University of North Carolina,82,245,San Antonio Spurs
@@ -234,9 +234,9 @@ pid,name,birthdate,college,height,weight,current_team
 233,Nene Hilario,13-Sep-82,,79,215,Free Agent
 234,George Hill,4-May-86,Indiana University-Purdue University Indianapolis,82,250,Cleveland Cavaliers
 235,Jordan Hill,27-Jul-87,University of Arizona,84,245,Free Agent
-236,Solomon Hill,18-Mar-91,University of Arizona,79,190,New Orleans Hornets
+236,Solomon Hill,18-Mar-91,University of Arizona,79,190,New Orleans Pelicans
 237,Darrun Hilliard,13-Apr-93,Villanova University,79,223,San Antonio Spurs
-238,Jrue Holiday,12-Jun-90,"University of California, Los Angeles",74,195,New Orleans Hornets
+238,Jrue Holiday,12-Jun-90,"University of California, Los Angeles",74,195,New Orleans Pelicans
 239,Justin Holiday,5-Apr-89,University of Washington,83,265,Chicago Bulls
 240,John Holland,6-Nov-88,Boston University,75,193,Cleveland Cavaliers
 241,Rondae Hollis-Jefferson,3-Jan-95,University of Arizona,84,242,Brooklyn Nets
@@ -244,7 +244,7 @@ pid,name,birthdate,college,height,weight,current_team
 243,Rodney Hood,20-Oct-92,Duke University,78,206,Cleveland Cavaliers
 244,Al Horford,3-Jun-86,University of Florida,79,232,Boston Celtics
 245,Danuel House,7-Jun-93,Texas A&M University,76,210,Phoenix Suns
-246,Dwight Howard,8-Dec-85,,82,220,Charlotte Bobcats
+246,Dwight Howard,8-Dec-85,,82,220,Charlotte Hornets
 247,Marcelo Huertas,25-May-83,,79,185,Free Agent
 248,Josh Huestis,19-Dec-91,Stanford University,79,212,Oklahoma City Thunder
 249,Kris Humphries,6-Feb-85,University of Minnesota,84,265,Free Agent
@@ -265,7 +265,7 @@ pid,name,birthdate,college,height,weight,current_team
 264,Pierre Jackson,29-Aug-91,Baylor University,78,209,Free Agent
 265,Reggie Jackson,16-Apr-90,Boston College,75,195,Detroit Pistons
 266,LeBron James,30-Dec-84,,75,200,Cleveland Cavaliers
-267,Mike James,18-Aug-90,Lamar University,79,192,New Orleans Hornets
+267,Mike James,18-Aug-90,Lamar University,79,192,New Orleans Pelicans
 268,Al Jefferson,4-Jan-85,,81,220,Indiana Pacers
 269,Richard Jefferson,21-Jun-80,University of Arizona,84,275,Denver Nuggets
 270,John Jenkins,6-Mar-91,Vanderbilt University,84,255,Free Agent
@@ -289,11 +289,11 @@ pid,name,birthdate,college,height,weight,current_team
 288,Tyus Jones,10-May-96,Duke University,79,185,Minnesota Timberwolves
 289,DeAndre Jordan,21-Jul-88,Texas A&M University,75,190,Los Angeles Clippers
 290,Cory Joseph,20-Aug-91,University of Texas at Austin,74,200,Indiana Pacers
-291,Frank Kaminsky,4-Apr-93,University of Wisconsin,83,200,Charlotte Bobcats
+291,Frank Kaminsky,4-Apr-93,University of Wisconsin,83,200,Charlotte Hornets
 292,Enes Kanter,20-May-92,,80,225,New York Knicks
 293,Ryan Kelly,9-Apr-91,Duke University,84,270,Free Agent
 294,Luke Kennard,24-Jun-96,Duke University,80,215,Detroit Pistons
-295,Michael Kidd-Gilchrist,26-Sep-93,University of Kentucky,77,195,Charlotte Bobcats
+295,Michael Kidd-Gilchrist,26-Sep-93,University of Kentucky,77,195,Charlotte Hornets
 296,Sean Kilpatrick,6-Jan-90,University of Cincinnati,76,210,Chicago Bulls
 297,Maxi Kleber,29-Jan-92,,85,245,Dallas Mavericks
 298,Brandon Knight,2-Dec-91,University of Kentucky,80,235,Free Agent
@@ -303,7 +303,7 @@ pid,name,birthdate,college,height,weight,current_team
 302,Kyle Kuzma,24-Jul-95,University of Utah,79,210,Los Angeles Lakers
 303,Mindaugas Kuzminskas,19-Oct-89,,72,185,New York Knicks
 304,Skal Labissiere,18-Mar-96,University of Kentucky,80,246,Free Agent
-305,Jeremy Lamb,30-May-92,University of Connecticut,82,220,Charlotte Bobcats
+305,Jeremy Lamb,30-May-92,University of Connecticut,82,220,Charlotte Hornets
 306,Nicolas Laprovittola,31-Jan-90,,75,211,Free Agent
 307,Shane Larkin,2-Oct-92,University of Miami,75,200,Boston Celtics
 308,Joffrey Lauvergne,30-Sep-91,,83,265,San Antonio Spurs
@@ -318,7 +318,7 @@ pid,name,birthdate,college,height,weight,current_team
 317,Meyers Leonard,27-Feb-92,University of Illinois at Urbana-Champaign,78,223,Portland Trail Blazers
 318,Jon Leuer,14-May-89,University of Wisconsin,77,170,Detroit Pistons
 319,Caris LeVert,25-Aug-94,University of Michigan,76,207,Brooklyn Nets
-320,DeAndre Liggins,31-Mar-88,University of Kentucky,83,240,New Orleans Hornets
+320,DeAndre Liggins,31-Mar-88,University of Kentucky,83,240,New Orleans Pelicans
 321,Damian Lillard,15-Jul-90,Weber State University,78,230,Portland Trail Blazers
 322,Jeremy Lin,23-Aug-88,Harvard University,81,230,Brooklyn Nets
 323,Shaun Livingston,11-Sep-85,,73,175,Golden State Warriors
@@ -341,7 +341,7 @@ pid,name,birthdate,college,height,weight,current_team
 340,Lauri Markkanen,22-May-97,University of Arizona,80,210,Chicago Bulls
 341,Jarell Martin,24-May-94,Louisiana State University,79,205,Memphis Grizzlies
 342,Frank Mason,3-Apr-94,University of Kansas,83,270,Sacramento Kings
-343,Mangok Mathiang,8-Oct-92,University of Louisville,73,175,Charlotte Bobcats
+343,Mangok Mathiang,8-Oct-92,University of Louisville,73,175,Charlotte Hornets
 344,Wesley Matthews,14-Oct-86,Marquette University,85,240,Dallas Mavericks
 345,Luc Mbah a Moute,9-Sep-86,"University of California, Los Angeles",74,185,Free Agent
 346,James Michael McAdoo,4-Jan-93,University of North Carolina,82,230,Philadelphia 76ers
@@ -362,7 +362,7 @@ pid,name,birthdate,college,height,weight,current_team
 361,Jordan Mickey,9-Jul-94,Louisiana State University,87,240,Miami Heat
 362,Khris Middleton,12-Aug-91,Texas A&M University,83,240,Milwaukee Bucks
 363,C.J. Miles,18-Apr-87,,76,215,Toronto Raptors
-364,Darius Miller,21-Mar-90,University of Kentucky,79,238,New Orleans Hornets
+364,Darius Miller,21-Mar-90,University of Kentucky,79,238,New Orleans Pelicans
 365,Malcolm Miller,6-Mar-93,College of the Holy Cross,73,200,Toronto Raptors
 366,Mike Miller,19-Feb-80,University of Florida,85,210,Free Agent
 367,Patty Mills,11-Aug-88,Saint Mary's College of California,82,220,Free Agent
@@ -370,9 +370,9 @@ pid,name,birthdate,college,height,weight,current_team
 369,Paul Millsap,10-Feb-85,Louisiana Tech University,81,260,Denver Nuggets
 370,Nikola Mirotic,11-Feb-91,,76,190,Free Agent
 371,Donovan Mitchell,7-Sep-96,University of Louisville,82,220,Utah Jazz
-372,Malik Monk,4-Feb-98,University of Kentucky,78,200,Charlotte Bobcats
+372,Malik Monk,4-Feb-98,University of Kentucky,78,200,Charlotte Hornets
 373,Greg Monroe,4-Jun-90,Georgetown University,78,205,Boston Celtics
-374,E'Twaun Moore,28-Feb-89,Purdue University,76,200,New Orleans Hornets
+374,E'Twaun Moore,28-Feb-89,Purdue University,76,200,New Orleans Pelicans
 375,Eric Moreland,24-Dec-91,Oregon State University,79,210,Detroit Pistons
 376,Marcus Morris,2-Sep-89,University of Kansas,73,186,Boston Celtics
 377,Markieff Morris,2-Sep-89,University of Kansas,75,190,Free Agent
@@ -403,7 +403,7 @@ pid,name,birthdate,college,height,weight,current_team
 402,Frank Ntilikina,28-Jul-98,,81,225,New York Knicks
 403,Jusuf Nurkic,23-Aug-94,,79,200,Portland Trail Blazers
 404,David Nwaba,14-Jan-93,"California Polytechnic State University, San Luis Obispo",82,255,Chicago Bulls
-405,Johnny O'Bryant,1-Jun-93,Louisiana State University,78,205,Charlotte Bobcats
+405,Johnny O'Bryant,1-Jun-93,Louisiana State University,78,205,Charlotte Hornets
 406,Royce O'Neale,5-Jun-93,Baylor University,77,230,Utah Jazz
 407,Kyle O'Quinn,26-Mar-90,Norfolk State University,78,200,New York Knicks
 408,Daniel Ochefu,15-Dec-93,Villanova University,80,250,Free Agent
@@ -416,7 +416,7 @@ pid,name,birthdate,college,height,weight,current_team
 415,Cedi Osman,8-Apr-95,,74,185,Cleveland Cavaliers
 416,Kelly Oubre,9-Dec-95,University of Kansas,81,215,Free Agent
 417,Zaza Pachulia,10-Feb-84,,80,235,Golden State Warriors
-418,Marcus Paige,11-Sep-93,University of North Carolina,79,215,Charlotte Bobcats
+418,Marcus Paige,11-Sep-93,University of North Carolina,79,215,Charlotte Hornets
 419,Georgios Papagiannis,3-Jul-97,,81,238,Portland Trail Blazers
 420,Jabari Parker,15-Mar-95,Duke University,77,212,Milwaukee Bucks
 421,Tony Parker,17-May-82,,80,240,San Antonio Spurs
@@ -461,7 +461,7 @@ pid,name,birthdate,college,height,weight,current_team
 460,Glenn Robinson,8-Jan-94,University of Michigan,76,190,Indiana Pacers
 461,Thomas Robinson,17-Mar-91,University of Kansas,82,210,Free Agent
 462,Sergio Rodriguez,12-Jun-86,,77,183,Free Agent
-463,Rajon Rondo,22-Feb-86,University of Kentucky,79,260,New Orleans Hornets
+463,Rajon Rondo,22-Feb-86,University of Kentucky,79,260,New Orleans Pelicans
 464,Derrick Rose,4-Oct-88,University of Memphis,74,180,Minnesota Timberwolves
 465,Terrence Ross,5-Feb-91,University of Washington,79,210,Orlando Magic
 466,Terry Rozier,17-Mar-94,University of Louisville,80,221,Boston Celtics
@@ -492,7 +492,7 @@ pid,name,birthdate,college,height,weight,current_team
 491,Ish Smith,5-Jul-88,Wake Forest University,,,Free Agent
 492,J.R. Smith,9-Sep-85,,,,Cleveland Cavaliers
 493,Jason Smith,2-Mar-86,Colorado State University,,,Free Agent
-494,Josh Smith,5-Dec-85,,,,New Orleans Hornets
+494,Josh Smith,5-Dec-85,,,,New Orleans Pelicans
 495,Tony Snell,10-Nov-91,University of New Mexico,,,Milwaukee Bucks
 496,Marreese Speights,4-Aug-87,University of Florida,,,Orlando Magic
 497,Tiago Splitter,1-Jan-85,,,,Free Agent
@@ -500,7 +500,7 @@ pid,name,birthdate,college,height,weight,current_team
 499,Lance Stephenson,5-Sep-90,University of Cincinnati,,,Indiana Pacers
 500,Jarnell Stokes,7-Jan-94,University of Tennessee,,,Free Agent
 501,Diamond Stone,10-Feb-97,University of Maryland,,,Free Agent
-502,Julyan Stone,7-Dec-88,University of Texas at El Paso,,,Charlotte Bobcats
+502,Julyan Stone,7-Dec-88,University of Texas at El Paso,,,Charlotte Hornets
 503,Rodney Stuckey,21-Apr-86,Eastern Washington University,,,Free Agent
 504,Jared Sullinger,4-Mar-92,Ohio State University,,,Free Agent
 505,Caleb Swanigan,18-Apr-97,Purdue University,,,Portland Trail Blazers
@@ -542,7 +542,7 @@ pid,name,birthdate,college,height,weight,current_team
 541,Sasha Vujacic,8-Mar-84,,,,Free Agent
 542,Dwyane Wade,17-Jan-82,Marquette University,,,Miami Heat
 543,Dion Waiters,10-Dec-91,Syracuse University,,,Miami Heat
-544,Kemba Walker,8-May-90,University of Connecticut,,,Charlotte Bobcats
+544,Kemba Walker,8-May-90,University of Connecticut,,,Charlotte Hornets
 545,John Wall,6-Sep-90,University of Kentucky,,,Free Agent
 546,Taurean Waller-Prince,22-Mar-94,Baylor University,,,Free Agent
 547,Derrick Walton,3-Apr-95,University of Michigan,,,Miami Heat
@@ -564,7 +564,7 @@ pid,name,birthdate,college,height,weight,current_team
 563,Deron Williams,26-Jun-84,University of Illinois at Urbana-Champaign,,,Free Agent
 564,Derrick Williams,25-May-91,University of Arizona,,,Los Angeles Lakers
 565,Lou Williams,27-Oct-86,,,,Los Angeles Clippers
-566,Marvin Williams,19-Jun-86,University of North Carolina,,,Charlotte Bobcats
+566,Marvin Williams,19-Jun-86,University of North Carolina,,,Charlotte Hornets
 567,Matt Williams,14-Oct-93,University of Central Florida,,,Miami Heat
 568,Reggie Williams,14-Sep-86,Virginia Military Institute,,,Free Agent
 569,Troy Williams,30-Dec-94,Indiana University,,,New York Knicks
@@ -583,7 +583,7 @@ pid,name,birthdate,college,height,weight,current_team
 582,Joe Young,27-Jun-92,University of Oregon,,,Free Agent
 583,Nick Young,1-Jun-85,University of Southern California,,,Golden State Warriors
 584,Thaddeus Young,21-Jun-88,Georgia Institute of Technology,,,Indiana Pacers
-585,Cody Zeller,5-Oct-92,Indiana University,,,Charlotte Bobcats
+585,Cody Zeller,5-Oct-92,Indiana University,,,Charlotte Hornets
 586,Tyler Zeller,17-Jan-90,University of North Carolina,,,Milwaukee Bucks
 587,Stephen Zimmerman,9-Sep-96,"University of Nevada, Las Vegas",,,Free Agent
 588,Paul Zipser,18-Feb-94,,,,Chicago Bulls

@@ -1,0 +1,1231 @@
+gid,date_time_start,stadium,is_playoff,home_team,away_team,home_points,away_points
+43025CLE,17/10/17 8:00,Quicken Loans Arena,FALSE,Cleveland Cavaliers,Boston Celtics,102,99
+43025GS,17/10/17 10:30,Oracle Arena,FALSE,Golden State Warriors,Houston Rockets,121,122
+43026DET,18/10/17 7:00,The Palace of Auburn Hills,FALSE,Detriot Pistons,Charlotte Hornets,102,90
+43026IND,18/10/17 7:00,Bankers Life Fieldhouse,FALSE,Indianapolis Pacers,Brooklyn Nets,140,131
+43026ORL,18/10/17 7:00,Amway Center,FALSE,Orlando Magic,Miami Heat,116,109
+43026WAS,18/10/17 7:00,Verizon Center,FALSE,Washington Wizards,Philadelphia 76ers,120,115
+43026BOS,18/10/17 7:30,TD Garden,FALSE,Boston Celtics,Milwaukee Bucks,100,108
+43026MEM,18/10/17 8:00,FedExForum,FALSE,Memphis Grizzlies,New Orleans Pelicans,103,91
+43026DAL,18/10/17 8:30,American Airlines Center,FALSE,Dallas Mavericks,Atlanta Hawks,111,117
+43026UTA,18/10/17 9:00,EnergySolutions Arena,FALSE,Utah Jazz,Denver Nuggets,106,96
+43026SA,18/10/17 9:30,AT&T Center,FALSE,San Antonio Spurs,Minnesota Timberwolves,107,99
+43026PHO,18/10/17 10:00,US Airways Center,FALSE,Phoenix Suns,Portland Trail Blazers,76,124
+43026SAC,18/10/17 10:00,Power Balance Pavilion,FALSE,Sacramento Kings,Houston Rockets,100,105
+43027TOR,19/10/17 7:30,Air Canada Centre,FALSE,Toronto Raptors,Chicago Bulls,117,101
+43027OKC,19/10/17 8:00,Chesapeake Energy Arena,FALSE,Oklahoma City Thunder,New York Knicks,105,84
+43027LAL,19/10/17 10:30,Staples Center,FALSE,Los Angeles Lakers,Los Angeles Clippers,92,108
+43028CHA,20/10/17 7:00,Time Warner Cable Arena,FALSE,Charlotte Hornets,Atlanta Hawks,109,91
+43028IND,20/10/17 7:00,Bankers Life Fieldhouse,FALSE,Indianapolis Pacers,Portland Trail Blazers,96,114
+43028MIL,20/10/17 7:00,Bradley Center,FALSE,Milwaukee Bucks,Cleveland Cavaliers,97,116
+43028PHI,20/10/17 7:00,Wells Fargo Center,FALSE,Philadelphia 76ers,Boston Celtics,92,102
+43028WAS,20/10/17 7:00,Verizon Center,FALSE,Washington Wizards,Detriot Pistons,115,111
+43028BKN,20/10/17 7:30,Barclays Center,FALSE,Brooklyn Nets,Orlando Magic,126,121
+43028MIN,20/10/17 8:00,Target Center,FALSE,Minnesota Timberwolves,Utah Jazz,100,97
+43028DAL,20/10/17 8:30,American Airlines Center,FALSE,Dallas Mavericks,Sacramento Kings,88,93
+43028NO,20/10/17 9:30,New Orleans Arena,FALSE,New Orleans Pelicans,Golden State Warriors,120,128
+43028PHO,20/10/17 10:00,US Airways Center,FALSE,Phoenix Suns,Los Angeles Lakers,130,132
+43029TOR,21/10/17 7:30,Air Canada Centre,FALSE,Toronto Raptors,Philadelphia 76ers,128,94
+43029CHI,21/10/17 8:00,United Center,FALSE,Chicago Bulls,San Antonio Spurs,77,87
+43029CLE,21/10/17 8:00,Quicken Loans Arena,FALSE,Cleveland Cavaliers,Orlando Magic,93,114
+43029HOU,21/10/17 8:00,Toyota Center,FALSE,Houston Rockets,Dallas Mavericks,107,91
+43029MEM,21/10/17 8:00,FedExForum,FALSE,Memphis Grizzlies,Golden State Warriors,111,101
+43029MIA,21/10/17 8:00,AmericanAirlines Arena,FALSE,Miami Heat,Indianapolis Pacers,112,108
+43029NY,21/10/17 8:00,Madison Square Garden,FALSE,New York Knicks,Detriot Pistons,107,111
+43029MIL,21/10/17 8:30,Bradley Center,FALSE,Milwaukee Bucks,Portland Trail Blazers,113,110
+43029DEN,21/10/17 9:00,Pepsi Center,FALSE,Denver Nuggets,Sacramento Kings,96,79
+43029UTA,21/10/17 9:00,EnergySolutions Arena,FALSE,Utah Jazz,Oklahoma City Thunder,96,87
+43029LAC,21/10/17 10:30,Staples Center,FALSE,Los Angeles Clippers,Phoenix Suns,130,88
+43030BKN,22/10/17 3:30,Barclays Center,FALSE,Brooklyn Nets,Atlanta Hawks,116,104
+43030OKC,22/10/17 7:00,Chesapeake Energy Arena,FALSE,Oklahoma City Thunder,Minnesota Timberwolves,113,115
+43030LAL,22/10/17 9:30,Staples Center,FALSE,Los Angeles Lakers,New Orleans Pelicans,112,119
+43031DET,23/10/17 7:00,The Palace of Auburn Hills,FALSE,Detriot Pistons,Philadelphia 76ers,86,97
+43031MIA,23/10/17 7:30,AmericanAirlines Arena,FALSE,Miami Heat,Atlanta Hawks,104,93
+43031HOU,23/10/17 8:00,Toyota Center,FALSE,Houston Rockets,Memphis Grizzlies,90,98
+43031MIL,23/10/17 8:00,Bradley Center,FALSE,Milwaukee Bucks,Charlotte Hornets,103,94
+43031DAL,23/10/17 8:30,American Airlines Center,FALSE,Dallas Mavericks,Golden State Warriors,103,133
+43031SA,23/10/17 8:30,AT&T Center,FALSE,San Antonio Spurs,Toronto Raptors,101,97
+43031DEN,23/10/17 9:00,Pepsi Center,FALSE,Denver Nuggets,Washington Wizards,104,109
+43031PHO,23/10/17 10:00,US Airways Center,FALSE,Phoenix Suns,Sacramento Kings,117,115
+43032CLE,24/10/17 7:00,Quicken Loans Arena,FALSE,Cleveland Cavaliers,Chicago Bulls,119,112
+43032ORL,24/10/17 7:00,Amway Center,FALSE,Orlando Magic,Brooklyn Nets,125,121
+43032BOS,24/10/17 7:30,TD Garden,FALSE,Boston Celtics,New York Knicks,110,89
+43032MIN,24/10/17 8:00,Target Center,FALSE,Minnesota Timberwolves,Indianapolis Pacers,107,130
+43032POR,24/10/17 10:00,Rose Garden,FALSE,Portland Trail Blazers,New Orleans Pelicans,103,93
+43032LAC,24/10/17 10:30,Staples Center,FALSE,Los Angeles Clippers,Utah Jazz,102,84
+43033CHA,25/10/17 7:00,Time Warner Cable Arena,FALSE,Charlotte Hornets,Denver Nuggets,110,93
+43033DET,25/10/17 7:00,The Palace of Auburn Hills,FALSE,Detriot Pistons,Minnesota Timberwolves,122,101
+43033PHI,25/10/17 7:00,Wells Fargo Center,FALSE,Philadelphia 76ers,Houston Rockets,104,105
+43033BKN,25/10/17 7:30,Barclays Center,FALSE,Brooklyn Nets,Cleveland Cavaliers,112,107
+43033MIA,25/10/17 8:00,AmericanAirlines Arena,FALSE,Miami Heat,San Antonio Spurs,100,117
+43033OKC,25/10/17 8:00,Chesapeake Energy Arena,FALSE,Oklahoma City Thunder,Indianapolis Pacers,114,96
+43033DAL,25/10/17 8:30,American Airlines Center,FALSE,Dallas Mavericks,Memphis Grizzlies,103,94
+43033PHO,25/10/17 10:00,US Airways Center,FALSE,Phoenix Suns,Utah Jazz,97,88
+43033GS,25/10/17 10:30,Oracle Arena,FALSE,Golden State Warriors,Toronto Raptors,117,112
+43033LAL,25/10/17 10:30,Staples Center,FALSE,Los Angeles Lakers,Washington Wizards,102,99
+43034CHI,26/10/17 8:00,United Center,FALSE,Chicago Bulls,Atlanta Hawks,91,86
+43034MEM,26/10/17 8:00,FedExForum,FALSE,Memphis Grizzlies,Dallas Mavericks,96,91
+43034MIL,26/10/17 8:00,Bradley Center,FALSE,Milwaukee Bucks,Boston Celtics,89,96
+43034POR,26/10/17 10:00,Rose Garden,FALSE,Portland Trail Blazers,Los Angeles Clippers,103,104
+43034SAC,26/10/17 10:30,Power Balance Pavilion,FALSE,Sacramento Kings,New Orleans Pelicans,106,114
+43035CHA,27/10/17 7:00,Time Warner Cable Arena,FALSE,Charlotte Hornets,Houston Rockets,93,109
+43035ORL,27/10/17 7:00,Amway Center,FALSE,Orlando Magic,San Antonio Spurs,114,87
+43035ATL,27/10/17 7:30,Philips Arena,FALSE,Atlanta Hawks,Denver Nuggets,100,105
+43035NY,27/10/17 7:30,Madison Square Garden,FALSE,New York Knicks,Brooklyn Nets,107,86
+43035MIN,27/10/17 8:00,Target Center,FALSE,Minnesota Timberwolves,Oklahoma City Thunder,119,116
+43035GS,27/10/17 10:30,Oracle Arena,FALSE,Golden State Warriors,Washington Wizards,120,117
+43035LAL,27/10/17 10:30,Staples Center,FALSE,Los Angeles Lakers,Toronto Raptors,92,101
+43036NO,28/10/17 7:00,New Orleans Arena,FALSE,New Orleans Pelicans,Cleveland Cavaliers,123,101
+43036CHI,28/10/17 8:00,United Center,FALSE,Chicago Bulls,Oklahoma City Thunder,69,101
+43036MEM,28/10/17 8:00,FedExForum,FALSE,Memphis Grizzlies,Houston Rockets,103,89
+43036MIA,28/10/17 8:00,AmericanAirlines Arena,FALSE,Miami Heat,Boston Celtics,90,96
+43036DAL,28/10/17 8:30,American Airlines Center,FALSE,Dallas Mavericks,Philadelphia 76ers,110,112
+43036UTA,28/10/17 9:00,EnergySolutions Arena,FALSE,Utah Jazz,Los Angeles Lakers,96,81
+43036POR,28/10/17 10:00,Rose Garden,FALSE,Portland Trail Blazers,Phoenix Suns,114,107
+43036LAC,28/10/17 10:30,Staples Center,FALSE,Los Angeles Clippers,Detriot Pistons,87,95
+43037ATL,29/10/17 3:30,Philips Arena,FALSE,Atlanta Hawks,Milwaukee Bucks,106,117
+43037IND,29/10/17 4:30,Bankers Life Fieldhouse,FALSE,Indianapolis Pacers,San Antonio Spurs,97,94
+43037BKN,29/10/17 6:00,Barclays Center,FALSE,Brooklyn Nets,Denver Nuggets,111,124
+43037CHA,29/10/17 6:00,Time Warner Cable Arena,FALSE,Charlotte Hornets,Orlando Magic,120,113
+43037SAC,29/10/17 6:00,Power Balance Pavilion,FALSE,Sacramento Kings,Washington Wizards,83,110
+43037CLE,29/10/17 7:00,Quicken Loans Arena,FALSE,Cleveland Cavaliers,New York Knicks,95,114
+43037GS,29/10/17 8:30,Oracle Arena,FALSE,Golden State Warriors,Detriot Pistons,107,115
+43038BOS,30/10/17 7:30,TD Garden,FALSE,Boston Celtics,San Antonio Spurs,108,94
+43038MIA,30/10/17 7:30,AmericanAirlines Arena,FALSE,Miami Heat,Minnesota Timberwolves,122,125
+43038NY,30/10/17 7:30,Madison Square Garden,FALSE,New York Knicks,Denver Nuggets,116,110
+43038HOU,30/10/17 8:00,Toyota Center,FALSE,Houston Rockets,Philadelphia 76ers,107,115
+43038MEM,30/10/17 8:00,FedExForum,FALSE,Memphis Grizzlies,Charlotte Hornets,99,104
+43038NO,30/10/17 8:00,New Orleans Arena,FALSE,New Orleans Pelicans,Orlando Magic,99,115
+43038UTA,30/10/17 9:00,EnergySolutions Arena,FALSE,Utah Jazz,Dallas Mavericks,104,89
+43038POR,30/10/17 10:00,Rose Garden,FALSE,Portland Trail Blazers,Toronto Raptors,85,99
+43038LAC,30/10/17 10:30,Staples Center,FALSE,Los Angeles Clippers,Golden State Warriors,113,141
+43039IND,31/10/17 7:00,Bankers Life Fieldhouse,FALSE,Indianapolis Pacers,Sacramento Kings,101,83
+43039BKN,31/10/17 7:30,Barclays Center,FALSE,Brooklyn Nets,Phoenix Suns,114,122
+43039MIL,31/10/17 8:00,Bradley Center,FALSE,Milwaukee Bucks,Oklahoma City Thunder,91,110
+43039LAL,31/10/17 10:30,Staples Center,FALSE,Los Angeles Lakers,Detriot Pistons,113,93
+43040CHA,1/11/17 7:00,Time Warner Cable Arena,FALSE,Charlotte Hornets,Milwaukee Bucks,126,121
+43040CLE,1/11/17 7:00,Quicken Loans Arena,FALSE,Cleveland Cavaliers,Indianapolis Pacers,107,124
+43040PHI,1/11/17 7:00,Wells Fargo Center,FALSE,Philadelphia 76ers,Atlanta Hawks,119,109
+43040WAS,1/11/17 7:00,Verizon Center,FALSE,Washington Wizards,Phoenix Suns,116,122
+43040BOS,1/11/17 7:30,TD Garden,FALSE,Boston Celtics,Sacramento Kings,113,86
+43040MIA,1/11/17 7:30,AmericanAirlines Arena,FALSE,Miami Heat,Chicago Bulls,97,91
+43040MEM,1/11/17 8:00,FedExForum,FALSE,Memphis Grizzlies,Orlando Magic,99,101
+43040NO,1/11/17 8:00,New Orleans Arena,FALSE,New Orleans Pelicans,Minnesota Timberwolves,98,104
+43040NY,1/11/17 8:00,Madison Square Garden,FALSE,New York Knicks,Houston Rockets,97,119
+43040DEN,1/11/17 9:00,Pepsi Center,FALSE,Denver Nuggets,Toronto Raptors,129,111
+43040UTA,1/11/17 9:00,EnergySolutions Arena,FALSE,Utah Jazz,Portland Trail Blazers,112,103
+43040LAC,1/11/17 10:30,Staples Center,FALSE,Los Angeles Clippers,Dallas Mavericks,119,98
+43041SA,2/11/17 8:00,AT&T Center,FALSE,San Antonio Spurs,Golden State Warriors,92,112
+43041POR,2/11/17 10:30,Rose Garden,FALSE,Portland Trail Blazers,Los Angeles Lakers,113,110
+43042DET,3/11/17 7:00,The Palace of Auburn Hills,FALSE,Detriot Pistons,Milwaukee Bucks,105,96
+43042ORL,3/11/17 7:00,Amway Center,FALSE,Orlando Magic,Chicago Bulls,83,105
+43042PHI,3/11/17 7:00,Wells Fargo Center,FALSE,Philadelphia 76ers,Indianapolis Pacers,121,110
+43042WAS,3/11/17 7:00,Verizon Center,FALSE,Washington Wizards,Cleveland Cavaliers,122,130
+43042ATL,3/11/17 7:30,Philips Arena,FALSE,Atlanta Hawks,Houston Rockets,104,119
+43042NY,3/11/17 7:30,Madison Square Garden,FALSE,New York Knicks,Phoenix Suns,120,107
+43042DAL,3/11/17 8:30,American Airlines Center,FALSE,Dallas Mavericks,New Orleans Pelicans,94,99
+43042SA,3/11/17 8:30,AT&T Center,FALSE,San Antonio Spurs,Charlotte Hornets,108,101
+43042DEN,3/11/17 9:00,Pepsi Center,FALSE,Denver Nuggets,Miami Heat,95,94
+43042UTA,3/11/17 9:00,EnergySolutions Arena,FALSE,Utah Jazz,Toronto Raptors,100,109
+43042OKC,3/11/17 9:30,Chesapeake Energy Arena,FALSE,Oklahoma City Thunder,Boston Celtics,94,101
+43042LAL,3/11/17 10:30,Staples Center,FALSE,Los Angeles Lakers,Brooklyn Nets,124,112
+43043LAC,4/11/17 3:30,Staples Center,FALSE,Los Angeles Clippers,Memphis Grizzlies,104,113
+43043DET,4/11/17 7:00,The Palace of Auburn Hills,FALSE,Detriot Pistons,Sacramento Kings,108,99
+43043CHI,4/11/17 8:00,United Center,FALSE,Chicago Bulls,New Orleans Pelicans,90,96
+43043MIN,4/11/17 8:00,Target Center,FALSE,Minnesota Timberwolves,Dallas Mavericks,112,99
+43043DEN,4/11/17 9:00,Pepsi Center,FALSE,Denver Nuggets,Golden State Warriors,108,127
+43044CLE,5/11/17 3:00,Quicken Loans Arena,FALSE,Cleveland Cavaliers,Atlanta Hawks,115,117
+43044LAC,5/11/17 3:30,Staples Center,FALSE,Los Angeles Clippers,Miami Heat,101,104
+43044ORL,5/11/17 6:00,Amway Center,FALSE,Orlando Magic,Boston Celtics,88,104
+43044TOR,5/11/17 6:00,Air Canada Centre,FALSE,Toronto Raptors,Washington Wizards,96,107
+43044HOU,5/11/17 7:00,Toyota Center,FALSE,Houston Rockets,Utah Jazz,137,110
+43044SA,5/11/17 7:00,AT&T Center,FALSE,San Antonio Spurs,Phoenix Suns,112,95
+43044NY,5/11/17 7:30,Madison Square Garden,FALSE,New York Knicks,Indianapolis Pacers,108,101
+43044MIN,5/11/17 8:00,Target Center,FALSE,Minnesota Timberwolves,Charlotte Hornets,112,94
+43044POR,5/11/17 9:00,Rose Garden,FALSE,Portland Trail Blazers,Oklahoma City Thunder,103,99
+43044LAL,5/11/17 9:30,Staples Center,FALSE,Los Angeles Lakers,Memphis Grizzlies,107,102
+43045ATL,6/11/17 7:30,Philips Arena,FALSE,Atlanta Hawks,Boston Celtics,107,110
+43045PHO,6/11/17 9:00,US Airways Center,FALSE,Phoenix Suns,Brooklyn Nets,92,98
+43045GS,6/11/17 10:30,Oracle Arena,FALSE,Golden State Warriors,Miami Heat,97,80
+43046CLE,7/11/17 7:00,Quicken Loans Arena,FALSE,Cleveland Cavaliers,Milwaukee Bucks,124,119
+43046IND,7/11/17 7:00,Bankers Life Fieldhouse,FALSE,Indianapolis Pacers,New Orleans Pelicans,112,117
+43046WAS,7/11/17 7:00,Verizon Center,FALSE,Washington Wizards,Dallas Mavericks,99,113
+43046NY,7/11/17 7:30,Madison Square Garden,FALSE,New York Knicks,Charlotte Hornets,118,113
+43046TOR,7/11/17 7:30,Air Canada Centre,FALSE,Toronto Raptors,Chicago Bulls,119,114
+43046SA,7/11/17 8:30,AT&T Center,FALSE,San Antonio Spurs,Los Angeles Clippers,120,107
+43046DEN,7/11/17 9:00,Pepsi Center,FALSE,Denver Nuggets,Brooklyn Nets,112,104
+43046UTA,7/11/17 9:00,EnergySolutions Arena,FALSE,Utah Jazz,Philadelphia 76ers,97,104
+43046POR,7/11/17 10:00,Rose Garden,FALSE,Portland Trail Blazers,Memphis Grizzlies,97,98
+43046SAC,7/11/17 10:00,Power Balance Pavilion,FALSE,Sacramento Kings,Oklahoma City Thunder,94,86
+43047DET,8/11/17 7:00,The Palace of Auburn Hills,FALSE,Detriot Pistons,Indianapolis Pacers,114,97
+43047ORL,8/11/17 7:00,Amway Center,FALSE,Orlando Magic,New York Knicks,112,99
+43047BOS,8/11/17 8:00,TD Garden,FALSE,Boston Celtics,Los Angeles Lakers,107,96
+43047PHO,8/11/17 9:00,US Airways Center,FALSE,Phoenix Suns,Miami Heat,115,126
+43047GS,8/11/17 10:30,Oracle Arena,FALSE,Golden State Warriors,Minnesota Timberwolves,125,101
+43048WAS,9/11/17 7:00,Verizon Center,FALSE,Washington Wizards,Los Angeles Lakers,111,95
+43048TOR,9/11/17 7:30,Air Canada Centre,FALSE,Toronto Raptors,New Orleans Pelicans,122,118
+43048HOU,9/11/17 8:00,Toyota Center,FALSE,Houston Rockets,Cleveland Cavaliers,117,113
+43048SAC,9/11/17 10:00,Power Balance Pavilion,FALSE,Sacramento Kings,Philadelphia 76ers,109,108
+43048DEN,9/11/17 10:30,Pepsi Center,FALSE,Denver Nuggets,Oklahoma City Thunder,102,94
+43049DET,10/11/17 7:00,The Palace of Auburn Hills,FALSE,Detriot Pistons,Atlanta Hawks,111,104
+43049BOS,10/11/17 7:30,TD Garden,FALSE,Boston Celtics,Charlotte Hornets,90,87
+43049CHI,10/11/17 8:00,United Center,FALSE,Chicago Bulls,Indianapolis Pacers,87,105
+43049OKC,10/11/17 9:00,Chesapeake Energy Arena,FALSE,Oklahoma City Thunder,Los Angeles Clippers,120,111
+43049PHO,10/11/17 9:00,US Airways Center,FALSE,Phoenix Suns,Orlando Magic,112,128
+43049SA,10/11/17 9:00,AT&T Center,FALSE,San Antonio Spurs,Milwaukee Bucks,87,94
+43049UTA,10/11/17 9:00,EnergySolutions Arena,FALSE,Utah Jazz,Miami Heat,74,84
+43049POR,10/11/17 10:00,Rose Garden,FALSE,Portland Trail Blazers,Brooklyn Nets,97,101
+43050NO,11/11/17 7:00,New Orleans Arena,FALSE,New Orleans Pelicans,Los Angeles Clippers,111,103
+43050WAS,11/11/17 7:00,Verizon Center,FALSE,Washington Wizards,Atlanta Hawks,113,94
+43050HOU,11/11/17 8:00,Toyota Center,FALSE,Houston Rockets,Memphis Grizzlies,111,96
+43050NY,11/11/17 8:00,Madison Square Garden,FALSE,New York Knicks,Sacramento Kings,118,91
+43050DAL,11/11/17 8:30,American Airlines Center,FALSE,Dallas Mavericks,Cleveland Cavaliers,104,111
+43050GS,11/11/17 8:30,Oracle Arena,FALSE,Golden State Warriors,Philadelphia 76ers,135,114
+43050MIL,11/11/17 8:30,Bradley Center,FALSE,Milwaukee Bucks,Los Angeles Lakers,98,90
+43050SA,11/11/17 8:30,AT&T Center,FALSE,San Antonio Spurs,Chicago Bulls,133,94
+43050DEN,11/11/17 9:00,Pepsi Center,FALSE,Denver Nuggets,Orlando Magic,125,107
+43050PHO,11/11/17 9:00,US Airways Center,FALSE,Phoenix Suns,Minnesota Timberwolves,118,110
+43050UTA,11/11/17 9:00,EnergySolutions Arena,FALSE,Utah Jazz,Brooklyn Nets,114,106
+43051BOS,12/11/17 3:30,TD Garden,FALSE,Boston Celtics,Toronto Raptors,95,94
+43051DET,12/11/17 4:00,The Palace of Auburn Hills,FALSE,Detriot Pistons,Miami Heat,112,103
+43051IND,12/11/17 6:00,Bankers Life Fieldhouse,FALSE,Indianapolis Pacers,Houston Rockets,95,118
+43051OKC,12/11/17 7:00,Chesapeake Energy Arena,FALSE,Oklahoma City Thunder,Dallas Mavericks,112,99
+43052WAS,13/11/17 7:00,Verizon Center,FALSE,Washington Wizards,Sacramento Kings,110,92
+43052NY,13/11/17 7:30,Madison Square Garden,FALSE,New York Knicks,Cleveland Cavaliers,101,104
+43052MIL,13/11/17 8:00,Bradley Center,FALSE,Milwaukee Bucks,Memphis Grizzlies,110,103
+43052NO,13/11/17 8:00,New Orleans Arena,FALSE,New Orleans Pelicans,Atlanta Hawks,106,105
+43052PHO,13/11/17 9:00,US Airways Center,FALSE,Phoenix Suns,Los Angeles Lakers,93,100
+43052UTA,13/11/17 9:00,EnergySolutions Arena,FALSE,Utah Jazz,Minnesota Timberwolves,98,109
+43052POR,13/11/17 10:00,Rose Garden,FALSE,Portland Trail Blazers,Denver Nuggets,99,82
+43052GS,13/11/17 10:30,Oracle Arena,FALSE,Golden State Warriors,Orlando Magic,110,100
+43052LAC,13/11/17 10:30,Staples Center,FALSE,Los Angeles Clippers,Philadelphia 76ers,105,109
+43053BKN,14/11/17 7:30,Barclays Center,FALSE,Brooklyn Nets,Boston Celtics,102,109
+43053HOU,14/11/17 8:00,Toyota Center,FALSE,Houston Rockets,Toronto Raptors,113,129
+43053DAL,14/11/17 8:30,American Airlines Center,FALSE,Dallas Mavericks,San Antonio Spurs,91,97
+43054ATL,15/11/17 7:30,Philips Arena,FALSE,Atlanta Hawks,Sacramento Kings,126,80
+43054MIA,15/11/17 7:30,AmericanAirlines Arena,FALSE,Miami Heat,Washington Wizards,93,102
+43054NY,15/11/17 7:30,Madison Square Garden,FALSE,New York Knicks,Utah Jazz,106,101
+43054CHA,15/11/17 8:00,Time Warner Cable Arena,FALSE,Charlotte Hornets,Cleveland Cavaliers,107,115
+43054MEM,15/11/17 8:00,FedExForum,FALSE,Memphis Grizzlies,Indianapolis Pacers,113,116
+43054MIL,15/11/17 8:00,Bradley Center,FALSE,Milwaukee Bucks,Detriot Pistons,99,95
+43054MIN,15/11/17 8:00,Target Center,FALSE,Minnesota Timberwolves,San Antonio Spurs,98,86
+43054NO,15/11/17 8:00,New Orleans Arena,FALSE,New Orleans Pelicans,Toronto Raptors,116,125
+43054OKC,15/11/17 8:00,Chesapeake Energy Arena,FALSE,Oklahoma City Thunder,Chicago Bulls,92,79
+43054POR,15/11/17 10:00,Rose Garden,FALSE,Portland Trail Blazers,Orlando Magic,99,94
+43054LAL,15/11/17 10:30,Staples Center,FALSE,Los Angeles Lakers,Philadelphia 76ers,109,115
+43055BOS,16/11/17 8:00,TD Garden,FALSE,Boston Celtics,Golden State Warriors,92,88
+43055PHO,16/11/17 10:30,US Airways Center,FALSE,Phoenix Suns,Houston Rockets,116,142
+43056IND,17/11/17 7:00,Bankers Life Fieldhouse,FALSE,Indianapolis Pacers,Detriot Pistons,107,100
+43056WAS,17/11/17 7:00,Verizon Center,FALSE,Washington Wizards,Miami Heat,88,91
+43056BKN,17/11/17 7:30,Barclays Center,FALSE,Brooklyn Nets,Utah Jazz,118,107
+43056CLE,17/11/17 7:30,Quicken Loans Arena,FALSE,Cleveland Cavaliers,Los Angeles Clippers,118,113
+43056TOR,17/11/17 7:30,Air Canada Centre,FALSE,Toronto Raptors,New York Knicks,107,84
+43056CHI,17/11/17 8:00,United Center,FALSE,Chicago Bulls,Charlotte Hornets,123,120
+43056SA,17/11/17 8:00,AT&T Center,FALSE,San Antonio Spurs,Oklahoma City Thunder,104,101
+43056DAL,17/11/17 8:30,American Airlines Center,FALSE,Dallas Mavericks,Minnesota Timberwolves,87,111
+43056SAC,17/11/17 10:00,Power Balance Pavilion,FALSE,Sacramento Kings,Portland Trail Blazers,86,82
+43056DEN,17/11/17 10:30,Pepsi Center,FALSE,Denver Nuggets,New Orleans Pelicans,146,114
+43056LAL,17/11/17 10:30,Staples Center,FALSE,Los Angeles Lakers,Phoenix Suns,113,122
+43057CHA,18/11/17 7:00,Time Warner Cable Arena,FALSE,Charlotte Hornets,Los Angeles Clippers,102,87
+43057ORL,18/11/17 7:00,Amway Center,FALSE,Orlando Magic,Utah Jazz,85,125
+43057ATL,18/11/17 7:30,Philips Arena,FALSE,Atlanta Hawks,Boston Celtics,99,110
+43057PHI,18/11/17 7:30,Wells Fargo Center,FALSE,Philadelphia 76ers,Golden State Warriors,116,124
+43057MEM,18/11/17 8:00,FedExForum,FALSE,Memphis Grizzlies,Houston Rockets,83,105
+43057DAL,18/11/17 9:00,American Airlines Center,FALSE,Dallas Mavericks,Milwaukee Bucks,111,79
+43057POR,18/11/17 10:00,Rose Garden,FALSE,Portland Trail Blazers,Sacramento Kings,102,90
+43058MIA,19/11/17 3:30,AmericanAirlines Arena,FALSE,Miami Heat,Indianapolis Pacers,95,120
+43058BKN,19/11/17 6:00,Barclays Center,FALSE,Brooklyn Nets,Golden State Warriors,111,118
+43058TOR,19/11/17 6:00,Air Canada Centre,FALSE,Toronto Raptors,Washington Wizards,100,91
+43058MIN,19/11/17 7:00,Target Center,FALSE,Minnesota Timberwolves,Detriot Pistons,97,100
+43058PHO,19/11/17 8:00,US Airways Center,FALSE,Phoenix Suns,Chicago Bulls,113,105
+43058LAL,19/11/17 9:30,Staples Center,FALSE,Los Angeles Lakers,Denver Nuggets,127,109
+43059CHA,20/11/17 7:00,Time Warner Cable Arena,FALSE,Charlotte Hornets,Minnesota Timberwolves,118,102
+43059DET,20/11/17 7:00,The Palace of Auburn Hills,FALSE,Detriot Pistons,Cleveland Cavaliers,88,116
+43059ORL,20/11/17 7:00,Amway Center,FALSE,Orlando Magic,Indianapolis Pacers,97,105
+43059PHI,20/11/17 7:00,Wells Fargo Center,FALSE,Philadelphia 76ers,Utah Jazz,107,86
+43059NY,20/11/17 7:30,Madison Square Garden,FALSE,New York Knicks,Los Angeles Clippers,107,85
+43059MEM,20/11/17 8:00,FedExForum,FALSE,Memphis Grizzlies,Portland Trail Blazers,92,100
+43059MIL,20/11/17 8:00,Bradley Center,FALSE,Milwaukee Bucks,Washington Wizards,88,99
+43059NO,20/11/17 8:00,New Orleans Arena,FALSE,New Orleans Pelicans,Oklahoma City Thunder,114,107
+43059DAL,20/11/17 8:30,American Airlines Center,FALSE,Dallas Mavericks,Boston Celtics,102,110
+43059SA,20/11/17 8:30,AT&T Center,FALSE,San Antonio Spurs,Atlanta Hawks,96,85
+43059SAC,20/11/17 10:00,Power Balance Pavilion,FALSE,Sacramento Kings,Denver Nuggets,98,114
+43060LAL,21/11/17 10:30,Staples Center,FALSE,Los Angeles Lakers,Chicago Bulls,103,94
+43061CHA,22/11/17 7:00,Time Warner Cable Arena,FALSE,Charlotte Hornets,Washington Wizards,129,124
+43061CLE,22/11/17 7:00,Quicken Loans Arena,FALSE,Cleveland Cavaliers,Brooklyn Nets,119,109
+43061PHI,22/11/17 7:00,Wells Fargo Center,FALSE,Philadelphia 76ers,Portland Trail Blazers,101,81
+43061ATL,22/11/17 7:30,Philips Arena,FALSE,Atlanta Hawks,Los Angeles Clippers,103,116
+43061MIA,22/11/17 7:30,AmericanAirlines Arena,FALSE,Miami Heat,Boston Celtics,104,98
+43061NY,22/11/17 7:30,Madison Square Garden,FALSE,New York Knicks,Toronto Raptors,108,100
+43061HOU,22/11/17 8:00,Toyota Center,FALSE,Houston Rockets,Denver Nuggets,125,95
+43061MEM,22/11/17 8:00,FedExForum,FALSE,Memphis Grizzlies,Dallas Mavericks,94,95
+43061MIN,22/11/17 8:00,Target Center,FALSE,Minnesota Timberwolves,Orlando Magic,124,118
+43061NO,22/11/17 8:00,New Orleans Arena,FALSE,New Orleans Pelicans,San Antonio Spurs,107,90
+43061OKC,22/11/17 8:00,Chesapeake Energy Arena,FALSE,Oklahoma City Thunder,Golden State Warriors,108,91
+43061PHO,22/11/17 9:00,US Airways Center,FALSE,Phoenix Suns,Milwaukee Bucks,107,113
+43061UTA,22/11/17 9:00,EnergySolutions Arena,FALSE,Utah Jazz,Chicago Bulls,110,80
+43061SAC,22/11/17 10:30,Power Balance Pavilion,FALSE,Sacramento Kings,Los Angeles Lakers,113,102
+43063ATL,24/11/17 7:30,Philips Arena,FALSE,Atlanta Hawks,New York Knicks,116,104
+43063BOS,24/11/17 7:30,TD Garden,FALSE,Boston Celtics,Orlando Magic,118,103
+43063CLE,24/11/17 8:00,Quicken Loans Arena,FALSE,Cleveland Cavaliers,Charlotte Hornets,100,99
+43063IND,24/11/17 8:00,Bankers Life Fieldhouse,FALSE,Indianapolis Pacers,Toronto Raptors,107,102
+43063MIN,24/11/17 8:00,Target Center,FALSE,Minnesota Timberwolves,Miami Heat,97,109
+43063OKC,24/11/17 8:00,Chesapeake Energy Arena,FALSE,Oklahoma City Thunder,Detriot Pistons,98,99
+43063DEN,24/11/17 9:00,Pepsi Center,FALSE,Denver Nuggets,Memphis Grizzlies,104,92
+43063PHO,24/11/17 9:00,US Airways Center,FALSE,Phoenix Suns,New Orleans Pelicans,91,115
+43063BKN,24/11/17 10:00,Barclays Center,FALSE,Brooklyn Nets,Portland Trail Blazers,125,127
+43063GS,24/11/17 10:30,Oracle Arena,FALSE,Golden State Warriors,Chicago Bulls,143,94
+43064CHA,25/11/17 7:00,Time Warner Cable Arena,FALSE,Charlotte Hornets,San Antonio Spurs,86,106
+43064PHI,25/11/17 7:00,Wells Fargo Center,FALSE,Philadelphia 76ers,Orlando Magic,130,111
+43064WAS,25/11/17 7:00,Verizon Center,FALSE,Washington Wizards,Portland Trail Blazers,105,108
+43064ATL,25/11/17 7:30,Philips Arena,FALSE,Atlanta Hawks,Toronto Raptors,78,112
+43064HOU,25/11/17 8:00,Toyota Center,FALSE,Houston Rockets,New York Knicks,117,102
+43064IND,25/11/17 8:00,Bankers Life Fieldhouse,FALSE,Indianapolis Pacers,Boston Celtics,98,108
+43064DAL,25/11/17 8:30,American Airlines Center,FALSE,Dallas Mavericks,Oklahoma City Thunder,97,81
+43064GS,25/11/17 8:30,Oracle Arena,FALSE,Golden State Warriors,New Orleans Pelicans,110,95
+43064UTA,25/11/17 9:00,EnergySolutions Arena,FALSE,Utah Jazz,Milwaukee Bucks,121,108
+43064SAC,25/11/17 10:00,Power Balance Pavilion,FALSE,Sacramento Kings,Los Angeles Clippers,95,97
+43065CHI,26/11/17 3:30,United Center,FALSE,Chicago Bulls,Miami Heat,93,100
+43065MIN,26/11/17 3:30,Target Center,FALSE,Minnesota Timberwolves,Phoenix Suns,119,108
+43065MEM,26/11/17 6:00,FedExForum,FALSE,Memphis Grizzlies,Brooklyn Nets,88,98
+43066IND,27/11/17 7:00,Bankers Life Fieldhouse,FALSE,Indianapolis Pacers,Orlando Magic,121,109
+43066PHI,27/11/17 7:00,Wells Fargo Center,FALSE,Philadelphia 76ers,Cleveland Cavaliers,91,113
+43066BOS,27/11/17 7:30,TD Garden,FALSE,Boston Celtics,Detriot Pistons,108,118
+43066NY,27/11/17 7:30,Madison Square Garden,FALSE,New York Knicks,Portland Trail Blazers,91,103
+43066HOU,27/11/17 8:00,Toyota Center,FALSE,Houston Rockets,Brooklyn Nets,117,103
+43066SA,27/11/17 8:30,AT&T Center,FALSE,San Antonio Spurs,Dallas Mavericks,115,108
+43066GS,27/11/17 10:30,Oracle Arena,FALSE,Golden State Warriors,Sacramento Kings,106,110
+43066LAC,27/11/17 10:30,Staples Center,FALSE,Los Angeles Clippers,Los Angeles Lakers,120,115
+43067CLE,28/11/17 7:00,Quicken Loans Arena,FALSE,Cleveland Cavaliers,Miami Heat,108,97
+43067CHI,28/11/17 8:00,United Center,FALSE,Chicago Bulls,Phoenix Suns,99,104
+43067MIN,28/11/17 8:00,Target Center,FALSE,Minnesota Timberwolves,Washington Wizards,89,92
+43067SAC,28/11/17 10:00,Power Balance Pavilion,FALSE,Sacramento Kings,Milwaukee Bucks,87,112
+43067UTA,28/11/17 10:00,EnergySolutions Arena,FALSE,Utah Jazz,Denver Nuggets,106,77
+43068DET,29/11/17 7:00,The Palace of Auburn Hills,FALSE,Detriot Pistons,Phoenix Suns,131,107
+43068ORL,29/11/17 7:00,Amway Center,FALSE,Orlando Magic,Oklahoma City Thunder,121,108
+43068PHI,29/11/17 7:00,Wells Fargo Center,FALSE,Philadelphia 76ers,Washington Wizards,118,113
+43068NY,29/11/17 7:30,Madison Square Garden,FALSE,New York Knicks,Miami Heat,115,86
+43068TOR,29/11/17 7:30,Air Canada Centre,FALSE,Toronto Raptors,Charlotte Hornets,126,113
+43068HOU,29/11/17 8:00,Toyota Center,FALSE,Houston Rockets,Indianapolis Pacers,118,97
+43068NO,29/11/17 8:00,New Orleans Arena,FALSE,New Orleans Pelicans,Minnesota Timberwolves,102,120
+43068DAL,29/11/17 8:30,American Airlines Center,FALSE,Dallas Mavericks,Brooklyn Nets,104,109
+43068SA,29/11/17 8:30,AT&T Center,FALSE,San Antonio Spurs,Memphis Grizzlies,104,95
+43068LAL,29/11/17 10:30,Staples Center,FALSE,Los Angeles Lakers,Golden State Warriors,123,127
+43069ATL,30/11/17 7:30,Philips Arena,FALSE,Atlanta Hawks,Cleveland Cavaliers,114,121
+43069BOS,30/11/17 7:30,TD Garden,FALSE,Boston Celtics,Philadelphia 76ers,108,97
+43069DEN,30/11/17 9:00,Pepsi Center,FALSE,Denver Nuggets,Chicago Bulls,111,110
+43069POR,30/11/17 10:00,Rose Garden,FALSE,Portland Trail Blazers,Milwaukee Bucks,91,103
+43069LAC,30/11/17 10:30,Staples Center,FALSE,Los Angeles Clippers,Utah Jazz,107,126
+43070ORL,1/12/17 7:00,Amway Center,FALSE,Orlando Magic,Golden State Warriors,112,133
+43070WAS,1/12/17 7:00,Verizon Center,FALSE,Washington Wizards,Detriot Pistons,109,91
+43070TOR,1/12/17 7:30,Air Canada Centre,FALSE,Toronto Raptors,Indianapolis Pacers,120,115
+43070CHI,1/12/17 8:00,United Center,FALSE,Chicago Bulls,Sacramento Kings,106,107
+43070MEM,1/12/17 8:00,FedExForum,FALSE,Memphis Grizzlies,San Antonio Spurs,79,95
+43070MIA,1/12/17 8:00,AmericanAirlines Arena,FALSE,Miami Heat,Charlotte Hornets,105,100
+43070OKC,1/12/17 8:00,Chesapeake Energy Arena,FALSE,Oklahoma City Thunder,Minnesota Timberwolves,111,107
+43070UTA,1/12/17 9:00,EnergySolutions Arena,FALSE,Utah Jazz,New Orleans Pelicans,114,108
+43071BOS,2/12/17 1:00,TD Garden,FALSE,Boston Celtics,Phoenix Suns,116,111
+43071DAL,2/12/17 2:00,American Airlines Center,FALSE,Dallas Mavericks,Los Angeles Clippers,108,82
+43071BKN,2/12/17 3:00,Barclays Center,FALSE,Brooklyn Nets,Atlanta Hawks,102,114
+43071CLE,2/12/17 7:30,Quicken Loans Arena,FALSE,Cleveland Cavaliers,Memphis Grizzlies,116,111
+43071PHI,2/12/17 7:30,Wells Fargo Center,FALSE,Philadelphia 76ers,Detriot Pistons,108,103
+43071MIL,2/12/17 8:30,Bradley Center,FALSE,Milwaukee Bucks,Sacramento Kings,109,104
+43071DEN,2/12/17 9:00,Pepsi Center,FALSE,Denver Nuggets,Los Angeles Lakers,115,100
+43071POR,2/12/17 10:00,Rose Garden,FALSE,Portland Trail Blazers,New Orleans Pelicans,116,123
+43072NY,3/12/17 3:30,Madison Square Garden,FALSE,New York Knicks,Orlando Magic,100,105
+43072MIA,3/12/17 7:00,AmericanAirlines Arena,FALSE,Miami Heat,Golden State Warriors,95,123
+43072MIN,3/12/17 7:00,Target Center,FALSE,Minnesota Timberwolves,Los Angeles Clippers,112,106
+43072OKC,3/12/17 7:00,Chesapeake Energy Arena,FALSE,Oklahoma City Thunder,San Antonio Spurs,90,87
+43072LAL,3/12/17 9:30,Staples Center,FALSE,Los Angeles Lakers,Houston Rockets,95,118
+43073CHA,4/12/17 7:00,Time Warner Cable Arena,FALSE,Charlotte Hornets,Orlando Magic,104,94
+43073IND,4/12/17 7:00,Bankers Life Fieldhouse,FALSE,Indianapolis Pacers,New York Knicks,115,97
+43073PHI,4/12/17 7:00,Wells Fargo Center,FALSE,Philadelphia 76ers,Phoenix Suns,101,115
+43073ATL,4/12/17 7:30,Philips Arena,FALSE,Atlanta Hawks,Brooklyn Nets,90,110
+43073BOS,4/12/17 7:30,TD Garden,FALSE,Boston Celtics,Milwaukee Bucks,111,100
+43073CHI,4/12/17 8:00,United Center,FALSE,Chicago Bulls,Cleveland Cavaliers,91,113
+43073MEM,4/12/17 8:00,FedExForum,FALSE,Memphis Grizzlies,Minnesota Timberwolves,95,92
+43073NO,4/12/17 8:00,New Orleans Arena,FALSE,New Orleans Pelicans,Golden State Warriors,115,125
+43073DAL,4/12/17 8:30,American Airlines Center,FALSE,Dallas Mavericks,Denver Nuggets,122,105
+43073SA,4/12/17 8:30,AT&T Center,FALSE,San Antonio Spurs,Detriot Pistons,96,93
+43073UTA,4/12/17 9:00,EnergySolutions Arena,FALSE,Utah Jazz,Washington Wizards,116,69
+43074TOR,5/12/17 7:30,Air Canada Centre,FALSE,Toronto Raptors,Phoenix Suns,126,113
+43074OKC,5/12/17 8:00,Chesapeake Energy Arena,FALSE,Oklahoma City Thunder,Utah Jazz,100,94
+43074POR,5/12/17 10:00,Rose Garden,FALSE,Portland Trail Blazers,Washington Wizards,92,106
+43075CLE,6/12/17 7:00,Quicken Loans Arena,FALSE,Cleveland Cavaliers,Sacramento Kings,101,95
+43075IND,6/12/17 7:00,Bankers Life Fieldhouse,FALSE,Indianapolis Pacers,Chicago Bulls,98,96
+43075ORL,6/12/17 7:00,Amway Center,FALSE,Orlando Magic,Atlanta Hawks,110,106
+43075BOS,6/12/17 7:30,TD Garden,FALSE,Boston Celtics,Dallas Mavericks,97,90
+43075NY,6/12/17 7:30,Madison Square Garden,FALSE,New York Knicks,Memphis Grizzlies,99,88
+43075CHA,6/12/17 8:00,Time Warner Cable Arena,FALSE,Charlotte Hornets,Golden State Warriors,87,101
+43075MIL,6/12/17 8:00,Bradley Center,FALSE,Milwaukee Bucks,Detriot Pistons,104,100
+43075NO,6/12/17 8:00,New Orleans Arena,FALSE,New Orleans Pelicans,Denver Nuggets,123,114
+43075SA,6/12/17 8:30,AT&T Center,FALSE,San Antonio Spurs,Miami Heat,117,105
+43075LAC,6/12/17 10:30,Staples Center,FALSE,Los Angeles Clippers,Minnesota Timberwolves,107,113
+43076PHI,7/12/17 8:00,Wells Fargo Center,FALSE,Philadelphia 76ers,Los Angeles Lakers,104,107
+43076PHO,7/12/17 9:00,US Airways Center,FALSE,Phoenix Suns,Washington Wizards,99,109
+43076BKN,7/12/17 10:00,Barclays Center,FALSE,Brooklyn Nets,Oklahoma City Thunder,100,95
+43076UTA,7/12/17 10:30,EnergySolutions Arena,FALSE,Utah Jazz,Houston Rockets,101,112
+43077CHA,8/12/17 7:00,Time Warner Cable Arena,FALSE,Charlotte Hornets,Chicago Bulls,111,119
+43077DET,8/12/17 7:00,The Palace of Auburn Hills,FALSE,Detriot Pistons,Golden State Warriors,98,102
+43077IND,8/12/17 7:00,Bankers Life Fieldhouse,FALSE,Indianapolis Pacers,Cleveland Cavaliers,106,102
+43077ORL,8/12/17 7:00,Amway Center,FALSE,Orlando Magic,Denver Nuggets,89,103
+43077MEM,8/12/17 8:00,FedExForum,FALSE,Memphis Grizzlies,Toronto Raptors,107,116
+43077MIL,8/12/17 8:00,Bradley Center,FALSE,Milwaukee Bucks,Dallas Mavericks,109,102
+43077NO,8/12/17 8:00,New Orleans Arena,FALSE,New Orleans Pelicans,Sacramento Kings,109,116
+43077SA,8/12/17 9:30,AT&T Center,FALSE,San Antonio Spurs,Boston Celtics,105,102
+43078LAC,9/12/17 3:30,Staples Center,FALSE,Los Angeles Clippers,Washington Wizards,113,112
+43078BKN,9/12/17 6:00,Barclays Center,FALSE,Brooklyn Nets,Miami Heat,89,101
+43078CHA,9/12/17 7:00,Time Warner Cable Arena,FALSE,Charlotte Hornets,Los Angeles Lakers,99,110
+43078ATL,9/12/17 7:30,Philips Arena,FALSE,Atlanta Hawks,Orlando Magic,117,110
+43078CHI,9/12/17 8:00,United Center,FALSE,Chicago Bulls,New York Knicks,104,102
+43078CLE,9/12/17 8:00,Quicken Loans Arena,FALSE,Cleveland Cavaliers,Philadelphia 76ers,105,98
+43078MIL,9/12/17 8:30,Bradley Center,FALSE,Milwaukee Bucks,Utah Jazz,117,100
+43078MEM,9/12/17 9:00,FedExForum,FALSE,Memphis Grizzlies,Oklahoma City Thunder,101,102
+43078PHO,9/12/17 9:00,US Airways Center,FALSE,Phoenix Suns,San Antonio Spurs,101,104
+43078POR,9/12/17 10:00,Rose Garden,FALSE,Portland Trail Blazers,Houston Rockets,117,124
+43079SAC,10/12/17 3:30,Power Balance Pavilion,FALSE,Sacramento Kings,Toronto Raptors,87,102
+43079DET,10/12/17 4:00,The Palace of Auburn Hills,FALSE,Detriot Pistons,Boston Celtics,81,91
+43079IND,10/12/17 5:00,Bankers Life Fieldhouse,FALSE,Indianapolis Pacers,Denver Nuggets,126,116
+43079MIN,10/12/17 7:00,Target Center,FALSE,Minnesota Timberwolves,Dallas Mavericks,97,92
+43079NO,10/12/17 7:00,New Orleans Arena,FALSE,New Orleans Pelicans,Philadelphia 76ers,131,124
+43079NY,10/12/17 7:30,Madison Square Garden,FALSE,New York Knicks,Atlanta Hawks,111,107
+43080CHI,11/12/17 8:00,United Center,FALSE,Chicago Bulls,Boston Celtics,108,85
+43080HOU,11/12/17 8:00,Toyota Center,FALSE,Houston Rockets,New Orleans Pelicans,130,123
+43080MEM,11/12/17 8:00,FedExForum,FALSE,Memphis Grizzlies,Miami Heat,82,107
+43080OKC,11/12/17 8:00,Chesapeake Energy Arena,FALSE,Oklahoma City Thunder,Charlotte Hornets,103,116
+43080GS,11/12/17 10:30,Oracle Arena,FALSE,Golden State Warriors,Portland Trail Blazers,111,104
+43080LAC,11/12/17 10:30,Staples Center,FALSE,Los Angeles Clippers,Toronto Raptors,96,91
+43081CLE,12/12/17 7:00,Quicken Loans Arena,FALSE,Cleveland Cavaliers,Atlanta Hawks,123,114
+43081DET,12/12/17 7:00,The Palace of Auburn Hills,FALSE,Detriot Pistons,Denver Nuggets,84,103
+43081NY,12/12/17 7:00,Madison Square Garden,FALSE,New York Knicks,Los Angeles Lakers,113,109
+43081BKN,12/12/17 7:30,Barclays Center,FALSE,Brooklyn Nets,Washington Wizards,103,98
+43081MIN,12/12/17 8:00,Target Center,FALSE,Minnesota Timberwolves,Philadelphia 76ers,112,118
+43081DAL,12/12/17 9:30,American Airlines Center,FALSE,Dallas Mavericks,San Antonio Spurs,95,89
+43081SAC,12/12/17 10:00,Power Balance Pavilion,FALSE,Sacramento Kings,Phoenix Suns,99,92
+43082IND,13/12/17 7:00,Bankers Life Fieldhouse,FALSE,Indianapolis Pacers,Oklahoma City Thunder,95,100
+43082ORL,13/12/17 7:00,Amway Center,FALSE,Orlando Magic,Los Angeles Clippers,95,106
+43082WAS,13/12/17 7:00,Verizon Center,FALSE,Washington Wizards,Memphis Grizzlies,93,87
+43082BOS,13/12/17 7:30,TD Garden,FALSE,Boston Celtics,Denver Nuggets,124,118
+43082MIA,13/12/17 7:30,AmericanAirlines Arena,FALSE,Miami Heat,Portland Trail Blazers,95,102
+43082CHI,13/12/17 8:00,United Center,FALSE,Chicago Bulls,Utah Jazz,103,100
+43082NO,13/12/17 8:00,New Orleans Arena,FALSE,New Orleans Pelicans,Milwaukee Bucks,115,108
+43082PHO,13/12/17 9:00,US Airways Center,FALSE,Phoenix Suns,Toronto Raptors,109,115
+43082HOU,13/12/17 9:30,Toyota Center,FALSE,Houston Rockets,Charlotte Hornets,108,96
+43083ATL,14/12/17 7:30,Philips Arena,FALSE,Atlanta Hawks,Detriot Pistons,91,105
+43083BKN,14/12/17 7:30,Barclays Center,FALSE,Brooklyn Nets,New York Knicks,104,111
+43083CLE,14/12/17 8:00,Quicken Loans Arena,FALSE,Cleveland Cavaliers,Los Angeles Lakers,121,112
+43083MIN,14/12/17 8:00,Target Center,FALSE,Minnesota Timberwolves,Sacramento Kings,119,96
+43083GS,14/12/17 10:30,Oracle Arena,FALSE,Golden State Warriors,Dallas Mavericks,112,97
+43084CHA,15/12/17 7:00,Time Warner Cable Arena,FALSE,Charlotte Hornets,Miami Heat,98,104
+43084IND,15/12/17 7:00,Bankers Life Fieldhouse,FALSE,Indianapolis Pacers,Detriot Pistons,98,104
+43084ORL,15/12/17 7:00,Amway Center,FALSE,Orlando Magic,Portland Trail Blazers,88,95
+43084PHI,15/12/17 7:00,Wells Fargo Center,FALSE,Philadelphia 76ers,Oklahoma City Thunder,117,119
+43084WAS,15/12/17 7:00,Verizon Center,FALSE,Washington Wizards,Los Angeles Clippers,100,91
+43084BOS,15/12/17 7:30,TD Garden,FALSE,Boston Celtics,Utah Jazz,95,107
+43084TOR,15/12/17 7:30,Air Canada Centre,FALSE,Toronto Raptors,Brooklyn Nets,120,87
+43084MEM,15/12/17 8:00,FedExForum,FALSE,Memphis Grizzlies,Atlanta Hawks,96,94
+43084MIL,15/12/17 8:00,Bradley Center,FALSE,Milwaukee Bucks,Chicago Bulls,109,115
+43084DEN,15/12/17 9:00,Pepsi Center,FALSE,Denver Nuggets,New Orleans Pelicans,117,111
+43084HOU,15/12/17 9:30,Toyota Center,FALSE,Houston Rockets,San Antonio Spurs,124,109
+43085CHA,16/12/17 7:00,Time Warner Cable Arena,FALSE,Charlotte Hornets,Portland Trail Blazers,91,93
+43085CLE,16/12/17 7:30,Quicken Loans Arena,FALSE,Cleveland Cavaliers,Utah Jazz,109,100
+43085NY,16/12/17 7:30,Madison Square Garden,FALSE,New York Knicks,Oklahoma City Thunder,111,96
+43085HOU,16/12/17 8:00,Toyota Center,FALSE,Houston Rockets,Milwaukee Bucks,115,111
+43085MIA,16/12/17 8:00,AmericanAirlines Arena,FALSE,Miami Heat,Los Angeles Clippers,90,85
+43085MIN,16/12/17 8:00,Target Center,FALSE,Minnesota Timberwolves,Phoenix Suns,106,108
+43085SA,16/12/17 8:30,AT&T Center,FALSE,San Antonio Spurs,Dallas Mavericks,98,96
+43085MEM,16/12/17 9:00,FedExForum,FALSE,Memphis Grizzlies,Boston Celtics,93,102
+43086TOR,17/12/17 3:30,Air Canada Centre,FALSE,Toronto Raptors,Sacramento Kings,108,93
+43086DET,17/12/17 4:00,The Palace of Auburn Hills,FALSE,Detriot Pistons,Orlando Magic,114,110
+43086BKN,17/12/17 6:00,Barclays Center,FALSE,Brooklyn Nets,Indianapolis Pacers,97,109
+43086WAS,17/12/17 6:00,Verizon Center,FALSE,Washington Wizards,Cleveland Cavaliers,99,106
+43087CHA,18/12/17 7:00,Time Warner Cable Arena,FALSE,Charlotte Hornets,New York Knicks,109,91
+43087IND,18/12/17 7:00,Bankers Life Fieldhouse,FALSE,Indianapolis Pacers,Boston Celtics,111,112
+43087ATL,18/12/17 7:30,Philips Arena,FALSE,Atlanta Hawks,Miami Heat,110,104
+43087CHI,18/12/17 8:00,United Center,FALSE,Chicago Bulls,Philadelphia 76ers,117,115
+43087HOU,18/12/17 8:00,Toyota Center,FALSE,Houston Rockets,Utah Jazz,120,99
+43087MIN,18/12/17 8:00,Target Center,FALSE,Minnesota Timberwolves,Portland Trail Blazers,108,107
+43087OKC,18/12/17 8:00,Chesapeake Energy Arena,FALSE,Oklahoma City Thunder,Denver Nuggets,95,94
+43087DAL,18/12/17 8:30,American Airlines Center,FALSE,Dallas Mavericks,Phoenix Suns,91,97
+43087SA,18/12/17 8:30,AT&T Center,FALSE,San Antonio Spurs,Los Angeles Clippers,109,91
+43087LAL,18/12/17 10:30,Staples Center,FALSE,Los Angeles Lakers,Golden State Warriors,114,116
+43088PHI,19/12/17 7:00,Wells Fargo Center,FALSE,Philadelphia 76ers,Sacramento Kings,95,101
+43088WAS,19/12/17 7:00,Verizon Center,FALSE,Washington Wizards,New Orleans Pelicans,116,106
+43088MIL,19/12/17 8:00,Bradley Center,FALSE,Milwaukee Bucks,Cleveland Cavaliers,119,116
+43089CHA,20/12/17 7:00,Time Warner Cable Arena,FALSE,Charlotte Hornets,Toronto Raptors,111,129
+43089ATL,20/12/17 7:30,Philips Arena,FALSE,Atlanta Hawks,Indianapolis Pacers,95,105
+43089BOS,20/12/17 7:30,TD Garden,FALSE,Boston Celtics,Miami Heat,89,90
+43089BKN,20/12/17 7:30,Barclays Center,FALSE,Brooklyn Nets,Sacramento Kings,99,104
+43089CHI,20/12/17 8:00,United Center,FALSE,Chicago Bulls,Orlando Magic,112,94
+43089HOU,20/12/17 8:00,Toyota Center,FALSE,Houston Rockets,Los Angeles Lakers,116,122
+43089OKC,20/12/17 8:00,Chesapeake Energy Arena,FALSE,Oklahoma City Thunder,Utah Jazz,107,79
+43089DAL,20/12/17 8:30,American Airlines Center,FALSE,Dallas Mavericks,Detriot Pistons,110,93
+43089DEN,20/12/17 9:00,Pepsi Center,FALSE,Denver Nuggets,Minnesota Timberwolves,104,112
+43089POR,20/12/17 10:00,Rose Garden,FALSE,Portland Trail Blazers,San Antonio Spurs,91,93
+43089GS,20/12/17 10:30,Oracle Arena,FALSE,Golden State Warriors,Memphis Grizzlies,97,84
+43089LAC,20/12/17 10:30,Staples Center,FALSE,Los Angeles Clippers,Phoenix Suns,108,95
+43090CLE,21/12/17 7:00,Quicken Loans Arena,FALSE,Cleveland Cavaliers,Chicago Bulls,115,112
+43090PHI,21/12/17 7:00,Wells Fargo Center,FALSE,Philadelphia 76ers,Toronto Raptors,109,114
+43090NY,21/12/17 8:00,Madison Square Garden,FALSE,New York Knicks,Boston Celtics,102,93
+43090PHO,21/12/17 9:00,US Airways Center,FALSE,Phoenix Suns,Memphis Grizzlies,97,95
+43090UTA,21/12/17 10:30,EnergySolutions Arena,FALSE,Utah Jazz,San Antonio Spurs,100,89
+43091DET,22/12/17 7:00,The Palace of Auburn Hills,FALSE,Detriot Pistons,New York Knicks,104,101
+43091ORL,22/12/17 7:00,Amway Center,FALSE,Orlando Magic,New Orleans Pelicans,97,111
+43091BKN,22/12/17 7:30,Barclays Center,FALSE,Brooklyn Nets,Washington Wizards,119,84
+43091HOU,22/12/17 8:00,Toyota Center,FALSE,Houston Rockets,Los Angeles Clippers,118,128
+43091MIA,22/12/17 8:00,AmericanAirlines Arena,FALSE,Miami Heat,Dallas Mavericks,113,101
+43091MIL,22/12/17 8:00,Bradley Center,FALSE,Milwaukee Bucks,Charlotte Hornets,109,104
+43091OKC,22/12/17 8:00,Chesapeake Energy Arena,FALSE,Oklahoma City Thunder,Atlanta Hawks,120,117
+43091POR,22/12/17 10:00,Rose Garden,FALSE,Portland Trail Blazers,Denver Nuggets,85,102
+43091GS,22/12/17 10:30,Oracle Arena,FALSE,Golden State Warriors,Los Angeles Lakers,113,106
+43092TOR,23/12/17 5:00,Air Canada Centre,FALSE,Toronto Raptors,Philadelphia 76ers,102,86
+43092CHA,23/12/17 7:00,Time Warner Cable Arena,FALSE,Charlotte Hornets,Milwaukee Bucks,111,106
+43092IND,23/12/17 7:00,Bankers Life Fieldhouse,FALSE,Indianapolis Pacers,Brooklyn Nets,123,119
+43092WAS,23/12/17 7:00,Verizon Center,FALSE,Washington Wizards,Orlando Magic,130,103
+43092ATL,23/12/17 7:30,Philips Arena,FALSE,Atlanta Hawks,Dallas Mavericks,112,107
+43092BOS,23/12/17 7:30,TD Garden,FALSE,Boston Celtics,Chicago Bulls,117,92
+43092MEM,23/12/17 8:00,FedExForum,FALSE,Memphis Grizzlies,Los Angeles Clippers,115,112
+43092MIA,23/12/17 8:00,AmericanAirlines Arena,FALSE,Miami Heat,New Orleans Pelicans,94,109
+43092UTA,23/12/17 8:00,EnergySolutions Arena,FALSE,Utah Jazz,Oklahoma City Thunder,89,103
+43092GS,23/12/17 8:30,Oracle Arena,FALSE,Golden State Warriors,Denver Nuggets,81,96
+43092PHO,23/12/17 9:00,US Airways Center,FALSE,Phoenix Suns,Minnesota Timberwolves,106,115
+43092LAL,23/12/17 9:30,Staples Center,FALSE,Los Angeles Lakers,Portland Trail Blazers,92,95
+43092SAC,23/12/17 10:00,Power Balance Pavilion,FALSE,Sacramento Kings,San Antonio Spurs,99,108
+43094GS,25/12/17 3:00,Oracle Arena,FALSE,Golden State Warriors,Cleveland Cavaliers,99,92
+43094BOS,25/12/17 5:30,TD Garden,FALSE,Boston Celtics,Washington Wizards,103,111
+43094OKC,25/12/17 8:00,Chesapeake Energy Arena,FALSE,Oklahoma City Thunder,Houston Rockets,112,107
+43094NY,25/12/17 10:00,Madison Square Garden,FALSE,New York Knicks,Philadelphia 76ers,98,105
+43094LAL,25/12/17 10:30,Staples Center,FALSE,Los Angeles Lakers,Minnesota Timberwolves,104,121
+43095DAL,26/12/17 7:00,American Airlines Center,FALSE,Dallas Mavericks,Toronto Raptors,98,93
+43095DET,26/12/17 7:00,The Palace of Auburn Hills,FALSE,Detriot Pistons,Indianapolis Pacers,107,83
+43095MIA,26/12/17 7:30,AmericanAirlines Arena,FALSE,Miami Heat,Orlando Magic,107,89
+43095MIL,26/12/17 8:00,Bradley Center,FALSE,Milwaukee Bucks,Chicago Bulls,106,115
+43095SA,26/12/17 8:30,AT&T Center,FALSE,San Antonio Spurs,Brooklyn Nets,109,97
+43095DEN,26/12/17 9:00,Pepsi Center,FALSE,Denver Nuggets,Utah Jazz,107,83
+43095PHO,26/12/17 9:00,US Airways Center,FALSE,Phoenix Suns,Memphis Grizzlies,99,97
+43095LAC,26/12/17 10:30,Staples Center,FALSE,Los Angeles Clippers,Sacramento Kings,122,95
+43096CHA,27/12/17 7:00,Time Warner Cable Arena,FALSE,Charlotte Hornets,Boston Celtics,91,102
+43096IND,27/12/17 7:00,Bankers Life Fieldhouse,FALSE,Indianapolis Pacers,Dallas Mavericks,94,98
+43096ATL,27/12/17 7:30,Philips Arena,FALSE,Atlanta Hawks,Washington Wizards,113,99
+43096CHI,27/12/17 8:00,United Center,FALSE,Chicago Bulls,New York Knicks,92,87
+43096MIN,27/12/17 8:00,Target Center,FALSE,Minnesota Timberwolves,Denver Nuggets,128,125
+43096NO,27/12/17 8:00,New Orleans Arena,FALSE,New Orleans Pelicans,Brooklyn Nets,128,113
+43096OKC,27/12/17 8:00,Chesapeake Energy Arena,FALSE,Oklahoma City Thunder,Toronto Raptors,124,107
+43096SAC,27/12/17 10:00,Power Balance Pavilion,FALSE,Sacramento Kings,Cleveland Cavaliers,109,95
+43096GS,27/12/17 10:30,Oracle Arena,FALSE,Golden State Warriors,Utah Jazz,126,101
+43096LAL,27/12/17 10:30,Staples Center,FALSE,Los Angeles Lakers,Memphis Grizzlies,99,109
+43097ORL,28/12/17 7:00,Amway Center,FALSE,Orlando Magic,Detriot Pistons,102,89
+43097BOS,28/12/17 8:00,TD Garden,FALSE,Boston Celtics,Houston Rockets,99,98
+43097MIL,28/12/17 8:00,Bradley Center,FALSE,Milwaukee Bucks,Minnesota Timberwolves,102,96
+43097SA,28/12/17 8:30,AT&T Center,FALSE,San Antonio Spurs,New York Knicks,119,107
+43097POR,28/12/17 10:30,Rose Garden,FALSE,Portland Trail Blazers,Philadelphia 76ers,114,110
+43098WAS,29/12/17 7:00,Verizon Center,FALSE,Washington Wizards,Houston Rockets,121,103
+43098TOR,29/12/17 7:30,Air Canada Centre,FALSE,Toronto Raptors,Atlanta Hawks,111,98
+43098CHI,29/12/17 8:00,United Center,FALSE,Chicago Bulls,Indianapolis Pacers,119,107
+43098MIA,29/12/17 8:00,AmericanAirlines Arena,FALSE,Miami Heat,Brooklyn Nets,87,111
+43098NO,29/12/17 8:00,New Orleans Arena,FALSE,New Orleans Pelicans,Dallas Mavericks,120,128
+43098OKC,29/12/17 8:00,Chesapeake Energy Arena,FALSE,Oklahoma City Thunder,Milwaukee Bucks,95,97
+43098SAC,29/12/17 10:00,Power Balance Pavilion,FALSE,Sacramento Kings,Phoenix Suns,101,111
+43098GS,29/12/17 10:30,Oracle Arena,FALSE,Golden State Warriors,Charlotte Hornets,100,111
+43098LAL,29/12/17 10:30,Staples Center,FALSE,Los Angeles Lakers,Los Angeles Clippers,106,121
+43099DET,30/12/17 7:00,The Palace of Auburn Hills,FALSE,Detriot Pistons,San Antonio Spurs,93,79
+43099NO,30/12/17 7:00,New Orleans Arena,FALSE,New Orleans Pelicans,New York Knicks,103,105
+43099ORL,30/12/17 7:00,Amway Center,FALSE,Orlando Magic,Miami Heat,111,117
+43099ATL,30/12/17 7:30,Philips Arena,FALSE,Atlanta Hawks,Portland Trail Blazers,104,89
+43099UTA,30/12/17 8:00,EnergySolutions Arena,FALSE,Utah Jazz,Cleveland Cavaliers,104,101
+43099GS,30/12/17 8:30,Oracle Arena,FALSE,Golden State Warriors,Memphis Grizzlies,141,128
+43099DEN,30/12/17 9:00,Pepsi Center,FALSE,Denver Nuggets,Philadelphia 76ers,102,107
+43100WAS,31/12/17 3:30,Verizon Center,FALSE,Washington Wizards,Chicago Bulls,114,110
+43100IND,31/12/17 5:00,Bankers Life Fieldhouse,FALSE,Indianapolis Pacers,Minnesota Timberwolves,90,107
+43100BOS,31/12/17 5:30,TD Garden,FALSE,Boston Celtics,Brooklyn Nets,108,105
+43100HOU,31/12/17 7:00,Toyota Center,FALSE,Houston Rockets,Los Angeles Lakers,148,142
+43100LAC,31/12/17 7:00,Staples Center,FALSE,Los Angeles Clippers,Charlotte Hornets,106,98
+43100OKC,31/12/17 7:00,Chesapeake Energy Arena,FALSE,Oklahoma City Thunder,Dallas Mavericks,113,116
+43100SAC,31/12/17 7:00,Power Balance Pavilion,FALSE,Sacramento Kings,Memphis Grizzlies,96,114
+43100PHO,31/12/17 8:00,US Airways Center,FALSE,Phoenix Suns,Philadelphia 76ers,110,123
+43101BKN,1/1/18 7:30,Barclays Center,FALSE,Brooklyn Nets,Orlando Magic,98,95
+43101TOR,1/1/18 7:30,Air Canada Centre,FALSE,Toronto Raptors,Milwaukee Bucks,131,127
+43101CHI,1/1/18 8:00,United Center,FALSE,Chicago Bulls,Portland Trail Blazers,120,124
+43101MIN,1/1/18 8:00,Target Center,FALSE,Minnesota Timberwolves,Los Angeles Lakers,114,96
+43102CLE,2/1/18 7:00,Quicken Loans Arena,FALSE,Cleveland Cavaliers,Portland Trail Blazers,127,110
+43102NY,2/1/18 7:30,Madison Square Garden,FALSE,New York Knicks,San Antonio Spurs,91,100
+43102PHO,2/1/18 9:00,US Airways Center,FALSE,Phoenix Suns,Atlanta Hawks,104,103
+43102SAC,2/1/18 10:00,Power Balance Pavilion,FALSE,Sacramento Kings,Charlotte Hornets,111,131
+43102LAC,2/1/18 10:30,Staples Center,FALSE,Los Angeles Clippers,Memphis Grizzlies,113,105
+43103ORL,3/1/18 7:00,Amway Center,FALSE,Orlando Magic,Houston Rockets,98,116
+43103PHI,3/1/18 7:00,Wells Fargo Center,FALSE,Philadelphia 76ers,San Antonio Spurs,112,106
+43103WAS,3/1/18 7:00,Verizon Center,FALSE,Washington Wizards,New York Knicks,121,103
+43103BKN,3/1/18 7:30,Barclays Center,FALSE,Brooklyn Nets,Minnesota Timberwolves,98,97
+43103MIA,3/1/18 7:30,AmericanAirlines Arena,FALSE,Miami Heat,Detriot Pistons,111,104
+43103BOS,3/1/18 8:00,TD Garden,FALSE,Boston Celtics,Cleveland Cavaliers,102,88
+43103CHI,3/1/18 8:00,United Center,FALSE,Chicago Bulls,Toronto Raptors,115,124
+43103MIL,3/1/18 8:00,Bradley Center,FALSE,Milwaukee Bucks,Indianapolis Pacers,122,101
+43103DAL,3/1/18 8:30,American Airlines Center,FALSE,Dallas Mavericks,Golden State Warriors,122,125
+43103DEN,3/1/18 9:00,Pepsi Center,FALSE,Denver Nuggets,Phoenix Suns,134,111
+43103UTA,3/1/18 9:00,EnergySolutions Arena,FALSE,Utah Jazz,New Orleans Pelicans,98,108
+43103LAL,3/1/18 10:30,Staples Center,FALSE,Los Angeles Lakers,Oklahoma City Thunder,96,133
+43104HOU,4/1/18 8:00,Toyota Center,FALSE,Houston Rockets,Golden State Warriors,114,124
+43104LAC,4/1/18 10:30,Staples Center,FALSE,Los Angeles Clippers,Oklahoma City Thunder,117,127
+43105MIA,5/1/18 7:00,AmericanAirlines Arena,FALSE,Miami Heat,New York Knicks,107,103
+43105PHI,5/1/18 7:00,Wells Fargo Center,FALSE,Philadelphia 76ers,Detriot Pistons,114,78
+43105BOS,5/1/18 7:30,TD Garden,FALSE,Boston Celtics,Minnesota Timberwolves,91,84
+43105MIL,5/1/18 8:00,Bradley Center,FALSE,Milwaukee Bucks,Toronto Raptors,110,129
+43105DAL,5/1/18 8:30,American Airlines Center,FALSE,Dallas Mavericks,Chicago Bulls,124,127
+43105SA,5/1/18 8:30,AT&T Center,FALSE,San Antonio Spurs,Phoenix Suns,103,89
+43105DEN,5/1/18 9:00,Pepsi Center,FALSE,Denver Nuggets,Utah Jazz,99,91
+43105MEM,5/1/18 9:30,FedExForum,FALSE,Memphis Grizzlies,Washington Wizards,100,102
+43105POR,5/1/18 10:00,Rose Garden,FALSE,Portland Trail Blazers,Atlanta Hawks,110,89
+43105LAL,5/1/18 10:30,Staples Center,FALSE,Los Angeles Lakers,Charlotte Hornets,94,108
+43106LAC,6/1/18 3:30,Staples Center,FALSE,Los Angeles Clippers,Golden State Warriors,105,121
+43106BKN,6/1/18 6:00,Barclays Center,FALSE,Brooklyn Nets,Boston Celtics,85,87
+43106DET,6/1/18 7:00,The Palace of Auburn Hills,FALSE,Detriot Pistons,Houston Rockets,108,101
+43106IND,6/1/18 7:00,Bankers Life Fieldhouse,FALSE,Indianapolis Pacers,Chicago Bulls,125,86
+43106ORL,6/1/18 7:00,Amway Center,FALSE,Orlando Magic,Cleveland Cavaliers,127,131
+43106WAS,6/1/18 8:00,Verizon Center,FALSE,Washington Wizards,Milwaukee Bucks,103,110
+43106MIN,6/1/18 9:00,Target Center,FALSE,Minnesota Timberwolves,New Orleans Pelicans,116,98
+43106SAC,6/1/18 10:00,Power Balance Pavilion,FALSE,Sacramento Kings,Denver Nuggets,106,98
+43107MIA,7/1/18 3:30,AmericanAirlines Arena,FALSE,Miami Heat,Utah Jazz,103,102
+43107DAL,7/1/18 7:00,American Airlines Center,FALSE,Dallas Mavericks,New York Knicks,96,100
+43107PHO,7/1/18 8:00,US Airways Center,FALSE,Phoenix Suns,Oklahoma City Thunder,114,100
+43107POR,7/1/18 9:00,Rose Garden,FALSE,Portland Trail Blazers,San Antonio Spurs,111,110
+43107LAL,7/1/18 9:30,Staples Center,FALSE,Los Angeles Lakers,Atlanta Hawks,132,113
+43108IND,8/1/18 7:00,Bankers Life Fieldhouse,FALSE,Indianapolis Pacers,Milwaukee Bucks,109,96
+43108BKN,8/1/18 7:30,Barclays Center,FALSE,Brooklyn Nets,Toronto Raptors,113,114
+43108CHI,8/1/18 8:00,United Center,FALSE,Chicago Bulls,Houston Rockets,107,116
+43108MIN,8/1/18 8:00,Target Center,FALSE,Minnesota Timberwolves,Cleveland Cavaliers,127,99
+43108NO,8/1/18 8:00,New Orleans Arena,FALSE,New Orleans Pelicans,Detriot Pistons,112,109
+43108SAC,8/1/18 10:00,Power Balance Pavilion,FALSE,Sacramento Kings,San Antonio Spurs,100,107
+43108GS,8/1/18 10:30,Oracle Arena,FALSE,Golden State Warriors,Denver Nuggets,124,114
+43108LAC,8/1/18 10:30,Staples Center,FALSE,Los Angeles Clippers,Atlanta Hawks,108,107
+43109TOR,9/1/18 7:30,Air Canada Centre,FALSE,Toronto Raptors,Miami Heat,89,90
+43109OKC,9/1/18 8:00,Chesapeake Energy Arena,FALSE,Oklahoma City Thunder,Portland Trail Blazers,106,117
+43109DAL,9/1/18 8:30,American Airlines Center,FALSE,Dallas Mavericks,Orlando Magic,114,99
+43109LAL,9/1/18 10:30,Staples Center,FALSE,Los Angeles Lakers,Sacramento Kings,99,86
+43110CHA,10/1/18 7:00,Time Warner Cable Arena,FALSE,Charlotte Hornets,Dallas Mavericks,111,115
+43110IND,10/1/18 7:00,Bankers Life Fieldhouse,FALSE,Indianapolis Pacers,Miami Heat,106,114
+43110WAS,10/1/18 7:00,Verizon Center,FALSE,Washington Wizards,Utah Jazz,104,107
+43110BKN,10/1/18 7:30,Barclays Center,FALSE,Brooklyn Nets,Detriot Pistons,80,114
+43110NY,10/1/18 7:30,Madison Square Garden,FALSE,New York Knicks,Chicago Bulls,119,122
+43110HOU,10/1/18 8:00,Toyota Center,FALSE,Houston Rockets,Portland Trail Blazers,121,112
+43110MEM,10/1/18 8:00,FedExForum,FALSE,Memphis Grizzlies,New Orleans Pelicans,105,102
+43110MIL,10/1/18 8:00,Bradley Center,FALSE,Milwaukee Bucks,Orlando Magic,110,103
+43110MIN,10/1/18 8:00,Target Center,FALSE,Minnesota Timberwolves,Oklahoma City Thunder,104,88
+43110DEN,10/1/18 9:00,Pepsi Center,FALSE,Denver Nuggets,Atlanta Hawks,97,110
+43110GS,10/1/18 10:30,Oracle Arena,FALSE,Golden State Warriors,Los Angeles Clippers,106,125
+43111PHI,11/1/18 3:00,Wells Fargo Center,FALSE,Philadelphia 76ers,Boston Celtics,103,114
+43111TOR,11/1/18 8:00,Air Canada Centre,FALSE,Toronto Raptors,Cleveland Cavaliers,133,99
+43111SAC,11/1/18 10:00,Power Balance Pavilion,FALSE,Sacramento Kings,Los Angeles Clippers,115,121
+43111LAL,11/1/18 10:30,Staples Center,FALSE,Los Angeles Lakers,San Antonio Spurs,93,81
+43112CHA,12/1/18 7:00,Time Warner Cable Arena,FALSE,Charlotte Hornets,Utah Jazz,99,88
+43112IND,12/1/18 7:00,Bankers Life Fieldhouse,FALSE,Indianapolis Pacers,Cleveland Cavaliers,97,95
+43112WAS,12/1/18 7:00,Verizon Center,FALSE,Washington Wizards,Orlando Magic,125,119
+43112ATL,12/1/18 7:30,Philips Arena,FALSE,Atlanta Hawks,Brooklyn Nets,105,110
+43112MIL,12/1/18 8:00,Bradley Center,FALSE,Milwaukee Bucks,Golden State Warriors,94,108
+43112MIN,12/1/18 8:00,Target Center,FALSE,Minnesota Timberwolves,New York Knicks,118,108
+43112NO,12/1/18 8:00,New Orleans Arena,FALSE,New Orleans Pelicans,Portland Trail Blazers,119,113
+43112DEN,12/1/18 9:00,Pepsi Center,FALSE,Denver Nuggets,Memphis Grizzlies,87,78
+43112PHO,12/1/18 10:30,US Airways Center,FALSE,Phoenix Suns,Houston Rockets,95,112
+43113DAL,13/01/18 2:00,American Airlines Center,FALSE,Dallas Mavericks,Los Angeles Lakers,101,107
+43113LAC,13/01/18 3:30,Staples Center,FALSE,Los Angeles Clippers,Sacramento Kings,126,105
+43113CHA,13/01/18 5:00,Time Warner Cable Arena,FALSE,Charlotte Hornets,Oklahoma City Thunder,91,101
+43113WAS,13/01/18 7:00,Verizon Center,FALSE,Washington Wizards,Brooklyn Nets,119,113
+43113TOR,13/01/18 7:30,Air Canada Centre,FALSE,Toronto Raptors,Golden State Warriors,125,127
+43113CHI,13/01/18 8:00,United Center,FALSE,Chicago Bulls,Detriot Pistons,107,105
+43113SA,13/01/18 8:30,AT&T Center,FALSE,San Antonio Spurs,Denver Nuggets,112,80
+43114MIA,14/01/18 1:00,AmericanAirlines Arena,FALSE,Miami Heat,Milwaukee Bucks,97,79
+43114NY,14/01/18 3:30,Madison Square Garden,FALSE,New York Knicks,New Orleans Pelicans,118,123
+43114PHO,14/01/18 8:00,US Airways Center,FALSE,Phoenix Suns,Indianapolis Pacers,97,120
+43114MIN,14/01/18 9:00,Target Center,FALSE,Minnesota Timberwolves,Portland Trail Blazers,120,103
+43115PHI,15/01/18 1:00,Wells Fargo Center,FALSE,Philadelphia 76ers,Toronto Raptors,117,111
+43115WAS,15/01/18 2:00,Verizon Center,FALSE,Washington Wizards,Milwaukee Bucks,95,104
+43115ATL,15/01/18 3:00,Philips Arena,FALSE,Atlanta Hawks,San Antonio Spurs,102,99
+43115BKN,15/01/18 3:00,Barclays Center,FALSE,Brooklyn Nets,New York Knicks,104,119
+43115OKC,15/01/18 3:00,Chesapeake Energy Arena,FALSE,Oklahoma City Thunder,Sacramento Kings,95,88
+43115CHI,15/01/18 3:30,United Center,FALSE,Chicago Bulls,Miami Heat,119,111
+43115MEM,15/01/18 5:30,FedExForum,FALSE,Memphis Grizzlies,Los Angeles Lakers,123,114
+43115CLE,15/01/18 8:00,Quicken Loans Arena,FALSE,Cleveland Cavaliers,Golden State Warriors,108,118
+43115UTA,15/01/18 9:00,EnergySolutions Arena,FALSE,Utah Jazz,Indianapolis Pacers,94,109
+43115LAC,15/01/18 10:30,Staples Center,FALSE,Los Angeles Clippers,Houston Rockets,113,102
+43115DET,15/01/18 12:30,The Palace of Auburn Hills,FALSE,Detriot Pistons,Charlotte Hornets,107,118
+43116ORL,16/01/18 7:00,Amway Center,FALSE,Orlando Magic,Minnesota Timberwolves,108,102
+43116BOS,16/01/18 7:30,TD Garden,FALSE,Boston Celtics,New Orleans Pelicans,113,116
+43116DEN,16/01/18 9:00,Pepsi Center,FALSE,Denver Nuggets,Dallas Mavericks,105,102
+43116POR,16/01/18 10:00,Rose Garden,FALSE,Portland Trail Blazers,Phoenix Suns,118,111
+43117CHA,17/01/18 7:00,Time Warner Cable Arena,FALSE,Charlotte Hornets,Washington Wizards,133,109
+43117ATL,17/01/18 7:30,Philips Arena,FALSE,Atlanta Hawks,New Orleans Pelicans,94,93
+43117BKN,17/01/18 7:30,Barclays Center,FALSE,Brooklyn Nets,San Antonio Spurs,95,100
+43117TOR,17/01/18 7:30,Air Canada Centre,FALSE,Toronto Raptors,Detriot Pistons,96,91
+43117CHI,17/01/18 8:00,United Center,FALSE,Chicago Bulls,Golden State Warriors,112,119
+43117MEM,17/01/18 8:00,FedExForum,FALSE,Memphis Grizzlies,New York Knicks,105,99
+43117MIL,17/01/18 8:00,Bradley Center,FALSE,Milwaukee Bucks,Miami Heat,101,106
+43117OKC,17/01/18 8:00,Chesapeake Energy Arena,FALSE,Oklahoma City Thunder,Los Angeles Lakers,114,90
+43117SAC,17/01/18 10:00,Power Balance Pavilion,FALSE,Sacramento Kings,Utah Jazz,105,120
+43117LAC,17/01/18 10:30,Staples Center,FALSE,Los Angeles Clippers,Denver Nuggets,109,104
+43118BOS,18/01/18 7:00,TD Garden,FALSE,Boston Celtics,Philadelphia 76ers,80,89
+43118CLE,18/01/18 7:00,Quicken Loans Arena,FALSE,Cleveland Cavaliers,Orlando Magic,104,103
+43118HOU,18/01/18 9:30,Toyota Center,FALSE,Houston Rockets,Minnesota Timberwolves,116,98
+43118POR,18/01/18 10:00,Rose Garden,FALSE,Portland Trail Blazers,Indianapolis Pacers,100,86
+43119TOR,19/01/18 7:00,Air Canada Centre,FALSE,Toronto Raptors,San Antonio Spurs,86,83
+43119BKN,19/01/18 7:30,Barclays Center,FALSE,Brooklyn Nets,Miami Heat,101,95
+43119DET,19/01/18 8:00,The Palace of Auburn Hills,FALSE,Detriot Pistons,Washington Wizards,112,122
+43119MEM,19/01/18 8:00,FedExForum,FALSE,Memphis Grizzlies,Sacramento Kings,106,88
+43119DEN,19/01/18 9:00,Pepsi Center,FALSE,Denver Nuggets,Phoenix Suns,100,108
+43119LAL,19/01/18 10:30,Staples Center,FALSE,Los Angeles Lakers,Indianapolis Pacers,99,86
+43119UTA,19/01/18 10:30,EnergySolutions Arena,FALSE,Utah Jazz,New York Knicks,115,117
+43120CLE,20/01/18 3:30,Quicken Loans Arena,FALSE,Cleveland Cavaliers,Oklahoma City Thunder,124,148
+43120ATL,20/01/18 5:00,Philips Arena,FALSE,Atlanta Hawks,Chicago Bulls,97,113
+43120CHA,20/01/18 7:00,Time Warner Cable Arena,FALSE,Charlotte Hornets,Miami Heat,105,106
+43120NO,20/01/18 7:00,New Orleans Arena,FALSE,New Orleans Pelicans,Memphis Grizzlies,111,104
+43120PHI,20/01/18 7:30,Wells Fargo Center,FALSE,Philadelphia 76ers,Milwaukee Bucks,116,94
+43120HOU,20/01/18 8:30,Toyota Center,FALSE,Houston Rockets,Golden State Warriors,116,108
+43120MIN,20/01/18 9:00,Target Center,FALSE,Minnesota Timberwolves,Toronto Raptors,115,109
+43120UTA,20/01/18 9:00,EnergySolutions Arena,FALSE,Utah Jazz,Los Angeles Clippers,125,113
+43120POR,20/01/18 10:00,Rose Garden,FALSE,Portland Trail Blazers,Dallas Mavericks,117,108
+43121BOS,21/01/18 1:00,TD Garden,FALSE,Boston Celtics,Orlando Magic,95,103
+43121LAL,21/01/18 3:30,Staples Center,FALSE,Los Angeles Lakers,New York Knicks,127,107
+43121DET,21/01/18 4:00,The Palace of Auburn Hills,FALSE,Detriot Pistons,Brooklyn Nets,100,101
+43121SA,21/01/18 7:00,AT&T Center,FALSE,San Antonio Spurs,Indianapolis Pacers,86,94
+43122CHA,22/01/18 7:00,Time Warner Cable Arena,FALSE,Charlotte Hornets,Sacramento Kings,112,107
+43122ATL,22/01/18 7:30,Philips Arena,FALSE,Atlanta Hawks,Utah Jazz,104,90
+43122HOU,22/01/18 8:00,Toyota Center,FALSE,Houston Rockets,Miami Heat,99,90
+43122MEM,22/01/18 8:00,FedExForum,FALSE,Memphis Grizzlies,Philadelphia 76ers,105,101
+43122MIL,22/01/18 8:00,Bradley Center,FALSE,Milwaukee Bucks,Phoenix Suns,109,105
+43122NO,22/01/18 8:00,New Orleans Arena,FALSE,New Orleans Pelicans,Chicago Bulls,132,128
+43122DAL,22/01/18 8:30,American Airlines Center,FALSE,Dallas Mavericks,Washington Wizards,98,75
+43122DEN,22/01/18 9:00,Pepsi Center,FALSE,Denver Nuggets,Portland Trail Blazers,104,101
+43122LAC,22/01/18 10:30,Staples Center,FALSE,Los Angeles Clippers,Minnesota Timberwolves,118,126
+43123ORL,23/01/18 7:00,Amway Center,FALSE,Orlando Magic,Sacramento Kings,99,105
+43123OKC,23/01/18 8:00,Chesapeake Energy Arena,FALSE,Oklahoma City Thunder,Brooklyn Nets,109,108
+43123SA,23/01/18 8:00,AT&T Center,FALSE,San Antonio Spurs,Cleveland Cavaliers,114,102
+43123GS,23/01/18 10:30,Oracle Arena,FALSE,Golden State Warriors,New York Knicks,123,112
+43123LAL,23/01/18 10:30,Staples Center,FALSE,Los Angeles Lakers,Boston Celtics,108,107
+43124CHA,24/01/18 7:00,Time Warner Cable Arena,FALSE,Charlotte Hornets,New Orleans Pelicans,96,101
+43124DET,24/01/18 7:00,The Palace of Auburn Hills,FALSE,Detriot Pistons,Utah Jazz,95,98
+43124IND,24/01/18 7:00,Bankers Life Fieldhouse,FALSE,Indianapolis Pacers,Phoenix Suns,116,101
+43124PHI,24/01/18 7:00,Wells Fargo Center,FALSE,Philadelphia 76ers,Chicago Bulls,115,101
+43124ATL,24/01/18 7:30,Philips Arena,FALSE,Atlanta Hawks,Toronto Raptors,93,108
+43124DAL,24/01/18 8:00,American Airlines Center,FALSE,Dallas Mavericks,Houston Rockets,97,104
+43124MEM,24/01/18 8:00,FedExForum,FALSE,Memphis Grizzlies,San Antonio Spurs,85,108
+43124POR,24/01/18 10:00,Rose Garden,FALSE,Portland Trail Blazers,Minnesota Timberwolves,123,114
+43124LAC,24/01/18 10:30,Staples Center,FALSE,Los Angeles Clippers,Boston Celtics,102,113
+43125MIA,25/01/18 7:30,AmericanAirlines Arena,FALSE,Miami Heat,Sacramento Kings,88,89
+43125OKC,25/01/18 8:00,Chesapeake Energy Arena,FALSE,Oklahoma City Thunder,Washington Wizards,121,112
+43125DEN,25/01/18 9:00,Pepsi Center,FALSE,Denver Nuggets,New York Knicks,130,118
+43125GS,25/01/18 10:30,Oracle Arena,FALSE,Golden State Warriors,Minnesota Timberwolves,126,113
+43126CHA,26/01/18 7:00,Time Warner Cable Arena,FALSE,Charlotte Hornets,Atlanta Hawks,121,110
+43126CLE,26/01/18 7:30,Quicken Loans Arena,FALSE,Cleveland Cavaliers,Indianapolis Pacers,115,108
+43126TOR,26/01/18 7:30,Air Canada Centre,FALSE,Toronto Raptors,Utah Jazz,93,97
+43126CHI,26/01/18 8:00,United Center,FALSE,Chicago Bulls,Los Angeles Lakers,103,108
+43126MEM,26/01/18 8:00,FedExForum,FALSE,Memphis Grizzlies,Los Angeles Clippers,100,109
+43126MIL,26/01/18 8:00,Bradley Center,FALSE,Milwaukee Bucks,Brooklyn Nets,116,91
+43126NO,26/01/18 8:00,New Orleans Arena,FALSE,New Orleans Pelicans,Houston Rockets,115,113
+43126DAL,26/01/18 8:30,American Airlines Center,FALSE,Dallas Mavericks,Portland Trail Blazers,93,107
+43126SA,26/01/18 8:30,AT&T Center,FALSE,San Antonio Spurs,Philadelphia 76ers,78,97
+43126PHO,26/01/18 9:00,US Airways Center,FALSE,Phoenix Suns,New York Knicks,85,107
+43127DET,27/01/18 7:00,The Palace of Auburn Hills,FALSE,Detriot Pistons,Oklahoma City Thunder,108,121
+43127IND,27/01/18 7:00,Bankers Life Fieldhouse,FALSE,Indianapolis Pacers,Orlando Magic,114,112
+43127ATL,27/01/18 7:30,Philips Arena,FALSE,Atlanta Hawks,Washington Wizards,104,129
+43127MIA,27/01/18 7:30,AmericanAirlines Arena,FALSE,Miami Heat,Charlotte Hornets,95,91
+43127GS,27/01/18 8:30,Oracle Arena,FALSE,Golden State Warriors,Boston Celtics,109,105
+43127DEN,27/01/18 9:00,Pepsi Center,FALSE,Denver Nuggets,Dallas Mavericks,91,89
+43127MIN,27/01/18 9:00,Target Center,FALSE,Minnesota Timberwolves,Brooklyn Nets,111,97
+43128CHI,28/01/18 3:30,United Center,FALSE,Chicago Bulls,Milwaukee Bucks,96,110
+43128HOU,28/01/18 3:30,Toyota Center,FALSE,Houston Rockets,Phoenix Suns,113,102
+43128NO,28/01/18 4:00,New Orleans Arena,FALSE,New Orleans Pelicans,Los Angeles Clippers,103,112
+43128CLE,28/01/18 6:00,Quicken Loans Arena,FALSE,Cleveland Cavaliers,Detriot Pistons,121,104
+43128OKC,28/01/18 6:00,Chesapeake Energy Arena,FALSE,Oklahoma City Thunder,Philadelphia 76ers,122,112
+43128TOR,28/01/18 6:00,Air Canada Centre,FALSE,Toronto Raptors,Los Angeles Lakers,123,111
+43128SA,28/01/18 7:00,AT&T Center,FALSE,San Antonio Spurs,Sacramento Kings,113,98
+43129IND,29/01/18 7:00,Bankers Life Fieldhouse,FALSE,Indianapolis Pacers,Charlotte Hornets,105,96
+43129ATL,29/01/18 7:30,Philips Arena,FALSE,Atlanta Hawks,Minnesota Timberwolves,105,100
+43129MEM,29/01/18 8:00,FedExForum,FALSE,Memphis Grizzlies,Phoenix Suns,120,109
+43129MIL,29/01/18 8:00,Bradley Center,FALSE,Milwaukee Bucks,Philadelphia 76ers,107,95
+43129DAL,29/01/18 8:30,American Airlines Center,FALSE,Dallas Mavericks,Miami Heat,88,95
+43129DEN,29/01/18 9:00,Pepsi Center,FALSE,Denver Nuggets,Boston Celtics,110,111
+43130WAS,30/01/18 7:00,Verizon Center,FALSE,Washington Wizards,Oklahoma City Thunder,102,96
+43130NY,30/01/18 7:30,Madison Square Garden,FALSE,New York Knicks,Brooklyn Nets,111,95
+43130TOR,30/01/18 7:30,Air Canada Centre,FALSE,Toronto Raptors,Minnesota Timberwolves,109,104
+43130DET,30/01/18 8:00,The Palace of Auburn Hills,FALSE,Detriot Pistons,Cleveland Cavaliers,125,114
+43130HOU,30/01/18 8:00,Toyota Center,FALSE,Houston Rockets,Orlando Magic,114,107
+43130NO,30/01/18 8:00,New Orleans Arena,FALSE,New Orleans Pelicans,Sacramento Kings,103,114
+43130SA,30/01/18 8:30,AT&T Center,FALSE,San Antonio Spurs,Denver Nuggets,106,104
+43130UTA,30/01/18 9:00,EnergySolutions Arena,FALSE,Utah Jazz,Golden State Warriors,129,99
+43130LAC,30/01/18 10:30,Staples Center,FALSE,Los Angeles Clippers,Portland Trail Blazers,96,104
+43131IND,31/01/18 7:00,Bankers Life Fieldhouse,FALSE,Indianapolis Pacers,Memphis Grizzlies,105,101
+43131ORL,31/01/18 7:00,Amway Center,FALSE,Orlando Magic,Los Angeles Lakers,127,105
+43131ATL,31/01/18 7:30,Philips Arena,FALSE,Atlanta Hawks,Charlotte Hornets,110,123
+43131BKN,31/01/18 7:30,Barclays Center,FALSE,Brooklyn Nets,Philadelphia 76ers,116,108
+43131CLE,31/01/18 7:30,Quicken Loans Arena,FALSE,Cleveland Cavaliers,Miami Heat,91,89
+43131BOS,31/01/18 8:00,TD Garden,FALSE,Boston Celtics,New York Knicks,103,73
+43131POR,31/01/18 10:00,Rose Garden,FALSE,Portland Trail Blazers,Chicago Bulls,124,108
+43131PHO,31/01/18 10:30,US Airways Center,FALSE,Phoenix Suns,Dallas Mavericks,102,88
+43132DET,1/2/18 7:00,The Palace of Auburn Hills,FALSE,Detriot Pistons,Memphis Grizzlies,104,102
+43132WAS,1/2/18 7:00,Verizon Center,FALSE,Washington Wizards,Toronto Raptors,122,119
+43132MIN,1/2/18 8:00,Target Center,FALSE,Minnesota Timberwolves,Milwaukee Bucks,108,89
+43132SA,1/2/18 8:00,AT&T Center,FALSE,San Antonio Spurs,Houston Rockets,91,102
+43132DEN,1/2/18 10:30,Pepsi Center,FALSE,Denver Nuggets,Oklahoma City Thunder,127,124
+43133CHA,2/2/18 7:00,Time Warner Cable Arena,FALSE,Charlotte Hornets,Indianapolis Pacers,133,126
+43133BOS,2/2/18 7:30,TD Garden,FALSE,Boston Celtics,Atlanta Hawks,119,110
+43133BKN,2/2/18 7:30,Barclays Center,FALSE,Brooklyn Nets,Los Angeles Lakers,99,102
+43133TOR,2/2/18 7:30,Air Canada Centre,FALSE,Toronto Raptors,Portland Trail Blazers,130,105
+43133MIL,2/2/18 8:00,Bradley Center,FALSE,Milwaukee Bucks,New York Knicks,92,90
+43133PHI,2/2/18 8:00,Wells Fargo Center,FALSE,Philadelphia 76ers,Miami Heat,103,97
+43133OKC,2/2/18 9:00,Chesapeake Energy Arena,FALSE,Oklahoma City Thunder,New Orleans Pelicans,100,114
+43133PHO,2/2/18 9:00,US Airways Center,FALSE,Phoenix Suns,Utah Jazz,97,129
+43133SAC,2/2/18 10:30,Power Balance Pavilion,FALSE,Sacramento Kings,Golden State Warriors,104,119
+43134LAC,3/2/18 3:30,Staples Center,FALSE,Los Angeles Clippers,Chicago Bulls,113,103
+43134DET,3/2/18 7:00,The Palace of Auburn Hills,FALSE,Detriot Pistons,Miami Heat,111,107
+43134IND,3/2/18 7:00,Bankers Life Fieldhouse,FALSE,Indianapolis Pacers,Philadelphia 76ers,100,92
+43134ORL,3/2/18 7:00,Amway Center,FALSE,Orlando Magic,Washington Wizards,98,115
+43134CLE,3/2/18 8:30,Quicken Loans Arena,FALSE,Cleveland Cavaliers,Houston Rockets,88,120
+43134DEN,3/2/18 9:00,Pepsi Center,FALSE,Denver Nuggets,Golden State Warriors,115,108
+43134MIN,3/2/18 9:00,Target Center,FALSE,Minnesota Timberwolves,New Orleans Pelicans,118,107
+43134SA,3/2/18 9:00,AT&T Center,FALSE,San Antonio Spurs,Utah Jazz,111,120
+43134SAC,3/2/18 10:00,Power Balance Pavilion,FALSE,Sacramento Kings,Dallas Mavericks,99,106
+43135OKC,4/2/18 2:00,Chesapeake Energy Arena,FALSE,Oklahoma City Thunder,Los Angeles Lakers,104,108
+43135PHO,4/2/18 3:00,US Airways Center,FALSE,Phoenix Suns,Charlotte Hornets,110,115
+43135BOS,4/2/18 10:00,TD Garden,FALSE,Boston Celtics,Portland Trail Blazers,97,96
+43135BKN,4/2/18 10:00,Barclays Center,FALSE,Brooklyn Nets,Milwaukee Bucks,94,109
+43135NY,4/2/18 10:00,Madison Square Garden,FALSE,New York Knicks,Atlanta Hawks,96,99
+43135TOR,4/2/18 10:00,Air Canada Centre,FALSE,Toronto Raptors,Memphis Grizzlies,101,86
+43136DET,5/2/18 7:00,The Palace of Auburn Hills,FALSE,Detriot Pistons,Portland Trail Blazers,111,91
+43136IND,5/2/18 7:00,Bankers Life Fieldhouse,FALSE,Indianapolis Pacers,Washington Wizards,102,111
+43136MIA,5/2/18 7:30,AmericanAirlines Arena,FALSE,Miami Heat,Orlando Magic,109,111
+43136NO,5/2/18 8:00,New Orleans Arena,FALSE,New Orleans Pelicans,Utah Jazz,109,133
+43136DEN,5/2/18 9:00,Pepsi Center,FALSE,Denver Nuggets,Charlotte Hornets,121,104
+43136SAC,5/2/18 10:00,Power Balance Pavilion,FALSE,Sacramento Kings,Chicago Bulls,104,98
+43136LAC,5/2/18 10:30,Staples Center,FALSE,Los Angeles Clippers,Dallas Mavericks,104,101
+43137ORL,6/2/18 7:00,Amway Center,FALSE,Orlando Magic,Cleveland Cavaliers,116,98
+43137ATL,6/2/18 7:30,Philips Arena,FALSE,Atlanta Hawks,Memphis Grizzlies,108,82
+43137BKN,6/2/18 7:30,Barclays Center,FALSE,Brooklyn Nets,Houston Rockets,113,123
+43137NY,6/2/18 7:30,Madison Square Garden,FALSE,New York Knicks,Milwaukee Bucks,89,103
+43137TOR,6/2/18 7:30,Air Canada Centre,FALSE,Toronto Raptors,Boston Celtics,111,91
+43137PHI,6/2/18 8:00,Wells Fargo Center,FALSE,Philadelphia 76ers,Washington Wizards,115,102
+43137GS,6/2/18 10:30,Oracle Arena,FALSE,Golden State Warriors,Oklahoma City Thunder,105,125
+43137LAL,6/2/18 10:30,Staples Center,FALSE,Los Angeles Lakers,Phoenix Suns,112,93
+43138DET,7/2/18 7:00,The Palace of Auburn Hills,FALSE,Detriot Pistons,Brooklyn Nets,115,106
+43138MIA,7/2/18 7:30,AmericanAirlines Arena,FALSE,Miami Heat,Houston Rockets,101,109
+43138CLE,7/2/18 8:00,Quicken Loans Arena,FALSE,Cleveland Cavaliers,Minnesota Timberwolves,140,138
+43138MEM,7/2/18 8:00,FedExForum,FALSE,Memphis Grizzlies,Utah Jazz,88,92
+43138PHO,7/2/18 10:30,US Airways Center,FALSE,Phoenix Suns,San Antonio Spurs,81,129
+43139ORL,8/2/18 7:00,Amway Center,FALSE,Orlando Magic,Atlanta Hawks,100,98
+43139TOR,8/2/18 7:30,Air Canada Centre,FALSE,Toronto Raptors,New York Knicks,113,88
+43139WAS,8/2/18 8:00,Verizon Center,FALSE,Washington Wizards,Boston Celtics,104,110
+43139POR,8/2/18 10:00,Rose Garden,FALSE,Portland Trail Blazers,Charlotte Hornets,109,103
+43139GS,8/2/18 10:30,Oracle Arena,FALSE,Golden State Warriors,Dallas Mavericks,121,103
+43139LAL,8/2/18 10:30,Staples Center,FALSE,Los Angeles Lakers,Oklahoma City Thunder,106,81
+43140DET,9/2/18 7:00,The Palace of Auburn Hills,FALSE,Detriot Pistons,Los Angeles Clippers,95,108
+43140PHI,9/2/18 7:00,Wells Fargo Center,FALSE,Philadelphia 76ers,New Orleans Pelicans,100,82
+43140ATL,9/2/18 7:30,Philips Arena,FALSE,Atlanta Hawks,Cleveland Cavaliers,107,123
+43140BOS,9/2/18 7:30,TD Garden,FALSE,Boston Celtics,Indianapolis Pacers,91,97
+43140CHI,9/2/18 8:00,United Center,FALSE,Chicago Bulls,Minnesota Timberwolves,114,113
+43140HOU,9/2/18 8:00,Toyota Center,FALSE,Houston Rockets,Denver Nuggets,130,104
+43140MIA,9/2/18 8:00,AmericanAirlines Arena,FALSE,Miami Heat,Milwaukee Bucks,91,85
+43140UTA,9/2/18 9:00,EnergySolutions Arena,FALSE,Utah Jazz,Charlotte Hornets,106,94
+43140SAC,9/2/18 10:30,Power Balance Pavilion,FALSE,Sacramento Kings,Portland Trail Blazers,100,118
+43141BKN,10/2/18 6:00,Barclays Center,FALSE,Brooklyn Nets,New Orleans Pelicans,128,138
+43141ORL,10/2/18 7:00,Amway Center,FALSE,Orlando Magic,Milwaukee Bucks,104,111
+43141PHI,10/2/18 7:00,Wells Fargo Center,FALSE,Philadelphia 76ers,Los Angeles Clippers,112,98
+43141CHI,10/2/18 8:00,United Center,FALSE,Chicago Bulls,Washington Wizards,90,101
+43141DAL,10/2/18 8:30,American Airlines Center,FALSE,Dallas Mavericks,Los Angeles Lakers,130,123
+43141GS,10/2/18 8:30,Oracle Arena,FALSE,Golden State Warriors,San Antonio Spurs,122,105
+43141PHO,10/2/18 9:00,US Airways Center,FALSE,Phoenix Suns,Denver Nuggets,113,123
+43142CHA,11/2/18 1:00,Time Warner Cable Arena,FALSE,Charlotte Hornets,Toronto Raptors,103,123
+43142ATL,11/2/18 3:30,Philips Arena,FALSE,Atlanta Hawks,Detriot Pistons,118,115
+43142BOS,11/2/18 3:30,TD Garden,FALSE,Boston Celtics,Cleveland Cavaliers,99,121
+43142IND,11/2/18 5:00,Bankers Life Fieldhouse,FALSE,Indianapolis Pacers,New York Knicks,121,113
+43142HOU,11/2/18 7:00,Toyota Center,FALSE,Houston Rockets,Dallas Mavericks,104,97
+43142MIN,11/2/18 7:00,Target Center,FALSE,Minnesota Timberwolves,Sacramento Kings,111,106
+43142OKC,11/2/18 7:00,Chesapeake Energy Arena,FALSE,Oklahoma City Thunder,Memphis Grizzlies,110,92
+43142POR,11/2/18 9:00,Rose Garden,FALSE,Portland Trail Blazers,Utah Jazz,96,115
+43143DET,12/2/18 7:00,The Palace of Auburn Hills,FALSE,Detriot Pistons,New Orleans Pelicans,103,118
+43143PHI,12/2/18 7:00,Wells Fargo Center,FALSE,Philadelphia 76ers,New York Knicks,108,92
+43143BKN,12/2/18 7:30,Barclays Center,FALSE,Brooklyn Nets,Los Angeles Clippers,101,114
+43143CHI,12/2/18 8:00,United Center,FALSE,Chicago Bulls,Orlando Magic,105,101
+43143UTA,12/2/18 9:00,EnergySolutions Arena,FALSE,Utah Jazz,San Antonio Spurs,101,99
+43143GS,12/2/18 10:30,Oracle Arena,FALSE,Golden State Warriors,Phoenix Suns,129,83
+43144TOR,13/02/18 7:00,Air Canada Centre,FALSE,Toronto Raptors,Miami Heat,115,112
+43144MIL,13/02/18 8:00,Bradley Center,FALSE,Milwaukee Bucks,Atlanta Hawks,97,92
+43144MIN,13/02/18 8:00,Target Center,FALSE,Minnesota Timberwolves,Houston Rockets,108,126
+43144OKC,13/02/18 8:00,Chesapeake Energy Arena,FALSE,Oklahoma City Thunder,Cleveland Cavaliers,112,120
+43144DAL,13/02/18 8:30,American Airlines Center,FALSE,Dallas Mavericks,Sacramento Kings,109,114
+43144DEN,13/02/18 10:30,Pepsi Center,FALSE,Denver Nuggets,San Antonio Spurs,117,109
+43145DET,14/02/18 7:00,The Palace of Auburn Hills,FALSE,Detriot Pistons,Atlanta Hawks,104,98
+43145ORL,14/02/18 7:00,Amway Center,FALSE,Orlando Magic,Charlotte Hornets,102,104
+43145PHI,14/02/18 7:00,Wells Fargo Center,FALSE,Philadelphia 76ers,Miami Heat,104,102
+43145BKN,14/02/18 7:30,Barclays Center,FALSE,Brooklyn Nets,Indianapolis Pacers,103,108
+43145NY,14/02/18 7:30,Madison Square Garden,FALSE,New York Knicks,Washington Wizards,113,118
+43145BOS,14/02/18 8:00,TD Garden,FALSE,Boston Celtics,Los Angeles Clippers,119,129
+43145CHI,14/02/18 8:00,United Center,FALSE,Chicago Bulls,Toronto Raptors,98,122
+43145HOU,14/02/18 8:00,Toyota Center,FALSE,Houston Rockets,Sacramento Kings,100,91
+43145MEM,14/02/18 8:00,FedExForum,FALSE,Memphis Grizzlies,Oklahoma City Thunder,114,121
+43145NO,14/02/18 8:00,New Orleans Arena,FALSE,New Orleans Pelicans,Los Angeles Lakers,139,117
+43145UTA,14/02/18 9:00,EnergySolutions Arena,FALSE,Utah Jazz,Phoenix Suns,107,97
+43145POR,14/02/18 10:30,Rose Garden,FALSE,Portland Trail Blazers,Golden State Warriors,123,117
+43146MIL,15/02/18 8:00,Bradley Center,FALSE,Milwaukee Bucks,Denver Nuggets,123,134
+43146MIN,15/02/18 9:00,Target Center,FALSE,Minnesota Timberwolves,Los Angeles Lakers,119,111
+43153CHA,22/02/18 7:00,Time Warner Cable Arena,FALSE,Charlotte Hornets,Brooklyn Nets,111,96
+43153ORL,22/02/18 7:00,Amway Center,FALSE,Orlando Magic,New York Knicks,113,120
+43153CHI,22/02/18 8:00,United Center,FALSE,Chicago Bulls,Philadelphia 76ers,115,116
+43153CLE,22/02/18 8:00,Quicken Loans Arena,FALSE,Cleveland Cavaliers,Washington Wizards,103,110
+43153SAC,22/02/18 10:00,Power Balance Pavilion,FALSE,Sacramento Kings,Oklahoma City Thunder,107,110
+43153GS,22/02/18 10:30,Oracle Arena,FALSE,Golden State Warriors,Los Angeles Clippers,134,127
+43154DET,23/02/18 7:00,The Palace of Auburn Hills,FALSE,Detriot Pistons,Boston Celtics,98,110
+43154IND,23/02/18 7:00,Bankers Life Fieldhouse,FALSE,Indianapolis Pacers,Atlanta Hawks,116,93
+43154WAS,23/02/18 7:00,Verizon Center,FALSE,Washington Wizards,Charlotte Hornets,105,122
+43154TOR,23/02/18 7:30,Air Canada Centre,FALSE,Toronto Raptors,Milwaukee Bucks,119,122
+43154HOU,23/02/18 8:00,Toyota Center,FALSE,Houston Rockets,Minnesota Timberwolves,120,102
+43154MEM,23/02/18 8:00,FedExForum,FALSE,Memphis Grizzlies,Cleveland Cavaliers,89,112
+43154NO,23/02/18 8:00,New Orleans Arena,FALSE,New Orleans Pelicans,Miami Heat,124,123
+43154DEN,23/02/18 9:00,Pepsi Center,FALSE,Denver Nuggets,San Antonio Spurs,122,119
+43154PHO,23/02/18 9:00,US Airways Center,FALSE,Phoenix Suns,Los Angeles Clippers,117,128
+43154UTA,23/02/18 9:00,EnergySolutions Arena,FALSE,Utah Jazz,Portland Trail Blazers,81,100
+43154LAL,23/02/18 10:30,Staples Center,FALSE,Los Angeles Lakers,Dallas Mavericks,124,102
+43155PHI,24/02/18 5:00,Wells Fargo Center,FALSE,Philadelphia 76ers,Orlando Magic,116,105
+43155MIA,24/02/18 7:30,AmericanAirlines Arena,FALSE,Miami Heat,Memphis Grizzlies,115,89
+43155NY,24/02/18 7:30,Madison Square Garden,FALSE,New York Knicks,Boston Celtics,112,121
+43155GS,24/02/18 8:30,Oracle Arena,FALSE,Golden State Warriors,Oklahoma City Thunder,112,80
+43155MIN,24/02/18 9:00,Target Center,FALSE,Minnesota Timberwolves,Chicago Bulls,122,104
+43155PHO,24/02/18 9:00,US Airways Center,FALSE,Phoenix Suns,Portland Trail Blazers,104,106
+43155UTA,24/02/18 9:00,EnergySolutions Arena,FALSE,Utah Jazz,Dallas Mavericks,97,90
+43155SAC,24/02/18 10:00,Power Balance Pavilion,FALSE,Sacramento Kings,Los Angeles Lakers,108,113
+43156CHA,25/02/18 1:00,Time Warner Cable Arena,FALSE,Charlotte Hornets,Detriot Pistons,114,98
+43156MIL,25/02/18 3:00,Bradley Center,FALSE,Milwaukee Bucks,New Orleans Pelicans,121,123
+43156CLE,25/02/18 3:30,Quicken Loans Arena,FALSE,Cleveland Cavaliers,San Antonio Spurs,94,110
+43156DEN,25/02/18 8:00,Pepsi Center,FALSE,Denver Nuggets,Houston Rockets,114,119
+43156WAS,25/02/18 8:00,Verizon Center,FALSE,Washington Wizards,Philadelphia 76ers,109,94
+43157ATL,26/02/18 7:30,Philips Arena,FALSE,Atlanta Hawks,Los Angeles Lakers,104,123
+43157BOS,26/02/18 7:30,TD Garden,FALSE,Boston Celtics,Memphis Grizzlies,109,98
+43157BKN,26/02/18 7:30,Barclays Center,FALSE,Brooklyn Nets,Chicago Bulls,104,87
+43157NY,26/02/18 7:30,Madison Square Garden,FALSE,New York Knicks,Golden State Warriors,111,125
+43157TOR,26/02/18 7:30,Air Canada Centre,FALSE,Toronto Raptors,Detriot Pistons,123,94
+43157NO,26/02/18 8:00,New Orleans Arena,FALSE,New Orleans Pelicans,Phoenix Suns,125,116
+43157OKC,26/02/18 8:00,Chesapeake Energy Arena,FALSE,Oklahoma City Thunder,Orlando Magic,112,105
+43157DAL,26/02/18 8:30,American Airlines Center,FALSE,Dallas Mavericks,Indianapolis Pacers,109,103
+43157UTA,26/02/18 9:00,EnergySolutions Arena,FALSE,Utah Jazz,Houston Rockets,85,96
+43157SAC,26/02/18 10:00,Power Balance Pavilion,FALSE,Sacramento Kings,Minnesota Timberwolves,100,118
+43158CHA,27/02/18 7:00,Time Warner Cable Arena,FALSE,Charlotte Hornets,Chicago Bulls,118,103
+43158CLE,27/02/18 7:00,Quicken Loans Arena,FALSE,Cleveland Cavaliers,Brooklyn Nets,129,123
+43158MIA,27/02/18 7:30,AmericanAirlines Arena,FALSE,Miami Heat,Philadelphia 76ers,102,101
+43158MIL,27/02/18 8:00,Bradley Center,FALSE,Milwaukee Bucks,Washington Wizards,104,107
+43158POR,27/02/18 10:00,Rose Garden,FALSE,Portland Trail Blazers,Sacramento Kings,116,99
+43158DEN,27/02/18 10:30,Pepsi Center,FALSE,Denver Nuggets,Los Angeles Clippers,120,122
+43159DET,28/02/18 7:00,The Palace of Auburn Hills,FALSE,Detriot Pistons,Milwaukee Bucks,110,87
+43159ORL,28/02/18 7:00,Amway Center,FALSE,Orlando Magic,Toronto Raptors,104,117
+43159ATL,28/02/18 7:30,Philips Arena,FALSE,Atlanta Hawks,Indianapolis Pacers,107,102
+43159BOS,28/02/18 7:30,TD Garden,FALSE,Boston Celtics,Charlotte Hornets,134,106
+43159MEM,28/02/18 8:00,FedExForum,FALSE,Memphis Grizzlies,Phoenix Suns,102,110
+43159WAS,28/02/18 8:00,Verizon Center,FALSE,Washington Wizards,Golden State Warriors,101,109
+43159DAL,28/02/18 8:30,American Airlines Center,FALSE,Dallas Mavericks,Oklahoma City Thunder,110,111
+43159SA,28/02/18 8:30,AT&T Center,FALSE,San Antonio Spurs,New Orleans Pelicans,116,121
+43159LAC,28/02/18 10:30,Staples Center,FALSE,Los Angeles Clippers,Houston Rockets,92,105
+43160MIA,1/3/18 7:30,AmericanAirlines Arena,FALSE,Miami Heat,Los Angeles Lakers,113,131
+43160CLE,1/3/18 8:00,Quicken Loans Arena,FALSE,Cleveland Cavaliers,Philadelphia 76ers,97,108
+43160SAC,1/3/18 10:00,Power Balance Pavilion,FALSE,Sacramento Kings,Brooklyn Nets,116,111
+43160POR,1/3/18 10:30,Rose Garden,FALSE,Portland Trail Blazers,Minnesota Timberwolves,108,99
+43161ORL,2/3/18 7:00,Amway Center,FALSE,Orlando Magic,Detriot Pistons,115,106
+43161PHI,2/3/18 7:00,Wells Fargo Center,FALSE,Philadelphia 76ers,Charlotte Hornets,110,99
+43161ATL,2/3/18 7:30,Philips Arena,FALSE,Atlanta Hawks,Golden State Warriors,109,114
+43161CHI,2/3/18 8:00,United Center,FALSE,Chicago Bulls,Dallas Mavericks,108,100
+43161MEM,2/3/18 8:00,FedExForum,FALSE,Memphis Grizzlies,Denver Nuggets,102,108
+43161MIL,2/3/18 8:00,Bradley Center,FALSE,Milwaukee Bucks,Indianapolis Pacers,96,103
+43161WAS,2/3/18 8:00,Verizon Center,FALSE,Washington Wizards,Toronto Raptors,95,102
+43161PHO,2/3/18 9:00,US Airways Center,FALSE,Phoenix Suns,Oklahoma City Thunder,116,124
+43161LAC,2/3/18 10:30,Staples Center,FALSE,Los Angeles Clippers,New York Knicks,128,105
+43161UTA,2/3/18 10:30,EnergySolutions Arena,FALSE,Utah Jazz,Minnesota Timberwolves,116,108
+43162ORL,3/3/18 7:00,Amway Center,FALSE,Orlando Magic,Memphis Grizzlies,107,100
+43162CLE,3/3/18 7:30,Quicken Loans Arena,FALSE,Cleveland Cavaliers,Denver Nuggets,117,126
+43162MIA,3/3/18 7:30,AmericanAirlines Arena,FALSE,Miami Heat,Detriot Pistons,105,96
+43162HOU,3/3/18 8:30,Toyota Center,FALSE,Houston Rockets,Boston Celtics,123,120
+43162SA,3/3/18 9:00,AT&T Center,FALSE,San Antonio Spurs,Los Angeles Lakers,112,116
+43162POR,3/3/18 10:00,Rose Garden,FALSE,Portland Trail Blazers,Oklahoma City Thunder,108,100
+43162SAC,3/3/18 10:00,Power Balance Pavilion,FALSE,Sacramento Kings,Utah Jazz,91,98
+43163ATL,4/3/18 3:30,Philips Arena,FALSE,Atlanta Hawks,Phoenix Suns,113,112
+43163TOR,4/3/18 6:00,Air Canada Centre,FALSE,Toronto Raptors,Charlotte Hornets,103,98
+43163WAS,4/3/18 6:00,Verizon Center,FALSE,Washington Wizards,Indianapolis Pacers,95,98
+43163DAL,4/3/18 7:00,American Airlines Center,FALSE,Dallas Mavericks,New Orleans Pelicans,109,126
+43163MIL,4/3/18 8:00,Bradley Center,FALSE,Milwaukee Bucks,Philadelphia 76ers,118,110
+43163LAC,4/3/18 9:00,Staples Center,FALSE,Los Angeles Clippers,Brooklyn Nets,123,120
+43163SAC,4/3/18 9:00,Power Balance Pavilion,FALSE,Sacramento Kings,New York Knicks,102,99
+43164CLE,5/3/18 7:00,Quicken Loans Arena,FALSE,Cleveland Cavaliers,Detriot Pistons,112,90
+43164IND,5/3/18 7:00,Bankers Life Fieldhouse,FALSE,Indianapolis Pacers,Milwaukee Bucks,92,89
+43164MIA,5/3/18 7:30,AmericanAirlines Arena,FALSE,Miami Heat,Phoenix Suns,125,103
+43164CHI,5/3/18 8:00,United Center,FALSE,Chicago Bulls,Boston Celtics,89,105
+43164SA,5/3/18 8:30,AT&T Center,FALSE,San Antonio Spurs,Memphis Grizzlies,100,98
+43164UTA,5/3/18 9:00,EnergySolutions Arena,FALSE,Utah Jazz,Orlando Magic,94,80
+43164LAL,5/3/18 10:30,Staples Center,FALSE,Los Angeles Lakers,Portland Trail Blazers,103,108
+43165CHA,6/3/18 7:00,Time Warner Cable Arena,FALSE,Charlotte Hornets,Philadelphia 76ers,114,128
+43165TOR,6/3/18 7:00,Air Canada Centre,FALSE,Toronto Raptors,Atlanta Hawks,106,90
+43165WAS,6/3/18 7:00,Verizon Center,FALSE,Washington Wizards,Miami Heat,117,113
+43165OKC,6/3/18 8:00,Chesapeake Energy Arena,FALSE,Oklahoma City Thunder,Houston Rockets,112,122
+43165DAL,6/3/18 8:30,American Airlines Center,FALSE,Dallas Mavericks,Denver Nuggets,118,107
+43165POR,6/3/18 10:00,Rose Garden,FALSE,Portland Trail Blazers,New York Knicks,111,87
+43165GS,6/3/18 10:30,Oracle Arena,FALSE,Golden State Warriors,Brooklyn Nets,114,101
+43165LAC,6/3/18 10:30,Staples Center,FALSE,Los Angeles Clippers,New Orleans Pelicans,116,121
+43166IND,7/3/18 7:00,Bankers Life Fieldhouse,FALSE,Indianapolis Pacers,Utah Jazz,84,104
+43166CHI,7/3/18 8:00,United Center,FALSE,Chicago Bulls,Memphis Grizzlies,119,110
+43166DET,7/3/18 8:00,The Palace of Auburn Hills,FALSE,Detriot Pistons,Toronto Raptors,119,121
+43166MIL,7/3/18 8:00,Bradley Center,FALSE,Milwaukee Bucks,Houston Rockets,99,110
+43166SAC,7/3/18 10:00,Power Balance Pavilion,FALSE,Sacramento Kings,New Orleans Pelicans,101,114
+43166DEN,7/3/18 10:30,Pepsi Center,FALSE,Denver Nuggets,Cleveland Cavaliers,108,113
+43166LAL,7/3/18 10:30,Staples Center,FALSE,Los Angeles Lakers,Orlando Magic,108,107
+43167CHA,8/3/18 7:00,Time Warner Cable Arena,FALSE,Charlotte Hornets,Brooklyn Nets,111,125
+43167MIA,8/3/18 7:30,AmericanAirlines Arena,FALSE,Miami Heat,Philadelphia 76ers,108,99
+43167MIN,8/3/18 8:00,Target Center,FALSE,Minnesota Timberwolves,Boston Celtics,109,117
+43167OKC,8/3/18 8:00,Chesapeake Energy Arena,FALSE,Oklahoma City Thunder,Phoenix Suns,115,87
+43167GS,8/3/18 10:30,Oracle Arena,FALSE,Golden State Warriors,San Antonio Spurs,110,107
+43168DET,9/3/18 7:00,The Palace of Auburn Hills,FALSE,Detriot Pistons,Chicago Bulls,99,83
+43168IND,9/3/18 7:00,Bankers Life Fieldhouse,FALSE,Indianapolis Pacers,Atlanta Hawks,112,87
+43168TOR,9/3/18 7:30,Air Canada Centre,FALSE,Toronto Raptors,Houston Rockets,108,105
+43168MEM,9/3/18 8:00,FedExForum,FALSE,Memphis Grizzlies,Utah Jazz,78,95
+43168MIL,9/3/18 8:00,Bradley Center,FALSE,Milwaukee Bucks,New York Knicks,120,112
+43168NO,9/3/18 8:00,New Orleans Arena,FALSE,New Orleans Pelicans,Washington Wizards,97,116
+43168DEN,9/3/18 9:00,Pepsi Center,FALSE,Denver Nuggets,Los Angeles Lakers,125,116
+43168POR,9/3/18 10:00,Rose Garden,FALSE,Portland Trail Blazers,Golden State Warriors,125,108
+43168SAC,9/3/18 10:00,Power Balance Pavilion,FALSE,Sacramento Kings,Orlando Magic,94,88
+43168LAC,9/3/18 10:30,Staples Center,FALSE,Los Angeles Clippers,Cleveland Cavaliers,116,102
+43169CHA,10/3/18 5:00,Time Warner Cable Arena,FALSE,Charlotte Hornets,Phoenix Suns,122,115
+43169MIA,10/3/18 7:30,AmericanAirlines Arena,FALSE,Miami Heat,Washington Wizards,129,102
+43169DAL,10/3/18 8:30,American Airlines Center,FALSE,Dallas Mavericks,Memphis Grizzlies,114,80
+43169OKC,10/3/18 8:30,Chesapeake Energy Arena,FALSE,Oklahoma City Thunder,San Antonio Spurs,104,94
+43169LAC,10/3/18 10:30,Staples Center,FALSE,Los Angeles Clippers,Orlando Magic,113,105
+43170NY,11/3/18 1:00,Madison Square Garden,FALSE,New York Knicks,Toronto Raptors,106,132
+43170ATL,11/3/18 3:30,Philips Arena,FALSE,Atlanta Hawks,Chicago Bulls,122,129
+43170MIN,11/3/18 3:30,Target Center,FALSE,Minnesota Timberwolves,Golden State Warriors,109,103
+43170NO,11/3/18 4:00,New Orleans Arena,FALSE,New Orleans Pelicans,Utah Jazz,99,116
+43170DEN,11/3/18 5:00,Pepsi Center,FALSE,Denver Nuggets,Sacramento Kings,130,104
+43170DAL,11/3/18 7:00,American Airlines Center,FALSE,Dallas Mavericks,Houston Rockets,82,105
+43170BOS,11/3/18 7:30,TD Garden,FALSE,Boston Celtics,Indianapolis Pacers,97,99
+43170BKN,11/3/18 7:30,Barclays Center,FALSE,Brooklyn Nets,Philadelphia 76ers,97,120
+43170LAL,11/3/18 9:00,Staples Center,FALSE,Los Angeles Lakers,Cleveland Cavaliers,127,113
+43171HOU,12/3/18 8:00,Toyota Center,FALSE,Houston Rockets,San Antonio Spurs,109,93
+43171MEM,12/3/18 8:00,FedExForum,FALSE,Memphis Grizzlies,Milwaukee Bucks,103,121
+43171OKC,12/3/18 8:00,Chesapeake Energy Arena,FALSE,Oklahoma City Thunder,Sacramento Kings,106,101
+43171POR,12/3/18 10:30,Rose Garden,FALSE,Portland Trail Blazers,Miami Heat,115,99
+43172PHI,13/03/18 7:00,Wells Fargo Center,FALSE,Philadelphia 76ers,Indianapolis Pacers,98,101
+43172WAS,13/03/18 7:00,Verizon Center,FALSE,Washington Wizards,Minnesota Timberwolves,111,116
+43172ATL,13/03/18 7:30,Philips Arena,FALSE,Atlanta Hawks,Oklahoma City Thunder,107,119
+43172BKN,13/03/18 7:30,Barclays Center,FALSE,Brooklyn Nets,Toronto Raptors,102,116
+43172NY,13/03/18 7:30,Madison Square Garden,FALSE,New York Knicks,Dallas Mavericks,97,110
+43172CHI,13/03/18 8:00,United Center,FALSE,Chicago Bulls,Los Angeles Clippers,106,112
+43172NO,13/03/18 8:00,New Orleans Arena,FALSE,New Orleans Pelicans,Charlotte Hornets,119,115
+43172SA,13/03/18 8:30,AT&T Center,FALSE,San Antonio Spurs,Orlando Magic,108,72
+43172UTA,13/03/18 9:00,EnergySolutions Arena,FALSE,Utah Jazz,Detriot Pistons,110,79
+43172PHO,13/03/18 10:00,US Airways Center,FALSE,Phoenix Suns,Cleveland Cavaliers,107,129
+43172LAL,13/03/18 10:30,Staples Center,FALSE,Los Angeles Lakers,Denver Nuggets,112,103
+43173ORL,14/03/18 7:00,Amway Center,FALSE,Orlando Magic,Milwaukee Bucks,126,117
+43173BOS,14/03/18 8:00,TD Garden,FALSE,Boston Celtics,Washington Wizards,124,125
+43173SAC,14/03/18 10:00,Power Balance Pavilion,FALSE,Sacramento Kings,Miami Heat,123,119
+43173GS,14/03/18 10:30,Oracle Arena,FALSE,Golden State Warriors,Los Angeles Lakers,117,106
+43174IND,15/03/18 7:00,Bankers Life Fieldhouse,FALSE,Indianapolis Pacers,Toronto Raptors,99,106
+43174ATL,15/03/18 7:30,Philips Arena,FALSE,Atlanta Hawks,Charlotte Hornets,117,129
+43174NY,15/03/18 7:30,Madison Square Garden,FALSE,New York Knicks,Philadelphia 76ers,110,118
+43174HOU,15/03/18 8:00,Toyota Center,FALSE,Houston Rockets,Los Angeles Clippers,101,96
+43174MEM,15/03/18 8:00,FedExForum,FALSE,Memphis Grizzlies,Chicago Bulls,110,111
+43174SA,15/03/18 8:30,AT&T Center,FALSE,San Antonio Spurs,New Orleans Pelicans,98,93
+43174DEN,15/03/18 9:00,Pepsi Center,FALSE,Denver Nuggets,Detriot Pistons,120,113
+43174UTA,15/03/18 9:00,EnergySolutions Arena,FALSE,Utah Jazz,Phoenix Suns,116,88
+43174POR,15/03/18 10:00,Rose Garden,FALSE,Portland Trail Blazers,Cleveland Cavaliers,113,105
+43175ORL,16/03/18 7:00,Amway Center,FALSE,Orlando Magic,Boston Celtics,83,92
+43175PHI,16/03/18 7:00,Wells Fargo Center,FALSE,Philadelphia 76ers,Brooklyn Nets,120,116
+43175TOR,16/03/18 7:30,Air Canada Centre,FALSE,Toronto Raptors,Dallas Mavericks,122,115
+43175OKC,16/03/18 8:00,Chesapeake Energy Arena,FALSE,Oklahoma City Thunder,Los Angeles Clippers,121,113
+43175GS,16/03/18 10:30,Oracle Arena,FALSE,Golden State Warriors,Sacramento Kings,93,98
+43175LAL,16/03/18 10:30,Staples Center,FALSE,Los Angeles Lakers,Miami Heat,91,92
+43176NO,17/03/18 7:00,New Orleans Arena,FALSE,New Orleans Pelicans,Houston Rockets,101,107
+43176WAS,17/03/18 7:00,Verizon Center,FALSE,Washington Wizards,Indianapolis Pacers,109,102
+43176BKN,17/03/18 7:30,Barclays Center,FALSE,Brooklyn Nets,Dallas Mavericks,114,106
+43176NY,17/03/18 7:30,Madison Square Garden,FALSE,New York Knicks,Charlotte Hornets,124,101
+43176CHI,17/03/18 8:00,United Center,FALSE,Chicago Bulls,Cleveland Cavaliers,109,114
+43176MEM,17/03/18 8:00,FedExForum,FALSE,Memphis Grizzlies,Denver Nuggets,101,94
+43176MIL,17/03/18 8:30,Bradley Center,FALSE,Milwaukee Bucks,Atlanta Hawks,122,117
+43176SA,17/03/18 8:30,AT&T Center,FALSE,San Antonio Spurs,Minnesota Timberwolves,117,101
+43176UTA,17/03/18 9:00,EnergySolutions Arena,FALSE,Utah Jazz,Sacramento Kings,103,97
+43176PHO,17/03/18 10:00,US Airways Center,FALSE,Phoenix Suns,Golden State Warriors,109,124
+43176POR,17/03/18 10:00,Rose Garden,FALSE,Portland Trail Blazers,Detriot Pistons,100,87
+43177TOR,18/03/18 1:00,Air Canada Centre,FALSE,Toronto Raptors,Oklahoma City Thunder,125,132
+43177NO,18/03/18 6:00,New Orleans Arena,FALSE,New Orleans Pelicans,Boston Celtics,108,89
+43177MIN,18/03/18 7:00,Target Center,FALSE,Minnesota Timberwolves,Houston Rockets,120,129
+43177LAC,18/03/18 10:30,Staples Center,FALSE,Los Angeles Clippers,Portland Trail Blazers,109,122
+43178CLE,19/03/18 7:00,Quicken Loans Arena,FALSE,Cleveland Cavaliers,Milwaukee Bucks,124,117
+43178IND,19/03/18 7:00,Bankers Life Fieldhouse,FALSE,Indianapolis Pacers,Los Angeles Lakers,110,100
+43178PHI,19/03/18 7:00,Wells Fargo Center,FALSE,Philadelphia 76ers,Charlotte Hornets,108,94
+43178BKN,19/03/18 7:30,Barclays Center,FALSE,Brooklyn Nets,Memphis Grizzlies,118,115
+43178MIA,19/03/18 7:30,AmericanAirlines Arena,FALSE,Miami Heat,Denver Nuggets,149,141
+43178NY,19/03/18 7:30,Madison Square Garden,FALSE,New York Knicks,Chicago Bulls,110,92
+43178SA,19/03/18 9:30,AT&T Center,FALSE,San Antonio Spurs,Golden State Warriors,89,75
+43178SAC,19/03/18 10:00,Power Balance Pavilion,FALSE,Sacramento Kings,Detriot Pistons,90,106
+43179ORL,20/03/18 7:00,Amway Center,FALSE,Orlando Magic,Toronto Raptors,86,93
+43179BOS,20/03/18 8:00,TD Garden,FALSE,Boston Celtics,Oklahoma City Thunder,100,99
+43179MIN,20/03/18 8:00,Target Center,FALSE,Minnesota Timberwolves,Los Angeles Clippers,123,109
+43179NO,20/03/18 8:00,New Orleans Arena,FALSE,New Orleans Pelicans,Dallas Mavericks,115,105
+43179UTA,20/03/18 9:00,EnergySolutions Arena,FALSE,Utah Jazz,Atlanta Hawks,94,99
+43179PHO,20/03/18 10:00,US Airways Center,FALSE,Phoenix Suns,Detriot Pistons,88,115
+43179POR,20/03/18 10:30,Rose Garden,FALSE,Portland Trail Blazers,Houston Rockets,111,115
+43180CLE,21/03/18 7:00,Quicken Loans Arena,FALSE,Cleveland Cavaliers,Toronto Raptors,132,129
+43180PHI,21/03/18 7:00,Wells Fargo Center,FALSE,Philadelphia 76ers,Memphis Grizzlies,119,105
+43180BKN,21/03/18 7:30,Barclays Center,FALSE,Brooklyn Nets,Charlotte Hornets,105,111
+43180MIA,21/03/18 7:30,AmericanAirlines Arena,FALSE,Miami Heat,New York Knicks,119,98
+43180CHI,21/03/18 8:00,United Center,FALSE,Chicago Bulls,Denver Nuggets,102,135
+43180MIL,21/03/18 8:00,Bradley Center,FALSE,Milwaukee Bucks,Los Angeles Clippers,120,127
+43180SA,21/03/18 9:30,AT&T Center,FALSE,San Antonio Spurs,Washington Wizards,98,90
+43180NO,21/03/18 19:00,New Orleans Arena,FALSE,New Orleans Pelicans,Indianapolis Pacers,96,92
+43181CHA,22/03/18 7:00,Time Warner Cable Arena,FALSE,Charlotte Hornets,Memphis Grizzlies,140,79
+43181ORL,22/03/18 7:00,Amway Center,FALSE,Orlando Magic,Philadelphia 76ers,98,118
+43181HOU,22/03/18 8:00,Toyota Center,FALSE,Houston Rockets,Detriot Pistons,100,96
+43181NO,22/03/18 8:00,New Orleans Arena,FALSE,New Orleans Pelicans,Los Angeles Lakers,128,125
+43181DAL,22/03/18 8:30,American Airlines Center,FALSE,Dallas Mavericks,Utah Jazz,112,119
+43181SAC,22/03/18 10:00,Power Balance Pavilion,FALSE,Sacramento Kings,Atlanta Hawks,105,90
+43182IND,23/03/18 7:00,Bankers Life Fieldhouse,FALSE,Indianapolis Pacers,Los Angeles Clippers,109,104
+43182WAS,23/03/18 7:00,Verizon Center,FALSE,Washington Wizards,Denver Nuggets,100,108
+43182CLE,23/03/18 7:30,Quicken Loans Arena,FALSE,Cleveland Cavaliers,Phoenix Suns,120,95
+43182NY,23/03/18 7:30,Madison Square Garden,FALSE,New York Knicks,Minnesota Timberwolves,104,108
+43182TOR,23/03/18 7:30,Air Canada Centre,FALSE,Toronto Raptors,Brooklyn Nets,116,112
+43182CHI,23/03/18 8:00,United Center,FALSE,Chicago Bulls,Milwaukee Bucks,105,118
+43182OKC,23/03/18 8:00,Chesapeake Energy Arena,FALSE,Oklahoma City Thunder,Miami Heat,105,99
+43182SA,23/03/18 8:30,AT&T Center,FALSE,San Antonio Spurs,Utah Jazz,124,120
+43182POR,23/03/18 10:00,Rose Garden,FALSE,Portland Trail Blazers,Boston Celtics,100,105
+43182GS,23/03/18 10:30,Oracle Arena,FALSE,Golden State Warriors,Atlanta Hawks,106,94
+43183PHI,24/03/18 6:00,Wells Fargo Center,FALSE,Philadelphia 76ers,Minnesota Timberwolves,120,108
+43183DET,24/03/18 7:00,The Palace of Auburn Hills,FALSE,Detriot Pistons,Chicago Bulls,117,95
+43183ORL,24/03/18 7:00,Amway Center,FALSE,Orlando Magic,Phoenix Suns,105,99
+43183HOU,24/03/18 8:00,Toyota Center,FALSE,Houston Rockets,New Orleans Pelicans,114,91
+43183MEM,24/03/18 8:00,FedExForum,FALSE,Memphis Grizzlies,Los Angeles Lakers,93,100
+43183DAL,24/03/18 8:30,American Airlines Center,FALSE,Dallas Mavericks,Charlotte Hornets,98,102
+43184BKN,25/03/18 1:00,Barclays Center,FALSE,Brooklyn Nets,Cleveland Cavaliers,114,121
+43184MIL,25/03/18 3:30,Bradley Center,FALSE,Milwaukee Bucks,San Antonio Spurs,106,103
+43184IND,25/03/18 5:00,Bankers Life Fieldhouse,FALSE,Indianapolis Pacers,Miami Heat,113,107
+43184SAC,25/03/18 6:00,Power Balance Pavilion,FALSE,Sacramento Kings,Boston Celtics,93,104
+43184TOR,25/03/18 6:00,Air Canada Centre,FALSE,Toronto Raptors,Los Angeles Clippers,106,117
+43184WAS,25/03/18 6:00,Verizon Center,FALSE,Washington Wizards,New York Knicks,97,101
+43184OKC,25/03/18 7:00,Chesapeake Energy Arena,FALSE,Oklahoma City Thunder,Portland Trail Blazers,105,108
+43184HOU,25/03/18 8:00,Toyota Center,FALSE,Houston Rockets,Atlanta Hawks,118,99
+43184GS,25/03/18 8:30,Oracle Arena,FALSE,Golden State Warriors,Utah Jazz,91,110
+43185CHA,26/03/18 7:00,Time Warner Cable Arena,FALSE,Charlotte Hornets,New York Knicks,137,128
+43185DET,26/03/18 7:00,The Palace of Auburn Hills,FALSE,Detriot Pistons,Los Angeles Lakers,112,106
+43185PHI,26/03/18 7:00,Wells Fargo Center,FALSE,Philadelphia 76ers,Denver Nuggets,123,104
+43185MIN,26/03/18 8:00,Target Center,FALSE,Minnesota Timberwolves,Memphis Grizzlies,93,101
+43185PHO,26/03/18 10:00,US Airways Center,FALSE,Phoenix Suns,Boston Celtics,94,102
+43186WAS,27/03/18 7:00,Verizon Center,FALSE,Washington Wizards,San Antonio Spurs,116,106
+43186TOR,27/03/18 7:30,Air Canada Centre,FALSE,Toronto Raptors,Denver Nuggets,114,110
+43186HOU,27/03/18 8:00,Toyota Center,FALSE,Houston Rockets,Chicago Bulls,118,86
+43186MIA,27/03/18 8:00,AmericanAirlines Arena,FALSE,Miami Heat,Cleveland Cavaliers,98,79
+43186NO,27/03/18 8:00,New Orleans Arena,FALSE,New Orleans Pelicans,Portland Trail Blazers,103,107
+43186SAC,27/03/18 10:00,Power Balance Pavilion,FALSE,Sacramento Kings,Dallas Mavericks,97,103
+43186GS,27/03/18 10:30,Oracle Arena,FALSE,Golden State Warriors,Indianapolis Pacers,81,92
+43186LAC,27/03/18 10:30,Staples Center,FALSE,Los Angeles Clippers,Milwaukee Bucks,105,98
+43187CHA,28/03/18 7:00,Time Warner Cable Arena,FALSE,Charlotte Hornets,Cleveland Cavaliers,105,118
+43187ORL,28/03/18 7:00,Amway Center,FALSE,Orlando Magic,Brooklyn Nets,104,111
+43187PHI,28/03/18 7:00,Wells Fargo Center,FALSE,Philadelphia 76ers,New York Knicks,118,101
+43187MEM,28/03/18 8:00,FedExForum,FALSE,Memphis Grizzlies,Portland Trail Blazers,108,103
+43187MIN,28/03/18 8:00,Target Center,FALSE,Minnesota Timberwolves,Atlanta Hawks,126,114
+43187UTA,28/03/18 9:30,EnergySolutions Arena,FALSE,Utah Jazz,Boston Celtics,94,97
+43187PHO,28/03/18 10:00,US Airways Center,FALSE,Phoenix Suns,Los Angeles Clippers,99,111
+43187LAL,28/03/18 10:30,Staples Center,FALSE,Los Angeles Lakers,Dallas Mavericks,103,93
+43188DET,29/03/18 7:00,The Palace of Auburn Hills,FALSE,Detriot Pistons,Washington Wizards,103,92
+43188MIA,29/03/18 7:30,AmericanAirlines Arena,FALSE,Miami Heat,Chicago Bulls,103,92
+43188SA,29/03/18 8:00,AT&T Center,FALSE,San Antonio Spurs,Oklahoma City Thunder,103,99
+43188SAC,29/03/18 10:00,Power Balance Pavilion,FALSE,Sacramento Kings,Indianapolis Pacers,103,106
+43188GS,29/03/18 10:30,Oracle Arena,FALSE,Golden State Warriors,Milwaukee Bucks,107,116
+43189ORL,30/03/18 7:00,Amway Center,FALSE,Orlando Magic,Chicago Bulls,82,90
+43189ATL,30/03/18 7:30,Philips Arena,FALSE,Atlanta Hawks,Philadelphia 76ers,91,101
+43189CLE,30/03/18 8:00,Quicken Loans Arena,FALSE,Cleveland Cavaliers,New Orleans Pelicans,107,102
+43189HOU,30/03/18 8:00,Toyota Center,FALSE,Houston Rockets,Phoenix Suns,104,103
+43189OKC,30/03/18 8:00,Chesapeake Energy Arena,FALSE,Oklahoma City Thunder,Denver Nuggets,125,126
+43189DAL,30/03/18 8:30,American Airlines Center,FALSE,Dallas Mavericks,Minnesota Timberwolves,92,93
+43189UTA,30/03/18 9:00,EnergySolutions Arena,FALSE,Utah Jazz,Memphis Grizzlies,107,97
+43189LAL,30/03/18 10:30,Staples Center,FALSE,Los Angeles Lakers,Milwaukee Bucks,122,124
+43189POR,30/03/18 10:30,Rose Garden,FALSE,Portland Trail Blazers,Los Angeles Clippers,105,96
+43190WAS,31/03/18 3:00,Verizon Center,FALSE,Washington Wizards,Charlotte Hornets,107,93
+43190NY,31/03/18 5:00,Madison Square Garden,FALSE,New York Knicks,Detriot Pistons,109,115
+43190BOS,31/03/18 7:30,TD Garden,FALSE,Boston Celtics,Toronto Raptors,110,99
+43190MIA,31/03/18 8:00,AmericanAirlines Arena,FALSE,Miami Heat,Brooklyn Nets,109,110
+43190SAC,31/03/18 10:00,Power Balance Pavilion,FALSE,Sacramento Kings,Golden State Warriors,96,112
+43191CHA,1/4/18 1:00,Time Warner Cable Arena,FALSE,Charlotte Hornets,Philadelphia 76ers,102,119
+43191CHI,1/4/18 3:30,United Center,FALSE,Chicago Bulls,Washington Wizards,113,94
+43191LAC,1/4/18 3:30,Staples Center,FALSE,Los Angeles Clippers,Indianapolis Pacers,104,111
+43191SA,1/4/18 3:30,AT&T Center,FALSE,San Antonio Spurs,Houston Rockets,100,83
+43191ATL,1/4/18 6:00,Philips Arena,FALSE,Atlanta Hawks,Orlando Magic,94,88
+43191BKN,1/4/18 6:00,Barclays Center,FALSE,Brooklyn Nets,Detriot Pistons,96,108
+43191CLE,1/4/18 6:00,Quicken Loans Arena,FALSE,Cleveland Cavaliers,Dallas Mavericks,98,87
+43191NO,1/4/18 6:00,New Orleans Arena,FALSE,New Orleans Pelicans,Oklahoma City Thunder,104,109
+43191MIN,1/4/18 7:00,Target Center,FALSE,Minnesota Timberwolves,Utah Jazz,97,121
+43191DEN,1/4/18 8:00,Pepsi Center,FALSE,Denver Nuggets,Milwaukee Bucks,128,125
+43191GS,1/4/18 8:30,Oracle Arena,FALSE,Golden State Warriors,Phoenix Suns,117,107
+43191POR,1/4/18 9:00,Rose Garden,FALSE,Portland Trail Blazers,Memphis Grizzlies,113,98
+43191LAL,1/4/18 9:30,Staples Center,FALSE,Los Angeles Lakers,Sacramento Kings,83,84
+43193CLE,3/4/18 7:00,Quicken Loans Arena,FALSE,Cleveland Cavaliers,Toronto Raptors,112,106
+43193PHI,3/4/18 7:00,Wells Fargo Center,FALSE,Philadelphia 76ers,Brooklyn Nets,121,95
+43193MIA,3/4/18 7:30,AmericanAirlines Arena,FALSE,Miami Heat,Atlanta Hawks,101,98
+43193NY,3/4/18 7:30,Madison Square Garden,FALSE,New York Knicks,Orlando Magic,73,97
+43193CHI,3/4/18 8:00,United Center,FALSE,Chicago Bulls,Charlotte Hornets,120,114
+43193HOU,3/4/18 8:00,Toyota Center,FALSE,Houston Rockets,Washington Wizards,120,104
+43193MIL,3/4/18 8:00,Bradley Center,FALSE,Milwaukee Bucks,Boston Celtics,106,102
+43193OKC,3/4/18 8:00,Chesapeake Energy Arena,FALSE,Oklahoma City Thunder,Golden State Warriors,107,111
+43193DAL,3/4/18 8:30,American Airlines Center,FALSE,Dallas Mavericks,Portland Trail Blazers,115,109
+43193DEN,3/4/18 9:00,Pepsi Center,FALSE,Denver Nuggets,Indianapolis Pacers,107,104
+43193UTA,3/4/18 9:00,EnergySolutions Arena,FALSE,Utah Jazz,Los Angeles Lakers,117,110
+43193PHO,3/4/18 10:00,US Airways Center,FALSE,Phoenix Suns,Sacramento Kings,97,94
+43193LAC,3/4/18 10:30,Staples Center,FALSE,Los Angeles Clippers,San Antonio Spurs,113,110
+43194DET,4/4/18 7:00,The Palace of Auburn Hills,FALSE,Detriot Pistons,Philadelphia 76ers,108,115
+43194ORL,4/4/18 7:00,Amway Center,FALSE,Orlando Magic,Dallas Mavericks,105,100
+43194TOR,4/4/18 7:00,Air Canada Centre,FALSE,Toronto Raptors,Boston Celtics,96,78
+43194ATL,4/4/18 7:30,Philips Arena,FALSE,Atlanta Hawks,Miami Heat,86,115
+43194NO,4/4/18 9:30,New Orleans Arena,FALSE,New Orleans Pelicans,Memphis Grizzlies,123,95
+43194LAL,4/4/18 10:30,Staples Center,FALSE,Los Angeles Lakers,San Antonio Spurs,122,112
+43195IND,5/4/18 7:00,Bankers Life Fieldhouse,FALSE,Indianapolis Pacers,Golden State Warriors,126,106
+43195CLE,5/4/18 8:00,Quicken Loans Arena,FALSE,Cleveland Cavaliers,Washington Wizards,119,115
+43195HOU,5/4/18 8:00,Toyota Center,FALSE,Houston Rockets,Portland Trail Blazers,96,94
+43195MIL,5/4/18 8:00,Bradley Center,FALSE,Milwaukee Bucks,Brooklyn Nets,111,119
+43195UTA,5/4/18 9:00,EnergySolutions Arena,FALSE,Utah Jazz,Los Angeles Clippers,117,95
+43195DEN,5/4/18 10:30,Pepsi Center,FALSE,Denver Nuggets,Minnesota Timberwolves,100,96
+43196DET,6/4/18 7:00,The Palace of Auburn Hills,FALSE,Detriot Pistons,Dallas Mavericks,113,106
+43196ORL,6/4/18 7:00,Amway Center,FALSE,Orlando Magic,Charlotte Hornets,100,137
+43196PHI,6/4/18 7:00,Wells Fargo Center,FALSE,Philadelphia 76ers,Cleveland Cavaliers,132,130
+43196WAS,6/4/18 7:00,Verizon Center,FALSE,Washington Wizards,Atlanta Hawks,97,103
+43196BOS,6/4/18 7:30,TD Garden,FALSE,Boston Celtics,Chicago Bulls,111,104
+43196NY,6/4/18 7:30,Madison Square Garden,FALSE,New York Knicks,Miami Heat,122,98
+43196TOR,6/4/18 7:30,Air Canada Centre,FALSE,Toronto Raptors,Indianapolis Pacers,92,73
+43196MEM,6/4/18 8:00,FedExForum,FALSE,Memphis Grizzlies,Sacramento Kings,93,94
+43196PHO,6/4/18 10:00,US Airways Center,FALSE,Phoenix Suns,New Orleans Pelicans,103,122
+43196LAL,6/4/18 10:30,Staples Center,FALSE,Los Angeles Lakers,Minnesota Timberwolves,96,113
+43197LAC,7/4/18 3:30,Staples Center,FALSE,Los Angeles Clippers,Denver Nuggets,115,134
+43197NY,7/4/18 7:30,Madison Square Garden,FALSE,New York Knicks,Milwaukee Bucks,102,115
+43197CHI,7/4/18 8:00,United Center,FALSE,Chicago Bulls,Brooklyn Nets,96,124
+43197GS,7/4/18 8:30,Oracle Arena,FALSE,Golden State Warriors,New Orleans Pelicans,120,126
+43197HOU,7/4/18 8:30,Toyota Center,FALSE,Houston Rockets,Oklahoma City Thunder,102,108
+43197SA,7/4/18 9:00,AT&T Center,FALSE,San Antonio Spurs,Portland Trail Blazers,116,105
+43198CHA,8/4/18 1:00,Time Warner Cable Arena,FALSE,Charlotte Hornets,Indianapolis Pacers,117,123
+43198PHI,8/4/18 1:00,Wells Fargo Center,FALSE,Philadelphia 76ers,Dallas Mavericks,109,97
+43198MEM,8/4/18 3:30,FedExForum,FALSE,Memphis Grizzlies,Detriot Pistons,130,117
+43198LAL,8/4/18 6:00,Staples Center,FALSE,Los Angeles Lakers,Utah Jazz,97,112
+43198TOR,8/4/18 6:00,Air Canada Centre,FALSE,Toronto Raptors,Orlando Magic,112,101
+43198BOS,8/4/18 7:30,TD Garden,FALSE,Boston Celtics,Atlanta Hawks,106,112
+43198PHO,8/4/18 9:00,US Airways Center,FALSE,Phoenix Suns,Golden State Warriors,100,117
+43199DET,9/4/18 7:00,The Palace of Auburn Hills,FALSE,Detriot Pistons,Toronto Raptors,98,108
+43199BKN,9/4/18 7:30,Barclays Center,FALSE,Brooklyn Nets,Chicago Bulls,114,105
+43199MIA,9/4/18 7:30,AmericanAirlines Arena,FALSE,Miami Heat,Oklahoma City Thunder,93,115
+43199NY,9/4/18 7:30,Madison Square Garden,FALSE,New York Knicks,Cleveland Cavaliers,109,123
+43199MIL,9/4/18 8:00,Bradley Center,FALSE,Milwaukee Bucks,Orlando Magic,102,86
+43199MIN,9/4/18 8:00,Target Center,FALSE,Minnesota Timberwolves,Memphis Grizzlies,113,94
+43199SA,9/4/18 8:30,AT&T Center,FALSE,San Antonio Spurs,Sacramento Kings,98,85
+43199DEN,9/4/18 9:00,Pepsi Center,FALSE,Denver Nuggets,Portland Trail Blazers,88,82
+43199LAC,9/4/18 10:30,Staples Center,FALSE,Los Angeles Clippers,New Orleans Pelicans,100,113
+43200IND,10/4/18 7:00,Bankers Life Fieldhouse,FALSE,Indianapolis Pacers,Charlotte Hornets,93,119
+43200ATL,10/4/18 7:30,Philips Arena,FALSE,Atlanta Hawks,Philadelphia 76ers,113,121
+43200WAS,10/4/18 8:00,Verizon Center,FALSE,Washington Wizards,Boston Celtics,113,101
+43200DAL,10/4/18 8:30,American Airlines Center,FALSE,Dallas Mavericks,Phoenix Suns,97,124
+43200UTA,10/4/18 9:00,EnergySolutions Arena,FALSE,Utah Jazz,Golden State Warriors,119,79
+43200LAL,10/4/18 10:30,Staples Center,FALSE,Los Angeles Lakers,Houston Rockets,99,105
+43201BOS,11/4/18 8:00,TD Garden,FALSE,Boston Celtics,Brooklyn Nets,110,97
+43201CHI,11/4/18 8:00,United Center,FALSE,Chicago Bulls,Detriot Pistons,87,119
+43201CLE,11/4/18 8:00,Quicken Loans Arena,FALSE,Cleveland Cavaliers,New York Knicks,98,110
+43201MIA,11/4/18 8:00,AmericanAirlines Arena,FALSE,Miami Heat,Toronto Raptors,116,109
+43201MIN,11/4/18 8:00,Target Center,FALSE,Minnesota Timberwolves,Denver Nuggets,112,106
+43201NO,11/4/18 8:00,New Orleans Arena,FALSE,New Orleans Pelicans,San Antonio Spurs,122,98
+43201OKC,11/4/18 8:00,Chesapeake Energy Arena,FALSE,Oklahoma City Thunder,Memphis Grizzlies,137,123
+43201ORL,11/4/18 8:00,Amway Center,FALSE,Orlando Magic,Washington Wizards,101,92
+43201PHI,11/4/18 8:00,Wells Fargo Center,FALSE,Philadelphia 76ers,Milwaukee Bucks,130,95
+43201LAC,11/4/18 10:30,Staples Center,FALSE,Los Angeles Clippers,Los Angeles Lakers,100,115
+43201POR,11/4/18 10:30,Rose Garden,FALSE,Portland Trail Blazers,Utah Jazz,102,93
+43201SAC,11/4/18 10:30,Power Balance Pavilion,FALSE,Sacramento Kings,Houston Rockets,96,83
