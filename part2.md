@@ -2,7 +2,7 @@
 
 
 * Assigned: 2/15
-* **Due: 3/12 10:00AM** via Gradescope
+* **Due: 3/15 10:00AM** via Gradescope
 * Value: 25% of Project 1 grade
 
 
