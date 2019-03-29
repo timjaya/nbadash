@@ -149,29 +149,6 @@ def search_player():
     context = dict(data=result, request=query)
     return render_template("search.html", **context)
 
-
-
-# @app.route('/api/search-player', methods=['POST'])
-# def api_search_player():
-#     if not session.get('logged_in'):
-#         return render_template('login.html')
-#     else:
-#         name = ('%' + request.form['name'] + '%').lower()
-#         cmd = 'SELECT p.pid, name, current_team, avg(points) as avg_points, avg(steals) as avg_steals, avg(blocks) as avg_blocks ' \
-#               'FROM Player_Plays g, Player p ' \
-#               'WHERE g.pid = p.pid AND LOWER(name) LIKE (:name) ' \
-#               'GROUP BY p.pid, name, current_team '
-
-#         cursor = g.conn.execute(text(cmd), name=name)
-#         result = []
-#         for item in cursor:
-#             result.append(item)
-#         cursor.close()
-
-#         context = dict(data=result)
-#         return render_template("search.html", **context)
-
-
 """
 LOGIN PAGE
 """
@@ -206,7 +183,6 @@ def login_attempt():
             flash('Invalid Credentials.')    
     return redirect(url_for('search_player'))
 
-
 @app.route('/logout')
 def logout():
     session['logged_in'] = False
@@ -223,17 +199,28 @@ def signup_add_user():
     password = sha256_crypt.encrypt(request.form['password'])
     email = request.form['email']
     
-    # check first if already exists
+    # check first if username already exists
     cmd = 'SELECT uid ' \
         'FROM Users u ' \
-        'WHERE u.uid = (:username);'
+        'WHERE uid = (:username);'
     cursor = g.conn.execute(text(cmd), username=username)
     result = [item for item in cursor]
     cursor.close()
     if result:
         flash('Username already taken.')
-        return signup()
-      
+        return redirect(url_for('signup'))
+
+    # check first if email already exists
+    cmd = 'SELECT email ' \
+        'FROM Users ' \
+        'WHERE email = (:email);'
+    cursor = g.conn.execute(text(cmd), email=email)
+    result = [item for item in cursor]
+    cursor.close()
+    if result:
+        flash('Email already taken.')
+        return redirect(url_for('signup'))
+    
     cmd = "INSERT INTO Users (uid, email, password)" \
           "VALUES ((:username), (:email), (:password));"
     cursor = g.conn.execute(text(cmd), username=username, email=email, password=password)
@@ -346,3 +333,26 @@ if __name__ == "__main__":
     #     # render_template looks in the templates/ folder for files.
     #     # for example, the below file reads template/index.html
     #     #
+
+
+
+# @app.route('/api/search-player', methods=['POST'])
+# def api_search_player():
+#     if not session.get('logged_in'):
+#         return render_template('login.html')
+#     else:
+#         name = ('%' + request.form['name'] + '%').lower()
+#         cmd = 'SELECT p.pid, name, current_team, avg(points) as avg_points, avg(steals) as avg_steals, avg(blocks) as avg_blocks ' \
+#               'FROM Player_Plays g, Player p ' \
+#               'WHERE g.pid = p.pid AND LOWER(name) LIKE (:name) ' \
+#               'GROUP BY p.pid, name, current_team '
+
+#         cursor = g.conn.execute(text(cmd), name=name)
+#         result = []
+#         for item in cursor:
+#             result.append(item)
+#         cursor.close()
+
+#         context = dict(data=result)
+#         return render_template("search.html", **context)
+
