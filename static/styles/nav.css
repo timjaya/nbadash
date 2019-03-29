@@ -2,7 +2,7 @@
 
 nav {
     /* display: flex; */
-    padding: 5px;
+    padding: 15px;
     /* justify-content: center; */
     background-color: rgb(56, 56, 56);
     position: sticky;
@@ -21,5 +21,6 @@ nav a {
 }
 
 nav a:hover {
-    /* color: orange; */
+    text-decoration: none;
+    color: rgb(255, 123, 123);
 }
