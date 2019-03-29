@@ -177,6 +177,8 @@ LOGIN PAGE
 """
 @app.route('/login')
 def login():
+    if session.get('logged_in'):
+        return redirect(url_for('search_player'))
     return render_template("login.html")
 
 @app.route('/login-attempt', methods=["POST"])
