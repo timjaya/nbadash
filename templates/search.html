@@ -31,10 +31,13 @@ dfdf
             <h1>NBA Dash</h1>
         </div>
         <div class="row">
-            <form method="POST" action="/api/search-player">
-                <p>Search your player here: <input type="text" name="name"> <input type="submit" value="Search"></p>
+            <form method="get" action="/search-player">
+
+                <label for="query">Search player here:</label>
+                <input name="query" type="text" value=""> <input type="submit" value="Search">
             </form>
         </div>
+
         <div class="row">
             <table class="table">
                 <thead class="thead-dark">
@@ -49,7 +52,7 @@ dfdf
                 <tbody>
                     {% for n in data %}
                     <tr>
-                        <td>{{ n['name'] }}</td>
+                        <td><a href="{{ '/players/%s'%n['pid'] }}">{{ n['name'] }}</a></td>
                         <td>{{ n['current_team'] }}</td>
                         <td>{{ n['avg_points']|round(1, 'floor') }}</td>
                         <td>{{ n['avg_steals']|round(1, 'floor') }}</td>

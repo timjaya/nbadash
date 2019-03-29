@@ -20,7 +20,7 @@ import os
 from os import path
 from sqlalchemy import *
 from sqlalchemy.pool import NullPool
-from flask import Flask, request, render_template, g, redirect, Response, flash, session, abort
+from flask import Flask, request, render_template, g, redirect, Response, flash, session, abort, url_for
 
 tmpl_dir = os.path.join(os.path.dirname(
     os.path.abspath(__file__)), 'templates')
@@ -129,37 +129,58 @@ def index():
 @app.route('/search-player')
 def search_player():
     if not session.get('logged_in'):
-        return render_template('login.html')
-    else:
-        return render_template("search.html")
+        return redirect(url_for('login'))
+    query = request.args.get('query')
+    if query is None: 
+        query = ''
+    name = ('%' + query + '%').lower()
+    cmd = 'SELECT p.pid, name, current_team, avg(points) as avg_points, avg(steals) as avg_steals, avg(blocks) as avg_blocks ' \
+        'FROM Player_Plays g, Player p ' \
+        'WHERE g.pid = p.pid AND LOWER(name) LIKE (:name) ' \
+        'GROUP BY p.pid, name, current_team ' \
+        'LIMIT 20;'
+
+    cursor = g.conn.execute(text(cmd), name=name)
+    result = []
+    for item in cursor:
+        result.append(item)
+    cursor.close()
+
+    context = dict(data=result, request=query)
+    return render_template("search.html", **context)
 
 
-@app.route('/api/search-player', methods=['POST'])
-def api_search_player():
-    if not session.get('logged_in'):
-        return render_template('login.html')
-    else:
-        name = ('%' + request.form['name'] + '%').lower()
-        cmd = 'SELECT name, current_team, avg(points) as avg_points, avg(steals) as avg_steals, avg(blocks) as avg_blocks ' \
-              'FROM Player_Plays g, Player p ' \
-              'WHERE g.pid = p.pid AND LOWER(name) LIKE (:name) ' \
-              'GROUP BY name, current_team '
 
-        cursor = g.conn.execute(text(cmd), name=name)
-        result = []
-        for item in cursor:
-            result.append(item)
-        cursor.close()
+# @app.route('/api/search-player', methods=['POST'])
+# def api_search_player():
+#     if not session.get('logged_in'):
+#         return render_template('login.html')
+#     else:
+#         name = ('%' + request.form['name'] + '%').lower()
+#         cmd = 'SELECT p.pid, name, current_team, avg(points) as avg_points, avg(steals) as avg_steals, avg(blocks) as avg_blocks ' \
+#               'FROM Player_Plays g, Player p ' \
+#               'WHERE g.pid = p.pid AND LOWER(name) LIKE (:name) ' \
+#               'GROUP BY p.pid, name, current_team '
 
-        context = dict(data=result)
-        return render_template("search.html", **context)
+#         cursor = g.conn.execute(text(cmd), name=name)
+#         result = []
+#         for item in cursor:
+#             result.append(item)
+#         cursor.close()
+
+#         context = dict(data=result)
+#         return render_template("search.html", **context)
 
 
 """
 LOGIN PAGE
 """
-@app.route('/login', methods=['POST'])
+@app.route('/login')
 def login():
+    return render_template("login.html")
+
+@app.route('/login-attempt', methods=["POST"])
+def login_attempt():
     username = request.form['username']
     password = request.form['password']
     
@@ -178,15 +199,17 @@ def login():
         verified = sha256_crypt.verify(password, result[0]['password'])
         if verified:
             session['logged_in'] = True
+            session['username'] = username
         else:
             flash('Invalid Credentials.')    
-    return search_player()
+    return redirect(url_for('search_player'))
 
 
 @app.route('/logout')
 def logout():
     session['logged_in'] = False
-    return render_template('index.html')
+    session['username'] = None
+    return redirect(url_for('index'))
 
 @app.route('/signup')
 def signup():
@@ -213,7 +236,25 @@ def signup_add_user():
           "VALUES ((:username), (:email), (:password));"
     cursor = g.conn.execute(text(cmd), username=username, email=email, password=password)
     cursor.close()
-    return render_template('login.html')
+    return redirect(url_for('login'))
+
+@app.route('/players/<pid>')
+def players(pid):
+    if not session.get('logged_in'):
+        return render_template('login.html')
+    else:
+        cmd = 'SELECT name, birthdate, height, weight ' \
+              'FROM Player ' \
+              'WHERE pid = (:pid);'
+        
+        cursor = g.conn.execute(text(cmd), pid=pid)
+        result = [item for item in cursor]
+        cursor.close()
+
+        context = dict(data=result)
+        # TODO: need error handling if return two outputs
+
+        return render_template('players.html', **context)
 
 if __name__ == "__main__":
     import click

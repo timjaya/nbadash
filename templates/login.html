@@ -7,8 +7,8 @@
 
 
 </head>
-{% block body %} {% if session['logged_in'] %} You're logged in already! {% else %} <form action="/login"
-    method="POST">
+{% block body %} {% if session['logged_in'] %} You're logged in already! {% else %} 
+<form action="/login-attempt" method="POST">
     <div class="login">
         <div class="login-screen">
             <div class="app-title">
