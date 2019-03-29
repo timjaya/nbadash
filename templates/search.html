@@ -1,83 +1,45 @@
-<html>
+{% extends "layout_main.html" %}
+{% block title %}{% endblock %}
+{% block head %}
+{{ super() }}
+{% endblock %}
+{% block content %}
+<div class="container-fluid p-4">
 
-<head>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="static/styles/nav.css" type="text/css">
-</head>
-<style>
-    body {
-        font-size: 15pt;
-        font-family: arial;
-    }
-</style>
+    <div class="row">
+        <h1>NBA Dash</h1>
+    </div>
+    <div class="row">
+        <form method="get" action="/search-player">
 
-
-<body>
-    <nav>
-        
-        <a href="/search-player">Search</a>
-        <a href="/watchlist">Watchlist</a>
-        <a href="/headtohead">H2H</a>
-        
-        <a href="/logout" class="float-right btn btn-primary">Logout</a>
-        <a class="float-right" href="/settings">Settings</a>
-        
-        
-    </nav>
-    <!-- <h1>Search/Filter</h1>
-  <div>{{data}}</div>
-dfdf
-  <div>
-    {% for n in data %}
-    <div>{{n}}</div>
-    {% endfor %}
-  </div>
-
-<p><a href="/another">Go to the other page</a></p> -->
-    <div class="container-fluid p-4">
-
-        <div class="row">
-            <h1>NBA Dash</h1>
-        </div>
-        <div class="row">
-            <form method="get" action="/search-player">
-
-                <label for="query">Search player here:</label>
-                <input name="query" type="text" value=""> <input type="submit" value="Search">
-            </form>
-        </div>
-
-        <div class="row">
-            <table class="table">
-                <thead class="thead-dark">
-                    <tr>
-                        <th scope="col">Name</th>
-                        <th scope="col">Team</th>
-                        <th scope="col">Points</th>
-                        <th scope="col">Steals</th>
-                        <th scope="col">Blocks</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    {% for n in data %}
-                    <tr>
-                        <td><a href="{{ '/players/%s'%n['pid'] }}">{{ n['name'] }}</a></td>
-                        <td>{{ n['current_team'] }}</td>
-                        <td>{{ n['avg_points']|round(1, 'floor') }}</td>
-                        <td>{{ n['avg_steals']|round(1, 'floor') }}</td>
-                        <td>{{ n['avg_blocks']|round(1, 'floor') }}</td>
-                    </tr>
-                    {% endfor %}
-                </tbody>
-            </table>
-        </div>
+            <label for="query">Search player here:</label>
+            <input name="query" type="text" value=""> <input type="submit" value="Search">
+        </form>
     </div>
 
-</body>
-
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-    crossorigin="anonymous"></script>
-
-</html>
+    <div class="row">
+        <table class="table">
+            <thead class="thead-dark">
+                <tr>
+                    <th scope="col">Name</th>
+                    <th scope="col">Team</th>
+                    <th scope="col">Points</th>
+                    <th scope="col">Steals</th>
+                    <th scope="col">Blocks</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for n in data %}
+                <tr>
+                    <td><a href="{{ '/players/%s'%n['pid'] }}">{{ n['name'] }}</a></td>
+                    <td>{{ n['current_team'] }}</td>
+                    <td>{{ n['avg_points']|round(1, 'floor') }}</td>
+                    <td>{{ n['avg_steals']|round(1, 'floor') }}</td>
+                    <td>{{ n['avg_blocks']|round(1, 'floor') }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</div>
+{% endblock %}
