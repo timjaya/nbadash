@@ -217,6 +217,7 @@ def signup_add_user():
     cursor = g.conn.execute(text(cmd), email=email)
     result = [item for item in cursor]
     cursor.close()
+    
     if result:
         flash('Email already taken.')
         return redirect(url_for('signup'))

@@ -3,6 +3,7 @@
 <head>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="static/styles/nav.css" type="text/css">
 </head>
 <style>
     body {
@@ -13,6 +14,17 @@
 
 
 <body>
+    <nav>
+        
+        <a href="/search-player">Search</a>
+        <a href="/watchlist">Watchlist</a>
+        <a href="/headtohead">H2H</a>
+        
+        <div class="float-right">
+            <a href="/settings">Settings</a>
+            <a href="/logout" class="btn btn-primary float-right">Logout</a>
+        </div>
+    </nav>
     <!-- <h1>Search/Filter</h1>
   <div>{{data}}</div>
 dfdf
@@ -24,9 +36,7 @@ dfdf
 
 <p><a href="/another">Go to the other page</a></p> -->
     <div class="container-fluid p-4">
-        <div class="float-right">
-            <a href="/logout" class="btn btn-primary float-right">Logout</a>
-        </div>
+
         <div class="row">
             <h1>NBA Dash</h1>
         </div>
