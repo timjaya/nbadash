@@ -131,22 +131,29 @@ def search_player():
     if not session.get('logged_in'):
         return redirect(url_for('login'))
     query = request.args.get('query')
+    orderby = request.args.get('orderby')
+
     if query is None: 
         query = ''
+    
     name = ('%' + query + '%').lower()
     cmd = 'SELECT p.pid, name, current_team, avg(points) as avg_points, avg(steals) as avg_steals, avg(blocks) as avg_blocks ' \
         'FROM Player_Plays g, Player p ' \
         'WHERE g.pid = p.pid AND LOWER(name) LIKE (:name) ' \
-        'GROUP BY p.pid, name, current_team ' \
-        'LIMIT 20;'
+        'GROUP BY p.pid, name, current_team '
+    
+    if orderby is not None:
+        cmd = cmd + 'ORDER BY ' + orderby + ' DESC LIMIT 20;'
+    else:
+        cmd = cmd + 'LIMIT 20;'
 
-    cursor = g.conn.execute(text(cmd), name=name)
+    cursor = g.conn.execute(text(cmd), name=name, orderby=orderby)
     result = []
     for item in cursor:
         result.append(item)
     cursor.close()
 
-    context = dict(data=result, request=query)
+    context = dict(data=result, query=query)
     return render_template("search.html", **context)
 
 """

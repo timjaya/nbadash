@@ -11,12 +11,28 @@
     </div>
     <div class="row">
         <form method="get" action="/search-player">
-
             <label for="query">Search player here:</label>
-            <input name="query" type="text" value=""> <input type="submit" value="Search">
+            <input name="query" type="text" value="{{ query }}"> <input class="btn btn-danger" type="submit" value="Search">
         </form>
     </div>
-
+    <div class="row">
+        <p>Order by: </p>
+        <form method="get" action="/search-player"">
+            <input type="hidden" name="query" value="{{ query }}"/>
+            <input type="hidden" name="orderby" value="avg_points"/>
+            <button type="submit" class="btn-outline-danger">Points</button>
+        </form>
+        <form method="get" action="/search-player"">
+            <input type="hidden" name="query" value="{{ query }}"/>
+            <input type="hidden" name="orderby" value="avg_steals"/>
+            <button type="submit" class="btn-outline-danger">Steals</button>
+        </form>
+        <form method="get" action="/search-player"">
+            <input type="hidden" name="query" value="{{ query }}"/>
+            <input type="hidden" name="orderby" value="avg_blocks"/>
+            <button type="submit" class="btn-outline-danger">Blocks</button>
+        </form>
+    </div>
     <div class="row">
         <table class="table">
             <thead class="thead-dark">
