@@ -282,12 +282,16 @@ def watchlist_remove():
         cursor.close()
         return redirect(url_for('watchlist'))
 
-@app.route('/watchlist/add')
+@app.route('/watchlist/add', methods=['POST'])
 def watchlist_add():
     if not session.get('logged_in'):
         return redirect(url_for('login'))
     else:
-        return
+        pid = request.form['pid']
+        cmd = 'INSERT INTO user_watches SELECT (:uid), (:pid) WHERE NOT EXISTS (SELECT 1 FROM user_watches WHERE uid=(:uid) AND pid=(:pid));'
+        cursor = g.conn.execute(text(cmd), uid=session['username'], pid=pid)
+        cursor.close()
+        return redirect(url_for('search_player', query=request.form['query']))
 
 if __name__ == "__main__":
     import click

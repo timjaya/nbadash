@@ -42,6 +42,7 @@
                     <th scope="col">Points</th>
                     <th scope="col">Steals</th>
                     <th scope="col">Blocks</th>
+                    <th scope="col"></th>
                 </tr>
             </thead>
             <tbody>
@@ -52,6 +53,13 @@
                     <td>{{ n['avg_points']|round(1, 'floor') }}</td>
                     <td>{{ n['avg_steals']|round(1, 'floor') }}</td>
                     <td>{{ n['avg_blocks']|round(1, 'floor') }}</td>
+                    <td><form method="post" action="/watchlist/add"">
+
+                        <input type="hidden" name="query" value="{{ query }}"/>
+                        <input type="hidden" name="pid" value="{{ n['pid'] }}"/>
+                        <button type="submit" class="btn btn-info fas fa-plus-circle"></button>
+                        </form>
+                    </td>
                 </tr>
                 {% endfor %}
             </tbody>
