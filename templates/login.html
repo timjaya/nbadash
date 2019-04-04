@@ -5,7 +5,6 @@
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="/static/styles/auth.css" type="text/css">
 
-
 </head>
 {% block body %} {% if session['logged_in'] %} You're logged in already! {% else %} 
 <form action="/login-attempt" method="POST">
@@ -29,12 +28,8 @@
                 {% endif %}
                 {% endwith %}
                 <input type="submit" value="Log in" class="btn btn-primary btn-large btn-block">
-
+                <div style="padding-top:20px;"> Not registered? <a style="color: rgb(218, 27, 27);" href="/signup"> Sign up here. </a></div>
             </div>
-        </div>
-
-        <div>
-            <p> Not registered? <a href="/signup"> Sign up here. </a></p>
         </div>
     </div>
     </form>{% endif %}

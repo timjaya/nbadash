@@ -6,12 +6,6 @@
     outline: none;
 }
 
-body {
-    font-family: Arial;
-    background-color: #3498DB;
-    padding: 50px;
-}
-
 .login {
     margin: 20px auto;
     width: 300px;
@@ -38,7 +32,7 @@ body {
 
 input {
     text-align: center;
-    background-color: #ECF0F1;
+    background-color: rgb(241, 236, 236);
     border: 2px solid transparent;
     border-radius: 3px;
     font-size: 16px;
@@ -49,13 +43,13 @@ input {
 }
 
 input:focus {
-    border: 2px solid #3498DB;
+    border: 2px solid rgb(207, 4, 4);
     box-shadow: none;
 }
 
 .btn {
     border: 2px solid transparent;
-    background: #3498DB;
+    background: rgb(219, 52, 52);
     color: #ffffff;
     font-size: 16px;
     line-height: 25px;
@@ -71,7 +65,8 @@ input:focus {
 }
 
 .btn:hover {
-    background-color: #2980B9;
+    background-color: rgb(211, 88, 88);
+    border-color: rgb(219, 52, 52);
 }
 
 .login-link {
@@ -81,3 +76,11 @@ input:focus {
     margin-top: 12px;
 }
 
+body {
+    font-family: Arial;
+    background-image: url("/static/img/login.jpg");
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: 50% 30%;
+    padding: 50px;
+}
