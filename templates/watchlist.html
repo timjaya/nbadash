@@ -1,0 +1,42 @@
+{% extends "layout_main.html" %}
+{% block title %}{% endblock %}
+{% block head %}
+{{ super() }}
+{% endblock %}
+{% block content %}
+<div class="container-fluid p-4">
+    <div class="row">
+        <h2>Watchlist for <b>{{ username }}</b></h2>
+
+        <table class="table">
+            <thead class="thead-dark">
+                <tr>
+                    <th scope="col">Name</th>
+                    <th scope="col">Team</th>
+                    <th scope="col">Birthdate</th>
+                    <th scope="col">College</th>
+                    <th scope="col">Height</th>
+                    <th scope="col">Weight</th>
+                    <th scope="col"></th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for n in data %}
+                <tr>
+                    <td><a href="{{ '/players/%s'%n['pid'] }}">{{ n['name'] }}</a></td>
+                    <td>{{ n['current_team'] }}</td>
+                    <td>{{ n['birthdate'] }}</td>
+                    <td>{{ n['college'] }}</td>
+                    <td>{{ n['height'] }}</td>
+                    <td>{{ n['weight'] }}</td>
+                    <td><form method="post" action="/watchlist/remove"">
+                        <input type="hidden" name="pid" value="{{ n['pid'] }}"/>
+                        <button type="submit" class="btn btn-info fas fa-trash-alt"></button>
+                    </form></td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</div>
+{% endblock %}

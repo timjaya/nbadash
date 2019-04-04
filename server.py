@@ -238,7 +238,7 @@ def signup_add_user():
 @app.route('/players/<pid>')
 def players(pid):
     if not session.get('logged_in'):
-        return render_template('login.html')
+        return redirect(url_for('login'))
     else:
         cmd = 'SELECT name, birthdate, height, weight ' \
               'FROM Player ' \
@@ -252,6 +252,42 @@ def players(pid):
         # TODO: need error handling if return two outputs
 
         return render_template('players.html', **context)
+
+@app.route('/watchlist')
+def watchlist():
+    if not session.get('logged_in'):
+        return redirect(url_for('login'))
+    else:
+        cmd = 'SELECT * FROM ' \
+              '(SELECT pid FROM user_watches WHERE uid = :uid) x '\
+              'NATURAL JOIN player y;' 
+
+        cursor = g.conn.execute(text(cmd), uid=session['username'])
+        result = [item for item in cursor]
+        cursor.close()
+        print(result)
+        context = dict(data=result, username=session['username'])
+        return render_template('watchlist.html', **context)
+
+@app.route('/watchlist/remove', methods=['POST'])
+def watchlist_remove():
+    if not session.get('logged_in'):
+        return redirect(url_for('login'))
+    else:
+        uid = session['username']
+        pid = request.form['pid']
+        cmd = 'DELETE FROM user_watches ' \
+              'WHERE uid=(:uid) AND pid=(:pid);'
+        cursor = g.conn.execute(text(cmd), uid=uid, pid=pid)
+        cursor.close()
+        return redirect(url_for('watchlist'))
+
+@app.route('/watchlist/add')
+def watchlist_add():
+    if not session.get('logged_in'):
+        return redirect(url_for('login'))
+    else:
+        return
 
 if __name__ == "__main__":
     import click
