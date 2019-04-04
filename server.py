@@ -142,7 +142,7 @@ def search_player():
         'WHERE g.pid = p.pid AND LOWER(name) LIKE (:name) ' \
         'GROUP BY p.pid, name, current_team '
     
-    if orderby is not None:
+    if orderby is not None and orderby != 'None':
         cmd = cmd + 'ORDER BY ' + orderby + ' DESC LIMIT 20;'
     else:
         cmd = cmd + 'LIMIT 20;'
@@ -153,8 +153,38 @@ def search_player():
         result.append(item)
     cursor.close()
 
-    context = dict(data=result, query=query)
+    # get players that are already in playlist 
+    cmd = 'SELECT pid FROM user_watches WHERE uid = (:uid);'
+    cursor = g.conn.execute(text(cmd), uid=session['username'])
+    watched = [item[0] for item in cursor]
+    cursor.close()
+
+    context = dict(data=result, query=query, watched=watched, orderby=orderby)
     return render_template("search.html", **context)
+
+@app.route('/search-player/add', methods=['POST'])
+def search_player_add():
+    if not session.get('logged_in'):
+        return redirect(url_for('login'))
+    else:
+        pid = request.form['pid']
+        cmd = 'INSERT INTO user_watches SELECT (:uid), (:pid) WHERE NOT EXISTS (SELECT 1 FROM user_watches WHERE uid=(:uid) AND pid=(:pid));'
+        cursor = g.conn.execute(text(cmd), uid=session['username'], pid=pid)
+        cursor.close()
+        return redirect(url_for('search_player', query=request.form['query'], orderby=request.form['orderby']))
+
+@app.route('/search-player/remove', methods=['POST'])
+def search_player_remove():
+    if not session.get('logged_in'):
+        return redirect(url_for('login'))
+    else:
+        uid = session['username']
+        pid = request.form['pid']
+        cmd = 'DELETE FROM user_watches ' \
+              'WHERE uid=(:uid) AND pid=(:pid);'
+        cursor = g.conn.execute(text(cmd), uid=uid, pid=pid)
+        cursor.close()
+        return redirect(url_for('search_player', query=request.form['query'], orderby=request.form['orderby']))
 
 """
 LOGIN PAGE
@@ -281,17 +311,6 @@ def watchlist_remove():
         cursor = g.conn.execute(text(cmd), uid=uid, pid=pid)
         cursor.close()
         return redirect(url_for('watchlist'))
-
-@app.route('/watchlist/add', methods=['POST'])
-def watchlist_add():
-    if not session.get('logged_in'):
-        return redirect(url_for('login'))
-    else:
-        pid = request.form['pid']
-        cmd = 'INSERT INTO user_watches SELECT (:uid), (:pid) WHERE NOT EXISTS (SELECT 1 FROM user_watches WHERE uid=(:uid) AND pid=(:pid));'
-        cursor = g.conn.execute(text(cmd), uid=session['username'], pid=pid)
-        cursor.close()
-        return redirect(url_for('search_player', query=request.form['query']))
 
 if __name__ == "__main__":
     import click

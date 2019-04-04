@@ -53,11 +53,21 @@
                     <td>{{ n['avg_points']|round(1, 'floor') }}</td>
                     <td>{{ n['avg_steals']|round(1, 'floor') }}</td>
                     <td>{{ n['avg_blocks']|round(1, 'floor') }}</td>
-                    <td><form method="post" action="/watchlist/add"">
-
+                    <td>
+                        {% if n['pid'] in watched %}
+                        <form method="post" action="/search-player/remove"">
                         <input type="hidden" name="query" value="{{ query }}"/>
+                        <input type="hidden" name="orderby" value="{{ orderby }}"/>
                         <input type="hidden" name="pid" value="{{ n['pid'] }}"/>
-                        <button type="submit" class="btn btn-info fas fa-plus-circle"></button>
+                        <button class="btn btn-outline-danger fas fa-minus""></button>
+                        {% else %}
+                        <form method="post" action="/search-player/add"">
+                        <input type="hidden" name="query" value="{{ query }}"/>
+                        <input type="hidden" name="orderby" value="{{ orderby }}"/>
+                        <input type="hidden" name="pid" value="{{ n['pid'] }}"/>
+                        <button class="btn btn-primary fas fa-plus"></button>
+                        {% endif %}
+                        
                         </form>
                     </td>
                 </tr>

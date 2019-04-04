@@ -31,7 +31,7 @@
                     <td>{{ n['weight'] }}</td>
                     <td><form method="post" action="/watchlist/remove"">
                         <input type="hidden" name="pid" value="{{ n['pid'] }}"/>
-                        <button type="submit" class="btn btn-info fas fa-trash-alt"></button>
+                        <button type="submit" class="btn btn-outline-danger fas fa-minus"></button>
                     </form></td>
                 </tr>
                 {% endfor %}
