@@ -36,7 +36,8 @@ please let the staff know so we can allocate resources appropriately.
 The following documentation may be helpful for both learning Python and Flask:
 
 * [Java to Python Cheatsheet](https://github.com/w4111/w4111.github.io/blob/master/java2python.md)
-* [Python tutorial](https://docs.python.org/2/tutorial/)
+* [Python 2 tutorial](https://docs.python.org/2/tutorial/)
+* [Python 3 tutorial](https://docs.python.org/3.7/tutorial/)
 * [Learn Python The Hard Way](http://learnpythonthehardway.org/book/)
 * [Flask documentation](http://flask.pocoo.org)
 * [Flask Tutorial](http://flask.pocoo.org/docs/latest/tutorial/)
@@ -53,7 +54,7 @@ If your application has users, and you'd like to implement login/logout pages wi
 # Getting Started
 
 Your job is to implement your proposed web application.  To help you out,
-we have provided a bare-bones Flask web application in [./webserver/](./webserver/).
+we have provided a bare-bones Flask web application in [./webserver/](./webserver/) which implemented in Python 2.7. **You can build upon this starter code using Python 2.7 or change to Python 3 by referring to the official [Flask tutorial](http://flask.pocoo.org/docs/latest/tutorial/) and [Python 3 tutorial](https://docs.python.org/3.7/tutorial/).**
 It provides code that connects to a database url, and a default index page.
 Take a look at the comments in `server.py` to see how to use modify the server.
 You will need to connect to the class database (used for part 2).
