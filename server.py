@@ -15,6 +15,7 @@ A debugger such as "pdb" may be helpful for debugging.
 Read about it online.
 """
 
+import json
 from passlib.hash import sha256_crypt
 import os
 from os import path
@@ -104,18 +105,18 @@ def teardown_request(exception):
 # see for routing: http://flask.pocoo.org/docs/0.10/quickstart/#routing
 # see for decorators: http://simeonfranklin.com/blog/2012/jul/1/python-decorators-in-12-steps/
 #
-@app.route('/')
-def index():
-    """
-    request is a special object that Flask provides to access web request information:
+# @app.route('/')
+# def index():
+#     """
+#     request is a special object that Flask provides to access web request information:
 
-    request.method:   "GET" or "POST"
-    request.form:     if the browser submitted a form, this contains the data in the form
-    request.args:     dictionary of URL arguments e.g., {a:1, b:2} for http://localhost?a=1&b=2
+#     request.method:   "GET" or "POST"
+#     request.form:     if the browser submitted a form, this contains the data in the form
+#     request.args:     dictionary of URL arguments e.g., {a:1, b:2} for http://localhost?a=1&b=2
 
-    See its API: http://flask.pocoo.org/docs/0.10/api/#incoming-request-data
-    """
-    return render_template("index.html")
+#     See its API: http://flask.pocoo.org/docs/0.10/api/#incoming-request-data
+#     """
+#     return render_template("index.html")
 
 ##
 # Example of adding new data to the database
@@ -126,6 +127,7 @@ def index():
 #   cmd = 'INSERT INTO test(name) VALUES (:name1), (:name2)';
 #   g.conn.execute(text(cmd), name1 = name, name2 = name);
 #   return redirect('/')
+@app.route('/')
 @app.route('/search-player')
 def search_player():
     if not session.get('logged_in'):
@@ -161,30 +163,49 @@ def search_player():
 
     context = dict(data=result, query=query, watched=watched, orderby=orderby)
     return render_template("search.html", **context)
-
-@app.route('/search-player/add', methods=['POST'])
-def search_player_add():
+    
+@app.route('/h2h')
+def h2h():
     if not session.get('logged_in'):
         return redirect(url_for('login'))
     else:
-        pid = request.form['pid']
-        cmd = 'INSERT INTO user_watches SELECT (:uid), (:pid) WHERE NOT EXISTS (SELECT 1 FROM user_watches WHERE uid=(:uid) AND pid=(:pid));'
-        cursor = g.conn.execute(text(cmd), uid=session['username'], pid=pid)
+        cmd = 'SELECT pid, name FROM player;'
+        cursor = g.conn.execute(text(cmd))
+        players = [item for item in cursor]
         cursor.close()
-        return redirect(url_for('search_player', query=request.form['query'], orderby=request.form['orderby']))
+        context = dict(players = players)
+        return render_template("h2h.html", **context)
 
-@app.route('/search-player/remove', methods=['POST'])
-def search_player_remove():
+@app.route('/h2h/compare', methods=['POST'])
+def h2h_compare():
     if not session.get('logged_in'):
         return redirect(url_for('login'))
     else:
-        uid = session['username']
-        pid = request.form['pid']
-        cmd = 'DELETE FROM user_watches ' \
-              'WHERE uid=(:uid) AND pid=(:pid);'
-        cursor = g.conn.execute(text(cmd), uid=uid, pid=pid)
+        p1_pid = request.form['player1']
+        p2_pid = request.form['player2']
+        
+        cmd = 'SELECT name, birthdate, height, weight ' \
+                'FROM Player ' \
+                'WHERE pid = (:pid);'                    
+
+        # get personal info about player 1
+        cursor = g.conn.execute(text(cmd), pid=p1_pid)
+        p1_data = [item for item in cursor]
         cursor.close()
-        return redirect(url_for('search_player', query=request.form['query'], orderby=request.form['orderby']))
+
+        # get personal info about player 2
+        cursor = g.conn.execute(text(cmd), pid=p2_pid)
+        p2_data = [item for item in cursor]
+        cursor.close()
+        
+        # get head-to-head info about player 1 vs. player 2
+
+        cmd = 'SELECT pid, name FROM player;'
+        cursor = g.conn.execute(text(cmd))
+        players = [item for item in cursor]
+        cursor.close()
+        context = dict(players = players, p1_data = p1_data, p2_data = p2_data)
+        return render_template("h2h.html", **context)
 
 """
 LOGIN PAGE
@@ -224,7 +245,7 @@ def login_attempt():
 def logout():
     session['logged_in'] = False
     session['username'] = None
-    return redirect(url_for('index'))
+    return redirect(url_for('search_player'))
 
 @app.route('/signup')
 def signup():
@@ -265,24 +286,81 @@ def signup_add_user():
     cursor.close()
     return redirect(url_for('login'))
 
+"""
+PLAYER PROFILES
+"""
 @app.route('/players/<pid>')
 def players(pid):
     if not session.get('logged_in'):
         return redirect(url_for('login'))
     else:
-        cmd = 'SELECT name, birthdate, height, weight ' \
-              'FROM Player ' \
-              'WHERE pid = (:pid);'
+        # get personal info
+        cmd = """
+        SELECT 
+        pid, name, current_team, 
+        CAST(EXTRACT(YEAR FROM AGE(CAST(birthdate AS date))) AS int) as birthdate, 
+        height, weight,
+        current_team
+        FROM Player 
+        WHERE pid = (:pid);
+        """
         
         cursor = g.conn.execute(text(cmd), pid=pid)
-        result = [item for item in cursor]
+        basic_info = [item for item in cursor]
+        cursor.close()
+        
+        # get info about team
+        current_team = basic_info[0]['current_team']
+        cmd = """
+        WITH team_select AS
+        (SELECT (:team) as team),
+        wins_location AS (
+        SELECT 
+            sum(CASE WHEN home_team = (SELECT * FROM team_select) AND home_points > away_points THEN 1 ELSE 0 END) AS home_wins,
+            sum(CASE WHEN home_team = (SELECT * FROM team_select) AND home_points < away_points THEN 1 ELSE 0 END) AS home_losses,
+            sum(CASE WHEN away_team = (SELECT * FROM team_select) AND home_points < away_points THEN 1 ELSE 0 END) AS away_wins,
+            sum(CASE WHEN away_team = (SELECT * FROM team_select) AND home_points > away_points THEN 1 ELSE 0 END) AS away_losses
+        FROM Team_Plays
+        )
+        SELECT home_wins + away_wins AS total_wins, home_losses + away_losses AS total_losses, *
+        FROM wins_location;
+        """
+        cursor = g.conn.execute(text(cmd), team=current_team)
+        team_info = [item for item in cursor]
         cursor.close()
 
-        context = dict(data=result)
+        # check if player is in playlist
+        # TODO: refactor this method
+        # get players that are already in playlist 
+        cmd = 'SELECT pid FROM user_watches WHERE uid = (:uid);'
+        cursor = g.conn.execute(text(cmd), uid=session['username'])
+        watched = [item[0] for item in cursor]
+        cursor.close()
+
+        context = dict(basic=basic_info[0], team=team_info[0], watched=watched)
         # TODO: need error handling if return two outputs
 
         return render_template('players.html', **context)
 
+@app.route('/api/watchlist/add', methods=['POST'])
+def api_watchlist_add():
+    if not session.get('logged_in'):
+        return redirect(url_for('login'))
+    else:
+        pid = request.json['pid']     
+        add = request.json['add']
+        if add:
+            cmd = 'INSERT INTO user_watches SELECT (:uid), (:pid) WHERE NOT EXISTS (SELECT 1 FROM user_watches WHERE uid=(:uid) AND pid=(:pid));'
+        else:
+            cmd = 'DELETE FROM user_watches WHERE uid=(:uid) AND pid=(:pid);'
+        cursor = g.conn.execute(text(cmd), uid=session['username'], pid=pid)
+        cursor.close()
+        
+        return json.dumps({'success':True}), 200, {'ContentType':'application/json'}
+
+"""
+WATCHLIST
+"""
 @app.route('/watchlist')
 def watchlist():
     if not session.get('logged_in'):
