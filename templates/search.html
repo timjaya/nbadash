@@ -12,31 +12,33 @@
     <div class="row">
         <form method="get" action="/search-player">
             <label for="query">Search player here:</label>
-            <input name="query" type="text" value="{{ query }}"> <input class="btn btn-danger" type="submit" value="Search">
+            <input name="query" type="text" value="{{ query }}"> <input class="btn btn-danger" type="submit"
+                value="Search">
         </form>
     </div>
     <div class="row">
         <p>Order by: </p>
         <form method="get" action="/search-player"">
-            <input type="hidden" name="query" value="{{ query }}"/>
-            <input type="hidden" name="orderby" value="avg_points"/>
-            <button type="submit" class="btn-outline-danger">Points</button>
+        <input type="hidden" name="query" value="{{ query }}" />
+        <input type="hidden" name="orderby" value="avg_points" />
+        <button type="submit" class="btn-outline-danger">Points</button>
         </form>
         <form method="get" action="/search-player"">
-            <input type="hidden" name="query" value="{{ query }}"/>
-            <input type="hidden" name="orderby" value="avg_steals"/>
-            <button type="submit" class="btn-outline-danger">Steals</button>
+        <input type="hidden" name="query" value="{{ query }}" />
+        <input type="hidden" name="orderby" value="avg_steals" />
+        <button type="submit" class="btn-outline-danger">Steals</button>
         </form>
         <form method="get" action="/search-player"">
-            <input type="hidden" name="query" value="{{ query }}"/>
-            <input type="hidden" name="orderby" value="avg_blocks"/>
-            <button type="submit" class="btn-outline-danger">Blocks</button>
+        <input type="hidden" name="query" value="{{ query }}" />
+        <input type="hidden" name="orderby" value="avg_blocks" />
+        <button type="submit" class="btn-outline-danger">Blocks</button>
         </form>
     </div>
     <div class="row">
         <table class="table">
             <thead class="thead-dark">
                 <tr>
+                    <th></th>
                     <th scope="col">Name</th>
                     <th scope="col">Team</th>
                     <th scope="col">Points</th>
@@ -48,6 +50,7 @@
             <tbody>
                 {% for n in data %}
                 <tr>
+                    <td style="text-align: center;"><img src="https://nba-players.herokuapp.com/players/{{n['name'].split(' ')[1].lower()}}/{{n['name'].split(' ')[0].lower()}}" height="70" alt="Headshot N/A"></td>
                     <td><a href="{{ '/players/%s'%n['pid'] }}">{{ n['name'] }}</a></td>
                     <td>{{ n['current_team'] }}</td>
                     <td>{{ n['avg_points']|round(1, 'floor') }}</td>
@@ -55,20 +58,12 @@
                     <td>{{ n['avg_blocks']|round(1, 'floor') }}</td>
                     <td>
                         {% if n['pid'] in watched %}
-                        <form method="post" action="/search-player/remove"">
-                        <input type="hidden" name="query" value="{{ query }}"/>
-                        <input type="hidden" name="orderby" value="{{ orderby }}"/>
-                        <input type="hidden" name="pid" value="{{ n['pid'] }}"/>
-                        <button class="btn btn-outline-danger fas fa-minus""></button>
+                        <button value="{{ n['pid'] }}" id="watchlist-btn-{{ n['pid'] }}"
+                            class="add-watchlist-btn btn btn-outline-danger fas fa-minus"></button>
                         {% else %}
-                        <form method="post" action="/search-player/add"">
-                        <input type="hidden" name="query" value="{{ query }}"/>
-                        <input type="hidden" name="orderby" value="{{ orderby }}"/>
-                        <input type="hidden" name="pid" value="{{ n['pid'] }}"/>
-                        <button class="btn btn-primary fas fa-plus"></button>
+                        <button value="{{ n['pid'] }}" id="watchlist-btn-{{ n['pid'] }}"
+                            class="add-watchlist-btn btn btn-primary fas fa-plus"></button>
                         {% endif %}
-                        
-                        </form>
                     </td>
                 </tr>
                 {% endfor %}

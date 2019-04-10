@@ -1,16 +1,37 @@
 {% extends "layout_main.html" %}
-{% block title %}{% endblock %}
+{% block title %} Player Profile {% endblock %}
 {% block head %}
 {{ super() }}
 {% endblock %}
 {% block content %}
 <div class="container-fluid p-4">
   <h1>Player Profile</h1>
-  {% for n in data %}
-  <div>Name: {{ n['name'] }}</div>
-  <div>Birthdate: {{ n['birthdate'] }} </div>
-  <div>Height: {{ n['height'] }} </div>
-  <div>Weight: {{ n['weight'] }} </div>
-  {% endfor %}
+  <img src="https://nba-players.herokuapp.com/players/{{basic['name'].split(' ')[1].lower()}}/{{basic['name'].split(' ')[0].lower()}}" height="150" alt="Player Headshot">
+  {% if basic['pid'] in watched %}
+  <button id="watchlist-btn-{{basic['pid']}}" value="{{ basic['pid'] }}"class="add-watchlist-btn btn btn-outline-danger fas fa-minus"></button>
+  {% else %}
+  <button id="watchlist-btn-{{basic['pid']}}" value="{{ basic['pid'] }}"class="add-watchlist-btn btn btn-primary fas fa-plus"></button>
+  {% endif %}
+
+  <div>Name: {{ basic['name'] }}</div>
+  <div>Age: {{ basic['birthdate'] }} </div>
+  <div>Height: {{ (basic['height']|string)[:1] }} ft. {{ (basic['height']|string)[1:2] }} in.</div>
+  <div>Weight: {{ basic['weight'] }} lbs. </div>
+  <div>Team: {{ basic['current_team'] }}</div> 
+  
+  <!-- Team Record -->
+  <div>Record: {{team['total_wins']}} - {{team['total_losses']}} </div>
+  <div>Home: {{team['home_wins']}} - {{team['home_losses']}} </div>
+  <div>Away: {{team['away_wins']}} - {{team['away_losses']}} </div>
+
+  <!-- Player Last 5 Games -->
+
+  <!-- Team Last 5 Games -->
+
+  <!-- Player by Distance -->
+
 </div>
+{% endblock %}
+{% block javascript %}
+{{ super() }}
 {% endblock %}
