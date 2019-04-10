@@ -1,0 +1,57 @@
+{% extends "layout_main.html" %}
+{% block title %}{% endblock %}
+{% block head %}
+{{ super() }}
+{% endblock %}
+{% block content %}
+<div class="container-fluid">
+    <form method="post" action="/h2h/compare">
+    <div class="row">
+        
+            <div class="col">
+                <select name="player1">
+                    {% for p in players %}
+                    <option value="{{ p['pid'] }}"> {{ p['name'] }}</option>
+
+                    {% endfor %}
+                </select>
+            </div>
+            <div class="col text-center">
+                <input class="btn btn-danger" type="submit" value="Compare">
+            </div>
+            <div class="col">
+                <select name="player2" class="float-right">
+                    {% for p in players %}
+                    <option value="{{ p['pid'] }}"> {{ p['name'] }}</option>
+                    {% endfor %}
+                </select>
+            </div>
+     
+    </div>
+</form>
+    <div class="row">
+        <div class="col">
+            <div class="float-left">
+                {% for p1 in p1_data %}
+                <div>Name: {{ p1['name'] }}</div>
+                <div>Birthdate: {{ p1['birthdate'] }} </div>
+                <div>Height: {{ p1['height'] }} </div>
+                <div>Weight: {{ p1['weight'] }} </div>
+                {% endfor %}
+            </div>
+        </div>
+        <div class="col">
+            <div class="float-right">
+                {% for p2 in p2_data %}
+                <div>Name: {{ p2['name'] }}</div>
+                <div>Birthdate: {{ p2['birthdate'] }} </div>
+                <div>Height: {{ p2['height'] }} </div>
+                <div>Weight: {{ p2['weight'] }} </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+
+
+</div>
+{% endblock %}
