@@ -135,15 +135,15 @@ def search_player():
     query = request.args.get('query')
     orderby = request.args.get('orderby')
 
-    if query is None: 
+    if query is None:
         query = ''
-    
+
     name = ('%' + query + '%').lower()
     cmd = 'SELECT p.pid, name, current_team, avg(points) as avg_points, avg(steals) as avg_steals, avg(blocks) as avg_blocks ' \
         'FROM Player_Plays g, Player p ' \
         'WHERE g.pid = p.pid AND LOWER(name) LIKE (:name) ' \
         'GROUP BY p.pid, name, current_team '
-    
+
     if orderby is not None and orderby != 'None':
         cmd = cmd + 'ORDER BY ' + orderby + ' DESC LIMIT 20;'
     else:
@@ -155,7 +155,7 @@ def search_player():
         result.append(item)
     cursor.close()
 
-    # get players that are already in playlist 
+    # get players that are already in playlist
     cmd = 'SELECT pid FROM user_watches WHERE uid = (:uid);'
     cursor = g.conn.execute(text(cmd), uid=session['username'])
     watched = [item[0] for item in cursor]
@@ -163,7 +163,8 @@ def search_player():
 
     context = dict(data=result, query=query, watched=watched, orderby=orderby)
     return render_template("search.html", **context)
-    
+
+
 @app.route('/h2h')
 def h2h():
     if not session.get('logged_in'):
@@ -173,8 +174,9 @@ def h2h():
         cursor = g.conn.execute(text(cmd))
         players = [item for item in cursor]
         cursor.close()
-        context = dict(players = players)
+        context = dict(players=players)
         return render_template("h2h.html", **context)
+
 
 @app.route('/h2h/compare', methods=['POST'])
 def h2h_compare():
@@ -183,10 +185,10 @@ def h2h_compare():
     else:
         p1_pid = request.form['player1']
         p2_pid = request.form['player2']
-        
+
         cmd = 'SELECT name, birthdate, height, weight ' \
-                'FROM Player ' \
-                'WHERE pid = (:pid);'                    
+            'FROM Player ' \
+            'WHERE pid = (:pid);'
 
         # get personal info about player 1
         cursor = g.conn.execute(text(cmd), pid=p1_pid)
@@ -197,15 +199,16 @@ def h2h_compare():
         cursor = g.conn.execute(text(cmd), pid=p2_pid)
         p2_data = [item for item in cursor]
         cursor.close()
-        
+
         # get head-to-head info about player 1 vs. player 2
 
         cmd = 'SELECT pid, name FROM player;'
         cursor = g.conn.execute(text(cmd))
         players = [item for item in cursor]
         cursor.close()
-        context = dict(players = players, p1_data = p1_data, p2_data = p2_data)
+        context = dict(players=players, p1_data=p1_data, p2_data=p2_data)
         return render_template("h2h.html", **context)
+
 
 """
 LOGIN PAGE
@@ -216,11 +219,12 @@ def login():
         return redirect(url_for('search_player'))
     return render_template("login.html")
 
+
 @app.route('/login-attempt', methods=["POST"])
 def login_attempt():
     username = request.form['username']
     password = request.form['password']
-    
+
     cmd = 'SELECT password ' \
         'FROM Users u ' \
         'WHERE u.uid = (:username);'
@@ -228,18 +232,19 @@ def login_attempt():
     cursor = g.conn.execute(text(cmd), username=username)
     result = [item for item in cursor]
     cursor.close()
-    if not result: 
-        flash('Invalid Credentials.')  
+    if not result:
+        flash('Invalid Credentials.')
     elif len(result) > 1:
         flash('Duplicate Usernames. Contact Admin.')
-    else:  
+    else:
         verified = sha256_crypt.verify(password, result[0]['password'])
         if verified:
             session['logged_in'] = True
             session['username'] = username
         else:
-            flash('Invalid Credentials.')    
+            flash('Invalid Credentials.')
     return redirect(url_for('search_player'))
+
 
 @app.route('/logout')
 def logout():
@@ -247,16 +252,18 @@ def logout():
     session['username'] = None
     return redirect(url_for('search_player'))
 
+
 @app.route('/signup')
 def signup():
     return render_template('signup.html')
+
 
 @app.route('/signup/adduser', methods=['POST'])
 def signup_add_user():
     username = request.form['username']
     password = sha256_crypt.encrypt(request.form['password'])
     email = request.form['email']
-    
+
     # check first if username already exists
     cmd = 'SELECT uid ' \
         'FROM Users u ' \
@@ -275,16 +282,18 @@ def signup_add_user():
     cursor = g.conn.execute(text(cmd), email=email)
     result = [item for item in cursor]
     cursor.close()
-    
+
     if result:
         flash('Email already taken.')
         return redirect(url_for('signup'))
-    
+
     cmd = "INSERT INTO Users (uid, email, password)" \
           "VALUES ((:username), (:email), (:password));"
-    cursor = g.conn.execute(text(cmd), username=username, email=email, password=password)
+    cursor = g.conn.execute(text(cmd), username=username,
+                            email=email, password=password)
     cursor.close()
     return redirect(url_for('login'))
+
 
 """
 PLAYER PROFILES
@@ -304,11 +313,11 @@ def players(pid):
         FROM Player 
         WHERE pid = (:pid);
         """
-        
+
         cursor = g.conn.execute(text(cmd), pid=pid)
         basic_info = [item for item in cursor]
         cursor.close()
-        
+
         # get info about team
         current_team = basic_info[0]['current_team']
         cmd = """
@@ -329,25 +338,164 @@ def players(pid):
         team_info = [item for item in cursor]
         cursor.close()
 
+        # season average
+
+        # get player info last 5 games
+        cmd = """
+        WITH player_select AS 
+        (SELECT (:pid) as pid)
+        SELECT 
+            pn.pid,
+            CASE WHEN t.home_team = p.team THEN away_team ELSE home_team END AS opponent,
+            minutes_played, points, assists, rebounds, steals, blocks, turnovers,
+            CASE 
+                WHEN t.home_team = p.team AND home_points > away_points THEN 'W'
+                WHEN t.away_team = p.team AND home_points < away_points THEN 'W'
+                ELSE 'L' END AS result
+        FROM Player_Plays p
+        JOIN Team_Plays t on p.gid = t.gid
+        JOIN Player pn ON p.pid = pn.pid
+        WHERE p.pid = (SELECT * FROM player_select)
+        ORDER BY t.date_time_start DESC
+        LIMIT 5;
+        """
+        cursor = g.conn.execute(text(cmd), pid=int(pid))
+        player_last5 = [item for item in cursor]
+        cursor.close()
+
+        # get team stats last 5 games
+        cmd = """
+        WITH team_select AS
+        (SELECT (:team) as team),
+        temp AS(
+        SELECT date_time_start::date as date,
+            CASE WHEN home_team = (SELECT * FROM team_select) THEN 'Home' ELSE 'Away' END AS home,
+            CASE WHEN home_team = (SELECT * FROM team_select) THEN away_team ELSE home_team END AS opponent,
+            stadium,
+            CASE WHEN home_team = (SELECT * FROM team_select) THEN home_points ELSE away_points END AS team_points,
+            CASE WHEN home_team = (SELECT * FROM team_select) THEN away_points ELSE home_points END AS opponent_points
+        FROM Team_Plays
+        WHERE home_team = (SELECT * FROM team_select) OR away_team = (SELECT * FROM team_select)
+        )
+        SELECT *, CASE WHEN team_points > opponent_points THEN 'W' ELSE 'L' END AS result
+        FROM temp
+        ORDER BY date DESC
+        LIMIT 5;
+        """
+        cursor = g.conn.execute(text(cmd), team=current_team)
+        team_last5 = [item for item in cursor]
+        cursor.close()
+
+        # get player distance last 5 games
+        cmd = """
+        WITH player_select AS
+        (SELECT (:pid) as pid),
+        master as(
+        SELECT pp.*, t.stadium as home_stadium, tp.stadium as game_stadium, sd.distance as distance
+        FROM Player_Plays pp
+        JOIN Team t ON pp.team = t.name
+        JOIN Team_Plays tp ON tp.gid = pp.gid
+        JOIN Stadium_Distance sd ON sd.stadium_1 = t.stadium AND sd.stadium_2 = tp.stadium
+        WHERE pp.pid = (SELECT * FROM player_select)
+        ),
+        master2 as (
+        SELECT 
+            CASE 
+                WHEN distance = 0 THEN 1
+                WHEN distance < 500 THEN 3
+                WHEN distance < 1000 THEN 4
+                WHEN distance < 2000 THEN 5
+                ELSE 6 END AS index,
+            CASE 
+                WHEN distance = 0 THEN 'At home'
+                WHEN distance < 500 THEN '< 500 miles'
+                WHEN distance < 1000 THEN '500-999 miles'
+                WHEN distance < 2000 THEN '1,000-1,999 miles'
+                ELSE '2,000+ miles' END AS distance_from_home,
+            count(distinct gid) as games,
+            avg(minutes_played) as mpg,
+            avg(points) as ppg,
+            avg(rebounds) as rpg,
+            avg(assists) as apg,
+            avg(steals) as spg,
+            avg(blocks) as bpg,
+            avg(turnovers) as topg,
+            sum(fgm::float) as fgm,
+            sum(fga::float) as fga,
+            sum(threepm::float) as threepm,
+            sum(threepa::float) as threepa
+        FROM master
+        GROUP BY 1,2)
+        SELECT distance_from_home, games, mpg, ppg, rpg, apg,
+                CASE WHEN fga > 0 THEN fgm/fga ELSE 0 END AS fg_pct, 
+                CASE WHEN threepa > 0 THEN threepm/threepa ELSE 0 END AS three_pct
+        FROM master2
+        ORDER BY index;
+        """
+        cursor = g.conn.execute(text(cmd), pid=int(pid))
+        distance = [item for item in cursor]
+        cursor.close()
+        
+        # player season average 
+        cmd = """
+        WITH player1 AS 
+        (SELECT (:pid) as pid),
+        games as (
+        SELECT p1.*
+        FROM Player_Plays p1 
+        WHERE pid = (SELECT * FROM player1)
+        ),
+        stats as (
+        SELECT 
+            count(distinct gid) as games,
+            avg(minutes_played) as mpg,
+            avg(points) as ppg,
+            avg(rebounds) as rpg,
+            avg(assists) as apg,
+            avg(steals) as spg,
+            avg(blocks) as bpg,
+            avg(turnovers) as topg,
+            sum(fgm::float) as fgm,
+            sum(fga::float) as fga,
+            sum(threepm::float) as threepm,
+            sum(threepa::float) as threepa
+        FROM games
+        )
+        SELECT games, mpg, ppg, rpg, apg,
+                CASE WHEN fga > 0 THEN fgm/fga ELSE 0 END AS fg_pct, 
+                CASE WHEN threepa > 0 THEN threepm/threepa ELSE 0 END AS three_pct
+        FROM stats;
+        """
+        cursor = g.conn.execute(text(cmd), pid=int(pid))
+        season_avg = [item for item in cursor]
+        cursor.close()
+
         # check if player is in playlist
         # TODO: refactor this method
-        # get players that are already in playlist 
+        # get players that are already in playlist
         cmd = 'SELECT pid FROM user_watches WHERE uid = (:uid);'
         cursor = g.conn.execute(text(cmd), uid=session['username'])
         watched = [item[0] for item in cursor]
         cursor.close()
 
-        context = dict(basic=basic_info[0], team=team_info[0], watched=watched)
+        context = dict(basic=basic_info[0],
+                       team=team_info[0], 
+                       player_last5=player_last5, 
+                       team_last5=team_last5,
+                       distance=distance,
+                       season_avg=season_avg[0],
+                       watched=watched)
         # TODO: need error handling if return two outputs
 
         return render_template('players.html', **context)
+
 
 @app.route('/api/watchlist/add', methods=['POST'])
 def api_watchlist_add():
     if not session.get('logged_in'):
         return redirect(url_for('login'))
     else:
-        pid = request.json['pid']     
+        pid = request.json['pid']
         add = request.json['add']
         if add:
             cmd = 'INSERT INTO user_watches SELECT (:uid), (:pid) WHERE NOT EXISTS (SELECT 1 FROM user_watches WHERE uid=(:uid) AND pid=(:pid));'
@@ -355,8 +503,9 @@ def api_watchlist_add():
             cmd = 'DELETE FROM user_watches WHERE uid=(:uid) AND pid=(:pid);'
         cursor = g.conn.execute(text(cmd), uid=session['username'], pid=pid)
         cursor.close()
-        
-        return json.dumps({'success':True}), 200, {'ContentType':'application/json'}
+
+        return json.dumps({'success': True}), 200, {'ContentType': 'application/json'}
+
 
 """
 WATCHLIST
@@ -368,7 +517,7 @@ def watchlist():
     else:
         cmd = 'SELECT * FROM ' \
               '(SELECT pid FROM user_watches WHERE uid = :uid) x '\
-              'NATURAL JOIN player y;' 
+              'NATURAL JOIN player y;'
 
         cursor = g.conn.execute(text(cmd), uid=session['username'])
         result = [item for item in cursor]
@@ -376,6 +525,7 @@ def watchlist():
         print(result)
         context = dict(data=result, username=session['username'])
         return render_template('watchlist.html', **context)
+
 
 @app.route('/watchlist/remove', methods=['POST'])
 def watchlist_remove():
@@ -389,6 +539,7 @@ def watchlist_remove():
         cursor = g.conn.execute(text(cmd), uid=uid, pid=pid)
         cursor.close()
         return redirect(url_for('watchlist'))
+
 
 if __name__ == "__main__":
     import click
@@ -480,7 +631,6 @@ if __name__ == "__main__":
     #     #
 
 
-
 # @app.route('/api/search-player', methods=['POST'])
 # def api_search_player():
 #     if not session.get('logged_in'):
@@ -500,4 +650,3 @@ if __name__ == "__main__":
 
 #         context = dict(data=result)
 #         return render_template("search.html", **context)
-

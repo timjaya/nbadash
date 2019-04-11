@@ -2,33 +2,163 @@
 {% block title %} Player Profile {% endblock %}
 {% block head %}
 {{ super() }}
+<style>
+  th {
+    text-align: center;
+  }
+
+  td {
+    text-align: center;
+  }
+</style>
 {% endblock %}
 {% block content %}
 <div class="container-fluid p-4">
   <h1>Player Profile</h1>
-  <img src="https://nba-players.herokuapp.com/players/{{basic['name'].split(' ')[1].lower()}}/{{basic['name'].split(' ')[0].lower()}}" height="150" alt="Player Headshot">
+  <img
+    src="https://nba-players.herokuapp.com/players/{{basic['name'].split(' ')[1].lower()}}/{{basic['name'].split(' ')[0].lower()}}"
+    height="150" alt="Player Headshot">
   {% if basic['pid'] in watched %}
-  <button id="watchlist-btn-{{basic['pid']}}" value="{{ basic['pid'] }}"class="add-watchlist-btn btn btn-outline-danger fas fa-minus"></button>
+  <button id="watchlist-btn-{{basic['pid']}}" value="{{ basic['pid'] }}"
+    class="add-watchlist-btn btn btn-outline-danger fas fa-minus"></button>
   {% else %}
-  <button id="watchlist-btn-{{basic['pid']}}" value="{{ basic['pid'] }}"class="add-watchlist-btn btn btn-primary fas fa-plus"></button>
+  <button id="watchlist-btn-{{basic['pid']}}" value="{{ basic['pid'] }}"
+    class="add-watchlist-btn btn btn-primary fas fa-plus"></button>
   {% endif %}
 
   <div>Name: {{ basic['name'] }}</div>
   <div>Age: {{ basic['birthdate'] }} </div>
   <div>Height: {{ (basic['height']|string)[:1] }} ft. {{ (basic['height']|string)[1:2] }} in.</div>
   <div>Weight: {{ basic['weight'] }} lbs. </div>
-  <div>Team: {{ basic['current_team'] }}</div> 
-  
+  <div>Team: {{ basic['current_team'] }}</div>
+
   <!-- Team Record -->
   <div>Record: {{team['total_wins']}} - {{team['total_losses']}} </div>
   <div>Home: {{team['home_wins']}} - {{team['home_losses']}} </div>
   <div>Away: {{team['away_wins']}} - {{team['away_losses']}} </div>
 
+  <!-- Player Season Stats -->
+  <h3>Overall Stats</h3>
+  <div class="row">
+    <table class="table">
+      <thead class="thead-dark">
+        <tr>
+          <th scope="col">Minutes/Game</th>
+          <th scope="col">Points/Game</th>
+          <th scope="col">Rebounds/Game</th>
+          <th scope="col">Assist/Game</th>
+          <th scope="col">FG Pct.</th>
+          <th scope="col">3pt Pct.</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>{{ season_avg['mpg']|round(1) }}</td>
+          <td>{{ season_avg['ppg']|round(1) }}</td>
+          <td>{{ season_avg['rpg']|round(1) }}</td>
+          <td>{{ season_avg['apg']|round(1) }}</td>
+          <td>{{ season_avg['fg_pct']|round(1) }}</td>
+          <td>{{ season_avg['three_pct']|round(1) }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
   <!-- Player Last 5 Games -->
+  <h3>Last 5 Games</h3>
+  <div class="row">
+    <table class="table">
+      <thead class="thead-dark">
+        <tr>
+          <th scope="col">Minutes</th>
+          <th scope="col">Points</th>
+          <th scope="col">Assists</th>
+          <th scope="col">Rebounds</th>
+          <th scope="col">Steals</th>
+          <th scope="col">Blocks</th>
+          <th scope="col">Turnovers</th>
+          <th scope="col">Result</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for n in player_last5 %}
+        <tr>
+          <td>{{ n['minutes_played'] }}</td>
+          <td>{{ n['points'] }}</td>
+          <td>{{ n['assists'] }}</td>
+          <td>{{ n['rebounds'] }}</td>
+          <td>{{ n['steals'] }}</td>
+          <td>{{ n['blocks'] }}</td>
+          <td>{{ n['turnovers'] }}</td>
+          <td>{{ n['result'] }}</td>
+        </tr>
+        {% endfor %}
+
+      </tbody>
+    </table>
+  </div>
 
   <!-- Team Last 5 Games -->
-
+  <h3>Team Last 5 Games</h3>
+  <div class="row">
+      <table class="table">
+        <thead class="thead-dark">
+          <tr>
+            <th scope="col">Game Date</th>
+            <th scope="col">Location</th>
+            <th scope="col">Stadium</th>
+            <th scope="col">Score</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for team in team_last5 %}
+          <tr>
+            <td>{{ (team['date']|string).split('-')[1] }}/{{ (team['date']|string).split('-')[2] }}</td>
+            <td>{% if team['home'] == 'Home' %} @ 
+                {% else %} vs. 
+                {% endif %}
+                {{ team['opponent'] }}</td>
+            <td>{{ team['stadium'] }}</td>
+            <td> {{ team['result'] }} {{ team['team_points'] }}-{{ team['opponent_points'] }}
+            </td>
+          </tr>
+          {% endfor %}
+  
+        </tbody>
+      </table>
+    </div>
   <!-- Player by Distance -->
+  <h3>Player Stats by Distance</h3>
+  <div class="row">
+    <table class="table">
+      <thead class="thead-dark">
+        <tr>
+          <th scope="col">Distance</th>
+          <th scope="col"># of Games</th>
+          <th scope="col">Minutes/Game</th>
+          <th scope="col">Points/Game</th>
+          <th scope="col">Rebounds/Game</th>
+          <th scope="col">Assist/Game</th>
+          <th scope="col">FG Pct.</th>
+          <th scope="col">3pt Pct.</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for dist in distance %}
+        <tr>
+          <td>{{ dist['distance_from_home'] }}</td>
+          <td>{{ dist['games'] }}</td>
+          <td>{{ dist['mpg']|round(1) }}</td>
+          <td>{{ dist['ppg']|round(1) }}</td>
+          <td>{{ dist['rpg']|round(1) }}</td>
+          <td>{{ dist['apg']|round(1) }}</td>
+          <td>{{ dist['fg_pct']|round(1) }}</td>
+          <td>{{ dist['three_pct']|round(1) }}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
 
 </div>
 {% endblock %}
