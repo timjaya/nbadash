@@ -41,8 +41,8 @@ app.secret_key = 'super secret key'
 # For your convenience, we already set it to the class database
 
 # Use the DB credentials you received by e-mail
-DB_USER = "hha2116"
-DB_PASSWORD = "IfALD2z6Ga"
+DB_USER = os.environ['SECRET_USERNAME']
+DB_PASSWORD = os.environ['SECRET_PASSWORD']
 
 DB_SERVER = "w4111.cisxo09blonu.us-east-1.rds.amazonaws.com"
 
@@ -201,12 +201,90 @@ def h2h_compare():
         cursor.close()
 
         # get head-to-head info about player 1 vs. player 2
+        cmd = """
+        WITH player1 AS 
+        (SELECT (:player1) as pid),
+        player2 AS 
+        (SELECT (:player2) as pid),
+        games as (
+        SELECT p1.*
+        FROM (SELECT * FROM Player_Plays WHERE pid = (SELECT * FROM player1)) p1
+        JOIN (SELECT * FROM Player_Plays WHERE pid = (SELECT * FROM player2)) p2 
+                ON p1.gid = p2.gid
+        ),
+        stats as (
+        SELECT 
+            count(distinct gid) as games,
+            avg(minutes_played) as mpg,
+            avg(points) as ppg,
+            avg(rebounds) as rpg,
+            avg(assists) as apg,
+            avg(steals) as spg,
+            avg(blocks) as bpg,
+            avg(turnovers) as topg,
+            sum(fgm::float) as fgm,
+            sum(fga::float) as fga,
+            sum(threepm::float) as threepm,
+            sum(threepa::float) as threepa
+        FROM games
+        )
+        SELECT games, mpg, ppg, rpg, apg,
+                CASE WHEN fga > 0 THEN fgm/fga ELSE 0 END AS fg_pct, 
+                CASE WHEN threepa > 0 THEN threepm/threepa ELSE 0 END AS three_pct
+        FROM stats;
+        """
+        # player 1 stats vs. player 2
+        cursor = g.conn.execute(text(cmd), player1=p1_pid, player2=p2_pid)
+        p1_h2h = [item for item in cursor]
+        cursor.close()
+
+        # player 2 stats vs. player 2
+        cursor = g.conn.execute(text(cmd), player1=p2_pid, player2=p1_pid)
+        p2_h2h = [item for item in cursor]
+        cursor.close()
+
+        # get player info last 5 games
+        cmd = """
+        WITH player_select AS 
+        (SELECT (:pid) as pid)
+        SELECT 
+            pn.pid,
+            CASE WHEN t.home_team = p.team THEN away_team ELSE home_team END AS opponent,
+            minutes_played, points, assists, rebounds, steals, blocks, turnovers,
+            CASE 
+                WHEN t.home_team = p.team AND home_points > away_points THEN 'W'
+                WHEN t.away_team = p.team AND home_points < away_points THEN 'W'
+                ELSE 'L' END AS result
+        FROM Player_Plays p
+        JOIN Team_Plays t on p.gid = t.gid
+        JOIN Player pn ON p.pid = pn.pid
+        WHERE p.pid = (SELECT * FROM player_select)
+        ORDER BY t.date_time_start DESC
+        LIMIT 5;
+        """
+
+        # get last 5 games info player 1        
+        cursor = g.conn.execute(text(cmd), pid=int(p1_pid))
+        p1_last5 = [item for item in cursor]
+        cursor.close()
+
+        # get last 5 games info player 2
+        cursor = g.conn.execute(text(cmd), pid=int(p2_pid))
+        p2_last5 = [item for item in cursor]
+        cursor.close()
+
+        # get career stats player 1
+        # get career stats player 2
 
         cmd = 'SELECT pid, name FROM player;'
         cursor = g.conn.execute(text(cmd))
         players = [item for item in cursor]
         cursor.close()
-        context = dict(players=players, p1_data=p1_data, p2_data=p2_data)
+        context = dict(players=players, 
+                       p1_data=p1_data, 
+                       p2_data=p2_data, 
+                       p1_h2h=p1_h2h,
+                       p2_h2h=p2_h2h)
         return render_template("h2h.html", **context)
 
 
@@ -580,73 +658,3 @@ if __name__ == "__main__":
                 threaded=threaded, extra_files=extra_files)
 
     run()
-
-    #
-    # Flask uses Jinja templates, which is an extension to HTML where you can
-    # pass data to a template and dynamically generate HTML based on the data
-    # (you can think of it as simple PHP)
-    # documentation: https://realpython.com/blog/python/primer-on-jinja-templating/
-    #
-    # You can see an example template in templates/index.html
-    #
-    # context are the variables that are passed to the template.
-    # for example, "data" key in the context variable defined below will be
-    # accessible as a variable in index.html:
-    #
-    #     # will print: [u'grace hopper', u'alan turing', u'ada lovelace']
-    #     <div>{{data}}</div>
-    #
-    #     # creates a <div> tag for each element in data
-    #     # will print:
-    #     #
-    #     #   <div>grace hopper</div>
-    #     #   <div>alan turing</div>
-    #     #   <div>ada lovelace</div>
-    #     #
-    #     {% for n in data %}
-    #     <div>{{n}}</div>
-    #     {% endfor %}
-    #
-
-    # if not session.get('logged_in'):
-    #     return render_template('login.html')
-    # else:
-    #     # DEBUG: this is debugging code to see what request looks like
-    #     print(request.args)
-
-    #     #
-    #     # example of a database query
-    #     #
-    #     cursor = g.conn.execute("SELECT name FROM test")
-    #     names = []
-    #     for result in cursor:
-    #         # can also be accessed using result[0]
-    #         names.append(result['name'])
-    #     cursor.close()
-    #     context = dict(data=names)
-
-    #     #
-    #     # render_template looks in the templates/ folder for files.
-    #     # for example, the below file reads template/index.html
-    #     #
-
-
-# @app.route('/api/search-player', methods=['POST'])
-# def api_search_player():
-#     if not session.get('logged_in'):
-#         return render_template('login.html')
-#     else:
-#         name = ('%' + request.form['name'] + '%').lower()
-#         cmd = 'SELECT p.pid, name, current_team, avg(points) as avg_points, avg(steals) as avg_steals, avg(blocks) as avg_blocks ' \
-#               'FROM Player_Plays g, Player p ' \
-#               'WHERE g.pid = p.pid AND LOWER(name) LIKE (:name) ' \
-#               'GROUP BY p.pid, name, current_team '
-
-#         cursor = g.conn.execute(text(cmd), name=name)
-#         result = []
-#         for item in cursor:
-#             result.append(item)
-#         cursor.close()
-
-#         context = dict(data=result)
-#         return render_template("search.html", **context)
