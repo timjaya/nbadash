@@ -285,11 +285,11 @@ Please leave your virtual machine running so the IP address does not change (see
 
 
 
-Students will present to their project mentor between `4/17` and `4/19`.
+Students will present to their project mentor between `4/16` and `4/22`.
 
-Mentors will email you to schedule a 15 minute meeting by `4/12`.
+Make an appointment with TAs [here](https://calendar.google.com/calendar/selfsched?sstoken=UUlBaFJZbUNvTmp4fGRlZmF1bHR8YzJiMGQ3OTA1NzNmMDY1YjMxYzVlNzQ5OWFjOGM5OTI).
 
-Contact your mentor immediately if you have not been contacted by `4/16`.
+Contact your mentor immediately if you cannot make it by `4/16`.
 
 You will show off your project using the mentor's web browser:
 
