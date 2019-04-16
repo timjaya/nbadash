@@ -57,7 +57,7 @@
           <td>{{ season_avg['ppg']|round(1) }}</td>
           <td>{{ season_avg['rpg']|round(1) }}</td>
           <td>{{ season_avg['apg']|round(1) }}</td>
-          <td>{{ season_avg['fg_pct']|round(1) }}</td>
+          <td>{{ season_avg['fg_pct']|round(2) }}</td>
           <td>{{ season_avg['three_pct']|round(1) }}</td>
         </tr>
       </tbody>
@@ -152,7 +152,7 @@
           <td>{{ dist['ppg']|round(1) }}</td>
           <td>{{ dist['rpg']|round(1) }}</td>
           <td>{{ dist['apg']|round(1) }}</td>
-          <td>{{ dist['fg_pct']|round(1) }}</td>
+          <td>{{ dist['fg_pct']|round(2) }}</td>
           <td>{{ dist['three_pct']|round(1) }}</td>
         </tr>
         {% endfor %}

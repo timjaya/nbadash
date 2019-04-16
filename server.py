@@ -184,7 +184,7 @@ def pvt():
         cursor = g.conn.execute(text(cmd))
         players = [item for item in cursor]
 
-        cmd = 'SELECT DISTINCT(team) as name FROM player_plays;'
+        cmd = 'SELECT name FROM team;'
         cursor = g.conn.execute(text(cmd))
         teams = [item for item in cursor]
         cursor.close()
@@ -290,7 +290,7 @@ def pvt_compare():
         players = [item for item in cursor]
         cursor.close()
 
-        cmd = 'SELECT DISTINCT(team) as name FROM player_plays;'
+        cmd = 'SELECT name FROM team;'
         cursor = g.conn.execute(text(cmd))
         teams = [item for item in cursor]
         cursor.close()
