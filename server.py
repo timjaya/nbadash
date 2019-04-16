@@ -139,15 +139,17 @@ def search_player():
         query = ''
 
     name = ('%' + query + '%').lower()
-    cmd = 'SELECT p.pid, name, current_team, avg(points) as avg_points, avg(steals) as avg_steals, avg(blocks) as avg_blocks ' \
-        'FROM Player_Plays g, Player p ' \
-        'WHERE g.pid = p.pid AND LOWER(name) LIKE (:name) ' \
-        'GROUP BY p.pid, name, current_team '
+    cmd = """
+        SELECT p.pid, name, current_team, avg(points) as avg_points, avg(steals) as avg_steals, avg(blocks) as avg_blocks
+        FROM Player_Plays g, Player p
+        WHERE g.pid = p.pid AND LOWER(name) LIKE (:name)
+        GROUP BY p.pid, name, current_team
+    """
 
     if orderby is not None and orderby != 'None':
-        cmd = cmd + 'ORDER BY ' + orderby + ' DESC LIMIT 20;'
+        cmd = cmd + 'ORDER BY ' + orderby + ' DESC LIMIT 10;'
     else:
-        cmd = cmd + 'LIMIT 20;'
+        cmd = cmd + 'LIMIT 10;'
 
     cursor = g.conn.execute(text(cmd), name=name, orderby=orderby)
     result = []
@@ -186,17 +188,17 @@ def h2h_compare():
         p1_pid = request.form['player1']
         p2_pid = request.form['player2']
 
-        cmd = 'SELECT name, birthdate, height, weight ' \
+        cmd = 'SELECT name, pid, birthdate, height, weight ' \
             'FROM Player ' \
             'WHERE pid = (:pid);'
 
         # get personal info about player 1
-        cursor = g.conn.execute(text(cmd), pid=p1_pid)
+        cursor = g.conn.execute(text(cmd), pid=int(p1_pid))
         p1_data = [item for item in cursor]
         cursor.close()
 
         # get personal info about player 2
-        cursor = g.conn.execute(text(cmd), pid=p2_pid)
+        cursor = g.conn.execute(text(cmd), pid=int(p2_pid))
         p2_data = [item for item in cursor]
         cursor.close()
 
@@ -234,12 +236,12 @@ def h2h_compare():
         FROM stats;
         """
         # player 1 stats vs. player 2
-        cursor = g.conn.execute(text(cmd), player1=p1_pid, player2=p2_pid)
+        cursor = g.conn.execute(text(cmd), player1=int(p1_pid), player2=int(p2_pid))
         p1_h2h = [item for item in cursor]
         cursor.close()
-
-        # player 2 stats vs. player 2
-        cursor = g.conn.execute(text(cmd), player1=p2_pid, player2=p1_pid)
+        print(p1_h2h)
+        # player 2 stats vs. player 1
+        cursor = g.conn.execute(text(cmd), player1=int(p2_pid), player2=int(p1_pid))
         p2_h2h = [item for item in cursor]
         cursor.close()
 
@@ -283,8 +285,10 @@ def h2h_compare():
         context = dict(players=players, 
                        p1_data=p1_data, 
                        p2_data=p2_data, 
-                       p1_h2h=p1_h2h,
-                       p2_h2h=p2_h2h)
+                       p1_h2h=p1_h2h[0],
+                       p2_h2h=p2_h2h[0],
+                       p1_last5=p1_last5,
+                       p2_last5=p2_last5)
         return render_template("h2h.html", **context)
 
 
