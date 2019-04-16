@@ -174,11 +174,17 @@ def pvt():
     if not session.get('logged_in'):
         return redirect(url_for('login'))
     else:
-        cmd = 'SELECT pid, name FROM player;'
+        cmd = """
+        SELECT pid, name 
+            FROM player p JOIN 
+                (SELECT DISTINCT(team) FROM player_plays) t 
+                ON p.current_team=t.team
+            ORDER BY name;
+        """
         cursor = g.conn.execute(text(cmd))
         players = [item for item in cursor]
 
-        cmd = 'SELECT name FROM team;'
+        cmd = 'SELECT DISTINCT(team) as name FROM player_plays;'
         cursor = g.conn.execute(text(cmd))
         teams = [item for item in cursor]
         cursor.close()
@@ -273,12 +279,18 @@ def pvt_compare():
         # get career stats player 1
         # get career stats player 2
 
-        cmd = 'SELECT pid, name FROM player;'
+        cmd = """
+            SELECT pid, name 
+            FROM player p JOIN 
+                (SELECT DISTINCT(team) FROM player_plays) t 
+                ON p.current_team=t.team
+            ORDER BY name;
+            """
         cursor = g.conn.execute(text(cmd))
         players = [item for item in cursor]
         cursor.close()
 
-        cmd = 'SELECT name FROM team;'
+        cmd = 'SELECT DISTINCT(team) as name FROM player_plays;'
         cursor = g.conn.execute(text(cmd))
         teams = [item for item in cursor]
         cursor.close()
@@ -295,7 +307,13 @@ def h2h():
     if not session.get('logged_in'):
         return redirect(url_for('login'))
     else:
-        cmd = 'SELECT pid, name FROM player;'
+        cmd = """
+        SELECT pid, name 
+            FROM player p JOIN 
+                (SELECT DISTINCT(team) FROM player_plays) t 
+                ON p.current_team=t.team
+            ORDER BY name;
+        """
         cursor = g.conn.execute(text(cmd))
         players = [item for item in cursor]
         cursor.close()
@@ -401,7 +419,13 @@ def h2h_compare():
         # get career stats player 1
         # get career stats player 2
 
-        cmd = 'SELECT pid, name FROM player;'
+        cmd = """
+        SELECT pid, name 
+            FROM player p JOIN 
+                (SELECT DISTINCT(team) FROM player_plays) t 
+                ON p.current_team=t.team
+            ORDER BY name;
+        """
         cursor = g.conn.execute(text(cmd))
         players = [item for item in cursor]
         cursor.close()
