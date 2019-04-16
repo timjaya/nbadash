@@ -44,7 +44,7 @@ app.secret_key = 'super secret key'
 DB_USER = os.environ['SECRET_USERNAME']
 DB_PASSWORD = os.environ['SECRET_PASSWORD']
 
-DB_SERVER = "w4111.cisxo09blonu.us-east-1.rds.amazonaws.com"
+DB_SERVER = os.environ['SECRET_SERVER']
 
 DATABASEURI = "postgresql://"+DB_USER+":"+DB_PASSWORD+"@"+DB_SERVER+"/w4111"
 
