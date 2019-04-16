@@ -166,6 +166,129 @@ def search_player():
     context = dict(data=result, query=query, watched=watched, orderby=orderby)
     return render_template("search.html", **context)
 
+"""
+Player vs. Team
+"""
+@app.route('/pvt')
+def pvt():
+    if not session.get('logged_in'):
+        return redirect(url_for('login'))
+    else:
+        cmd = 'SELECT pid, name FROM player;'
+        cursor = g.conn.execute(text(cmd))
+        players = [item for item in cursor]
+
+        cmd = 'SELECT name FROM team;'
+        cursor = g.conn.execute(text(cmd))
+        teams = [item for item in cursor]
+        cursor.close()
+
+        context = dict(players=players, teams=teams)
+        return render_template("pvt.html", **context)
+
+@app.route('/pvt/compare', methods=['POST'])
+def pvt_compare():
+    if not session.get('logged_in'):
+        return redirect(url_for('login'))
+    else:
+        p1_pid = request.form['player1']
+        team_name = request.form['team_name']
+
+        cmd = 'SELECT name, pid, birthdate, height, weight ' \
+            'FROM Player ' \
+            'WHERE pid = (:pid);'
+
+        # get personal info about player 1
+        cursor = g.conn.execute(text(cmd), pid=int(p1_pid))
+        p1_data = [item for item in cursor]
+        cursor.close()
+
+        cmd = """
+        WITH player1 AS 
+        (SELECT (:pid) as pid),
+        team1 AS 
+        (SELECT (:team_name) as pid),
+        games as (
+        SELECT p1.*
+        FROM (SELECT * FROM Player_Plays WHERE pid = (SELECT * FROM player1)) p1
+        JOIN (SELECT * FROM Team_Plays WHERE home_team = (SELECT * FROM team1) OR away_team = (SELECT * FROM team1)) t1 
+                ON p1.gid = t1.gid
+        ),
+        stats as (
+        SELECT 
+            count(distinct gid) as games,
+            avg(minutes_played) as mpg,
+            avg(points) as ppg,
+            avg(rebounds) as rpg,
+            avg(assists) as apg,
+            avg(steals) as spg,
+            avg(blocks) as bpg,
+            avg(turnovers) as topg,
+            sum(fgm::float) as fgm,
+            sum(fga::float) as fga,
+            sum(threepm::float) as threepm,
+            sum(threepa::float) as threepa
+        FROM games
+        )
+        SELECT games, mpg, ppg, rpg, apg,
+                CASE WHEN fga > 0 THEN fgm/fga ELSE 0 END AS fg_pct, 
+                CASE WHEN threepa > 0 THEN threepm/threepa ELSE 0 END AS three_pct
+        FROM stats;
+        """
+        # get head-to-head info about player 1 vs. team
+        cursor = g.conn.execute(text(cmd), team_name=team_name, pid=int(p1_pid))
+        p1_h2h = [item for item in cursor]
+        cursor.close()
+
+        # get player info last 5 games
+        # cmd = """
+        # WITH player_select AS 
+        # (SELECT (:pid) as pid)
+        # SELECT 
+        #     pn.pid,
+        #     CASE WHEN t.home_team = p.team THEN away_team ELSE home_team END AS opponent,
+        #     minutes_played, points, assists, rebounds, steals, blocks, turnovers,
+        #     CASE 
+        #         WHEN t.home_team = p.team AND home_points > away_points THEN 'W'
+        #         WHEN t.away_team = p.team AND home_points < away_points THEN 'W'
+        #         ELSE 'L' END AS result
+        # FROM Player_Plays p
+        # JOIN Team_Plays t on p.gid = t.gid
+        # JOIN Player pn ON p.pid = pn.pid
+        # WHERE p.pid = (SELECT * FROM player_select)
+        # ORDER BY t.date_time_start DESC
+        # LIMIT 5;
+        # """
+
+        # # get last 5 games info player 1        
+        # cursor = g.conn.execute(text(cmd), pid=int(p1_pid))
+        # p1_last5 = [item for item in cursor]
+        # cursor.close()
+
+        # # get last 5 games info player 2
+        # cursor = g.conn.execute(text(cmd), pid=int(p2_pid))
+        # p2_last5 = [item for item in cursor]
+        # cursor.close()
+
+        # get career stats player 1
+        # get career stats player 2
+
+        cmd = 'SELECT pid, name FROM player;'
+        cursor = g.conn.execute(text(cmd))
+        players = [item for item in cursor]
+        cursor.close()
+
+        cmd = 'SELECT name FROM team;'
+        cursor = g.conn.execute(text(cmd))
+        teams = [item for item in cursor]
+        cursor.close()
+
+        context = dict(players=players, 
+                       teams=teams,
+                       teamvs=team_name,
+                       p1_data=p1_data, 
+                       p1_h2h=p1_h2h[0])
+        return render_template("pvt.html", **context)
 
 @app.route('/h2h')
 def h2h():
@@ -246,34 +369,34 @@ def h2h_compare():
         cursor.close()
 
         # get player info last 5 games
-        cmd = """
-        WITH player_select AS 
-        (SELECT (:pid) as pid)
-        SELECT 
-            pn.pid,
-            CASE WHEN t.home_team = p.team THEN away_team ELSE home_team END AS opponent,
-            minutes_played, points, assists, rebounds, steals, blocks, turnovers,
-            CASE 
-                WHEN t.home_team = p.team AND home_points > away_points THEN 'W'
-                WHEN t.away_team = p.team AND home_points < away_points THEN 'W'
-                ELSE 'L' END AS result
-        FROM Player_Plays p
-        JOIN Team_Plays t on p.gid = t.gid
-        JOIN Player pn ON p.pid = pn.pid
-        WHERE p.pid = (SELECT * FROM player_select)
-        ORDER BY t.date_time_start DESC
-        LIMIT 5;
-        """
+        # cmd = """
+        # WITH player_select AS 
+        # (SELECT (:pid) as pid)
+        # SELECT 
+        #     pn.pid,
+        #     CASE WHEN t.home_team = p.team THEN away_team ELSE home_team END AS opponent,
+        #     minutes_played, points, assists, rebounds, steals, blocks, turnovers,
+        #     CASE 
+        #         WHEN t.home_team = p.team AND home_points > away_points THEN 'W'
+        #         WHEN t.away_team = p.team AND home_points < away_points THEN 'W'
+        #         ELSE 'L' END AS result
+        # FROM Player_Plays p
+        # JOIN Team_Plays t on p.gid = t.gid
+        # JOIN Player pn ON p.pid = pn.pid
+        # WHERE p.pid = (SELECT * FROM player_select)
+        # ORDER BY t.date_time_start DESC
+        # LIMIT 5;
+        # """
 
-        # get last 5 games info player 1        
-        cursor = g.conn.execute(text(cmd), pid=int(p1_pid))
-        p1_last5 = [item for item in cursor]
-        cursor.close()
+        # # get last 5 games info player 1        
+        # cursor = g.conn.execute(text(cmd), pid=int(p1_pid))
+        # p1_last5 = [item for item in cursor]
+        # cursor.close()
 
-        # get last 5 games info player 2
-        cursor = g.conn.execute(text(cmd), pid=int(p2_pid))
-        p2_last5 = [item for item in cursor]
-        cursor.close()
+        # # get last 5 games info player 2
+        # cursor = g.conn.execute(text(cmd), pid=int(p2_pid))
+        # p2_last5 = [item for item in cursor]
+        # cursor.close()
 
         # get career stats player 1
         # get career stats player 2
@@ -286,9 +409,7 @@ def h2h_compare():
                        p1_data=p1_data, 
                        p2_data=p2_data, 
                        p1_h2h=p1_h2h[0],
-                       p2_h2h=p2_h2h[0],
-                       p1_last5=p1_last5,
-                       p2_last5=p2_last5)
+                       p2_h2h=p2_h2h[0])
         return render_template("h2h.html", **context)
 
 
