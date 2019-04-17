@@ -272,6 +272,13 @@ Note that these are all poor man's techniques.
   locks up on bad inputs, is vulnerable to the SQL injection described in lecture, and otherwise does
   not work as you described in part 1.
 
+85% will be for the demo you do with your mentor. 
+15% will be for what you submit to Gradescope. 
+ 
+As per Lecture 1, no grace days are allowed for Project 1 Part 3. 
+Late submissions are docked 25% per day.
+ 
+Therefore, the penalty for being late on the Project 1 Part 3 PDF submission to Gradescope will be a 25% dock imposed on the PDF submission, so 25% on that 15%, per day it is late.
 
 # Submission
 
