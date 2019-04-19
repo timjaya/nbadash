@@ -32,7 +32,7 @@ Note: you can only use late days for the project description submisson, not for 
 ### Important notes:
 
 * If you decide to drop the class, or are even remotely considering doing so, please be considerate and notify your team-mate immediately.
-* Do not wait until the day before the deadline to start working on the project, only to realize that your team-mate has dropped the class or moved to another planet. It is your responsibility to start working on the project and spot any problems early.
+* Do not wait until the day before the deadline to start working on the project, only to realize that your team-mate has dropped the class or moved to another planet. It is your responsibility to start working on the project and spot any problems early.  You should be working _together_
 * Please check the Collaboration Policy web page for important information of what kinds of collaboration are allowed for projects.
 
 
