@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+
+<head>
+  {% block head %}
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="/static/styles/nav.css" type="text/css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <style>
+    body {
+      font-size: 15pt;
+      font-family: arial;
+    }
+  </style>
+  <title>{% block title %}{% endblock %}- NBA Dash</title>
+  {% endblock %}
+</head>
+
+<body>
+  <nav>
+    <a href="/search-player">Search</a>
+    <a href="/watchlist">Watchlist</a>
+    <a href="/h2h">H2H</a>
+    <a href="/pvt">PlayervTeam</a>
+    <a href="/logout" class="float-right btn btn-danger">Logout</a>
+    
+  </nav>
+  <div id="content">{% block content %}{% endblock %}</div>
+</body>
+{% block javascript %}
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+  integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+<script src="/static/js/main.js"></script>
+{% endblock %}
+
+</html>

@@ -1,0 +1,154 @@
+{% extends "layout_main.html" %}
+{% block title %}{% endblock %}
+{% block head %}
+{{ super() }}
+{% endblock %}
+{% block content %}
+<div class="container-fluid">
+    <form method="post" action="/h2h/compare">
+        <div class="row">
+            <div class="col">
+                <select name="player1">
+                    {% for p in players %}
+                    {% if p1_data and p1_data[0]['pid']==p['pid'] %}
+                    <option selected="selected" value="{{ p['pid'] }}"> {{ p['name'] }}</option>
+                    {% else %}
+                    <option value="{{ p['pid'] }}"> {{ p['name'] }}</option>
+                    {% endif %}
+                    {% endfor %}
+                </select>
+            </div>
+            <div class="col text-center">
+                <input class="btn btn-danger" type="submit" value="Compare">
+            </div>
+            <div class="col">
+                <select name="player2" class="float-right">
+                    {% for p in players %}
+                    {% if p2_data and p2_data[0]['pid']==p['pid'] %}
+                    <option selected="selected" value="{{ p['pid'] }}"> {{ p['name'] }}</option>
+                    {% else %}
+                    <option value="{{ p['pid'] }}"> {{ p['name'] }}</option>
+                    {% endif %}
+                    {% endfor %}
+                </select>
+            </div>
+
+
+        </div>
+    </form>
+    <div class="row">
+        <div class="col">
+            <div class="float-left">
+                {% for p1 in p1_data %}
+                <div>Name: {{ p1['name'] }}</div>
+                <div>Birthdate: {{ p1['birthdate'] }} </div>
+                <div>Height: {{ p1['height'] }} </div>
+                <div>Weight: {{ p1['weight'] }}</div>
+                {% endfor %}
+            </div>
+        </div>
+        <div class="col">
+            <div class="float-right">
+                {% for p2 in p2_data %}
+                <div>Name: {{ p2['name'] }}</div>
+                <div>Birthdate: {{ p2['birthdate'] }} </div>
+                <div>Height: {{ p2['height'] }} </div>
+                <div>Weight: {{ p2['weight'] }} </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+    {% if p1_h2h and p1_h2h['games'] != 0 %}
+    <div class="row">
+        <div class="col text-center">
+            <h3> {{ p1_data[0]['name'] }} vs. {{ p2_data[0]['name'] }}</h3>
+            </br>
+            <h4> Versus Stats Average </h4>
+        </div>
+    </div>
+    <!-- Head to Head Stats -->
+    <div class="row">
+        <div class="col text-right" style="color:red">
+            <div>
+                <div>{{ p1_h2h['games'] }} </div>
+                <div>{{ p1_h2h['mpg']|round(1) }}</div>
+                <div>{{ p1_h2h['ppg']|round(1) }}</div>
+                <div>{{ p1_h2h['rpg']|round(1) }}</div>
+                <div>{{ p1_h2h['apg']|round(1) }}</div>
+                <div>{{ p1_h2h['fg_pct']|round(2) }}</div>
+                <div>{{ p1_h2h['three_pct']|round(1) }}</div>
+            </div>
+        </div>
+        <div class="col text-center" style="font-weight:bold">
+            <div>Games Played Together</div>
+            <div>Minutes/Game</div>
+            <div>Points/Game</div>
+            <div>Rebounds/Game</div>
+            <div>Assists/Game</div>
+            <div>Field Goal Pct</div>
+            <div>3pt Pct</div>
+        </div>
+        <div class="col text-left" style="color:navy">
+            <div>
+                <div>{{ p2_h2h['games'] }} </div>
+                <div>{{ p2_h2h['mpg']|round(1) }}</div>
+                <div>{{ p2_h2h['ppg']|round(1) }}</div>
+                <div>{{ p2_h2h['rpg']|round(1) }}</div>
+                <div>{{ p2_h2h['apg']|round(1) }}</div>
+                <div>{{ p2_h2h['fg_pct']|round(2) }}</div>
+                <div>{{ p2_h2h['three_pct']|round(1) }}</div>
+            </div>
+        </div>
+    </div>
+
+    </br>
+    <!-- Last 5 Games -->
+    <!-- <div class="row">
+        <div class="col text-center">
+            <h4> Last 5 Games Stats</h4>
+        </div>
+    </div>
+    <div class="row">
+        <div class="row">
+            <table class="table">
+                <thead class="thead-dark">
+                    <tr>
+                        <th scope="col">Minutes</th>
+                        <th scope="col">Points</th>
+                        <th scope="col">Assists</th>
+                        <th scope="col">Rebounds</th>
+                        <th scope="col">Steals</th>
+                        <th scope="col">Blocks</th>
+                        <th scope="col">Turnovers</th>
+                        <th scope="col">Result</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for n in p1_last5 %}
+                    <tr>
+                        <td>{{ n['minutes_played'] }}</td>
+                        <td>{{ n['points'] }}</td>
+                        <td>{{ n['assists'] }}</td>
+                        <td>{{ n['rebounds'] }}</td>
+                        <td>{{ n['steals'] }}</td>
+                        <td>{{ n['blocks'] }}</td>
+                        <td>{{ n['turnovers'] }}</td>
+                        <td>{{ n['result'] }}</td>
+                    </tr>
+                    {% endfor %}
+
+                </tbody>
+            </table>
+        </div>
+    </div> -->
+
+    <!-- Last 5 Games -->
+    {% elif not p1_h2h %}
+
+    {% else %}
+    <div class="text-center">
+        <h2>No games together!</h2>
+    </div>
+    {% endif %}
+    {% endblock %}
+</div>

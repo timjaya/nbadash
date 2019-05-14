@@ -1,0 +1,41 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="/static/styles/auth.css" type="text/css">
+
+
+</head>
+<form action="/signup/adduser" method="POST">
+    <div class="login">
+        <div class="login-screen">
+            <div class="app-title">
+                <h1>Sign Up</h1>
+            </div>
+            
+            <div class="login-form">
+                <div class="control-group">
+                    <input type="text" class="login-field" value="" placeholder="username" name="username">
+                    <label class="login-field-icon fui-user" for="login-name"></label></div>
+                <div class="control-group">
+                    <input type="text" class="login-field" value="" placeholder="email" name="email">
+                    <label class="login-field-icon fui-user" for="login-name"></label></div>
+                <div class="control-group">
+                    <input type="password" class="login-field" value="" placeholder="password" name="password">
+                    <label class="login-field-icon fui-lock" for="login-pass"></label></div>
+                {% with messages = get_flashed_messages() %}
+                {% if messages %}
+                {% for message in messages %}
+                <div style="color: red; padding-bottom: 10px;"> {{ message }} </div>
+                {% endfor %}
+                {% endif %}
+                {% endwith %}
+                <input type="submit" value="Register" class="btn btn-primary btn-large btn-block">
+
+            </div>
+        </div>
+    </div>
+</form>
+
+</html>
