@@ -1,7 +1,7 @@
 # NBA Dash
 
 A Flask Web App consisting of a variety tools which assist users in making	
-decisions	to	modify their NBA Fantasy roster	by providing up-to-date	NBA	Fantasy	statistics.
+decisions to modify their NBA Fantasy roster by providing up-to-date NBA Fantasy statistics.
 
 Creators:
 - Tim Kartawijaya and Hammaad Adam
@@ -25,6 +25,3 @@ Help users to 'scout' players, searching new players and provide a dashboard to 
 
 **3. Head-to-Head Feature**
 Through this feature, users can compare two player's statistics against each other. This feature would also allow users to compare players to teams i.e. seeing how a player does in a game against particular teams
-
-
-
