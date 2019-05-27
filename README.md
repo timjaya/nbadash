@@ -9,6 +9,10 @@ Creators:
 ## URL:
 http://nbadash.herokuapp.com
 
+Guest login: 
+- User: admin
+- Pass: password
+
 ## Technology Stack: 
 - Flask 
 - JQuery 
