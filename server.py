@@ -41,12 +41,12 @@ app.secret_key = 'super secret key'
 # For your convenience, we already set it to the class database
 
 # Use the DB credentials you received by e-mail
-DB_USER = os.environ['SECRET_USERNAME']
-DB_PASSWORD = os.environ['SECRET_PASSWORD']
+DB_USER = os.environ['NBADASH_USERNAME']
+DB_PASSWORD = os.environ['NBADASH_PASSWORD']
 
-DB_SERVER = os.environ['SECRET_SERVER']
+DB_SERVER = os.environ['NBADASH_SERVER']
 
-DATABASEURI = "postgresql://"+DB_USER+":"+DB_PASSWORD+"@"+DB_SERVER+"/w4111"
+DATABASEURI = "postgresql://"+DB_USER+":"+DB_PASSWORD+"@"+DB_SERVER+"/nbadash"
 
 
 #
