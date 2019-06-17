@@ -16,7 +16,7 @@ Guest login:
 ## Technology Stack: 
 - Flask 
 - JQuery 
-- Amazon RDS
+- Amazon RDS : Postgres
 - SQL
 
 ## Features: 
