@@ -7,8 +7,6 @@ Creators:
 - Tim Kartawijaya and Hammaad Adam
 
 ## URL:
-http://nbadash.herokuapp.com
-
 Guest login: 
 - User: admin
 - Pass: password
